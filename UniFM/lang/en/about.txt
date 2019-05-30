@@ -1,0 +1,45 @@
+    UniFM stands for the "Unified File Manager" for mobile phones which support file system access from Java. It allows to view, copy, move and delete files and folders in your phone.
+
+    The key feature of UniFM in comparison with other file managers is modular structure. That is, users can define what functionality do they need, and select components which will be included into the program according to their requirements. The minimum set - only the file kernel performing basic operations with files and folders. The maximum configuration is limited by nothing (only by phone resources, actually). For instance, this version includes a standard "gentleman's set" of modules for viewing pictures and videos, music playback and text editing.
+
+    The unique system of interoperation with archives is implemented in UniFM, also on a modular basis. It means that theoretically support for any types of archives can be added into the program, and for users those will look the same way as ordinary folders in the file system do. In is possible to perform usual copyings, movings, renamings and removals of files within archives, viewing and editing of texts, music playback and etc. Besides, nested archives are supported. Possibilities, again, are limited only by phone resources.
+
+    Technically UniFM is the further development of SieFM (Siemens File Manager) project and hence inherits many of its' features. The main functions of the program are listed below:
+
+    There is a possibility of deleting read-only files, viewing of hidden folders, recursive removal of folders. The program has the multiwindow interface - up to 10 windows between which it is possible to switch. File viewers are launched in the same windows, so that it is possible to start a player in one window, switch to another and carry on.
+
+    The image viewing module supports all graphics formats recognised by phone, and viewing of vector animations in MVI format (file format of program VIArt) is supported. Similarly, the audioplayer except playback of the files which are played back by certain phone, supports playback of music in tracker formats MOD (ProTracker), XM (FastTracker 2) and S3M (ScreamTracker).
+
+    Text viewing and editing is possible in Unicode encoding in formats UTF-8 and UTF-16, and also in all most often used one-byte encodings (CP1251, CP866, KOI-8). Text is shown from the position on which it was quitted last time, quick transition to any position and resizing of font are possible. The text editor supports undoing of changes brought in the text, search and replacement of fragments of the text, conversion of texts from one encoding in another.
+
+    Types of files supported by this version:
+Images: .jpg .jpe .gif .png .bmx .jpeg .wbmp .ico .bmp
+Audio: .mid .amr .wav .aac .mp3 .imy .m4a .xmf .awb .midi .wma + .xm .mod .s3m
+Video: .3gp .mp4 .m4v .wmv .rm
+Text: .j .txt .jad .log .ini .inf .cdf .xml .col .java .jcc + .tmo .vcs .vnt
+Archives: .zip .jar .sdt .scs .nth + .gz .gzip + .pak .res
+
+    Here are listed extensions of all file types for which appropriate icons are displayed. Nevertheless, ability of the program to handle some file type  is determined by a set of the modules contained in it.
+
+    You can always download the latest version of the midlet from site http://projectd8.narod.ru, in section of Java Programs.
+
+    Also look for midlet discussion at Siemens-club forums (http://forum.siemens-club.org, http://forum.s-c.ru) and SEclub's(http://seclub.org/forum/index.php).
+
+    P.S. Thanks to all for responses and testing SieFM and UniFM! Send wishes on projectd8@yandex.ru.
+
+    © SilentKnight 2008+, VMX 2006, DiHLoS 2005
+
+    Thanks are expressed to:
+
+* GNU Project - for library for working with ZIP as a part of GNU Classpath
+* Edmund Wagner (innoSysTec GmbH) - for library for unpacking RAR
+* Apache Jakarta Project - for library for working with reqular expressions
+* Martin Cameron - for IBXM library for tracker music playback
+* Sergey Bochkanov (ALGLIB project) - for bicubic interpolation library
+* aNNiMON - for visualisation in the player (the second and third modes) and accelerometer-based controls
+* DOMr - got FileManager x65 sources from DiHLoS %)
+* Spider13 - started Vista style idea
+* SkyFor - for new UI icons
+* Devey - for new splash
+
+...and also to all developers who took part in modules writing.

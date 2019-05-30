@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 1.6.0-b105 (Nokia)
+MIDlet-2: Reset RMS,,unifm.ResetRMS
+MIDlet-1: Full version,/img/icon.png,unifm.UniFM
+Pointer-Translate-Y: 0
+MIDlet-Vendor: Nokia
+Pointer-Translate-X: 0
+MIDlet-Name: UniFM
+inter-Soft-Height: 2.0
+MIDlet-Icon: /img/icon.png
+Pointer-Cell-Height: 1.0
+Pointer-Cell-Width: 2.0
+MIDlet-Version: 1.4
+Temp-Dir: E:/temp/temp/
+Default-Encoding: cp1251
+Error-Log: E:/temp/errors.log
+Archive-Encoding: cp866
+ID3-Encoding: cp1252
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+
