@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="Italiano" lid="it" cid="IT,SM,VA,CH,MT">
+  <common>
+    <no>No</no>
+    <yes>Sì</yes>
+    <root>&lt;radice&gt;</root>
+    <search_mode>&lt;ricerca&gt;</search_mode>
+    <none>(niente)</none>
+    <empty>(vuoto)</empty>
+    <denied>Negata</denied>
+    <allowed>Permessa</allowed>
+    <copy_suffix> - Copia</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>Locale</value>
+      <value>Bluetooth</value>
+    </pages>
+    <menu_clean>Schermo intero[0]</menu_clean>
+    <menu_lang>Seleziona lingua</menu_lang>
+    <menu_pass>Imposta password</menu_pass>
+    <menu_about>A proposito...</menu_about>
+    <menu_help>Aiuto</menu_help>
+    <menu_exit>Esci</menu_exit>
+    <help_title>Aiutami!</help_title>
+    <help_message>[b]TASTI[/b]\• Premere [color=blue]freccia sinistra[/color] o [color=blue]tasto 4[/color] e [color=blue]freccia destra[/color] o [color=blue]tasto 6[/color] per passare da file locali a file Bluetooth e viceversa.\• Premere [color=blue]menu sinistro[/color] per aprire/chiudere il menu principale.\• Premere [color=blue]menu destro[/color] per eseguire il comando veloce sullo schermo.\• Premere [color=blue]tasto #[/color] o [color=blue]tasto *[/color] per selezionare/deselezionare l'elemento corrente.\• Premere [color=blue]tasto 1[/color] per copiare gli elementi attualmente selezionati nella clipboard.\• Premere [color=blue]tasto 3[/color] per incollare gli elementi dalla clipboard alla cartella corrente.\• Premere [color=blue]tasto 0[/color] per entrare/uscire dalla modalità schermo intero: una visuale senza barra superiore ed inferiore.\\[b]MENU[/b]\[color=#800080]Quando un elemento del menu contiene un'icona, puoi premere quel tasto scorciatoia per eseguire il comando associato.[/color]\• Premere [color=blue]freccia su[/color] o [color=blue]tasto 2[/color] e [color=blue]freccia giù[/color] o [color=blue]tasto 8[/color] per muoversi tra i comandi.\• Premere [color=blue]tasto FUOCO[/color] o [color=blue]tasto 5[/color] per eseguire il comando attualmente evidenziato.\• Premere [color=blue]menu sinistro[/color] o [color=blue]tasto INDIETRO[/color] per chiudere il menu principale.\\[b]POP-UP[/b]\• Premere [color=blue]menu sinistro[/color] per premere il tasto sinistro ([color=green]verde[/color]).\• Premere [color=blue]menu destro[/color] per premere il tasto destro ([color=red]rosso[/color]).\• Premere [color=blue]tasto FUOCO[/color] o [color=blue]tasto 5[/color] per premere il tasto (quando singolo).</help_message>
+    <bt_mex>[color=#FF8080]Questo dispositivo non supporta le API Bluetooth (JSR-82), perciò non puoi connetterti ad alcun dispositivo remoto.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]Prego accendere il Bluetooth\e riavviare il programma![/color]</bt_off>
+    <fc_mex>[color=#FF8080]Questo dispositivo non supporta le API FileConnection (JSR-75), perciò non puoi accedere ai file del tuo dispositivo.[/color]</fc_mex>
+    <dialog_bt_off_title>Bluetooth SPENTO</dialog_bt_off_title>
+    <dialog_bt_off_message>Il Bluetooth è attualmente [b]SPENTO[/b]! Prego, [u][color=blue]accendere il Bluetooth[/color][/u] e riavviare il programma.</dialog_bt_off_message>
+    <version_title>Nuova versione!</version_title>
+    <version_message>Una nuova versione di questo programma, [b][color=blue]v%1[/color][/b], è stata trovata online, puoi scaricarla gratuitamente qui: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>Donazione PayPal</donation_title>
+    <donation_message>Se ti piace questo programma, per favore, considera di farci una [b][color=blue]donazione[/color][/b]!\Lo sviluppo di software necessita veramente di molto tempo e tanti sforzi ... naviga su [url]http://blueftp.medieval.it/[/url] e permettici di continuare lo sviluppo di programmi gratuiti, con una piccola donazione!</donation_message>
+    <security_title>Problemi di sicurezza</security_title>
+    <security_message>Impossibile accedere al filesystem di questo dispositivo. Assicurarsi di aver dato i giusti permessi (lettura &amp; scrittura) a questa applicazione.\Prego, leggere il manuale del dispositivo per avere maggiori informazioni...\\Ragione:\</security_message>
+    <outofmemory_title>Memoria esaurita!</outofmemory_title>
+    <outofmemory_message>Memoria insufficiente per caricare il file [color=blue][off]%1[/off][/color] con il visualizzatore interno.\\Ragione:\</outofmemory_message>
+    <set_password>Protezione con password:</set_password>
+    <get_password>Inserisci password per iniziare:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>Menu</open_menu>
+    <close_menu>Chiudi</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(questa cartella è vuota)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>ok</value>
+      <value>continua</value>
+      <value>sì</value>
+      <value>salva</value>
+      <value>ferma</value>
+      <value>visita</value>
+      <value>rinomina</value>
+      <value>no</value>
+      <value>annulla</value>
+      <value>sovrascrivi</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>Pubblicità (solo 1 volta)</title>
+    <wait>Attendere prego...</wait>
+    <count>...o attendi %1 secondi...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>Lettura</value>
+      <value>Scrittura</value>
+      <value>Nascosto</value>
+    </items>
+    <read_message>Impossibile modificare il flag [b]lettura[/b] dell'elemento richiesto.\\Ragione:\</read_message>
+    <write_message>Impossibile modificare il flag [b]scrittura[/b] dell'elemento richiesto.\\Ragione:\</write_message>
+    <hidden_message>Impossibile modificare il flag [b]nascosto[/b] dell'elemento richiesto.\\Ragione:\</hidden_message>
+    <fc_read_message>Impossibile aprire una connessione al file (lettura) per l'elemento richiesto.\\Ragione:\</fc_read_message>
+    <fc_write_message>Impossibile aprire una connessione al file (scrittura) per l'elemento richiesto.\\Ragione:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>Path:</value>
+      <value>Dimen:</value>
+      <value>Byte:</value>
+      <value>Data:</value>
+      <value>Ora:</value>
+      <value>Lett:</value>
+      <value>Scritt:</value>
+      <value>Nasco:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>Nome:</value>
+      <value>Liberi:</value>
+      <value>Usati:</value>
+      <value>Totale:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>Path:</value>
+      <value>Nome:</value>
+      <value>Alias:</value>
+      <value>Dimen:</value>
+      <value>Byte:</value>
+      <value>Data:</value>
+      <value>Ora:</value>
+      <value>Lett:</value>
+      <value>Scritt:</value>
+      <value>Canc:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>Path:</value>
+      <value>Comm:</value>
+      <value>Data:</value>
+      <value>Ora:</value>
+      <value>Compr:</value>
+      <value>Dimen:</value>
+      <value>Ratio:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>Ver ZIP:</value>
+      <value>Metodo:</value>
+      <value>Livello:</value>
+      <value>Crittog:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mode:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>Livello:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>Dettagli dispositivo</title>
+    <minor_default>(sconosciuto)</minor_default>
+    <major_default>(non classificato)</major_default>
+    <captions type="array">
+      <value>MAC:</value>
+      <value>Nome:</value>
+      <value>Tipo:</value>
+      <value></value>
+      <value>Serv.:</value>
+    </captions>
+    <major type="array">
+      <value>Vario</value>
+      <value>Computer</value>
+      <value>Telefono</value>
+      <value>Rete</value>
+      <value>Audio</value>
+      <value>Periferica</value>
+      <value>Immagini</value>
+    </major>
+    <minor_1 type="array">
+      <value>(non classificato)</value>
+      <value>Desktop</value>
+      <value>Server</value>
+      <value>Notebook</value>
+      <value>Handheld</value>
+      <value>Palmare</value>
+      <value>Indossabile</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(non classificato)</value>
+      <value>Cellulare</value>
+      <value>Senza fili</value>
+      <value>Smart phone</value>
+      <value>Modem cablato</value>
+      <value>Accesso ISDN</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>Totalmente disponibile</value>
+      <value>1% - 17% utilizzato</value>
+      <value>17% - 33% utilizzato</value>
+      <value>33% - 50% utilizzato</value>
+      <value>50% - 67% utilizzato</value>
+      <value>67% - 83% utilizzato</value>
+      <value>83% - 99% utilizzato</value>
+      <value>Nessun servizio disponibile</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(non classificato)</value>
+      <value>Auricolare</value>
+      <value>Hands-free</value>
+      <value>(riservato)</value>
+      <value>Microfono</value>
+      <value>Cassa acustica</value>
+      <value>Cuffie</value>
+      <value>Audio portatile</value>
+      <value>Autoradio</value>
+      <value>Set-top box</value>
+      <value>Hi-fi audio</value>
+      <value>VCR</value>
+      <value>Video camera</value>
+      <value>Camcorder</value>
+      <value>Video monitor</value>
+      <value>Video display e casse</value>
+      <value>Video conferenza</value>
+      <value>(riservato)</value>
+      <value>Videogioco</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(non supportato) / </value>
+      <value>Tastiera / </value>
+      <value>Puntamento / </value>
+      <value>Tastiera &amp; puntamento / </value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(senza categoria)</value>
+      <value>Joystick</value>
+      <value>Gamepad</value>
+      <value>Telecomando</value>
+      <value>Dispositivo di rilevamento</value>
+      <value>Tavoletta grafica</value>
+      <value>Lettore schede</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>Display</value>
+      <value>Camera</value>
+      <value>Scanner</value>
+      <value>Stampante</value>
+    </minor_6>
+    <services type="array">
+      <value>Rilevazione limitata</value>
+      <value>(riservato)</value>
+      <value>(riservato)</value>
+      <value>Posizionamento</value>
+      <value>Networking</value>
+      <value>Riproduzione</value>
+      <value>Acquisizione</value>
+      <value>Scambio oggetti</value>
+      <value>Audio</value>
+      <value>Telefonia</value>
+      <value>Informazioni</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>Path:</value>
+      <value>File:</value>
+      <value>Dati:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>Annullare il trasferimento?</confirm_title>
+    <confirm_message>Vuoi veramente annullare il trasferimento corrente?</confirm_message>
+    <success_title>Trasferimento completato</success_title>
+    <success_message>Il trasferimento è stato completato con successo!</success_message>
+    <abort_title>Trasferimento annullato</abort_title>
+    <abort_message>Il trasferimento è stato annullato dall'utente.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>Impossibile inviare gli elementi richiesti nel dispositivo remoto.\\Ragione:\</send_error>
+    <file_open_error>Impossibile aprire il file sorgente (permesso di lettura) sul filesystem locale.\\Ragione:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>Impossibile inviare gli elementi richiesti nel dispositivo remoto.\\Ragione:\</upload_error>
+    <file_open_error>Impossibile aprire il file sorgente (permesso di lettura) sul filesystem locale.\\Ragione:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>Impossibile creare la cartella di destinazione (permessi di lettura e scrittura) sul filesystem locale.\\Ragione:\</path_create_error>
+    <file_create_error>Impossibile creare il file di destinazione (permessi di lettura e scrittura) sul filesystem locale.\\Ragione:\</file_create_error>
+    <download_error>Impossibile scaricare gli elementi richiesti nel filesystem locale.\\Ragione:\</download_error>
+    <listing>(elenco cartella)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>Ricerca servizio</value>
+      <value>Connessione</value>
+      <value>Caricamento file</value>
+    </tasks>
+    <profile_ftp>[url]File Transfer Profile[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]Object Push Profile[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>Torna alla lista dispositivi</menu_back_ftp>
+    <menu_back_opp>Torna alla lista file locali</menu_back_opp>
+    <fast_back>Indietro</fast_back>
+    <fast_cancel>Annulla</fast_cancel>
+    <agent_message>Impossibile ottenere l'agente di ricerca locale delle API Bluetooth.\\Ragione:\</agent_message>
+    <start_message>Impossibile iniziare la ricerca del servizio %1.\\Ragione:\</start_message>
+    <abort_title>Connessione annullata</abort_title>
+    <abort_message>La connessione con il dispositivo di destinazione è stata annullata dall'utente.</abort_message>
+    <error_title>Errore connessione</error_title>
+    <unreachable_message>Il dispositivo di destinazione non è attualmente raggiungibile.</unreachable_message>
+    <search_message>C'è stato un errore durante la ricerca del servizio %1.</search_message>
+    <notfound_message>Non puoi connetterti al dispositivo di destinazione perchè è privo del servizio Bluetooth %1.</notfound_message>
+    <connect_message>Impossibile connettersi al dispositivo di destinazione.\\Ragione:\</connect_message>
+    <loading_message>Impossibile caricare i dati dei file del dispositivo di destinazione.\\Ragione:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>Torna alla lista file locali</menu_back>
+    <menu_connect>Connetti[5F]</menu_connect>
+    <menu_addbook>Aggiungi segnalibro</menu_addbook>
+    <menu_delbook>Rimuovi segnalibro[C]</menu_delbook>
+    <menu_search>Cerca dispositivi</menu_search>
+    <menu_info>Dettagli dispositivo[7]</menu_info>
+    <fast_search>Cerca</fast_search>
+    <fast_cancel>Annulla</fast_cancel>
+    <nodevices_message>[color=#5555FF]Nessun dispositivo trovato!\Premere il tasto [b]Cerca[/b].[/color]</nodevices_message>
+    <abort_title>Annullata</abort_title>
+    <abort_message>L'operazione di ricerca è stata annullata dall'utente.</abort_message>
+    <error_title>Errore ricerca</error_title>
+    <error_message>C'è stato un errore durante l'operazione di ricerca.\[color=blue][b]Il Bluetooth è acceso?[/b][/color]</error_message>
+    <confirm_title>Prego confermare</confirm_title>
+    <confirm_message>Vuoi veramente rimuovere il dispositivo [color=blue]%1[/color] dall'elenco dei segnalibri?</confirm_message>
+    <notfound_title>Nessun risultato</notfound_title>
+    <notfound_message>La ricerca dei dispositivi Bluetooth è stata completata senza alcun risultato.\Premere il tasto [color=blue][b]Cerca[/b][/color] di nuovo!</notfound_message>
+    <noaddbook_title>Impossibile aggiungere</noaddbook_title>
+    <noaddbook_message>Dispositivo già presente nell'elenco dei segnalibri.</noaddbook_message>
+    <opp_message>Scegli dispositivo destinazione:</opp_message>
+    <infrared>Infrarossi</infrared>
+  </gcld>
+
+  <gclfl>
+   <send>Invio...</send>
+   <upload>Upload...</upload>
+   <menu_upload>Trasferisci elemento/i</menu_upload>
+   <menu_open>Apri elemento[5F]</menu_open>
+   <menu_open_txt>Apri come testo</menu_open_txt>
+   <menu_open_hex>Apri come binario</menu_open_hex>
+   <menu_search>Ricerca elementi...</menu_search>
+   <menu_send_bt>Invia con Bluetooth</menu_send_bt>
+   <menu_send_ir>Invia con Infrarossi</menu_send_ir>
+   <menu_compress_zip>Comprimi elementi (zip)</menu_compress_zip>
+   <menu_compress_tar>Comprimi elementi (tar)</menu_compress_tar>
+   <menu_compress_jar>Comprimi elementi (jar)</menu_compress_jar>
+   <menu_compress_nth>Comprimi elementi (nth)</menu_compress_nth>
+   <menu_compress_thm>Comprimi elementi (thm)</menu_compress_thm>
+   <menu_compress_gz>Comprimi file (gz)</menu_compress_gz>
+   <menu_extract>Estrai elementi qui[3]</menu_extract>
+   <menu_cancel>Annulla estrazione</menu_cancel>  
+   <menu_back>Indietro un livello</menu_back>
+   <menu_root>Vai alla radice[B]</menu_root>
+   <menu_item>Vai alla cartella del file</menu_item>
+   <menu_refresh>Aggiorna cartella</menu_refresh>
+   <menu_create>Crea cartella</menu_create>
+   <menu_item_info>Informazioni elemento[7]</menu_item_info>
+   <menu_attrib>Attributi elemento[9]</menu_attrib>
+   <menu_volume_info>Dimensione unità</menu_volume_info>
+   <menu_rename>Rinomina elemento</menu_rename>
+   <menu_delete>Cancella elemento/i[C]</menu_delete>
+   <menu_cut>Taglia elemento/i</menu_cut>
+   <menu_copy>Copia elemento/i[1]</menu_copy>
+   <menu_paste>Incolla elemento/i[3]</menu_paste>
+   <menu_select>Seleziona[*#]</menu_select>
+   <menu_unselect>Deseleziona[*#]</menu_unselect>
+   <menu_select_all>Seleziona tutto</menu_select_all>
+   <menu_select_none>Annulla selezione</menu_select_none>
+   <menu_select_invert>Inverti selezione</menu_select_invert>
+   <fast_key>Indietro</fast_key>
+   <root_added_title>Unità aggiunta</root_added_title>
+   <root_added_message>Una nuova unità di archiviazione è stata aggiunta al filesystem locale.\\Radice unità&gt; </root_added_message>
+   <root_removed_title>Unità rimossa</root_removed_title>
+   <root_removed_message>Un'unità di archiviazione è stata rimossa dal filesystem locale.\\Radice unità&gt; </root_removed_message>
+   <unsupported_title>Tipo file non supportato</unsupported_title>
+   <unsupported_message>Questo tipo di file non è attualmente supportato dal visualizzatore interno.</unsupported_message>
+   <open_error_title>Errore apertura</open_error_title>
+   <open_error_message>Impossibile aprire il file [color=blue][off]%1[/off][/color] per il visualizzatore interno.\\Ragione:\</open_error_message>
+   <create_title>Inserire nome cartella:</create_title>
+   <create_value>Nuova cartella</create_value>
+   <create_message>Impossibile creare la cartella [color=blue][off]%1[/off][/color] nella posizione corrente.\\Ragione:\</create_message>
+   <rename_title>Nuovo nome elemento:</rename_title>
+   <rename_message>Impossibile rinominare l'elemento corrente con il nome [color=blue][off]%1[/off][/color].\\Ragione:\</rename_message>
+   <read_message>Impossibile leggere il contenuto della cartella [color=blue][off]%1[/off][/color].\\Ragione:\</read_message>
+   <info_message>Impossibile ottenere informazioni dal filesystem [color=blue][off]%1[/off][/color].\\Ragione:\</info_message>
+   <fc_open_message>Impossibile aprire una connessione al file per l'elemento richiesto.\\Ragione:\</fc_open_message>
+   <delete_message>Impossibile eliminare l'elemento [color=blue][off]%1[/off][/color] dal filesystem locale.\\Ragione:\</delete_message>
+   <confirm_title>Prego confermare</confirm_title>
+   <confirm_message>Vuoi veramente eliminare gli elementi selezionati?</confirm_message>
+   <paste_message>Impossibile incollare l'elemento [color=blue][off]%1[/off][/color] nel filesystem locale.\\Ragione:\</paste_message>
+   <paste_file_title>Prego confermare</paste_file_title>
+   <paste_file_message>Il file [color=blue][off]%1[/off][/color] già esiste nella cartella di destinazione!\\Vuoi rinominarlo o sovrascriverlo?</paste_file_message>
+   <paste_path_title>Prego confermare</paste_path_title>
+   <paste_path_message>La cartella [color=blue][off]%1[/off][/color] già esiste!\\Vuoi rinominarla o sovrascriverla?</paste_path_message>
+   <paste_checkbox>Tutti</paste_checkbox>
+   <cancel_title>Estrazione annullata</cancel_title>
+   <cancel_message>L'operazione di estrazione dall'archivio è stata annullata dall'utente!</cancel_message>
+   <tar_filename>Nome %1:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+   <download>Download...</download>
+   <menu_download>Trasferisci elemento/i</menu_download>
+   <menu_open>Apri elemento[5F]</menu_open>
+   <menu_open_txt>Apri come testo</menu_open_txt>
+   <menu_open_hex>Apri come binario</menu_open_hex>
+   <menu_search>Ricerca elementi...</menu_search>
+   <menu_disconnect>Disconnetti</menu_disconnect>
+   <menu_back>Indietro un livello</menu_back>
+   <menu_root>Vai alla radice[B]</menu_root>
+   <menu_item>Vai alla cartella del file</menu_item>
+   <menu_refresh>Aggiorna cartella</menu_refresh>
+   <menu_create>Crea cartella</menu_create>
+   <menu_item_info>Informazioni elemento[7]</menu_item_info>
+   <menu_delete>Cancella elemento/i[C]</menu_delete>
+   <menu_cut>Taglia elemento/i</menu_cut>
+   <menu_copy>Copia elemento/i[1]</menu_copy>
+   <menu_paste>Incolla elemento/i[3]</menu_paste>
+   <menu_select>Seleziona[*#]</menu_select>
+   <menu_unselect>Deseleziona[*#]</menu_unselect>
+   <menu_select_all>Seleziona tutto</menu_select_all>
+   <menu_select_none>Annulla selezione</menu_select_none>
+   <menu_select_invert>Inverti selezione</menu_select_invert>
+   <fast_key>Indietro</fast_key>
+   <unsupported_title>Tipo file non supportato</unsupported_title>
+   <unsupported_message>Questo tipo di file non è attualmente supportato dal visualizzatore interno.</unsupported_message>
+   <open_error_title>Errore apertura</open_error_title>
+   <open_error_message>Impossibile aprire il file [color=blue][off]%1[/off][/color] per il visualizzatore interno.\\Ragione:\</open_error_message>
+   <create_title>Inserire nome cartella:</create_title>
+   <create_value>Nuova cartella</create_value>
+   <create_message>Impossibile creare la cartella [color=blue][off]%1[/off][/color] nella posizione corrente.\\Ragione:\</create_message>
+   <confirm_title>Prego confermare</confirm_title>
+   <delete_confirm>Vuoi veramente eliminare gli elementi selezionati?</delete_confirm>
+   <delete_message>Impossibile eliminare l'elemento [color=blue][off]%1[/off][/color] dal dispositivo remoto.\\Ragione:\</delete_message>
+   <disconnect_confirm>Vuoi veramente disconnetterti dal dispositivo remoto?</disconnect_confirm>
+   <disconnect_message>Impossibile disconnettersi dal dispositivo remoto.\\Ragione:\</disconnect_message>
+   <enter_message>Impossibile entrare nella cartella [color=blue][off]%1[/off][/color].\\Ragione:\</enter_message>
+   <back_message>Impossibile tornare indietro di un livello.\\Ragione:\</back_message>
+   <root_message>Impossibile tornare alla cartella radice.\\Ragione:\</root_message>
+   <read_message>Impossibile leggere il contenuto della cartella corrente.\\Ragione:\</read_message>
+   <paste_err_title>Non supportato</paste_err_title>
+   <paste_err_message>Attualmente, non puoi [color=blue]tagliare o copiare[/color] e poi [color=blue]incollare[/color] un elemento sullo stesso dispositivo Bluetooth!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+   <menu_extract>Estrai elementi selezionati[1]</menu_extract>
+   <menu_close>Chiudi archivio</menu_close>
+   <menu_open>Apri elemento[5F]</menu_open>
+   <menu_open_txt>Apri come testo</menu_open_txt>
+   <menu_open_hex>Apri come binario</menu_open_hex>
+   <menu_item_info>Informazioni elemento[7]</menu_item_info>
+   <menu_back>Indietro un livello</menu_back>
+   <menu_root>Vai alla radice[B]</menu_root>
+   <menu_select>Seleziona[*#]</menu_select>
+   <menu_unselect>Deseleziona[*#]</menu_unselect>
+   <menu_select_all>Seleziona tutto</menu_select_all>
+   <menu_select_none>Annulla selezione</menu_select_none>
+   <menu_select_invert>Inverti selezione</menu_select_invert>
+   <fast_key>Indietro</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>Ok</ok_button>
+    <ko_button>Annulla</ko_button>
+  </uib>
+
+  <usp>
+    <title>Parametri ricerca</title>
+    <ok_button>Accetta</ok_button>
+    <ko_button>Annulla</ko_button>
+    <reset_form_btn>Valori predefiniti</reset_form_btn>
+    <clear_mode_btn>Pulisci "Modalità ricerca"</clear_mode_btn>
+    <check_mode_btn>Imposta "Modalità ricerca"</check_mode_btn>
+    <clear_from_date_btn>Pulisci "Dalla data"</clear_from_date_btn>
+    <clear_to_date_btn>Pulisci "Alla data"</clear_to_date_btn>
+    <text_lbl>Testo ricerca:</text_lbl>
+    <mode_lbl>Modalità ricerca:</mode_lbl>
+    <mode_txt type="array">
+      <value>Trova cartelle</value>
+      <value>Trova immagini</value>
+      <value>Trova audio</value>
+      <value>Trova filmati</value>
+      <value>Trova file di testo</value>
+      <value>Trova eseguibili</value>
+      <value>Trova archivi</value>
+      <value>Trova pagine web</value>
+      <value>Trova temi</value>
+      <value>Trova file sconosciuti</value>
+    </mode_txt>
+    <min_size_lbl>Dimensione minima (KB):</min_size_lbl>
+    <max_size_lbl>Dimensione massima (KB):</max_size_lbl>
+    <min_date_lbl>Dalla data:</min_date_lbl>
+    <max_date_lbl>Alla data:</max_date_lbl>
+    <title_error>Errore parametri</title_error>
+    <size_error>"Dimensione minima" deve essere minore o uguale a "Dimensiome massima"!</size_error>
+    <date_error>"Dalla data" deve essere minore o uguale a "Alla data"!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>Ricerca...</title>
+    <keys type="array">
+      <value>Trovati:</value>
+      <value>Errori:</value>
+      <value>Path:</value>
+    </keys>
+    <stop_title>Fermare ricerca?</stop_title>
+    <stop_message>Vuoi veramente fermare l'operazione di ricerca corrente?\[color=blue]I risultati correnti saranno visualizzati![/color]</stop_message>
+    <cancel_title>Annullare ricerca?</cancel_title>
+    <cancel_message>Vuoi veramente annullare l'operazione di ricerca corrente?</cancel_message>
+    <errors_title>Completata con errori</errors_title>
+    <errors_message>L'operazione di ricerca è stata completata con [b]%1[/b] errori. Ecco la lista degli errori:</errors_message>
+    <errors_label>\[color=red][b]• Errore %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>Nessun risultato</empty_title>
+    <empty_message>La ricerca è stata completata senza risultati.</empty_message>
+    <aborted_title>Ricerca annullata</aborted_title>
+    <aborted_message>La ricerca è stata annullata dall'utente.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>Estrazione...</title>
+    <captions type="array">
+      <value>Path:</value>
+      <value>File:</value>
+    </captions>
+    <extract_error>Impossibile estrarre il file d'archivio ZIP.\\Ragione:\</extract_error>
+    <format_title>Errore formato ZIP</format_title>
+    <format_message>Incontrati problemi con il formato del file attualmente processato.\\Ragione:\</format_message>
+    <format_error>L'utente ha fermato il processo di estrazione.\\Ragione:\</format_error>
+    <done_title>Fatto!</done_title>
+    <done_normal>Estrazione completata con successo!</done_normal>
+    <done_errors>Estrazione completata con errori.</done_errors>
+    <confirm_title>Annullare estrazione?</confirm_title>
+    <confirm_message>Vuoi veramente annullare l'operazione di estrazione corrente?</confirm_message>
+    <abort_title>Estrazione annullata</abort_title>
+    <abort_message>L'operazione di estrazione è stata annullata dall'utente.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>Compressione...</title>
+    <captions type="array">
+      <value>Path:</value>
+      <value>File:</value>
+    </captions>
+    <finalizing>(finalizzazione archivio)</finalizing>
+    <compress_error>Impossibile completare questo file d'archivio ZIP.\\Ragione:\</compress_error>
+    <done_title>Fatto!</done_title>
+    <done_message>Compressione completata con successo!</done_message>
+    <abort_title>Compressione annullata</abort_title>
+    <abort_message>L'operazione di compressione è stata annullata dall'utente.</abort_message>
+    <confirm_title>Annullare compressione?</confirm_title>
+    <confirm_message>Vuoi veramete annullare l'operazione di compressione corrente?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>Nuovo file %1</title>
+    <filename>Nome %1:</filename>
+    <password>Password %1:</password>
+    <password_title>Password troppo corta</password_title>
+    <password_message>La tua password deve essere lunga almeno %1 caratteri!</password_message>
+    <method_title>Metodo di compressione:</method_title>
+    <method_items type="array">
+      <value>Stored (non compresso)</value>
+      <value>Deflate (migliore scelta)</value>
+      <value>Deflate64 (meno compatibile)</value>
+    </method_items>
+  </uzf>
+</language>

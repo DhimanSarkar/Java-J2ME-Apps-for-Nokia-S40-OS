@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="Español" lid="es" cid="ES,MX,CO,AR,PE,VE,CL,EC,GT,CU,DO,BO,HN,SV,PY,NI,CR,UY,PA,GQ">
+  <common>
+    <no>No</no>
+    <yes>Si</yes>
+    <root>&lt;raíz&gt;</root>
+    <search_mode>&lt;búsqueda&gt;</search_mode>
+    <none>(ninguno)</none>
+    <empty>(vacio)</empty>
+    <denied>Denegado</denied>
+    <allowed>Permitido</allowed>
+    <copy_suffix> - Copiar</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>Local</value>
+      <value>Bluetooth</value>
+    </pages>
+    <menu_clean>Modo Pant-Completa[0]</menu_clean>
+    <menu_lang>Seleccione Idioma</menu_lang>
+    <menu_pass>Configurar Contraseña</menu_pass>
+    <menu_about>A cerca de...</menu_about>
+    <menu_help>Ayuda</menu_help>
+    <menu_exit>Salida</menu_exit>
+    <help_title>Ayúdeme!</help_title>
+    <help_message>[b]TECLAS[/b]\• Presione [color=blue]flecha izquierda[/color] o [color=blue]4[/color] y [color=blue]flecha derecha[/color] o [color=blue]6[/color] para alternar entre archivos locales y archivos Bluetooth.\• Presione [color=blue]menú izquierdo[/color] para abrir/cerrar menú principal.\• Presione [color=blue]menú derecho[/color] para ejecutar sobre pantalla comando rápido.\• Presione [color=blue]#[/color] o [color=blue]*[/color] para seleccionar/deseleccionar objeto.\• Presione [color=blue]1[/color] para copiar los objetos actualmente seleccionados al portapapeles.\• Presione [color=blue]3[/color] para pegar los objetos desde portapapeles a carpeta actual.\• Presione [color=blue]0[/color] para acceder/salir modo de pantalla completa: vista sin barra superior y botones.\\[b]MENÚ[/b]\[color=#800080]Cuando un objeto del menú contenga un icono, puede presionar sobre tecla rápida para ejecutar el comando asociado.[/color]\• Presione [color=blue]fechla arriba[/color] o [color=blue]2[/color] y [color=blue]flecha abajo[/color] u [color=blue]8[/color] para deslizarse entre comandos.\• Presione [color=blue]tecla FUEGO[/color] o [color=blue]5[/color] para ejecutar el comando seleccionado.\• Presione [color=blue]menú izquierdo[/color] o [color=blue]tecla NEGRA[/color] para cerrar menú principal.\\[b]DIÁLOGOS[/b]\• Presione [color=blue]menú izquierdo[/color] para presionar botón izquierdo ([color=green]verde[/color]).\• Presione [color=blue]menú derecho[/color] para presionar botón derecho ([color=red]rojo[/color]).\• Presione [color=blue]tecla FUEGO[/color] o [color=blue]5[/color] para presionar botón (solo 1 opción).</help_message>
+    <bt_mex>[color=#FF8080]Este dispositivo no soporta Bluetooth API (JSR-82), por lo que no puede conectarse a ningún dispositivo remoto.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]Por favor, encienda el Bluetooth\y reinicie el programa![/color]</bt_off>
+    <fc_mex>[color=#FF8080]Este dispositivo no es compatible con FileConnection API (JSR-75), por lo que no puede acceder al sistema de archivos de su dispositivo.[/color]</fc_mex>
+    <dialog_bt_off_title>Bluetooth APAGADO</dialog_bt_off_title>
+    <dialog_bt_off_message>Bluetooth está [b]APAGADO[/b]! Por favor, [u][color=blue]encienda el Bluetooth[/color][/u] y reinicie el programa.</dialog_bt_off_message>
+    <version_title>Nueva Versión!</version_title>
+    <version_message>Una versión de este programa, [b][color=blue]v%1[/color][/b], se encuentra disponible online, puede descargarla de forma gratuita aquí: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>Donación por PayPal</donation_title>
+    <donation_message>Si le gusta este software, por favor, considere hacer una [b][color=blue]donación[/color][/b]!\El Desarrollo de Software realmente requiere mucho tiempo y esfuerzo ... surfea en [url]http://blueftp.medieval.it/[/url] y permítenos continuar desarrollando software libre, con una pequeña donación!</donation_message>
+    <security_title>Problemas de Seguridad</security_title>
+    <security_message>No puede acceder al sistema de archivos de su dispositivo. Asegúrese de que otorga los permisos correctos (lectura &amp; escritura) a esta aplicación.\Por favor, lea el manual de su dispositivo para obtener más información...\\Razón:\</security_message>
+    <outofmemory_title>No hay suficiente memoria!</outofmemory_title>
+    <outofmemory_message>No ha sufuciente memoria para cargar archivo [color=blue][off]%1[/off][/color] con el visor interno.\\Razón:\</outofmemory_message>
+    <set_password>Protección con contraseña:</set_password>
+    <get_password>Introduzca contraseña para empezar:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>Menú</open_menu>
+    <close_menu>Cerrar</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(esta carpeta está vacia)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>aceptar</value>
+      <value>continuar</value>
+      <value>si</value>
+      <value>guardar</value>
+      <value>parar</value>
+      <value>visitar</value>
+      <value>renombrar</value>
+      <value>no</value>
+      <value>cancelar</value>
+      <value>sobrescribir</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>Publicidad (solo 1 artículo)</title>
+    <wait>Por favor espere...</wait>
+    <count>...o espere %1 segundos...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>Indicador Lectura</value>
+      <value>Indicador Escritura</value>
+      <value>Indicador Oculto</value>
+    </items>
+    <read_message>No se puede modificar el [b]indicador[/b] de escritura del objeto dado.\\Razón:\</read_message>
+    <write_message>No se puede modificar el [b]indicador[/b] de lectura del objeto dado.\\Razón:\</write_message>
+    <hidden_message>No se puede modificar el [b]indicador[/b] oculto del objeto dado.\\Razón:\</hidden_message>
+    <fc_read_message>No se puede abrir una conexión de archivo (lectura) para el objeto requerido.\\Razón:\</fc_read_message>
+    <fc_write_message>No se puede abrir una conexión de archivo (escritura) para el objeto requerido.\\Razón:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>Ruta:</value>
+      <value>Tamaño:</value>
+      <value>Byte:</value>
+      <value>Fecha:</value>
+      <value>Hora:</value>
+      <value>Leer:</value>
+      <value>Escribir:</value>
+      <value>Ocultar:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>Nombre:</value>
+      <value>Libre:</value>
+      <value>Usado:</value>
+      <value>Total:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>Ruta:</value>
+      <value>Nombre:</value>
+      <value>Alias:</value>
+      <value>Tamaño:</value>
+      <value>Byte:</value>
+      <value>Fecha:</value>
+      <value>Hora:</value>
+      <value>Leer:</value>
+      <value>Escribir:</value>
+      <value>Borrar:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>Ruta:</value>
+      <value>Come.:</value>
+      <value>Fecha:</value>
+      <value>Hora:</value>
+      <value>Paquete:</value>
+      <value>Tamaño:</value>
+      <value>Ratio:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>ZIP ver:</value>
+      <value>Método:</value>
+      <value>Nivel:</value>
+      <value>Encriptar:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mode:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>Nivel:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>Detall. del dispositivo</title>
+    <minor_default>(desconocido)</minor_default>
+    <major_default>(sin clasificar)</major_default>
+    <captions type="array">
+      <value>MAC:</value>
+      <value>Nombre:</value>
+      <value>Tipo:</value>
+      <value></value>
+      <value>Serv.:</value>
+    </captions>
+    <major type="array">
+      <value>Varios</value>
+      <value>Ordenador</value>
+      <value>Teléfono</value>
+      <value>LAN</value>
+      <value>Audio</value>
+      <value>Periférico</value>
+      <value>Procesa. de Imágenes</value>
+    </major>
+    <minor_1 type="array">
+      <value>(sin clasificar)</value>
+      <value>Escritorio</value>
+      <value>Servidor</value>
+      <value>Libro de notas</value>
+      <value>Manual</value>
+      <value>Palm</value>
+      <value>Usable</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(sin clasificar)</value>
+      <value>Inalámbrico</value>
+      <value>Sin cables</value>
+      <value>Teléfono Inteligente</value>
+      <value>Modem Cableado</value>
+      <value>Acceso ISDN</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>Disponibilidad Completa</value>
+      <value>1% - 17% usado</value>
+      <value>17% - 33% usado </value>
+      <value>33% - 50% usado </value>
+      <value>50% - 67% usado </value>
+      <value>67% - 83% usado </value>
+      <value>83% - 99% usado </value>
+      <value>Servicio No Disponible</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(sin clasificar)</value>
+      <value>Audífonos</value>
+      <value>Manos-Libres</value>
+      <value>(reservado)</value>
+      <value>Micrófono</value>
+      <value>Altavoz Alto</value>
+      <value>Auriculares</value>
+      <value>Audio Portable</value>
+      <value>Car audio</value>
+      <value>Confi-top box</value>
+      <value>Audio Hi-fi</value>
+      <value>VCR</value>
+      <value>Cámara de Video</value>
+      <value>Videocámara</value>
+      <value>Monito de Video</value>
+      <value>Pantalla de vídeo y altavoz</value>
+      <value>Video conferencia</value>
+      <value>(reservado)</value>
+      <value>Juegos / Juguete</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(no soportado) / </value>
+      <value>Teclado / </value>
+      <value>Indicación / </value>
+      <value>Teclado &amp; Indicación / </value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(no categorizado)</value>
+      <value>Joystick</value>
+      <value>Gamepad</value>
+      <value>Control Remoto</value>
+      <value>Dispositivo Sensible</value>
+      <value>Tabla Digitalizadora</value>
+      <value>Lector de Tarjeta</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>Representación Visual</value>
+      <value>Cámara</value>
+      <value>Scanner</value>
+      <value>Impresora</value>
+    </minor_6>
+    <services type="array">
+      <value>Limited discovery</value>
+      <value>(reservado)</value>
+      <value>(reservado)</value>
+      <value>Posicionamiento</value>
+      <value>Sistema Redes</value>
+      <value>Interpretación</value>
+      <value>Capturando</value>
+      <value>Transferencia de Objeto</value>
+      <value>Audio</value>
+      <value>Telefonía</value>
+      <value>Información</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>Ruta:</value>
+      <value>Archivo:</value>
+      <value>Datos:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>¿Abortar transferencia?</confirm_title>
+    <confirm_message>¿Realmente quiere abortar la operación de transferencia actual?</confirm_message>
+    <success_title>Transferencia completada</success_title>
+    <success_message>Operanción de Transferencia completada con éxito!</success_message>
+    <abort_title>Transferencia abortada</abort_title>
+    <abort_message>La operación de Transferencia fue cancelada por usuario.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>No se pueden subir los objetos requeridos al dispositivo remoto.\\Razón:\</send_error>
+    <file_open_error>No se puede abrir fuente de archivo (permiso de lectura) en el sistema local de archivos.\\Razón:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>No se pueden subir los objetos requeridos al dispositivo remoto.\\Razón:\</upload_error>
+    <file_open_error>No se puede abrir fuente de archivo (permiso de lectura) en el sistema local de archivos.\\Razón:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>No se puede crear una carpeta de destino (permisos lectura &amp; escritura) en el sistema local de archivos.\\Razón:\</path_create_error>
+    <file_create_error>No se puede crear archivo de destino (permisos lectura &amp; escritura) en el sistema local de archivos.\\Razón:\</file_create_error>
+    <download_error>No se pueden descargar los objetos requeridos en el sistema local de archivos.\\Razón:\</download_error>
+    <listing>(listado de carpetas)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>Servicio de Búsqueda</value>
+      <value>Conectar al dispositivo</value>
+      <value>Cargando Archivo de Datos</value>
+    </tasks>
+    <profile_ftp>[url]File Transfer Profile[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]Object Push Profile[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>Volver a lista de dispositivos</menu_back_ftp>
+    <menu_back_opp>Volver a lista de archivos</menu_back_opp>
+    <fast_back>Retroceder</fast_back>
+    <fast_cancel>Cancelar</fast_cancel>
+    <agent_message>No se puede obtener el agente descubierto de Bluetooth API.\\Razón:\</agent_message>
+    <start_message>No se puede empezar %1 servicio de búsqueda.\\Razón:\</start_message>
+    <abort_title>Conexión abortada</abort_title>
+    <abort_message>La conexión con el dispositivo seleccionado fue abortada por usuario.</abort_message>
+    <error_title>Error en la Conexión</error_title>
+    <unreachable_message>El dispositivo seleccionado no está disponible.</unreachable_message>
+    <search_message>Hubo un error durante %1 servicio de búsqueda.</search_message>
+    <notfound_message>No puede conectar con el dispositivo seleccionado ya que carece del %1 del Servicio Bluetooth.</notfound_message>
+    <connect_message>Imposibilidad de conectar con el dispositivo elegido.\\Razón:\</connect_message>
+    <loading_message>Imposibilidad de cargar archivo de datos del dispositivo elegido.\\Razón:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>Volver a lista de archivos</menu_back>
+    <menu_connect>Conectar[5F]</menu_connect>
+    <menu_addbook>Añadir marcador</menu_addbook>
+    <menu_delbook>Eliminar marcador[C]</menu_delbook>
+    <menu_search>Búsqueda de dispositivos</menu_search>
+    <menu_info>Detalles del Dispositivo[7]</menu_info>
+    <fast_search>Búsqueda</fast_search>
+    <fast_cancel>Cancelar</fast_cancel>
+    <nodevices_message>[color=#5555FF]No se han encontrado dispositivos Bluetooth!\Por favor presione tecla de [b]Búsqueda[/b].[/color]</nodevices_message>
+    <abort_title>Abortar</abort_title>
+    <abort_message>Operación de Búsqueda fue abortada por usuario.</abort_message>
+    <error_title>Error de Búsqueda</error_title>
+    <error_message>Se produjo un error durante la operación de búsqueda.\[color=blue][b]¿Está conectado el Bluetooth?[/b][/color]</error_message>
+    <confirm_title>Por favor confirme</confirm_title>
+    <confirm_message>¿Realmente quiere eliminar [color=blue]%1[/color] el dispositivo de la lista de selección?</confirm_message>
+    <notfound_title>No hay resultados</notfound_title>
+    <notfound_message>La búsqueda de dispositivos Bluetooth fue completada sin obtener resultados.\Presione la opción de [color=blue][b]búsqueda[/b][/color] de nuevo!</notfound_message>
+    <noaddbook_title>Imposible de añadir</noaddbook_title>
+    <noaddbook_message>El dispositivo ya está presente en la lista de selección.</noaddbook_message>
+    <opp_message>Seleccione el Dispositivo:</opp_message>
+    <infrared>Infrarrojos</infrared>
+  </gcld>
+
+  <gclfl>
+   <send>Enviando...</send>
+   <upload>Subiendo...</upload>
+   <menu_upload>Subir objeto(s)</menu_upload>
+   <menu_open>Abrir Objeto[5F]</menu_open>
+   <menu_open_txt>Abrir como texto</menu_open_txt>
+   <menu_open_hex>Abrir como binario</menu_open_hex>
+   <menu_search>Buscar objetos...</menu_search>
+   <menu_send_bt>Enviar con Bluetooth</menu_send_bt>
+   <menu_send_ir>Enviar con Infrarrojos</menu_send_ir>
+   <menu_compress_zip>Comprimir objetos (zip)</menu_compress_zip>
+   <menu_compress_tar>Comprimir objetos (tar)</menu_compress_tar>
+   <menu_compress_jar>Comprimir objetos (jar)</menu_compress_jar>
+   <menu_compress_nth>Comprimir objetos (nth)</menu_compress_nth>
+   <menu_compress_thm>Comprimir objetos (thm)</menu_compress_thm>
+   <menu_compress_gz>Comprimir archivo (gz)</menu_compress_gz>
+   <menu_extract>Extraer objetos aquí[3]</menu_extract>
+   <menu_cancel>Cancelar extracción</menu_cancel>  
+   <menu_back>Retroc. un nivel arriba</menu_back>
+   <menu_root>Ir a raíz[B]</menu_root>
+   <menu_item>Ir a carpeta de objetos</menu_item>
+   <menu_refresh>Refrescar Carpeta</menu_refresh>
+   <menu_create>Crear Carpeta</menu_create>
+   <menu_item_info>Información de Objetos[7]</menu_item_info>
+   <menu_attrib>Atributos de Objetos[9]</menu_attrib>
+   <menu_volume_info>Tamaño de Volumen </menu_volume_info>
+   <menu_rename>Renombrar objeto</menu_rename>
+   <menu_delete>Eliminar objeto(s)[C]</menu_delete>
+   <menu_cut>Cortar objeto(s)</menu_cut>
+   <menu_copy>Copiar objeto(s)[1]</menu_copy>
+   <menu_paste>Pegar objeto(s)[3]</menu_paste>
+   <menu_select>Seleccionar[*#]</menu_select>
+   <menu_unselect>Deseleccionar[*#]</menu_unselect>
+   <menu_select_all>Seleccionar todo</menu_select_all>
+   <menu_select_none>Seleccionar ninguna</menu_select_none>
+   <menu_select_invert>Invertir selección</menu_select_invert>
+   <fast_key>Retroceder</fast_key>
+   <root_added_title>Almacenamiento Añadido</root_added_title>
+   <root_added_message>Un nuevo dispositivo de almacenamiento se ha añadido al sistema local de archivos.\\Almacenamiento raíz&gt; </root_added_message>
+   <root_removed_title>Eliminar Almacenamiento</root_removed_title>
+   <root_removed_message>El dispositivo de almacenamiento ha sido eliminado del sistema de archivo local.\\Almacenamiento raíz&gt; </root_removed_message>
+   <unsupported_title>Tipo de Archivo no-soportado</unsupported_title>
+   <unsupported_message>Este tipo de archivo no está soportado por el visor interno.</unsupported_message>
+   <open_error_title>Error de apertura</open_error_title>
+   <open_error_message>No se puede abrir archvio [color=blue][off]%1[/off][/color] por el visor interno.\\Razón:\</open_error_message>
+   <create_title>Escriba nombre de carpeta:</create_title>
+   <create_value>Nueva carpeta</create_value>
+   <create_message>No se puede crear [color=blue][off]%1[/off][/color] carpeta en la posición actual.\\Razón:\</create_message>
+   <rename_title>Nuevo nombre de objeto:</rename_title>
+   <rename_message>No se puede renombrar el objeto actual con [color=blue][off]%1[/off][/color] nombre.\\Razón:\</rename_message>
+   <read_message>No se puede leer contenido de la [color=blue][off]%1[/off][/color] carpeta.\\Razón:\</read_message>
+   <info_message>No se puede obtener información desde sistema de archivo [color=blue][off]%1[/off][/color].\\Razón:\</info_message>
+   <fc_open_message>No se puede abrir conexión de archivo para el objeto requerido.\\Razón:\</fc_open_message>
+   <delete_message>No se puede eliminar [color=blue][off]%1[/off][/color] objeto del sistema de archivos local.\\Razón:\</delete_message>
+   <confirm_title>Por favor confirme</confirm_title>
+   <confirm_message>¿Realmente quiere eliminar el objeto seleccionado(s)?</confirm_message>
+   <paste_message>No se puede pegar [color=blue][off]%1[/off][/color] objeto al sistema local de archivos.\\Razón:\</paste_message>
+   <paste_file_title>Por favor confirme</paste_file_title>
+   <paste_file_message>El Archivo [color=blue][off]%1[/off][/color] ya existe en la carpeta de destino!\\¿Quiere renombrarlo o sobrescribirlo?</paste_file_message>
+   <paste_path_title>Por favor confirme</paste_path_title>
+   <paste_path_message>La Carpeta [color=blue][off]%1[/off][/color] ya existe!\\¿ Quiere renombrarla o sobrescribirla?</paste_path_message>
+   <paste_checkbox>Todo</paste_checkbox>
+   <cancel_title>Extracción abortada</cancel_title>
+   <cancel_message>Operación de Extacción de Archivo abortada por usuario!</cancel_message>
+   <tar_filename>Nombre %1:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+   <download>Descargando...</download>
+   <menu_download>Descargar objeto(s)</menu_download>
+   <menu_open>Abrir Objeto[5F]</menu_open>
+   <menu_open_txt>Abrir como texto</menu_open_txt>
+   <menu_open_hex>Abrir como binario</menu_open_hex>
+   <menu_search>Buscar objetos...</menu_search>
+   <menu_disconnect>Desconectar</menu_disconnect>
+   <menu_back>Retroc. un nivel arriba</menu_back>
+   <menu_root>Ir a raíz[B]</menu_root>
+   <menu_item>Ir a carpeta de objetos</menu_item>
+   <menu_refresh>Refrescar Carpeta</menu_refresh>
+   <menu_create>Crear Carpeta</menu_create>
+   <menu_item_info>Información de Objetos[7]</menu_item_info>
+   <menu_delete>Eliminar objeto(s)[C]</menu_delete>
+   <menu_cut>Cortar objeto(s)</menu_cut>
+   <menu_copy>Copiar objeto(s)[1]</menu_copy>
+   <menu_paste>Pegar objeto(s)[3]</menu_paste>
+   <menu_select>Seleccionar[*#]</menu_select>
+   <menu_unselect>Deseleccionar[*#]</menu_unselect>
+   <menu_select_all>Seleccionar todo</menu_select_all>
+   <menu_select_none>Seleccionar ninguna</menu_select_none>
+   <menu_select_invert>Invertir selección</menu_select_invert>
+   <fast_key>Retroceder</fast_key>
+   <unsupported_title>Tipo de Archivo no-soportado</unsupported_title>
+   <unsupported_message>Este tipo de archivo no está soportado por el visor interno.</unsupported_message>
+   <open_error_title>Error de apertura</open_error_title>
+   <open_error_message>No se puede abrir archvio [color=blue][off]%1[/off][/color] por el visor interno.\\Razón:\</open_error_message>
+   <create_title>Escriba nombre de carpeta:</create_title>
+   <create_value>Nueva carpeta</create_value>
+   <create_message>No se puede crear [color=blue][off]%1[/off][/color] carpeta en la posición actual.\\Razón:\</create_message>
+   <confirm_title>Por favor confirme</confirm_title>
+   <delete_confirm>¿Realmente quiere eliminar objeto(s) seleccionado(s)?</delete_confirm>
+   <delete_message>No se puede borrar [color=blue][off]%1[/off][/color] objeto del dispositivo remoto.\\Razón:\</delete_message>
+   <disconnect_confirm>¿Realmente quiere desconectarse del dispositivo remoto?</disconnect_confirm>
+   <disconnect_message>No se puede desconectar del dispositivo remoto.\\Razón:\</disconnect_message>
+   <enter_message>No se puede acceder a la [color=blue][off]%1[/off][/color] carpeta.\\Razón:\</enter_message>
+   <back_message>Imposible subir un nivel más.\\Razón:\</back_message>
+   <root_message>Imposible retroceder a carpeta raíz.\\Razón:\</root_message>
+   <read_message>Imposible leer contenido de carpeta.\\Razón:\</read_message>
+   <paste_err_title>No soportado</paste_err_title>
+   <paste_err_message>Imposibilidad de [color=blue]cortar o copiar[/color] y seguidamente [color=blue]pegar[/color] un objeto en el mismo dispositivo Bluetooth!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+   <menu_extract>Extraer seleccionados[1]</menu_extract>
+   <menu_close>Cerrar Registro</menu_close>
+   <menu_open>Abrir Objeto[5F]</menu_open>
+   <menu_open_txt>Abrir como texto</menu_open_txt>
+   <menu_open_hex>Abrir como binario</menu_open_hex>
+   <menu_item_info>Información de Objetos[7]</menu_item_info>
+   <menu_back>Retroc. un nivel arriba</menu_back>
+   <menu_root>Ir a raíz[B]</menu_root>
+   <menu_select>Seleccionar[*#]</menu_select>
+   <menu_unselect>Deseleccionar[*#]</menu_unselect>
+   <menu_select_all>Seleccionar todo</menu_select_all>
+   <menu_select_none>Seleccionar ninguna</menu_select_none>
+   <menu_select_invert>Invertir selección</menu_select_invert>
+   <fast_key>Retroceder</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>Aceptar</ok_button>
+    <ko_button>Cancelar</ko_button>
+  </uib>
+
+  <usp>
+    <title>Parámetros de Búsqueda</title>
+    <ok_button>Aceptar</ok_button>
+    <ko_button>Cancelar</ko_button>
+    <reset_form_btn>Valor padrão</reset_form_btn>
+    <clear_mode_btn>Limpiar"Modo Búsqueda"</clear_mode_btn>
+    <check_mode_btn>Comprobar "Modo Búsqueda"</check_mode_btn>
+    <clear_from_date_btn>Limpiar "Desde fecha"</clear_from_date_btn>
+    <clear_to_date_btn>Limpiar "Hasta fecha"</clear_to_date_btn>
+    <text_lbl>Buscar texto:</text_lbl>
+    <mode_lbl>Modo Búsqueda:</mode_lbl>
+    <mode_txt type="array">
+      <value>Encontrar carpetas</value>
+      <value>Encontrar imágenes</value>
+      <value>Encontrar audio</value>
+      <value>Encontrar videos</value>
+      <value>Encontrar archivos de texto</value>
+      <value>Encontrar ejecutables</value>
+      <value>Encontrar archivos</value>
+      <value>Encontrar página web</value>
+      <value>Encontrar temas</value>
+      <value>Encontrar archivos desconocido</value>
+    </mode_txt>
+    <min_size_lbl>Tamaño Mínimo(KB):</min_size_lbl>
+    <max_size_lbl>Tamaño Máximo (KB):</max_size_lbl>
+    <min_date_lbl>A partir de fecha:</min_date_lbl>
+    <max_date_lbl>Hasta la fecha:</max_date_lbl>
+    <title_error>Parámetros de error</title_error>
+    <size_error>"Tamaño Mínimo" deber ser menor o igual al "Tamaño Máximo"!</size_error>
+    <date_error>"A partir de fecha" debe de ser menor o igual a "Hasta la fecha"!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>Buscando...</title>
+    <keys type="array">
+      <value>Found:</value>
+      <value>Error:</value>
+      <value>Ruta:</value>
+    </keys>
+    <stop_title>¿Parar búsqueda?</stop_title>
+    <stop_message>¿Quiere realmente parar la operación de búsqueda acutal?\[color=blue]Se mostrará el resutlado actual![/color]</stop_message>
+    <cancel_title>¿Cancelar búsqueda?</cancel_title>
+    <cancel_message>¿Quiere realmente parar la operación de búsqueda acutal?</cancel_message>
+    <errors_title>Completado con errores</errors_title>
+    <errors_message>Operación de Búsqueda se completó con [b]%1[/b] errores. Esta es la lista de errores:</errors_message>
+    <errors_label>\[color=red][b]• Error %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>Sin Resultados</empty_title>
+    <empty_message>Operación de búsqueda completada sin resultados.</empty_message>
+    <aborted_title>Búsqueda Abortada</aborted_title>
+    <aborted_message>La opración de búsqueda fue abortada por usuario.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>Extrayendo...</title>
+    <captions type="array">
+      <value>Ruta:</value>
+      <value>Archivo:</value>
+    </captions>
+    <extract_error>No se puede extrar este archivo ZIP.\\Reazón:\</extract_error>
+    <format_title>Error en formato ZIP</format_title>
+    <format_message>Problemas Encontrado con el formato del archivo procesado.\\Razón:\</format_message>
+    <format_error>El Usuario ha detenido el proceso de extracción.\\Razón:\</format_error>
+    <done_title>Hecho!</done_title>
+    <done_normal>Extracción completada con éxito!</done_normal>
+    <done_errors>Extracción completada con errores.</done_errors>
+    <confirm_title>¿Abortar extracción?</confirm_title>
+    <confirm_message>¿Realmente quiere abortar la operación de extracción?</confirm_message>
+    <abort_title>Extracción abortada</abort_title>
+    <abort_message>Operación de Extracción fue abortada por usuario.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>Comprimiendo...</title>
+    <captions type="array">
+      <value>Ruta:</value>
+      <value>Archivo:</value>
+    </captions>
+    <finalizing>(finalizando registro)</finalizing>
+    <compress_error>No se puede completar el registro de este archivo ZIP.\\Razón:\</compress_error>
+    <done_title>Hecho!</done_title>
+    <done_message>Compresión completada con éxito!</done_message>
+    <abort_title>Compresión abortada</abort_title>
+    <abort_message>Operación de Compresión fue abortada por usuario.</abort_message>
+    <confirm_title>¿Abortar compresión?</confirm_title>
+    <confirm_message>¿Realmente quiere abortar la operación de compresión?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>Nuevo Archivo %1</title>
+    <filename>Nombre %1:</filename>
+    <password>Contraseña %1:</password>
+    <password_title>Contraseña demasiado corta</password_title>
+    <password_message>Su contraseña debería ser al menos de %1 caracter de larga!</password_message>
+    <method_title>Método de compresió:</method_title>
+    <method_items type="array">
+      <value>Stored (sin comprimir)</value>
+      <value>Deflate (mejor opción)</value>
+      <value>Deflate64 (menos compatible)</value>
+    </method_items>
+  </uzf>
+</language>

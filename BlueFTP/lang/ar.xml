@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="العربية" lid="ar" cid="DZ,BH,KM,TD,DJ,EG,ER,IQ,IL,JO,KW,LB,LY,MR,MA,OM,PS,QA,SA,SO,SD,SY,TN,AE,EH,YE" rtl="true">
+  <common>
+    <no>لا</no>
+    <yes>نعم</yes>
+    <root>&lt;الجذر&gt;</root>
+    <search_mode>&lt;بحث&gt;</search_mode>
+    <none>(لا شيء)</none>
+    <empty>(فارغ)</empty>
+    <denied>مرفوض</denied>
+    <allowed>مسموح</allowed>
+    <copy_suffix> - نسخ</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>محلي</value>
+      <value>بلوتوث</value>
+    </pages>
+    <menu_clean>ملء الشاشة[0]</menu_clean>
+    <menu_lang>اختر لغة</menu_lang>
+    <menu_pass>حدد كلمة سر</menu_pass>
+    <menu_about>حول...</menu_about>
+    <menu_help>مساعدة</menu_help>
+    <menu_exit>خروج</menu_exit>
+    <help_title>ساعدني!</help_title>
+    <help_message>[b]المفاتيح[/b]\• اضغط [color=blue]السهم الأيسر[/color] أو [color=blue]مفتاح 4[/color] و [color=blue]السهم الأيمن[/color] أو [color=blue]مفتاح 6[/color] للتبديل بين الملفات المحلية وملفات البلوتوث.\• اضغط [color=blue]القائمة اليسري[/color] لفتح أو غلق القائمة الرئيسية\• اضغط [color=blue]القائمة اليمنى[/color] لتنفيذ الأمر السريع على الشاشة.\• اضغط [color=blue]مفتاح #[/color] أو [color=blue]مفتاح *[/color] لاختيار أو عدم اختيار البند الحالي\• اضغط [color=blue]مفتاح 1[/color] لنسخ العناصر المختارة حاليًا إلى الذاكرة\• اضغط [color=blue]مفتاح 3[/color] للصق العناصر الموجودة بالذاكرة في المجلد الحالي\• اضغط [color=blue]مفتاح 0[/color] للدخول أو الخروج من وضع ملء الشاشة: عرض بدون الأشرطة العلوية والسفلية.\\[b]القائمة[/b]\[color=#800080]عند وجود رمز بجانب بند القائمة، يمكنك الضغط على مفتاح الاختصار لتنفيذ ذلك الأمر المصاحب[/color]\• اضغط [color=blue]السهم الأعلى[/color] أو [color=blue]مفتاح 2[/color] و [color=blue]السهم الأسفل[/color] أو [color=blue]مفتاح 8[/color] للتنقل بين الأوامر.\• اضغط [color=blue]مفتاح التشغيل[/color] أو [color=blue]مفتاح 5[/color] لتنفيذ الأمر المحدد حاليًا.\• اضغط [color=blue]القائمة اليسري[/color] أو [color=blue]مفتاح الرجوع[/color] لغلق القائمة الرئيسية\\[b]المكالمات[/b]\• اضغط [color=blue]القائمة اليسري[/color] للضغط على الزر الأيسر ([color=green]أخضر[/color].(\• اضغط [color=blue]القائمة اليمنى[/color] للضغط على الزر الأيمن ([color=red]أحمر[/color].(\• اضغط [color=blue]مفتاح التشغيل[/color] أو [color=blue]مفتاح 5[/color] للضغط على الزر (في حالة الخيار الوحيد).</help_message>
+    <bt_mex>[color=#FF8080]هذا الجهاز لا يدعم بلوتوث API JSR-82، لذلك لا يمكنك الاتصال عن بعد بأي جهاز.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]يرجى تشغيل البلوتوث وإعادة تشغيل البرنامج![/color]</bt_off>
+    <fc_mex>[color=#FF8080]هذا الجهاز لا يدعم FileConnection API JSR-75 ، لذلك لا يمكنك الوصول إلى نظام ملفات جهازك.[/color]</fc_mex>
+    <dialog_bt_off_title>البلوتوث مغلق</dialog_bt_off_title>
+    <dialog_bt_off_message>البلوتوث حاليًا [b]مغلق[/b]! من فضلك, [u][color=blue]شغل البلوتوث[/color][/u] وأعد تشغيل البرنامج.</dialog_bt_off_message>
+    <version_title>إصدار جديد!</version_title>
+    <version_message>يوجد إصدار جديد من هذا البرنامج، [b][color=blue]v%1[/color][/b]، على الانترنت، يمكنك تنزيله مجانًا من هنا: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>PayPal تبرع</donation_title>
+    <donation_message>إذا أعجبك هذا البرنامج، يرجى التبرع لنا [b][color=blue]بمنحة[/color][/b]!\فتطوير البرمجيات يحتاج فعلاً إلى الكثير من الوقت والجهد... قم بزيارة [url]http://blueftp.medieval.it/[/url] ودعنا نواصل تطوير البرامج المجانية بتبرع قليل!</donation_message>
+    <security_title>المشاكل الأمنية</security_title>
+    <security_message>لا يمكن الوصول إلى نظام ملفات هذا الجهاز. تأكد أنك أعطيت الصلاحيات المناسبة (قراءة وكتابة) لهذا التطبيق.\يرجى قراءة دليل الجهاز للحصول على مزيد من المعلومات...\\السبب:\</security_message>
+    <outofmemory_title>نفاد الذاكرة!</outofmemory_title>
+    <outofmemory_message>الذاكرة لا تكفي لتحميل الملف [color=blue][off]%1[/off][/color] داخل المتصفح الداخلي.\\السبب:\</outofmemory_message>
+    <set_password>الحماية بكلمة سر:</set_password>
+    <get_password>إدخال كلمة السر للبدء:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>القائمة</open_menu>
+    <close_menu>إغلاق</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(هذا المجلد فارغ)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>موافق</value>
+      <value>استمرار</value>
+      <value>نعم</value>
+      <value>حفظ</value>
+      <value>توقف</value>
+      <value>زيارة</value>
+      <value>إعادة التسمية</value>
+      <value>لا</value>
+      <value>إلغاء</value>
+      <value>استبدال</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>الإعلان (مرة واحدة فقط)</title>
+    <wait>يرجى الانتظار...</wait>
+    <count>... أو انتظر %1 ثواني ...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>إشارة القراءة</value>
+      <value>إشارة الكتابة</value>
+      <value>إشارة الإخفاء</value>
+    </items>
+    <read_message>لا يمكن تعديل[b]قراءة[/b] إشارة بند معين.\\السبب:\</read_message>
+    <write_message>لا يمكن تعديل [b]كتابة[/b] إشارة بند معين.\\السبب:\</write_message>
+    <hidden_message>لا يمكن تعديل [b]إخفاء[/b] إشارة بند معين.\\السبب:\</hidden_message>
+    <fc_read_message>لا يمكن فتح ملف اتصال (قراءة) للبند المطلوب.\\السبب:\</fc_read_message>
+    <fc_write_message>لا يمكن فتح ملف اتصال (كتابة) للبند المطلوب.\\السبب:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>المسار:</value>
+      <value>الحجم:</value>
+      <value>بايت:</value>
+      <value>التاريخ:</value>
+      <value>الوقت:</value>
+      <value>قراءة:</value>
+      <value>كتابة:</value>
+      <value>مخفي:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>الاسم:</value>
+      <value>فارغ:</value>
+      <value>مستخدم:</value>
+      <value>الإجمالي:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>المسار:</value>
+      <value>الاسم:</value>
+      <value>الاسم المستعار:</value>
+      <value>الحجم:</value>
+      <value>بايت:</value>
+      <value>التاريخ:</value>
+      <value>الوقت:</value>
+      <value>قراءة:</value>
+      <value>كتابة:</value>
+      <value>حذف:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>المسار:</value>
+      <value>الاتصال:</value>
+      <value>التاريخ:</value>
+      <value>الوقت:</value>
+      <value>حزمة:</value>
+      <value>الحجم:</value>
+      <value>النسبة:</value>
+      <value>:Crc32</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>إصدار ZIP:</value>
+      <value>الأسلوب:</value>
+      <value>المستوي:</value>
+      <value>التشفير:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>الوضع:</value>
+      <value>:UID</value>
+      <value>:GID</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>:ASCII</value>
+      <value>المستوي:</value>
+      <value>نظام التشغيل:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>مواصفات الجهاز</title>
+    <minor_default>(غير معروف)</minor_default>
+    <major_default>(غير مصنف)</major_default>
+    <captions type="array">
+      <value>ماكنتوش:</value>
+      <value>الاسم:</value>
+      <value>النوع:</value>
+      <value></value>
+      <value>ملقم:</value>
+    </captions>
+    <major type="array">
+      <value>متنوع</value>
+      <value>حاسوب</value>
+      <value>هاتف</value>
+      <value>شبكة محلية</value>
+      <value>صوت</value>
+      <value>جهاز طرفي</value>
+      <value>تصوير</value>
+    </major>
+    <minor_1 type="array">
+      <value>(غير مصنف)</value>
+      <value>سطح المكتب</value>
+      <value>ملقم</value>
+      <value>حاسوب دفتري</value>
+      <value>محمول باليد</value>
+      <value>يحمل بالكف</value>
+      <value>قابل للإرتداء</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(غير مصنف)</value>
+      <value>خلوي</value>
+      <value>لاسلكي</value>
+      <value>هاتف ذكي</value>
+      <value>مودم سلكي</value>
+      <value>الوصول إلى ISDN</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>متاح بالكامل</value>
+      <value>1% - 17% مستخدم</value>
+      <value>17% - 33% مستخدم</value>
+      <value>33% - 50% مستخدم</value>
+      <value>50% - 67% مستخدم</value>
+      <value>67% - 83% مستخدم</value>
+      <value>83% - 99% مستخدم</value>
+      <value>لا توجد خدمات متاحة</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(غير مصنف)</value>
+      <value>سماعتا رأس</value>
+      <value>دون استعمال الأيدي</value>
+      <value>(محجوز)</value>
+      <value>ميكروفون</value>
+      <value>سماعة عالية</value>
+      <value>سماعات رأس</value>
+      <value>جهاز صوتي محمول</value>
+      <value>صوتيات السيارة</value>
+      <value>جهاز استقبال</value>
+      <value>صوت عالى الجودة</value>
+      <value>جهاز تسجيل تليفزيونى</value>
+      <value>كاميرا فيديو</value>
+      <value>كاميرا فيديو</value>
+      <value>شاشة فيديو</value>
+      <value>شاشة فيديو وسماعة عالية</value>
+      <value>فيديو كونفرانس</value>
+      <value>(محجوز)</value>
+      <value>لعب / لعبة</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(غير مدعم) /</value>
+      <value>لوحة مفاتيح /</value>
+      <value>مؤشر /</value>
+      <value>لوحة مفاتيح ومؤشر /</value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(غير مصنف)</value>
+      <value>عصا التحكم</value>
+      <value>لوح ألعاب</value>
+      <value>التحكم عن بعد</value>
+      <value>جهاز إحساس</value>
+      <value>لوحة الرسومات الرقمية</value>
+      <value>قارئ البطاقات</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>شاشة</value>
+      <value>كاميرا</value>
+      <value>ماسح ضوئي</value>
+      <value>طابعة</value>
+    </minor_6>
+    <services type="array">
+      <value>اكتشاف محدود</value>
+      <value>(محجوز)</value>
+      <value>(محجوز)</value>
+      <value>تحديد موضع</value>
+      <value>تشبيك</value>
+      <value>عرض</value>
+      <value>التقاط</value>
+      <value>نقل الهدف</value>
+      <value>صوت</value>
+      <value>إرسال تليفوني</value>
+      <value>معلومات</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>المسار:</value>
+      <value>الملف:</value>
+      <value>البيانات:</value>
+    </captions>
+    <separator>/</separator>
+    <confirm_title>إلغاء النقل؟</confirm_title>
+    <confirm_message>هل ترغب حقًا في إلغاء عملية النقل الحالية؟</confirm_message>
+    <success_title>اكتمل النقل</success_title>
+    <success_message>تمت عملية النقل بنجاح!</success_message>
+    <abort_title>تم إلغاء النقل</abort_title>
+    <abort_message>قام المستخدم بإلغاء عملية النقل.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>لا يمكن ارسال البنود المطلوبة إلى الجهاز البعيد. \\السبب:\</send_error>
+    <file_open_error>لا يمكن فتح ملف المصدر (إذن قراءة) على نظام الملفات المحلي. \\السبب:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>لا يمكن رفع البنود المطلوبة على الجهاز البعيد. \\السبب:\</upload_error>
+    <file_open_error>لا يمكن فتح ملف المصدر (إذن قراءة) على نظام الملفات المحلي. \\السبب:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>لا يمكن إنشاء المجلد الوجهة (أذونات قراءة وكتابة) على نظام الملفات المحلي.\\السبب:\</path_create_error>
+    <file_create_error>لا يمكن إنشاء الملف الوجهة (أذونات قراءة وكتابة) على نظام الملفات المحلي.\\السبب:\</file_create_error>
+    <download_error>لا يمكن تنزيل البنود المطلوبة في نظام الملفات المحلي.\\السبب:\</download_error>
+    <listing>(قائمة المجلدات)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>خدمة البحث</value>
+      <value>الاتصال بالجهاز</value>
+      <value>تحميل بيانات الملف</value>
+    </tasks>
+    <profile_ftp>[url]نقل ملف التعريف[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]وضع دفع النماذج[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>عودة إلى قائمة الأجهزة</menu_back_ftp>
+    <menu_back_opp>عودة إلى قائمة الملفات المحلية</menu_back_opp>
+    <fast_back>عودة</fast_back>
+    <fast_cancel>إلغاء</fast_cancel>
+    <agent_message>لا يمكن الحصول على عامل الاكتشاف المحلي لبلوتوث API \\السبب:\</agent_message>
+    <start_message>لا يمكن بدء %1 خدمة البحث.\\السبب:\</start_message>
+    <abort_title>انقطع الاتصال</abort_title>
+    <abort_message>قام المستخدم بقطع الاتصال مع الجهاز المستهدف.</abort_message>
+    <error_title>خطأ اتصال</error_title>
+    <unreachable_message>لا يمكن الوصول إلى الجهاز المستهدف حاليًا.</unreachable_message>
+    <search_message>حدث خطأ أثناء %1 خدمة البحث.</search_message>
+    <notfound_message>لا يمكنك الاتصال بالجهاز المستهدف لأنه يفتقد إلى %1 خدمة البلوتوث.</notfound_message>
+    <connect_message>لا يمكن الاتصال بالجهاز المستهدف.\\السبب:\</connect_message>
+    <loading_message>لا يمكن تحميل بيانات ملف الجهاز المستهدف.\\السبب:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>رجوع إلى قائمة الملفات المحلية</menu_back>
+    <menu_connect>اتصال[5F]</menu_connect>
+    <menu_addbook>إضافة إشارة مرجعية</menu_addbook>
+    <menu_delbook>حذف الإشارة المرجعية[C]</menu_delbook>
+    <menu_search>البحث عن الأجهزة</menu_search>
+    <menu_info>تفاصيل الجهاز[7]</menu_info>
+    <fast_search>بحث</fast_search>
+    <fast_cancel>إلغاء</fast_cancel>
+    <nodevices_message>[color=#5555FF]لا يوجد أجهزة بلوتوث!\يرجى الضغط على [b]بحث[/b] مفتاح.[/color]</nodevices_message>
+    <abort_title>تم الإلغاء</abort_title>
+    <abort_message>قام المستخدم بإلغاء عملية البحث.</abort_message>
+    <error_title>خطأ بحث</error_title>
+    <error_message>حدث خطأ أثناء عملية البحث.\[color=blue][b]هل البلوتوث يعمل؟[/b][/color]</error_message>
+    <confirm_title>يرجى التأكد</confirm_title>
+    <confirm_message>هل تود حقًا حذف [color=blue]%1[/color] الجهاز من قائمة الإشارات المرجعية؟</confirm_message>
+    <notfound_title>لا توجد نتائج</notfound_title>
+    <notfound_message>اكتملت عملية البحث عن أجهزت بلوتوث دون العثور على أي نتائج.\اضغط مفتاح [color=blue][b]بحث[/b][/color] مرة أخرى!</notfound_message>
+    <noaddbook_title>غير قادر على الإضافة</noaddbook_title>
+    <noaddbook_message>الجهاز موجود بالفعل في قائمة الإشارات المرجعية.</noaddbook_message>
+    <opp_message>اختر الجهاز المستهدف:</opp_message>
+    <infrared>انفرارد</infrared>
+  </gcld>
+
+  <gclfl>
+    <send>جارى الإرسال...</send>
+    <upload>جارى التحميل...</upload>
+    <menu_upload>تحميل بند(بنود)</menu_upload>
+    <menu_open>فتح بند[5F]</menu_open>
+    <menu_open_txt>الفتح كنص</menu_open_txt>
+    <menu_open_hex>فتح بالنظام الثنائي</menu_open_hex>
+    <menu_search>بحث عن بنود...</menu_search>
+    <menu_send_bt>إرسال بالبلوتوث</menu_send_bt>
+    <menu_send_ir>إرسال بالانفرارد</menu_send_ir>
+    <menu_compress_zip>ضغط البنود (zip)</menu_compress_zip>
+    <menu_compress_tar>ضغط البنود (tar)</menu_compress_tar>
+    <menu_compress_jar>ضغط البنود (jar)</menu_compress_jar>
+    <menu_compress_nth>ضغط البنود (nth)</menu_compress_nth>
+    <menu_compress_thm>ضغط البنود (thm)</menu_compress_thm>
+    <menu_compress_gz>ضغط الملف (gz)</menu_compress_gz>
+    <menu_extract>فك ضغط البنود هنا[3]</menu_extract>
+    <menu_cancel>إلغاء فك الضغط</menu_cancel>
+    <menu_back>الرجوع مستوى واحد لأعلى</menu_back>
+    <menu_root>الذهاب إلى الجذر[B]</menu_root>
+    <menu_item>الذهاب إلى مجلد البند</menu_item>
+    <menu_refresh>تحديث المجلد</menu_refresh>
+    <menu_create>إنشاء مجلد</menu_create>
+    <menu_item_info>معلومات البند[7]</menu_item_info>
+    <menu_attrib>خصائص البند[9]</menu_attrib>
+    <menu_volume_info>حجم وحدة التخزين</menu_volume_info>
+    <menu_rename>إعادة تسمية البند</menu_rename>
+    <menu_delete>حذف بند (بنود)[C]</menu_delete>
+    <menu_cut>قص بند (بنود)</menu_cut>
+    <menu_copy>نسخ بند (بنود)[1]</menu_copy>
+    <menu_paste>لصق بند (بنود)[3]</menu_paste>
+    <menu_select>تحديد[*#]</menu_select>
+    <menu_unselect>إلغاء التحديد[*#]</menu_unselect>
+    <menu_select_all>تحديد الكل</menu_select_all>
+    <menu_select_none>إلغاء تحديد الكل</menu_select_none>
+    <menu_select_invert>عكس الاختيار</menu_select_invert>
+    <fast_key>رجوع</fast_key>
+    <root_added_title>إضافة وحدة تخزين</root_added_title>
+    <root_added_message>تم إضافة وحدة تخزين إلى نظام الملفات المحلية.\\جزر التخزين&gt;</root_added_message>
+    <root_removed_title>إزالة تخزين</root_removed_title>
+    <root_removed_message>تم إزالة وحدة تخزين من نظام الملفات المحلية.\\جذر التخزين&gt;</root_removed_message>
+    <unsupported_title>نوع ملف غير مدعوم</unsupported_title>
+    <unsupported_message>المستعرض الداخلي لا يدعم نوع هذا الملف حاليًا.</unsupported_message>
+    <open_error_title>خطأ في الفتح</open_error_title>
+    <open_error_message>لا يمكن فتح الملف [color=blue][off]%1[/off][/color] بالمستعرض الداخلي\\السبب:\</open_error_message>
+    <create_title>أدخل اسم المجلد:</create_title>
+    <create_value>مجلد جديد</create_value>
+    <create_message>لا يمكن إنشاء [color=blue][off]%1[/off][/color] مجبد جديد في الموضع الحالي.\\السبب:\</create_message>
+    <rename_title>اسم البند الجديد:</rename_title>
+    <rename_message>لا يمكن إعادة تسمية البند الحالي بهذا [color=blue][off]%1[/off][/color] الاسم.\\السبب:\</rename_message>
+    <read_message>لا يمكن قرارة محتوى [color=blue][off]%1[/off][/color] المجلد.\\السبب:\</read_message>
+    <info_message>لا يمكن الحصول على المعلومات من نظام الملفات [color=blue][off]%1[/off][/color].\\السبب:\</info_message>
+    <fc_open_message>لا يمكن فتح ملف اتصال البند المطلوب.\\السبب:\</fc_open_message>
+    <delete_message>لا يمكن حذف [color=blue][off]%1[/off][/color] البند من نظام الملفات المحلية.\\السبب:\</delete_message>
+    <confirm_title>يرحى التأكد</confirm_title>
+    <confirm_message>هل ترغب حقًا في حذف البنود المحددة؟</confirm_message>
+    <paste_message>لا يمكن لصق [color=blue][off]%1[/off][/color] البند في نظام الملفات المحلية.\\السبب:\</paste_message>
+    <paste_file_title>يرجى التأكد من أن</paste_file_title>
+    <paste_file_message>الملف [color=blue][off]%1[/off][/color] موجود بالفعل في المجلد الوجهة!\\هل تريد إعادة تسميته أم استبداله؟</paste_file_message>
+    <paste_path_title>يرجى التأكد أن</paste_path_title>
+    <paste_path_message>المجلد [color=blue][off]%1[/off][/color] موجود بالفعل!\\هل تريد إعادة تسميته أم استبداله؟</paste_path_message>
+    <paste_checkbox>كل</paste_checkbox>
+    <cancel_title>فك الضغط أُلغي</cancel_title>
+    <cancel_message>قام المستخدم بإلغاء عملية فقك ضغط الأرشيف!</cancel_message>
+    <tar_filename>%1 الاسم:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+    <download>جارى التنزيل...</download>
+    <menu_download>البنود المنزلة</menu_download>
+    <menu_open>فتح بند[5F]</menu_open>
+    <menu_open_txt>الفتح كنص</menu_open_txt>
+    <menu_open_hex>الفتح بالنظام الثنائي</menu_open_hex>
+    <menu_search>البحث عن البنود...</menu_search>
+    <menu_disconnect>قطع الاتصال</menu_disconnect>
+    <menu_back>الرجوع مستوى واحد لأعلى</menu_back>
+    <menu_root>الذهاب إلى الجذر[B]</menu_root>
+    <menu_item>الذهاب إلى مجلد البند</menu_item>
+    <menu_refresh>تحديث المجلد</menu_refresh>
+    <menu_create>إنشاء مجلد</menu_create>
+    <menu_item_info>معلومات البند[7]</menu_item_info>
+    <menu_delete>حذف البند (البنود)[C]</menu_delete>
+    <menu_cut>قص البند (البنود)</menu_cut>
+    <menu_copy>نسخ بند (بنود)[1]</menu_copy>
+    <menu_paste>لصق بند (بنود)[3]</menu_paste>
+    <menu_select>تحديد[*#]</menu_select>
+    <menu_unselect>إلغاء التحديد[*#]</menu_unselect>
+    <menu_select_all>تحديد الكل</menu_select_all>
+    <menu_select_none>إلغاء تحديد الكل</menu_select_none>
+    <menu_select_invert>عكس الاختيار</menu_select_invert>
+    <fast_key>رجوع</fast_key>
+    <unsupported_title>نوع الملف غير مدعم</unsupported_title>
+    <unsupported_message>لا يدعم المستعرض الداخلى نوع هذا الملف حاليًا.</unsupported_message>
+    <open_error_title>خطأ في الفتح</open_error_title>
+    <open_error_message>لا يمكن فتح الملف [color=blue][off]%1[/off][/color] بالمستعرض الداخلي\\السبب:\</open_error_message>
+    <create_title>أدخل اسم المجلد:</create_title>
+    <create_value>مجلد جديد</create_value>
+    <create_message>لا يمكن إنشاء [color=blue][off]%1[/off][/color] مجلد جديد في هذا الموضع.\\السبب:\</create_message>
+    <confirm_title>يرجى التأكيد</confirm_title>
+    <delete_confirm>هل تريد حذف البنود المحددة حقًا؟</delete_confirm>
+    <delete_message>لا يمكن حذف [color=blue][off]%1[/off][/color] البند من الجهاز البعيد.\\السبب:\</delete_message>
+    <disconnect_confirm>هل تود حقًا قطع الاتصال مع الجهاز البعيد؟</disconnect_confirm>
+    <disconnect_message>لا يمكن قطع الاتصال مع الجهاز البعيد.\\السبب:\</disconnect_message>
+    <enter_message>لا يمكن الدخول إلى [color=blue][off]%1[/off][/color] المجلد.\\السبب:\</enter_message>
+    <back_message>لا يمكن الرجوع مستوى واحد لأعلى.\\السبب:\</back_message>
+    <root_message>لا يمكن الرجوع إلى المجلد الجذر.\\السبب:\</root_message>
+    <read_message>لا يمكن قراءة محتوي المجلد الحالى.\\السبب:\</read_message>
+    <paste_err_title>غير مدعوم</paste_err_title>
+    <paste_err_message>حاليًا، لا يمكنك [color=blue]قص أو نسخ[/color] ثم [color=blue]لصق[/color] بند ما في نفس جهاز البلوتوث!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+    <menu_extract>فك ضغط البنود المحددة[1]</menu_extract>
+    <menu_close>إغلاق الأرشيف</menu_close>
+    <menu_open>فتح البند[5F]</menu_open>
+    <menu_open_txt>الفتح كنص</menu_open_txt>
+    <menu_open_hex>الفتح كنظام ثنائي</menu_open_hex>
+    <menu_item_info>معلومات البند[7]</menu_item_info>
+    <menu_back>الرجوع مستوى واحد لأعلى</menu_back>
+    <menu_root>الذهاب إلى الجذر[B]</menu_root>
+    <menu_select>تحديد[*#]</menu_select>
+    <menu_unselect>إلغاء التحديد[*#]</menu_unselect>
+    <menu_select_all>تحديد الكل</menu_select_all>
+    <menu_select_none>إلغاء تحديد الكل</menu_select_none>
+    <menu_select_invert>عكس الاختيار</menu_select_invert>
+    <fast_key>رجوع</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>موافق</ok_button>
+    <ko_button>إلغاء</ko_button>
+  </uib>
+
+  <usp>
+    <title>معايير البحث</title>
+    <ok_button>موافق</ok_button>
+    <ko_button>إلغاء</ko_button>
+    <reset_form_btn>القيم الافتراضية</reset_form_btn>
+    <clear_mode_btn>إلغاء &quot;وضع البحث&quot;</clear_mode_btn>
+    <check_mode_btn>اختيار &quot;وضع البحث&quot;</check_mode_btn>
+    <clear_from_date_btn>إلغاء &quot;من تاريخ&quot;</clear_from_date_btn>
+    <clear_to_date_btn>إلغاء &quot;إلى تاريخ&quot;</clear_to_date_btn>
+    <text_lbl>نص البحث:</text_lbl>
+    <mode_lbl>وضع البحث:</mode_lbl>
+    <mode_txt type="array">
+      <value>إيجاد مجلدات</value>
+      <value>إيجاد صور</value>
+      <value>إيجاد ملفات صوتية</value>
+      <value>إيجاد ملفات فيديو</value>
+      <value>إيجاد ملفات نصية</value>
+      <value>إيجاد ملفات تنفيذية</value>
+      <value>إيجاد ملفات مضغوطة</value>
+      <value>إيجاد ملفات ويب</value>
+      <value>إيجاد سمات</value>
+      <value>إيجاد ملفات غير معروفة</value>
+    </mode_txt>
+    <min_size_lbl>الحجم الأدنى (كب):</min_size_lbl>
+    <max_size_lbl>الحجم الأقصى (كب):</max_size_lbl>
+    <min_date_lbl>من يوم:</min_date_lbl>
+    <max_date_lbl>إلى يوم:</max_date_lbl>
+    <title_error>خطأ معايير</title_error>
+    <size_error>لابد أن يكون &quot;الحد الأدني&quot; أقل من أو يساوى &quot;الحد الأقصى&quot;!</size_error>
+    <date_error>&quot;من يوم&quot; لابد أن يكون أقل من أو يساوى &quot;إلى يوم&quot;!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>جارى البحث...</title>
+    <keys type="array">
+      <value>وُجد:</value>
+      <value>خطأ:</value>
+      <value>المسار:</value>
+    </keys>
+    <stop_title>إيقاف البحث؟</stop_title>
+    <stop_message>هل ترغب حقًا في إيقاف عملية البحث الحالية؟\[color=blue]سيتم عرض النتائج الحالية![/color]</stop_message>
+    <cancel_title>إلغاء البحث؟</cancel_title>
+    <cancel_message>هل ترغب حقًا في إلغاء عملية البحث الحالية؟</cancel_message>
+    <errors_title>تم بدون أخطاء</errors_title>
+    <errors_message>اكتملت عملية البحث مع [b]%1[/b] أخطاء. إليك قائمة الأخطاء:</errors_message>
+    <errors_label>\[color=red][b]• خطأ %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>لا يوجد نتائج</empty_title>
+    <empty_message>اكتملت عمليت البحث بدون نتائج.</empty_message>
+    <aborted_title>تم إلغاء البحث</aborted_title>
+    <aborted_message>قام المستخدم بإلغاء البحث.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>جارى فك الضغط...</title>
+    <captions type="array">
+      <value>المسار:</value>
+      <value>الملف:</value>
+    </captions>
+    <extract_error>لا يمكن فك ضغط ملف أرشيف ZIP.\\السبب:\</extract_error>
+    <format_title>خطأ صيغة ZIP</format_title>
+    <format_message>حدثت مشاكل مع صيغة الملف الحالي.\\السبب:\</format_message>
+    <format_error>قام المستخدم بإيقاف عملية فك الضغط.\\السبب:\</format_error>
+    <done_title>تم!</done_title>
+    <done_normal>اكتمل فك الضغط بنجاح!</done_normal>
+    <done_errors>تم فك الضغط مع وجود أخطاء.</done_errors>
+    <confirm_title>إلغاء فك الضغط؟</confirm_title>
+    <confirm_message>هل ترغب حقًا في إلغاء عملية فك الضغط؟</confirm_message>
+    <abort_title>تم إلغاء فك الضغط</abort_title>
+    <abort_message>قام المستخدم بإلغاء فك الضغط.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>جارى الضغط...</title>
+    <captions type="array">
+      <value>المسار:</value>
+      <value>الملف:</value>
+    </captions>
+    <finalizing>(إكمال الأرشيف)</finalizing>
+    <compress_error>لا يمكن إتمام ملف الأرشيف.\\السبب:\</compress_error>
+    <done_title>تم!</done_title>
+    <done_message>تم الضغط بنجاح!</done_message>
+    <abort_title>تم إلغاء الضغط</abort_title>
+    <abort_message>قام المستخدم بإلغاء الضغط.</abort_message>
+    <confirm_title>إلغاء الضغط؟</confirm_title>
+    <confirm_message>هل ترغب حقًا في إلغاء عملية الضغط؟</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>ملف جديد %1</title>
+    <filename>%1 الاسم:</filename>
+    <password>%1 كلمة السر:</password>
+    <password_title>كلمة السر قصيرة جدًا</password_title>
+    <password_message>يجب ألا يقل طول حروف كلمة السر عن %1!</password_message>
+    <method_title>أسلوب الضغط:</method_title>
+    <method_items type="array">
+      <value>Stored (غير مضغوط)</value>
+      <value>Deflate (أفضل اختيار)</value>
+      <value>Deflate64 (أقل توافق)</value>
+    </method_items>
+  </uzf>
+</language>

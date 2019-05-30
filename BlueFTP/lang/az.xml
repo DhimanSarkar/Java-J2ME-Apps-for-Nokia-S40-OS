@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="Azəri" lid="az" cid="AZ">
+  <common>
+    <no>Xeyr</no>
+    <yes>Bəli</yes>
+    <root>&lt;əsas bölmə&gt;</root>
+    <search_mode>&lt;axtarış&gt;</search_mode>
+    <none>(heç nə)</none>
+    <empty>(boş)</empty>
+    <denied>İcazə verilməyib</denied>
+    <allowed>İcazə verilib</allowed>
+    <copy_suffix> - Nüsxə</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>Lokal</value>
+      <value>Bluetooth</value>
+    </pages>
+    <menu_clean>Tam ekran[0]</menu_clean>
+    <menu_lang>Dil seçimi</menu_lang>
+    <menu_pass>Şifrə təyin et</menu_pass>
+    <menu_about>Proqram haqqında...</menu_about>
+    <menu_help>Kömək</menu_help>
+    <menu_exit>Çıxış</menu_exit>
+    <help_title>Kömək</help_title>
+    <help_message>[b]DÜYMƏLƏR[/b]\• Lokal və Bluetooth arasında keçid etmək üçün [color=blue]sol coystik[/color] və ya [color=blue]4[/color] və [color=blue]sağ coystik[/color] və ya [color=blue]6[/color] düymələrindən istifadə edin.\• Əsas menyunu açmaq/bağlamaq üçün [color=blue]sol menyu[/color] düyməsindən istifadə edin.\• Əmri tez yerinə yetirmək üçün [color=blue]sağ menyu[/color] düyməsindən istifadə edin.\• Cari obyekti işarələmək/işarələməmək üçün [color=blue]#[/color] və ya [color=blue]*[/color] düyməsindən istifadə edin.\• İşarələnmiş cari obyekti buferə köçürmək üçün [color=blue]1[/color] düyməsindən istifadə edin.\• Obyekti buferdən cari qovluğa əlavə etmək üçün [color=blue]3[/color] düyməsindən istifadə edin.\• Tam ekran rejiminə girmək/çıxmaq üçün [color=blue]0[/color] düyməsindən istifadə edin: yuxarı və aşağı çərçivə olmadan.\\[b]MENYU[/b]\[color=#800080]Nə vaxt ki, menyu ikon-lardan ibarət olur və siz düymələrdən istifadə edərək əmrləri yerinə yetirirsiniz[/color]\• Əmrlər arası yerdəyişmə üçün [color=blue]yuxarı[/color] və ya [color=blue]2[/color] və [color=blue]aşağı[/color] və ya [color=blue]8[/color] düymələrindən istifadə edin.\• Seçilmiş əmri yerinə yetirmək üçün [color=blue]MƏRKƏZ[/color] və ya [color=blue]5[/color] düyməsindən istifadə edin.\• Əsas menyunu bağlamaq üçün [color=blue]sol menyu[/color] və ya [color=blue]GERİ[/color] düymələrindən istifadə edin.\\[b]DİALOQ PƏNCƏRƏSİ[/b]\• Sol düyməni seçmək üçün [color=blue]sol menyu[/color] düyməsindən istifadə edin ([color=green]yaşıl[/color]).\• Sağ düyməni seçmək üçün [color=blue]sağ menyu[/color] düyməsindən istifadə edin ([color=red]qırmızı[/color]).\• Düyməni basmaq üçün [color=blue]MƏRKƏZ[/color] və ya [color=blue]5[/color] düyməsindən istifadə edin (vahid seçim).</help_message>
+    <bt_mex>[color=#FF8080]Bu qurğu Bluetooth API (JSR-82)-ni dəstəkləmir, ona görə də siz digər qurğularla əlaqə yarada bilməzsiniz.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]Bluetooth-u açın və proqramı yenidən işə salın![/color]</bt_off>
+    <fc_mex>[color=#FF8080]Bu qurğu FileConnection API (JSR-75)-ni dəstəkləmir, ona görə də siz öz qurğunuzun fayl sisteminə giriş edə bilməzsiniz.[/color]</fc_mex>
+    <dialog_bt_off_title>Bluetooth passivdir</dialog_bt_off_title>
+    <dialog_bt_off_message>Bluetooth hazırki vaxtda [b]BAĞLIDIR[/b]! Zəhmət olmasa, [u][color=blue]Bluetooth-u açın[/color][/u] və proqramı yenidən işə salın.</dialog_bt_off_message>
+    <version_title>Yeni versiya!</version_title>
+    <version_message>Proqramın yeni versiyası, [b][color=blue]v%1[/color][/b], bizim serverdə mövcuddur, onu saytdan pulsuz yükləyə bilərsiniz: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>PayPal bağışlama</donation_title>
+    <donation_message>Əgər bu proqram xoşunuza gəldisə, zəhmət olmasa, [b][color=blue]bağışlama[/color][/b] edin!\Bu proqramın üzərində işləmək üçün vaxt və güc lazımdır... [url]http://blueftp.medieval.it/[/url] saytına baş çəkin və bizə pulsuz proqramların üzərində işləmək üçün yardımçı olun!</donation_message>
+    <security_title>Təhlükəsizlik problemləri</security_title>
+    <security_message>Bu qurğunun fayl sisteminə giriş əldə etmək mümkün deyil. Bu proqram üçün lazımi hüquqlarınızın olduğuna (oxuma və yazma) əmin olun.\Növbəti quraşdırmalar üçün telefonunuzun məlumat kitabçasına baxın...\\Səbəb:\</security_message>
+    <outofmemory_title>Yaddaş çatışmır!</outofmemory_title>
+    <outofmemory_message>[color=blue][off]%1[/off][/color] faylını daxili göstərici ilə açmaq olmaq üçün yaddaş çatışmır.\\Səbəb:\</outofmemory_message>
+    <set_password>Şifrə ilə qoruma:</set_password>
+    <get_password>Başlamaq üçün şifrə daxil edin:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>Menyu</open_menu>
+    <close_menu>Bağla</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(bu qovluq boşdur)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>oldu</value>
+      <value>davam</value>
+      <value>bəli</value>
+      <value>yadda saxla</value>
+      <value>dayandır</value>
+      <value>daxil ol</value>
+      <value>adını dəyişdir</value>
+      <value>xeyr</value>
+      <value>imtina</value>
+      <value>yenidən yaz</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>Reklam (yalnız bir dəfə)</title>
+    <wait>Zəhmət olmasa, gözləyin...</wait>
+    <count>...və ya %1 saniyə gözləyin...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>Oxuma atributu</value>
+      <value>Yazma atributu</value>
+      <value>Gizli atributu</value>
+    </items>
+    <read_message>Bu obyektin [b]oxuma[/b] atributunu dəyişdirmək olmur.\\Səbəb:\</read_message>
+    <write_message>Bu obyektin [b]yazma[/b] atributunu dəyişdirmək olmur.\\Səbəb:\</write_message>
+    <hidden_message>Bu obyektin [b]gizli[/b] atributunu dəyişdirmək olmur.\\Səbəb:\</hidden_message>
+    <fc_read_message>Tələb olunan obyekt üçün əlaqə faylını (oxuma) açmaq olmur.\\Səbəb:\</fc_read_message>
+    <fc_write_message>Tələb olunan obyekt üçün əlaqə faylını (yazma) açmaq olmur.\\Səbəb:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>Bölmə:</value>
+      <value>Həcm:</value>
+      <value>Bayt:</value>
+      <value>Tarix:</value>
+      <value>Vaxt:</value>
+      <value>Oxuma:</value>
+      <value>Yazma:</value>
+      <value>Gizli:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>Ad:</value>
+      <value>Boş:</value>
+      <value>Dolub:</value>
+      <value>Cəmi:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>Bölmə:</value>
+      <value>Ad:</value>
+      <value>Alias:</value>
+      <value>Həcm:</value>
+      <value>Bayt:</value>
+      <value>Tarix:</value>
+      <value>Vaxt:</value>
+      <value>Oxuma:</value>
+      <value>Yazma:</value>
+      <value>Sil:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>Bölmə:</value>
+      <value>Əmr:</value>
+      <value>Tarix:</value>
+      <value>Vaxt:</value>
+      <value>Paket.:</value>
+      <value>Həcm:</value>
+      <value>Ratio:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>ZIP ver:</value>
+      <value>Metod:</value>
+      <value>Səviyyə:</value>
+      <value>Şifrə.:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mode:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>Səviyyə:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>Qurğu haqqında</title>
+    <minor_default>(naməlum)</minor_default>
+    <major_default>(başqa tip)</major_default>
+    <captions type="array">
+      <value>MAC:</value>
+      <value>Ad:</value>
+      <value>Tip:</value>
+      <value></value>
+      <value>Serv.:</value>
+    </captions>
+    <major type="array">
+      <value>Müxtəlif</value>
+      <value>Kompüter</value>
+      <value>Telefon</value>
+      <value>LAN</value>
+      <value>Аudio</value>
+      <value>Periferiya</value>
+      <value>Təsviretmə</value>
+    </major>
+    <minor_1 type="array">
+      <value>(başqa tip)</value>
+      <value>İşçi kompüter</value>
+      <value>Server</value>
+      <value>Noutbuk</value>
+      <value>Cib kompüteri</value>
+      <value>Palm</value>
+      <value>Mikro-ekran kompüter</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(başqa tip)</value>
+      <value>Cellular</value>
+      <value>Daşınan</value>
+      <value>Smartfon</value>
+      <value>Simsiz modem</value>
+      <value>ISDN giriş</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>Tam giriş</value>
+      <value>1% - 17% istifadə edilib</value>
+      <value>17% - 33% istifadə edilib</value>
+      <value>33% - 50% istifadə edilib</value>
+      <value>50% - 67% istifadə edilib</value>
+      <value>67% - 83% istifadə edilib</value>
+      <value>83% - 99% istifadə edilib</value>
+      <value>Xidmət mövcud deyil</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(başqa tip)</value>
+      <value>Qulaqcıqlar</value>
+      <value>Əllər sərbəst</value>
+      <value>(ehtiyat kimi saxlanmış)</value>
+      <value>Mikrofon</value>
+      <value>Ucadan danışan</value>
+      <value>Qulaqcıqlar</value>
+      <value>Portativ audio</value>
+      <value>Avtomobil audio</value>
+      <value>Set-top audio</value>
+      <value>Hi-fi audio</value>
+      <value>VCR</value>
+      <value>Video kamera</value>
+      <value>Videokamera</value>
+      <value>Video monitor</value>
+      <value>Video ekran və ucadan danışan</value>
+      <value>Video-konfrans-əlaqə</value>
+      <value>(ehtiyat kimi saxlanmış)</value>
+      <value>Oyun qurğusu</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(dəstəklənmir) / </value>
+      <value>Klaviatura / </value>
+      <value>Manipulyator / </value>
+      <value>Klaviatura və Manipulyator / </value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(başqa tip)</value>
+      <value>Coystik</value>
+      <value>Gamepad</value>
+      <value>Uzaqdan idarəetmə</value>
+      <value>Göstərilən qurğu</value>
+      <value>Qrafiki planşet</value>
+      <value>Kartrider</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>Ekran</value>
+      <value>Kamera</value>
+      <value>Skaner</value>
+      <value>Printer</value>
+    </minor_6>
+    <services type="array">
+      <value>Həddli görünüş</value>
+      <value>(ehtiyat kimi saxlanmış)</value>
+      <value>(ehtiyat kimi saxlanmış)</value>
+      <value>Yerləşmə</value>
+      <value>Şəbəkə təşkilatı</value>
+      <value>Verilmə</value>
+      <value>Alınma</value>
+      <value>Obyektin köçürülməsi</value>
+      <value>Аudio</value>
+      <value>Telefoniya</value>
+      <value>İnformasiya</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>Bölmə:</value>
+      <value>Fayl:</value>
+      <value>Verilənlər:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>Köçürməni dayandırırsınız?</confirm_title>
+    <confirm_message>Cari köçürməni dayandırmaq istəyirsiniz?</confirm_message>
+    <success_title>Köçürmə qurtardı</success_title>
+    <success_message>Verilənlərin köçürülməsi başa çatdı!</success_message>
+    <abort_title>Köçürmə dayandırıldı</abort_title>
+    <abort_message>İstifadəçi köçürmə əməliyyatını dayandırdı.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>Obyekt(lər)i digər qurğuya göndərmək olmur.\\Səbəb:\</send_error>
+    <file_open_error>Lokal fayl sistemindəki mənbə faylını (oxuma hüququ) açmaq olmur.\\Səbəb:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>Obyekt(lər)i digər qurğuya yükləmək olmur.\\Səbəb:\</upload_error>
+    <file_open_error>Lokal fayl sistemindəki mənbə faylını (oxuma hüququ) açmaq olmur.\\Səbəb:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>Göstərilən qovluğu (oxuma və yazma hüququ) lokal fayl sistemində yaratmaq olmur.\\Səbəb:\</path_create_error>
+    <file_create_error>Göstərilən faylı (oxuma və yazma hüququ) lokal fayl sistemində yaratmaq olmur.\\Səbəb:\</file_create_error>
+    <download_error>Göstərilən obyektl(lər)i (oxuma və yazma hüququ) lokal fayl sisteminə yükləmək olmur.\\Səbəb:\</download_error>
+    <listing>(qovluqların sıralanması)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>Axtarış xidməti</value>
+      <value>Qurğu ilə əlaqə</value>
+      <value>Faylların yüklənməsi</value>
+    </tasks>
+    <profile_ftp>[url]File Transfer Profile[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]Object Push Profile[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>Qurğu siyahısına qayıt</menu_back_ftp>
+    <menu_back_opp>Lokal fayl siyahısına qayıt</menu_back_opp>
+    <fast_back>Geri</fast_back>
+    <fast_cancel>İmtina</fast_cancel>
+    <agent_message>Bluetooth API lokal görünüş agentini əldə etmək olmur.\\Səbəb:\</agent_message>
+    <start_message>%1 axtarış xidmətini işa salmaq olmur.\\Səbəb:\</start_message>
+    <abort_title>Əlaqə dayandırıldı</abort_title>
+    <abort_message>Seçilən qurğu ilə əlaqə istifadəçi tərəfindən dayandırıldı.</abort_message>
+    <error_title>Əlaqə xətası</error_title>
+    <unreachable_message>Seçilən qurğuya giriş mümkün deyil.</unreachable_message>
+    <search_message>%1 axtarış xidmətində xəta baş verdi.</search_message>
+    <notfound_message>Seçilən qurğu ilə əlaqə yarada bilməzsiniz, çünki %1 BT xidmətində xəta baş verə bilər.</notfound_message>
+    <connect_message>Seçilən qurğu ilə əlaqə yaratmaq olmur.\\Səbəb:\</connect_message>
+    <loading_message>Seçilən qurğudan verilənləri yükləmək olmur.\\Səbəb:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>Lokal fayl siyahısına qayıt</menu_back>
+    <menu_connect>Qoşul[5F]</menu_connect>
+    <menu_addbook>Bağlantı əlavə et</menu_addbook>
+    <menu_delbook>Bağlantını sil[C]</menu_delbook>
+    <menu_search>Qurğu axtar</menu_search>
+    <menu_info>Qurğu haqqında[7]</menu_info>
+    <fast_search>Axtarış</fast_search>
+    <fast_cancel>İmtina</fast_cancel>
+    <nodevices_message>[color=#5555FF]Bluetooth qurğusu tapılmadı!\Zəhmət olmasa, [b]Axtarış[/b] düyməsini basın.[/color]</nodevices_message>
+    <abort_title>İmtina edildi</abort_title>
+    <abort_message>İstifadəçi axtarışı dayandırdı.</abort_message>
+    <error_title>Axtarış xətası</error_title>
+    <error_message>Axtarış zamanı xəta baş verdi.\[color=blue][b]Bluetooth açıqdır?[/b][/color]</error_message>
+    <confirm_title>Zəhmət olmasa, təsdiqləyin</confirm_title>
+    <confirm_message>Siz [color=blue]%1[/color] qurğusunu bağlantı siyahısından silmək istəyirsiniz?</confirm_message>
+    <notfound_title>Nəticə yoxdur</notfound_title>
+    <notfound_message>Bluetooth qurğularının axtarışı nəticəsiz başa çatdı.\[color=blue][b]Axtarış[/b][/color]-a yenidən cəhd edin!</notfound_message>
+    <noaddbook_title>Əlavə etmək olmur</noaddbook_title>
+    <noaddbook_message>Qurğu bağlantı siyahısında mövcuddur.</noaddbook_message>
+    <opp_message>Qurğu seçin:</opp_message>
+    <infrared>İnfraqırmızı</infrared>
+  </gcld>
+
+  <gclfl>
+   <send>Göndərilir...</send>
+   <upload>Yüklənir...</upload>
+   <menu_upload>Obyekt(lər)i yüklə</menu_upload>
+   <menu_open>Obyekti aç[5F]</menu_open>
+   <menu_open_txt>Mətn kimi aç</menu_open_txt>
+   <menu_open_hex>Bin kimi aç</menu_open_hex>
+   <menu_search>Obyektləri axtarışı...</menu_search>
+   <menu_send_bt>Bluetooth ilə göndər</menu_send_bt>
+   <menu_send_ir>İnfraqırmızı ilə göndər</menu_send_ir>
+   <menu_compress_zip>Obyektləri sıx (zip)</menu_compress_zip>
+   <menu_compress_tar>Obyektləri sıx (tar)</menu_compress_tar>
+   <menu_compress_jar>Obyektləri sıx (jar)</menu_compress_jar>
+   <menu_compress_nth>Obyektləri sıx (nth)</menu_compress_nth>
+   <menu_compress_thm>Obyektləri sıx (thm)</menu_compress_thm>
+   <menu_compress_gz>Faylı sıx (gz)</menu_compress_gz>
+   <menu_extract>Obyektləri buraya çıxar[3]</menu_extract>
+   <menu_cancel>Arxivləşdirməni dayandır</menu_cancel>  
+   <menu_back>Yuxarı get</menu_back>
+   <menu_root>Əsas bölməyə get[B]</menu_root>
+   <menu_item>Obyekt qovluğuna get</menu_item>
+   <menu_refresh>Qovluğu yenilə</menu_refresh>
+   <menu_create>Qovluq yarat</menu_create>
+   <menu_item_info>Obyekt haqqında[7]</menu_item_info>
+   <menu_attrib>Obyekt atributları[9]</menu_attrib>
+   <menu_volume_info>Bölmə həcmi</menu_volume_info>
+   <menu_rename>Obyektin adını dəyişdir</menu_rename>
+   <menu_delete>Obyekt(lər)i sil[C]</menu_delete>
+   <menu_cut>Obyekt(lər)i kəs</menu_cut>
+   <menu_copy>Obyekt(lər)i köçür[1]</menu_copy>
+   <menu_paste>Obyekt(lər)i əlavə et[3]</menu_paste>
+   <menu_select>Seç[*#]</menu_select>
+   <menu_unselect>Seçmə[*#]</menu_unselect>
+   <menu_select_all>Hamısını seç</menu_select_all>
+   <menu_select_none>Heç nəyi seçmə</menu_select_none>
+   <menu_select_invert>Seçimi dəyişdir</menu_select_invert>
+   <fast_key>Geri</fast_key>
+   <root_added_title>Saxlama əlavə olundu</root_added_title>
+   <root_added_message>Yeni saxlama qurğusu lokal fayl sistemə əlavə olundu.\\Saxlama bölməsi&gt; </root_added_message>
+   <root_removed_title>Saxlama silindi</root_removed_title>
+   <root_removed_message>Yeni saxlama qurğusu lokal fayl sistemdən silindi.\\Saxlama bölməsi&gt; </root_removed_message>
+   <unsupported_title>Dəstəklənməyən fayl tipi</unsupported_title>
+   <unsupported_message>Bu fayl tipini daxili göstərici dəstəkləmir.</unsupported_message>
+   <open_error_title>Açılma xətası</open_error_title>
+   <open_error_message>[color=blue][off]%1[/off][/color] faylını xarici göstəricidə açmaq olmur.\\Səbəb:\</open_error_message>
+   <create_title>Qovluğun adını daxil edin:</create_title>
+   <create_value>Yeni qovluq</create_value>
+   <create_message>Cari mövqedə [color=blue][off]%1[/off][/color] qovluğunu yaratmaq olmur.\\Səbəb:\</create_message>
+   <rename_title>Obyektin yeni adı:</rename_title>
+   <rename_message>Cari obyektə [color=blue][off]%1[/off][/color] adını vermək olmur.\\Səbəb:\</rename_message>
+   <read_message>[color=blue][off]%1[/off][/color] qovluğunun daxilini oxumaq olmur.\\Səbəb:\</read_message>
+   <info_message>Fayl sistemindən informasiya əldə etmək olmur [color=blue][off]%1[/off][/color].\\Səbəb:\</info_message>
+   <fc_open_message>Cari obyekt üçün fayl əlaqəsini açmaq olmur.\\Səbəb:\</fc_open_message>
+   <delete_message>Lokal fayl sistemindən [color=blue][off]%1[/off][/color] obyektini silmək olmur.\\Səbəb:\</delete_message>
+   <confirm_title>Zəhmət olmasa, təsdiqləyin</confirm_title>
+   <confirm_message>Siz seçilən obyektləri silmək istəyirsiniz?</confirm_message>
+   <paste_message>[color=blue][off]%1[/off][/color] obyektini lokal fayl sistemə əlavə etmək olmur.\\Səbəb:\</paste_message>
+   <paste_file_title>Zəhmət olmasa, təsdiqləyin</paste_file_title>
+   <paste_file_message>[color=blue][off]%1[/off][/color] faylı qovluqda mövcuddur!\\Adını dəyişdirmək və ya üzərinə yazmaq istəyirsiniz?</paste_file_message>
+   <paste_path_title>Zəhmət olmasa, təsdiqləyin</paste_path_title>
+   <paste_path_message>[color=blue][off]%1[/off][/color] qovluğu artıq mövcuddur!\\Adını dəyişdirmək və ya üzərinə yazmaq istəyirsiniz?</paste_path_message>
+   <paste_checkbox>Bütün</paste_checkbox>
+   <cancel_title>Çıxarılma dayandırıldı</cancel_title>
+   <cancel_message>Arxivdən çıxarılma əməliyyatı dayandırıldı!</cancel_message>
+   <tar_filename>%1-in adı:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+   <download>Yüklənir...</download>
+   <menu_download>Obyekt(lər)i yüklə</menu_download>
+   <menu_open>Obyekti aç[5F]</menu_open>
+   <menu_open_txt>Mətn kimi aç</menu_open_txt>
+   <menu_open_hex>Bin kimi aç</menu_open_hex>
+   <menu_search>Obyektləri axtarışı...</menu_search>
+   <menu_disconnect>Əlaqəni kəs</menu_disconnect>
+   <menu_back>Yuxarı get</menu_back>
+   <menu_root>Əsas bölməyə get[B]</menu_root>
+   <menu_item>Obyekt qovluğuna get</menu_item>
+   <menu_refresh>Qovluğu yenilə</menu_refresh>
+   <menu_create>Qovluq yarat</menu_create>
+   <menu_item_info>Obyekt haqqında[7]</menu_item_info>
+   <menu_delete>Obyekt(lər)i sil[C]</menu_delete>
+   <menu_cut>Obyekt(lər)i kəs</menu_cut>
+   <menu_copy>Obyekt(lər)i köçür[1]</menu_copy>
+   <menu_paste>Obyekt(lər)i əlavə et[3]</menu_paste>
+   <menu_select>Seç[*#]</menu_select>
+   <menu_unselect>Seçmə[*#]</menu_unselect>
+   <menu_select_all>Hamısını seç</menu_select_all>
+   <menu_select_none>Heç nəyi seçmə</menu_select_none>
+   <menu_select_invert>Seçimi dəyişdir</menu_select_invert>
+   <fast_key>Geri</fast_key>
+   <unsupported_title>Dəstəklənməyən fayl tipi</unsupported_title>
+   <unsupported_message>Bu fayl tipini daxili göstərici dəstəkləmir.</unsupported_message>
+   <open_error_title>Açılma xətası</open_error_title>
+   <open_error_message>[color=blue][off]%1[/off][/color] faylını xarici göstəricidə açmaq olmur.\\Səbəb:\</open_error_message>
+   <create_title>Qovluğun adını daxil edin:</create_title>
+   <create_value>Yeni qovluq</create_value>
+   <create_message>Cari mövqedə [color=blue][off]%1[/off][/color] qovluğunu yaratmaq olmur.\\Səbəb:\</create_message>
+   <confirm_title>Zəhmət olmasa, təsdiqləyin</confirm_title>
+   <delete_confirm>Siz seçilən obyektləri silmək istəyirsiniz?</delete_confirm>
+   <delete_message>[color=blue][off]%1[/off][/color] obyektini seçilən qurğudan silmək olmur.\\Səbəb:\</delete_message>
+   <disconnect_confirm>Siz seçiləm qurğu ilə əlaqəni kəsirsiniz?</disconnect_confirm>
+   <disconnect_message>Seçilən qurğu ilə əlaqəni kəsmək olmur.\\Səbəb:\</disconnect_message>
+   <enter_message>[color=blue][off]%1[/off][/color] qovluğuna daxil olmaq olmur.\\Səbəb:\</enter_message>
+   <back_message>Yuxarıya getmək mümkün deyil.\\Səbəb:\</back_message>
+   <root_message>Əsas bölməyə qayıtmaq olmur.\\Səbəb:\</root_message>
+   <read_message>Cari qovluğun içindəkiləri oxumaq olmur.\\Səbəb:\</read_message>
+   <paste_err_title>Dəstəklənmir</paste_err_title>
+   <paste_err_message>Hazırki vaxtda siz bu Bluetooth qurğusunda obyektləri [color=blue]kəsə və köçürə[/color], həmçinin [color=blue]əlavə[/color] edə bilməzsiniz!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+   <menu_extract>Seçilmiş obyektləri çıxar[1]</menu_extract>
+   <menu_close>Arxivi bağla</menu_close>
+   <menu_open>Obyekti aç[5F]</menu_open>
+   <menu_open_txt>Mətn kimi aç</menu_open_txt>
+   <menu_open_hex>Bin kimi aç</menu_open_hex>
+   <menu_item_info>Obyekt haqqında[7]</menu_item_info>
+   <menu_back>Yuxarı get</menu_back>
+   <menu_root>Əsas bölməyə get[B]</menu_root>
+   <menu_select>Seç[*#]</menu_select>
+   <menu_unselect>Seçmə[*#]</menu_unselect>
+   <menu_select_all>Hamısını seç</menu_select_all>
+   <menu_select_none>Heç nəyi seçmə</menu_select_none>
+   <menu_select_invert>Seçimi dəyişdir</menu_select_invert>
+   <fast_key>Geri</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>Ok</ok_button>
+    <ko_button>İmtina</ko_button>
+  </uib>
+
+  <usp>
+    <title>Axtarış parametrləri</title>
+    <ok_button>Qəbul</ok_button>
+    <ko_button>İmtina</ko_button>
+    <reset_form_btn>Standartlar</reset_form_btn>
+    <clear_mode_btn>"Axtarış rejimi"ni sil</clear_mode_btn>
+    <check_mode_btn>"Axtarış rejimi"ni təyin et</check_mode_btn>
+    <clear_from_date_btn>"Tarixdən"-i sil</clear_from_date_btn>
+    <clear_to_date_btn>"Tarixə"-ni sil</clear_to_date_btn>
+    <text_lbl>Axtarış mətni:</text_lbl>
+    <mode_lbl>Axtarış rejimi:</mode_lbl>
+    <mode_txt type="array">
+      <value>Qovluq axtar</value>
+      <value>Şəkil axtar</value>
+      <value>Audio axtar</value>
+      <value>Video axtar</value>
+      <value>Mətn faylı axtar</value>
+      <value>EXE fayl axtar</value>
+      <value>Arxiv axtar</value>
+      <value>Veb səhifə axtar</value>
+      <value>Tema axtar</value>
+      <value>Naməlum fayl axtar</value>
+    </mode_txt>
+    <min_size_lbl>Minimal həcm (KB):</min_size_lbl>
+    <max_size_lbl>Maksimal həcm (KB):</max_size_lbl>
+    <min_date_lbl>Tarixdən:</min_date_lbl>
+    <max_date_lbl>Tarixə:</max_date_lbl>
+    <title_error>Parametr xətası</title_error>
+    <size_error>"Minimum həcm" nisbətən "Maksimum həcm"dən kiçik olmalıdır!</size_error>
+    <date_error>"Tarixdən" nisbətən "Tarixə"dən kiçik olmalıdır!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>Axtarır...</title>
+    <keys type="array">
+      <value>Tapıldı:</value>
+      <value>Xəta:</value>
+      <value>Bölmə:</value>
+    </keys>
+    <stop_title>Axtarışı dayandırırsınız?</stop_title>
+    <stop_message>Hazırki axtarışı dayandırmaq istəyirsiniz?\[color=blue]Hazırki nəticələr göstəriləcək![/color]</stop_message>
+    <cancel_title>Axtarışdan imtina edirsiniz?</cancel_title>
+    <cancel_message>Hazırki axtarışdan imtina edirsiniz?</cancel_message>
+    <errors_title>Xətalarla başa çatdı</errors_title>
+    <errors_message>Axtarış [b]%1[/b] xəta ilə başa çatdı. Xətaların siyahısı:</errors_message>
+    <errors_label>\[color=red][b]• Xəta %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>Nəticə yoxdur</empty_title>
+    <empty_message>Axtarış heç bir nəticə vermədi.</empty_message>
+    <aborted_title>Axtarış dayandırıldı</aborted_title>
+    <aborted_message>İstifadəçi axtarışı dayandırdı.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>Çıxarılır...</title>
+    <captions type="array">
+      <value>Bölmə:</value>
+      <value>Fayl:</value>
+    </captions>
+    <extract_error>Bu ZIP arxivdən obyektləri çıxarmaq olmur.\\Səbəb:\</extract_error>
+    <format_title>ZIP format xətası</format_title>
+    <format_message>Cari faylın formatı ilə bağlı problem mövcuddur.\\Səbəb:\</format_message>
+    <format_error>Çıxarılma prosesini dayandırdınız.\\Səbəb:\</format_error>
+    <done_title>Hazır!</done_title>
+    <done_normal>Uğurla çıxarıldı!</done_normal>
+    <done_errors>Çıxarma zamanı xəta baş verdi.</done_errors>
+    <confirm_title>Çıxarılma dayandırılsın?</confirm_title>
+    <confirm_message>Çıxarılma əməliyyatı dayandırılsın?</confirm_message>
+    <abort_title>Çıxarılma dayandırıldı</abort_title>
+    <abort_message>Çıxarılma əməliyyatı dayandırıldı.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>Arxivləşdirilir...</title>
+    <captions type="array">
+      <value>Bölmə:</value>
+      <value>Fayl:</value>
+    </captions>
+    <finalizing>(arxiv yaradılır)</finalizing>
+    <compress_error>Bu ZIP arxivi yaratmaq olmur.\\Səbəb:\</compress_error>
+    <done_title>Hazır!</done_title>
+    <done_message>Arxiv uğurla yaradıldı!</done_message>
+    <abort_title>Arxivləşdirmə dayandırıldı</abort_title>
+    <abort_message>Arxivləşdirmə əməliyyatı dayandırıldı.</abort_message>
+    <confirm_title>Arxivləşdirmə dayandırılsın?</confirm_title>
+    <confirm_message>Arxivləşdirmə əməliyyatını dayandırmaq istəyirsiniz?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>Yeni %1 fayl</title>
+    <filename>%1-in adı:</filename>
+    <password>%1-in şifrəsi:</password>
+    <password_title>Şifrə çox qısadır</password_title>
+    <password_message>Şifrə %1 simvoldan çox olmalıdır!</password_message>
+    <method_title>Sıxma üsulu:</method_title>
+    <method_items type="array">
+      <value>Stored (sıxılmasız)</value>
+      <value>Deflate (ən yaxşı seçim)</value>
+      <value>Deflate64 (az uyğunluq)</value>
+    </method_items>
+  </uzf>
+</language>

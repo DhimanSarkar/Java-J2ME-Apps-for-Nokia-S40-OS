@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="English" lid="en" cid="US,GB,AU">
+  <common>
+    <no>No</no>
+    <yes>Yes</yes>
+    <root>&lt;root&gt;</root>
+    <search_mode>&lt;search&gt;</search_mode>
+    <none>(none)</none>
+    <empty>(empty)</empty>
+    <denied>Denied</denied>
+    <allowed>Allowed</allowed>
+    <copy_suffix> - Copy</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>Local</value>
+      <value>Bluetooth</value>
+    </pages>
+    <menu_clean>Fullscreen mode[0]</menu_clean>
+    <menu_lang>Choose language</menu_lang>
+    <menu_pass>Set password</menu_pass>
+    <menu_about>About...</menu_about>
+    <menu_help>Help</menu_help>
+    <menu_exit>Exit</menu_exit>
+    <help_title>Help me!</help_title>
+    <help_message>[b]KEYS[/b]\• Press [color=blue]arrow left[/color] or [color=blue]key 4[/color] and [color=blue]arrow right[/color] or [color=blue]key 6[/color] to switch between local files and Bluetooth files.\• Press [color=blue]left menu[/color] to open/close main menu.\• Press [color=blue]right menu[/color] to execute on-screen fast command.\• Press [color=blue]key #[/color] or [color=blue]key *[/color] to select/unselect current item.\• Press [color=blue]key 1[/color] to copy currently selected items to clipboard.\• Press [color=blue]key 3[/color] to paste items from clipboard to current folder.\• Press [color=blue]key 0[/color] to enter into/exit from fullscreen mode: a view without top and bottom bars.\\[b]MENU[/b]\[color=#800080]When a menu item contains an icon, you can press that shortcut key to execute associated command.[/color]\• Press [color=blue]arrow up[/color] or [color=blue]key 2[/color] and [color=blue]arrow down[/color] or [color=blue]key 8[/color] to move between commands.\• Press [color=blue]FIRE key[/color] or [color=blue]key 5[/color] to execute currently selected command.\• Press [color=blue]left menu[/color] or [color=blue]BACK key[/color] to close main menu.\\[b]DIALOGS[/b]\• Press [color=blue]left menu[/color] to press left button ([color=green]green[/color]).\• Press [color=blue]right menu[/color] to press right button ([color=red]red[/color]).\• Press [color=blue]FIRE key[/color] or [color=blue]key 5[/color] to press button (when single).</help_message>
+    <bt_mex>[color=#FF8080]This device doesn't support the Bluetooth API (JSR-82), so you can't connect to any remote device.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]Please turn on Bluetooth\and restart the program![/color]</bt_off>
+    <fc_mex>[color=#FF8080]This device doesn't support the FileConnection API (JSR-75), so you can't access to filesystem of your device.[/color]</fc_mex>
+    <dialog_bt_off_title>Bluetooth OFF</dialog_bt_off_title>
+    <dialog_bt_off_message>Bluetooth is currently [b]OFF[/b]! Please, [u][color=blue]turn on Bluetooth[/color][/u] and restart the program.</dialog_bt_off_message>
+    <version_title>New version!</version_title>
+    <version_message>A new version of this program, [b][color=blue]v%1[/color][/b], was found online, you can freely download it here: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>PayPal donation</donation_title>
+    <donation_message>If you like this software, please, consider to make us a [b][color=blue]donation[/color][/b]!\Software development really needs a lot of time and efforts ... surf to [url]http://blueftp.medieval.it/[/url] and let us to continue free software development, with a small donation!</donation_message>
+    <security_title>Security troubles</security_title>
+    <security_message>Can't access to filesystem of this device. Make sure that you give right permissions (read &amp; write) to this application.\Please, read your device manual to get further informations...\\Reason:\</security_message>
+    <outofmemory_title>Out of memory!</outofmemory_title>
+    <outofmemory_message>Not enough memory to load file [color=blue][off]%1[/off][/color] with the internal viewer.\\Reason:\</outofmemory_message>
+    <set_password>Protection with password:</set_password>
+    <get_password>Enter password to start:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>Menu</open_menu>
+    <close_menu>Close</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(this folder is empty)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>ok</value>
+      <value>continue</value>
+      <value>yes</value>
+      <value>save</value>
+      <value>stop</value>
+      <value>visit</value>
+      <value>rename</value>
+      <value>no</value>
+      <value>cancel</value>
+      <value>overwrite</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>Advertising (1 time only)</title>
+    <wait>Please wait...</wait>
+    <count>...or wait %1 seconds...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>Read flag</value>
+      <value>Write flag</value>
+      <value>Hidden flag</value>
+    </items>
+    <read_message>Cannot modify [b]read[/b] flag of given item.\\Reason:\</read_message>
+    <write_message>Cannot modify [b]write[/b] flag of given item.\\Reason:\</write_message>
+    <hidden_message>Cannot modify [b]hidden[/b] flag of given item.\\Reason:\</hidden_message>
+    <fc_read_message>Can't open a file connection (read) for requested item.\\Reason:\</fc_read_message>
+    <fc_write_message>Can't open a file connection (write) for requested item.\\Reason:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>Path:</value>
+      <value>Size:</value>
+      <value>Byte:</value>
+      <value>Date:</value>
+      <value>Time:</value>
+      <value>Read:</value>
+      <value>Write:</value>
+      <value>Hidden:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>Name:</value>
+      <value>Free:</value>
+      <value>Used:</value>
+      <value>Total:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>Path:</value>
+      <value>Name:</value>
+      <value>Alias:</value>
+      <value>Size:</value>
+      <value>Byte:</value>
+      <value>Date:</value>
+      <value>Time:</value>
+      <value>Read:</value>
+      <value>Write:</value>
+      <value>Delete:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>Path:</value>
+      <value>Comm.:</value>
+      <value>Date:</value>
+      <value>Time:</value>
+      <value>Pack:</value>
+      <value>Size:</value>
+      <value>Ratio:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>ZIP ver:</value>
+      <value>Method:</value>
+      <value>Level:</value>
+      <value>Encrypt:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mode:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>Level:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>Device details</title>
+    <minor_default>(unknown)</minor_default>
+    <major_default>(unclassified)</major_default>
+    <captions type="array">
+      <value>MAC:</value>
+      <value>Name:</value>
+      <value>Type:</value>
+      <value></value>
+      <value>Serv.:</value>
+    </captions>
+    <major type="array">
+      <value>Miscellaneous</value>
+      <value>Computer</value>
+      <value>Phone</value>
+      <value>LAN</value>
+      <value>Audio</value>
+      <value>Peripheral</value>
+      <value>Imaging</value>
+    </major>
+    <minor_1 type="array">
+      <value>(unclassified)</value>
+      <value>Desktop</value>
+      <value>Server</value>
+      <value>Notebook</value>
+      <value>Handheld</value>
+      <value>Palm</value>
+      <value>Wearable</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(unclassified)</value>
+      <value>Cellular</value>
+      <value>Cordless</value>
+      <value>Smart phone</value>
+      <value>Wired modem</value>
+      <value>ISDN access</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>Fully available</value>
+      <value>1% - 17% utilised</value>
+      <value>17% - 33% utilised</value>
+      <value>33% - 50% utilised</value>
+      <value>50% - 67% utilised</value>
+      <value>67% - 83% utilised</value>
+      <value>83% - 99% utilised</value>
+      <value>No service available</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(unclassified)</value>
+      <value>Headset</value>
+      <value>Hands-free</value>
+      <value>(reserved)</value>
+      <value>Microphone</value>
+      <value>Loud speaker</value>
+      <value>Headphones</value>
+      <value>Portable audio</value>
+      <value>Car audio</value>
+      <value>Set-top box</value>
+      <value>Hi-fi audio</value>
+      <value>VCR</value>
+      <value>Video camera</value>
+      <value>Camcorder</value>
+      <value>Video monitor</value>
+      <value>Video display and loud speaker</value>
+      <value>Video conferencing</value>
+      <value>(reserved)</value>
+      <value>Gaming / Toy</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(unsupported) / </value>
+      <value>Keyboard / </value>
+      <value>Pointing / </value>
+      <value>Keyboard &amp; Pointing / </value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(uncategorised)</value>
+      <value>Joystick</value>
+      <value>Gamepad</value>
+      <value>Remote control</value>
+      <value>Sensing device</value>
+      <value>Digitizer tablet</value>
+      <value>Card reader</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>Display</value>
+      <value>Camera</value>
+      <value>Scanner</value>
+      <value>Printer</value>
+    </minor_6>
+    <services type="array">
+      <value>Limited discovery</value>
+      <value>(reserved)</value>
+      <value>(reserved)</value>
+      <value>Positioning</value>
+      <value>Networking</value>
+      <value>Rendering</value>
+      <value>Capturing</value>
+      <value>Object transfer</value>
+      <value>Audio</value>
+      <value>Telephony</value>
+      <value>Information</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>Path:</value>
+      <value>File:</value>
+      <value>Data:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>Abort transfer?</confirm_title>
+    <confirm_message>Do you really want to abort current transfer operation?</confirm_message>
+    <success_title>Transfer completed</success_title>
+    <success_message>Transfer operation completed successfully!</success_message>
+    <abort_title>Transfer aborted</abort_title>
+    <abort_message>Transfer operation was aborted by user.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>Can't send requested items to remote device.\\Reason:\</send_error>
+    <file_open_error>Can't open source file (read permission) on local filesystem.\\Reason:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>Can't upload requested items into remote device.\\Reason:\</upload_error>
+    <file_open_error>Can't open source file (read permission) on local filesystem.\\Reason:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>Can't create destination folder (read &amp; write permissions) on local filesystem.\\Reason:\</path_create_error>
+    <file_create_error>Can't create destination file (read &amp; write permissions) on local filesystem.\\Reason:\</file_create_error>
+    <download_error>Can't download requested items into local filesystem.\\Reason:\</download_error>
+    <listing>(folder listing)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>Searching service</value>
+      <value>Connect to device</value>
+      <value>Loading file data</value>
+    </tasks>
+    <profile_ftp>[url]File Transfer Profile[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]Object Push Profile[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>Back to devices list</menu_back_ftp>
+    <menu_back_opp>Back to local file list</menu_back_opp>
+    <fast_back>Back</fast_back>
+    <fast_cancel>Cancel</fast_cancel>
+    <agent_message>Can't get local discovery agent of Bluetooth API.\\Reason:\</agent_message>
+    <start_message>Can't start %1 service search.\\Reason:\</start_message>
+    <abort_title>Connection aborted</abort_title>
+    <abort_message>Connection with target device was aborted by user.</abort_message>
+    <error_title>Connection error</error_title>
+    <unreachable_message>Target device is currently unreachable.</unreachable_message>
+    <search_message>There was an error during %1 service search.</search_message>
+    <notfound_message>You can't connect with target device because it lacks of the %1 Bluetooth service.</notfound_message>
+    <connect_message>Can't connect to target device.\\Reason:\</connect_message>
+    <loading_message>Can't load file data of target device.\\Reason:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>Back to local file list</menu_back>
+    <menu_connect>Connect[5F]</menu_connect>
+    <menu_addbook>Add bookmark</menu_addbook>
+    <menu_delbook>Remove bookmark[C]</menu_delbook>
+    <menu_search>Search devices</menu_search>
+    <menu_info>Device details[7]</menu_info>
+    <fast_search>Search</fast_search>
+    <fast_cancel>Cancel</fast_cancel>
+    <nodevices_message>[color=#5555FF]No Bluetooth devices found!\Please press [b]Search[/b] key.[/color]</nodevices_message>
+    <abort_title>Aborted</abort_title>
+    <abort_message>Search operation was aborted by user.</abort_message>
+    <error_title>Search error</error_title>
+    <error_message>There was an error during search operation.\[color=blue][b]Is Bluetooth turned on?[/b][/color]</error_message>
+    <confirm_title>Please confirm</confirm_title>
+    <confirm_message>Do you really want to remove [color=blue]%1[/color] device from the bookmarks list?</confirm_message>
+    <notfound_title>No results</notfound_title>
+    <notfound_message>Search for Bluetooth devices was completed without any result.\Press [color=blue][b]Search[/b][/color] key again!</notfound_message>
+    <noaddbook_title>Unable to add</noaddbook_title>
+    <noaddbook_message>Device already present in the bookmarks list.</noaddbook_message>
+    <opp_message>Select target device:</opp_message>
+    <infrared>Infrared</infrared>
+  </gcld>
+
+  <gclfl>
+   <send>Sending...</send>
+   <upload>Uploading...</upload>
+   <menu_upload>Upload item(s)</menu_upload>
+   <menu_open>Open item[5F]</menu_open>
+   <menu_open_txt>Open as text</menu_open_txt>
+   <menu_open_hex>Open as binary</menu_open_hex>
+   <menu_search>Search items...</menu_search>
+   <menu_send_bt>Send with Bluetooth</menu_send_bt>
+   <menu_send_ir>Send with Infrared</menu_send_ir>
+   <menu_compress_zip>Compress items (zip)</menu_compress_zip>
+   <menu_compress_tar>Compress items (tar)</menu_compress_tar>
+   <menu_compress_jar>Compress items (jar)</menu_compress_jar>
+   <menu_compress_nth>Compress items (nth)</menu_compress_nth>
+   <menu_compress_thm>Compress items (thm)</menu_compress_thm>
+   <menu_compress_gz>Compress file (gz)</menu_compress_gz>
+   <menu_extract>Extract items here[3]</menu_extract>
+   <menu_cancel>Cancel extraction</menu_cancel>  
+   <menu_back>Back one level up</menu_back>
+   <menu_root>Go to root[B]</menu_root>
+   <menu_item>Go to item folder</menu_item>
+   <menu_refresh>Refresh folder</menu_refresh>
+   <menu_create>Create folder</menu_create>
+   <menu_item_info>Item informations[7]</menu_item_info>
+   <menu_attrib>Item attributes[9]</menu_attrib>
+   <menu_volume_info>Volume size</menu_volume_info>
+   <menu_rename>Rename item</menu_rename>
+   <menu_delete>Delete item(s)[C]</menu_delete>
+   <menu_cut>Cut item(s)</menu_cut>
+   <menu_copy>Copy item(s)[1]</menu_copy>
+   <menu_paste>Paste item(s)[3]</menu_paste>
+   <menu_select>Select[*#]</menu_select>
+   <menu_unselect>Unselect[*#]</menu_unselect>
+   <menu_select_all>Select all</menu_select_all>
+   <menu_select_none>Select none</menu_select_none>
+   <menu_select_invert>Invert selection</menu_select_invert>
+   <fast_key>Back</fast_key>
+   <root_added_title>Storage added</root_added_title>
+   <root_added_message>A new storage device was added to local filesystem.\\Storage root&gt; </root_added_message>
+   <root_removed_title>Storage removed</root_removed_title>
+   <root_removed_message>A storage device was removed from local filesystem.\\Storage root&gt; </root_removed_message>
+   <unsupported_title>Unsupported file type</unsupported_title>
+   <unsupported_message>This file type is currently not supported by the internal viewer.</unsupported_message>
+   <open_error_title>Open error</open_error_title>
+   <open_error_message>Can't open file [color=blue][off]%1[/off][/color] for the internal viewer.\\Reason:\</open_error_message>
+   <create_title>Enter folder name:</create_title>
+   <create_value>New folder</create_value>
+   <create_message>Can't create [color=blue][off]%1[/off][/color] folder into current position.\\Reason:\</create_message>
+   <rename_title>New item name:</rename_title>
+   <rename_message>Can't rename current item with [color=blue][off]%1[/off][/color] name.\\Reason:\</rename_message>
+   <read_message>Can't read content of [color=blue][off]%1[/off][/color] folder.\\Reason:\</read_message>
+   <info_message>Can't obtain informations from filesystem [color=blue][off]%1[/off][/color].\\Reason:\</info_message>
+   <fc_open_message>Can't open a file connection for requested item.\\Reason:\</fc_open_message>
+   <delete_message>Can't delete [color=blue][off]%1[/off][/color] item from local filesystem.\\Reason:\</delete_message>
+   <confirm_title>Please confirm</confirm_title>
+   <confirm_message>Do you really want to delete selected item(s)?</confirm_message>
+   <paste_message>Can't paste [color=blue][off]%1[/off][/color] item to local filesystem.\\Reason:\</paste_message>
+   <paste_file_title>Please confirm</paste_file_title>
+   <paste_file_message>File [color=blue][off]%1[/off][/color] already exists in destination folder!\\Do you want rename or overwrite it?</paste_file_message>
+   <paste_path_title>Please confirm</paste_path_title>
+   <paste_path_message>Folder [color=blue][off]%1[/off][/color] already exists!\\Do you want rename or overwrite it?</paste_path_message>
+   <paste_checkbox>All</paste_checkbox>
+   <cancel_title>Extraction aborted</cancel_title>
+   <cancel_message>Archive extraction operation aborted by user!</cancel_message>
+   <tar_filename>%1 name:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+   <download>Downloading...</download>
+   <menu_download>Download item(s)</menu_download>
+   <menu_open>Open item[5F]</menu_open>
+   <menu_open_txt>Open as text</menu_open_txt>
+   <menu_open_hex>Open as binary</menu_open_hex>
+   <menu_search>Search items...</menu_search>
+   <menu_disconnect>Disconnect</menu_disconnect>
+   <menu_back>Back one level up</menu_back>
+   <menu_root>Go to root[B]</menu_root>
+   <menu_item>Go to item folder</menu_item>
+   <menu_refresh>Refresh folder</menu_refresh>
+   <menu_create>Create folder</menu_create>
+   <menu_item_info>Item informations[7]</menu_item_info>
+   <menu_delete>Delete item(s)[C]</menu_delete>
+   <menu_cut>Cut item(s)</menu_cut>
+   <menu_copy>Copy item(s)[1]</menu_copy>
+   <menu_paste>Paste item(s)[3]</menu_paste>
+   <menu_select>Select[*#]</menu_select>
+   <menu_unselect>Unselect[*#]</menu_unselect>
+   <menu_select_all>Select all</menu_select_all>
+   <menu_select_none>Select none</menu_select_none>
+   <menu_select_invert>Invert selection</menu_select_invert>
+   <fast_key>Back</fast_key>
+   <unsupported_title>Unsupported file type</unsupported_title>
+   <unsupported_message>This file type is currently not supported by the internal viewer.</unsupported_message>
+   <open_error_title>Open error</open_error_title>
+   <open_error_message>Can't open file [color=blue][off]%1[/off][/color] for the internal viewer.\\Reason:\</open_error_message>
+   <create_title>Enter folder name:</create_title>
+   <create_value>New folder</create_value>
+   <create_message>Can't create [color=blue][off]%1[/off][/color] folder into current position.\\Reason:\</create_message>
+   <confirm_title>Please confirm</confirm_title>
+   <delete_confirm>Do you really want to delete selected item(s)?</delete_confirm>
+   <delete_message>Can't delete [color=blue][off]%1[/off][/color] item from remote device.\\Reason:\</delete_message>
+   <disconnect_confirm>Do you really want to disconnect from remote device?</disconnect_confirm>
+   <disconnect_message>Can't disconnect from remote device.\\Reason:\</disconnect_message>
+   <enter_message>Can't enter into [color=blue][off]%1[/off][/color] folder.\\Reason:\</enter_message>
+   <back_message>Can't go back one folder level up.\\Reason:\</back_message>
+   <root_message>Can't go back to root folder.\\Reason:\</root_message>
+   <read_message>Can't read content of current folder.\\Reason:\</read_message>
+   <paste_err_title>Not supported</paste_err_title>
+   <paste_err_message>Currently, you can't [color=blue]cut or copy[/color] and then [color=blue]paste[/color] an item on the same Bluetooth device!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+   <menu_extract>Extract selected items[1]</menu_extract>
+   <menu_close>Close archive</menu_close>
+   <menu_open>Open item[5F]</menu_open>
+   <menu_open_txt>Open as text</menu_open_txt>
+   <menu_open_hex>Open as binary</menu_open_hex>
+   <menu_item_info>Item informations[7]</menu_item_info>
+   <menu_back>Back one level up</menu_back>
+   <menu_root>Go to root[B]</menu_root>
+   <menu_select>Select[*#]</menu_select>
+   <menu_unselect>Unselect[*#]</menu_unselect>
+   <menu_select_all>Select all</menu_select_all>
+   <menu_select_none>Select none</menu_select_none>
+   <menu_select_invert>Invert selection</menu_select_invert>
+   <fast_key>Back</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>Ok</ok_button>
+    <ko_button>Cancel</ko_button>
+  </uib>
+
+  <usp>
+    <title>Search parameters</title>
+    <ok_button>Accept</ok_button>
+    <ko_button>Cancel</ko_button>
+    <reset_form_btn>Default values</reset_form_btn>
+    <clear_mode_btn>Clear "Search mode"</clear_mode_btn>
+    <check_mode_btn>Check "Search mode"</check_mode_btn>
+    <clear_from_date_btn>Clear "From date"</clear_from_date_btn>
+    <clear_to_date_btn>Clear "To date"</clear_to_date_btn>
+    <text_lbl>Search text:</text_lbl>
+    <mode_lbl>Search mode:</mode_lbl>
+    <mode_txt type="array">
+      <value>Find folders</value>
+      <value>Find images</value>
+      <value>Find audio</value>
+      <value>Find videos</value>
+      <value>Find text files</value>
+      <value>Find executables</value>
+      <value>Find archives</value>
+      <value>Find web pages</value>
+      <value>Find themes</value>
+      <value>Find unknown files</value>
+    </mode_txt>
+    <min_size_lbl>Minimum size (KB):</min_size_lbl>
+    <max_size_lbl>Maximum size (KB):</max_size_lbl>
+    <min_date_lbl>From date:</min_date_lbl>
+    <max_date_lbl>To date:</max_date_lbl>
+    <title_error>Parameters error</title_error>
+    <size_error>"Minimum size" must be lower than or equal to "Maximum size"!</size_error>
+    <date_error>"From date" must be lower than or equal to "To date"!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>Searching...</title>
+    <keys type="array">
+      <value>Found:</value>
+      <value>Error:</value>
+      <value>Path:</value>
+    </keys>
+    <stop_title>Stop search?</stop_title>
+    <stop_message>Do you really want to stop current search operation?\[color=blue]Current results will be shown![/color]</stop_message>
+    <cancel_title>Cancel search?</cancel_title>
+    <cancel_message>Do you really want to cancel current search operation?</cancel_message>
+    <errors_title>Completed with errors</errors_title>
+    <errors_message>Search operation was completed with [b]%1[/b] errors. Here is the error list:</errors_message>
+    <errors_label>\[color=red][b]• Error %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>No results</empty_title>
+    <empty_message>Search operation completed without results.</empty_message>
+    <aborted_title>Search aborted</aborted_title>
+    <aborted_message>Search operation was aborted by user.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>Extracting...</title>
+    <captions type="array">
+      <value>Path:</value>
+      <value>File:</value>
+    </captions>
+    <extract_error>Can't extract this ZIP archive file.\\Reason:\</extract_error>
+    <format_title>ZIP format error</format_title>
+    <format_message>Encountered problems with the format of currently processed file.\\Reason:\</format_message>
+    <format_error>The user has stopped the extraction process.\\Reason:\</format_error>
+    <done_title>Done!</done_title>
+    <done_normal>Extraction completed successfully!</done_normal>
+    <done_errors>Extraction completed with errors.</done_errors>
+    <confirm_title>Abort extraction?</confirm_title>
+    <confirm_message>Do you really want to abort current extraction operation?</confirm_message>
+    <abort_title>Extraction aborted</abort_title>
+    <abort_message>Extraction operation was aborted by user.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>Compressing...</title>
+    <captions type="array">
+      <value>Path:</value>
+      <value>File:</value>
+    </captions>
+    <finalizing>(finalizing archive)</finalizing>
+    <compress_error>Can't complete this ZIP archive file.\\Reason:\</compress_error>
+    <done_title>Done!</done_title>
+    <done_message>Compression completed successfully!</done_message>
+    <abort_title>Compression aborted</abort_title>
+    <abort_message>Compression operation was aborted by user.</abort_message>
+    <confirm_title>Abort compression?</confirm_title>
+    <confirm_message>Do you really want to abort current compression operation?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>New %1 file</title>
+    <filename>%1 name:</filename>
+    <password>%1 password:</password>
+    <password_title>Password too short</password_title>
+    <password_message>Your password should be at least %1 characters long!</password_message>
+    <method_title>Compression method:</method_title>
+    <method_items type="array">
+      <value>Stored (uncompressed)</value>
+      <value>Deflate (best choice)</value>
+      <value>Deflate64 (less compatible)</value>
+    </method_items>
+  </uzf>
+</language>

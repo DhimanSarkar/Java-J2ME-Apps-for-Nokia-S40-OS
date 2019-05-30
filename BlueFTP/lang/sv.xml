@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="Svensk" lid="sv" cid="SE">
+  <common>
+    <no>Nej</no>
+    <yes>Ja</yes>
+    <root>&lt;rot&gt;</root>
+    <search_mode>&lt;sök&gt;</search_mode>
+    <none>(ingen)</none>
+    <empty>(tom)</empty>
+    <denied>Nekad</denied>
+    <allowed>Tillåts</allowed>
+    <copy_suffix> - Kopia</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>Lokal</value>
+      <value>Bluetooth</value>
+    </pages>
+    <menu_clean>Fullskärmsläge[0]</menu_clean>
+    <menu_lang>Välj språk</menu_lang>
+    <menu_pass>Välj lösenord</menu_pass>
+    <menu_about>Om...</menu_about>
+    <menu_help>Hjälp</menu_help>
+    <menu_exit>Avsluta</menu_exit>
+    <help_title>Hjälp mig!</help_title>
+    <help_message>[b]TANG[/b]\• Tryck [color=blue]vänsterpil[/color] eller [color=blue]4[/color] och [color=blue]högerpil[/color] eller [color=blue]6[/color] för att växla mellan lokala filer och Bluetoothfiler.\• Tryck [color=blue]vänster meny[/color] för att öppna/stänga huvudmenyn.\• Tryck [color=blue]högermeny[/color] för snabbkommandon på skärmen.\• Tryck [color=blue]#[/color] eller [color=blue]*[/color] för all välja/välja bort aktuell post.\• Tryck [color=blue]1[/color] för att kopiera valda poster till urklipp.\• Tryck [color=blue]3[/color] för att klistra in poster från urklipp till aktuell folder.\• Tryck [color=blue]0[/color] för att gå in/ur fullskärmsläge: visning utan övre och undre menyer.\\[b]MENU[/b]\[color=#800080]När en menypost innehåller en ikon kan du trycka på genvägen för att utföra avsett kommando.[/color]\• Tryck på [color=blue]uppåtpil[/color] eller [color=blue]2[/color] och [color=blue]nedåtpil[/color] eller [color=blue]8[/color] för att flytta mellan kommandon.\• Tryck [color=blue]NAV[/color] (navigeringsknappen) eller [color=blue]5[/color] för att utföra aktuellt valt kommando.\• Tryck [color=blue]vänstermeny[/color] eller [color=blue]BAKÅT[/color] för att stänga huvudmenyn.\\[b]DIALOGS[/b]\• Tryck [color=blue]vänstermeny[/color] för att trycka på vänster knapp ([color=green]grön[/color]).\• Tryck [color=blue]högermeny[/color] för att trycka på höger knapp ([color=red]röd[/color]).\• Tryck på [color=blue]NAV[/color] eller [color=blue]5[/color] för att trycka på knappen (om det bara finns en).</help_message>
+    <bt_mex>[color=#FF8080]Denna enhet stödjer inte Bluetooth API (JSR-82), så du kan inte inte ansluta till någon fjärrenhet.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]Aktivera Bluetooth\och starta om programmet![/color]</bt_off>
+    <fc_mex>[color=#FF8080]Denna enhet stödjer inte FileConnection API (JSR-75), så du kan inte nå filsystemet i din enhet.[/color]</fc_mex>
+    <dialog_bt_off_title>Bluetooth AV</dialog_bt_off_title>
+    <dialog_bt_off_message>Bluetooth är [b]AV[/b]! Var god [u][color=blue]aktivera Bluetooth[/color][/u] och starta om programmet.</dialog_bt_off_message>
+    <version_title>Ny version!</version_title>
+    <version_message>En ny version av detta program, [b][color=blue]v%1[/color][/b], hittades online. Du kan ladda ned det gratis här: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>PayPal-donation</donation_title>
+    <donation_message>Om du gillar denna programvara får du gärna göra en [b][color=blue]donation[/color][/b]!\Det tar mycket tid och insatser att utveckla program ... surfa till [url]http://blueftp.medieval.it/[/url] och hjälp oss fortsätta utveckla gratisprogram genom en liten donation!</donation_message>
+    <security_title>Säkerhetsproblem</security_title>
+    <security_message>Kan inte nå enhetens filsystem. Se till att du ger rätt tillstånd (läs &amp; skriv) för denna applikation.\Mer information finns att läsa i enhetens manual...\\Skäl:\</security_message>
+    <outofmemory_title>Slut på minne!</outofmemory_title>
+    <outofmemory_message>Minnet räcker inte för att ladda filen [color=blue][off]%1[/off][/color] för intern visning.\\Skäl:\</outofmemory_message>
+    <set_password>Skydd med lösenord:</set_password>
+    <get_password>Ange lösenord:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>Meny</open_menu>
+    <close_menu>Stäng</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(denna folder är tom)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>ok</value>
+      <value>fortsätta</value>
+      <value>ja</value>
+      <value>spara</value>
+      <value>avsluta</value>
+      <value>besök</value>
+      <value>döp om</value>
+      <value>nej</value>
+      <value>avbryt</value>
+      <value>skriv över</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>Annons (endast 1 gång)</title>
+    <wait>Var god vänta...</wait>
+    <count>...eller vänta %1 sekunder...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>Läst flagga</value>
+      <value>Skriv flagga</value>
+      <value>Dold flagga</value>
+    </items>
+    <read_message>Kan inte ändra [b]läst[/b] flagga för angiven post.\\Skäl:\</read_message>
+    <write_message>Kan inte ändra [b]skriv[/b] flagga för angiven post.\\Skäl:\</write_message>
+    <hidden_message>Kan inte ändra [b]dold[/b] flagga för angiven post.\\Skäl:\</hidden_message>
+    <fc_read_message>Kan inte öppna en filanslutning (läst) för begärd post.\\Skäl:\</fc_read_message>
+    <fc_write_message>Kan inte öppna en filanslutning (skriv) för begärd post.\\Skäl:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>Väg:</value>
+      <value>Stl:</value>
+      <value>Byte:</value>
+      <value>Datum:</value>
+      <value>Tid:</value>
+      <value>Läst:</value>
+      <value>Skriv:</value>
+      <value>Dold:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>Namn:</value>
+      <value>Fri:</value>
+      <value>Anv:</value>
+      <value>Total:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>Väg:</value>
+      <value>Namn:</value>
+      <value>Alias:</value>
+      <value>Stl:</value>
+      <value>Byte:</value>
+      <value>Datum</value>
+      <value>Tid:</value>
+      <value>Läst:</value>
+      <value>Skriv:</value>
+      <value>Ta bort:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>Väg:</value>
+      <value>Komm.:</value>
+      <value>Datum</value>
+      <value>Tid:</value>
+      <value>Paket:</value>
+      <value>Storlek:</value>
+      <value>Ratio:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>ZIP-ver:</value>
+      <value>Metod:</value>
+      <value>Nivå:</value>
+      <value>Kryptera:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mode:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>Nivå:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>Info om enhet</title>
+    <minor_default>(okänd)</minor_default>
+    <major_default>(oklassificerad)</major_default>
+    <captions type="array">
+      <value>MAC:</value>
+      <value>Namn:</value>
+      <value>Typ:</value>
+      <value></value>
+      <value>Serv.:</value>
+    </captions>
+    <major type="array">
+      <value>Övrigt</value>
+      <value>Dator</value>
+      <value>Tel</value>
+      <value>LAN</value>
+      <value>Audio</value>
+      <value>Perifer</value>
+      <value>Bild</value>
+    </major>
+    <minor_1 type="array">
+      <value>(oklassificerad)</value>
+      <value>Skrivbord</value>
+      <value>Server</value>
+      <value>Notebook</value>
+      <value>Handdator</value>
+      <value>Palm</value>
+      <value>Bärbar</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(oklassificerad)</value>
+      <value>Mobil</value>
+      <value>Trådlös</value>
+      <value>Smart phone</value>
+      <value>Kabelmodem</value>
+      <value>ISDN</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>Helt tillgänglig</value>
+      <value>1% - 17% utnyttjat</value>
+      <value>17% - 33% utnyttjat</value>
+      <value>33% - 50% utnyttjat</value>
+      <value>50% - 67% utnyttjat</value>
+      <value>67% - 83% utnyttjat</value>
+      <value>83% - 99% utnyttjat</value>
+      <value>Ingen tjänst tillgänglig</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(oklassificerad)</value>
+      <value>Headset</value>
+      <value>Hands-free</value>
+      <value>(reserverad)</value>
+      <value>Mikrofon</value>
+      <value>Högtalare</value>
+      <value>Hörlurar</value>
+      <value>Bärbart ljud</value>
+      <value>Billjud</value>
+      <value>Set-top box</value>
+      <value>Hi-fi-ljud</value>
+      <value>VCR</value>
+      <value>Videokamera</value>
+      <value>Camcorder</value>
+      <value>Videomonitor</value>
+      <value>Video och högtalare</value>
+      <value>Videokonferens</value>
+      <value>(reserverad)</value>
+      <value>Spel / Leksak</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(stöds ej) / </value>
+      <value>Tangenter / </value>
+      <value>Pilar / </value>
+      <value>Tangenter &amp; pilar / </value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(okategoriserad)</value>
+      <value>Joystick</value>
+      <value>Gamepad</value>
+      <value>Fjärrkontroll</value>
+      <value>Avläsningsenhet</value>
+      <value>Ritplatta</value>
+      <value>Kortläsare</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>Display</value>
+      <value>Kamera</value>
+      <value>Scanner</value>
+      <value>Skrivare</value>
+    </minor_6>
+    <services type="array">
+      <value>Begränsad upptäckt</value>
+      <value>(reserverad)</value>
+      <value>(reserverad)</value>
+      <value>Positionerar</value>
+      <value>Nätverkar</value>
+      <value>Renderar</value>
+      <value>Fångar in</value>
+      <value>Flyttar objekt</value>
+      <value>Audio</value>
+      <value>Telefoni</value>
+      <value>Information</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>Sökväg:</value>
+      <value>Fil:</value>
+      <value>Data:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>Avbryt överföring?</confirm_title>
+    <confirm_message>Vill du verkligen avbryta denna överföring?</confirm_message>
+    <success_title>Överföring klar</success_title>
+    <success_message>Överföring genomförd!</success_message>
+    <abort_title>Överföring avbruten</abort_title>
+    <abort_message>Överföring avbröts av användare.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>Kan inte skicka begärda poster till fjärrenheten.\\Skäl:\</send_error>
+    <file_open_error>Kan inte öppna källfil (läs-tillstånd) i lokalt filsystem.\\Skäl:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>Kan inte ladda upp begärda poster i fjärrenheten.\\Skäl:\</upload_error>
+    <file_open_error>Kan inte öppna källfil (läs-tillstånd) i lokalt filsystem.\\Skäl:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>Kan inte skapa destinationsmapp (läs- &amp; skrivtillstånd) i lokalt filsystem.\\Skäl:\</path_create_error>
+    <file_create_error>Kan inte skapa destinationsfil (läs- &amp; skrivtillstånd) i lokalt filsystem.\\Skäl:\</file_create_error>
+    <download_error>Kan inte ladda ned begärda poster till lokalt filsystem.\\Skäl:\</download_error>
+    <listing>(mappstruktur)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>Söker tjänst</value>
+      <value>Anslut till enhet</value>
+      <value>Laddar fildata</value>
+    </tasks>
+    <profile_ftp>[url]Profil filöverföring[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]Profil objektflyttning[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>Tillbaka till enhetslistan</menu_back_ftp>
+    <menu_back_opp>Tillbaka till lokal fillista</menu_back_opp>
+    <fast_back>Bakåt</fast_back>
+    <fast_cancel>Avbryt</fast_cancel>
+    <agent_message>Kan inte hitta lokal Bluetooth API.\\Skäl:\</agent_message>
+    <start_message>Kan inte inleda servicesökning %1.\\Skäl:\</start_message>
+    <abort_title>Anslutning avbruten</abort_title>
+    <abort_message>Anslutning till målenhet avbruten av användaren.</abort_message>
+    <error_title>Anslutningsfel</error_title>
+    <unreachable_message>Målenheten kan ej nås för närvarande.</unreachable_message>
+    <search_message>Ett fel uppstod under servicesökning %1.</search_message>
+    <notfound_message>Du kan inte ansluta till måleneten då den saknar Bluetooth-tjänst %1.</notfound_message>
+    <connect_message>Kan ej ansluta till målenheten.\\Skäl:\</connect_message>
+    <loading_message>Kan ej ladda målenhetens fildata.\\Skäl:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>Tillbaka till lokal fillista</menu_back>
+    <menu_connect>Anslut[5F]</menu_connect>
+    <menu_addbook>Lägg till bokmärke</menu_addbook>
+    <menu_delbook>Ta bort bokmärke[C]</menu_delbook>
+    <menu_search>Sök enheter</menu_search>
+    <menu_info>Enhetsinformation[7]</menu_info>
+    <fast_search>Sök</fast_search>
+    <fast_cancel>Avbryt</fast_cancel>
+    <nodevices_message>[color=#5555FF]Hittar inga Bluetooth-enheter!\Tryck på [b]Sök-[/b]knappen.[/color]</nodevices_message>
+    <abort_title>Avbruten</abort_title>
+    <abort_message>Sökning avbruten av användaren.</abort_message>
+    <error_title>Sökfel</error_title>
+    <error_message>Ett fel uppstod under sökningen.\[color=blue][b]Är Bluetooth aktiverad?[/b][/color]</error_message>
+    <confirm_title>Var god bekräfta</confirm_title>
+    <confirm_message>Vill du verkligen ta bort enheten [color=blue]%1[/color] från bokmärken?</confirm_message>
+    <notfound_title>Inga resultat</notfound_title>
+    <notfound_message>Sökning efter Bluetooth-enheter genomförd utan resultat.\Tryck på [color=blue][b]Sök-[/b][/color]knappen igen!</notfound_message>
+    <noaddbook_title>Kan inte lägga till</noaddbook_title>
+    <noaddbook_message>Enheten finns redan bland bokmärken.</noaddbook_message>
+    <opp_message>Väl målenhet:</opp_message>
+    <infrared>Infraröd</infrared>
+  </gcld>
+
+  <gclfl>
+    <send>Sänder...</send>
+    <upload>Laddar upp...</upload>
+    <menu_upload>Ladda upp post(er)</menu_upload>
+    <menu_open>Öppna post[5F]</menu_open>
+    <menu_open_txt>Öppna som text</menu_open_txt>
+    <menu_open_hex>Öppna som binär</menu_open_hex>
+    <menu_search>Sök poster...</menu_search>
+    <menu_send_bt>Sänd med Bluetooth</menu_send_bt>
+    <menu_send_ir>Sänd med IR</menu_send_ir>
+    <menu_compress_zip>Packa poster (zip)</menu_compress_zip>
+    <menu_compress_tar>Packa poster (tar)</menu_compress_tar>
+    <menu_compress_jar>Packa poster (jar)</menu_compress_jar>
+    <menu_compress_nth>Packa poster (nth)</menu_compress_nth>
+    <menu_compress_thm>Packa poster (thm)</menu_compress_thm>
+    <menu_compress_gz>Packa fil (gz)</menu_compress_gz>
+    <menu_extract>Packa upp hit[3]</menu_extract>
+    <menu_cancel>Avbryt uppackning</menu_cancel>
+    <menu_back>Backa en nivå upp</menu_back>
+    <menu_root>Gå till rotmappen[B]</menu_root>
+    <menu_item>Gå till postens mapp</menu_item>
+    <menu_refresh>Uppdatera mappen</menu_refresh>
+    <menu_create>Skapa mapp</menu_create>
+    <menu_item_info>Postinformation[7]</menu_item_info>
+    <menu_attrib>Postegenskaper[9]</menu_attrib>
+    <menu_volume_info>Volymstorlek</menu_volume_info>
+    <menu_rename>Döp om post</menu_rename>
+    <menu_delete>Radera post(er)[C]</menu_delete>
+    <menu_cut>Klipp ut post(er)</menu_cut>
+    <menu_copy>Kopiera post(er)[1]</menu_copy>
+    <menu_paste>Klistra in post(er)[3]</menu_paste>
+    <menu_select>Välj[*#]</menu_select>
+    <menu_unselect>Välj bort[*#]</menu_unselect>
+    <menu_select_all>Välj alla</menu_select_all>
+    <menu_select_none>Välj ingen</menu_select_none>
+    <menu_select_invert>Invertera val</menu_select_invert>
+    <fast_key>Tillbaka</fast_key>
+    <root_added_title>Lagring tillagd</root_added_title>
+    <root_added_message>En ny lagringsenhet har lagts till i lokalt filsystem.\\Storage root&gt; </root_added_message>
+    <root_removed_title>Lagring raderad</root_removed_title>
+    <root_removed_message>En lagringsenhet har tagits bort from lokalt filsystem.\\Storage root&gt; </root_removed_message>
+    <unsupported_title>Filtypen stöds ej</unsupported_title>
+    <unsupported_message>Denna filtyp stöds för närvarande av intern visning.</unsupported_message>
+    <open_error_title>Öppna fel</open_error_title>
+    <open_error_message>Kan inte öppna filen [color=blue][off]%1[/off][/color] för intern visning.\\Skäl:\</open_error_message>
+    <create_title>Ange mappnamn:</create_title>
+    <create_value>Ny mapp</create_value>
+    <create_message>Kan inte skapa mappen [color=blue][off]%1[/off][/color] i detta läge.\\Skäl:\</create_message>
+    <rename_title>Nytt namn:</rename_title>
+    <rename_message>Kan inte döpa om denna post till namnet [color=blue][off]%1[/off][/color].\\Skäl:\</rename_message>
+    <read_message>Kan inte läsa innehållet i mappen [color=blue][off]%1[/off][/color].\\Skäl:\</read_message>
+    <info_message>Kan inte få fram information från filsystem [color=blue][off]%1[/off][/color].\\Skäl:\</info_message>
+    <fc_open_message>Kan inte öppna en filanslutning för begärd post.\\Skäl:\</fc_open_message>
+    <delete_message>Kan inte radera post [color=blue][off]%1[/off][/color] från lokalt filsystem.\\Skäl:\</delete_message>
+    <confirm_title>Var god bekräfta</confirm_title>
+    <confirm_message>Vill du verkligen radera vald(a) poste(er)?</confirm_message>
+    <paste_message>Kan inte klistra in post [color=blue][off]%1[/off][/color] i lokalt filsystem.\\Skäl:\</paste_message>
+    <paste_file_title>Var god bekräfta</paste_file_title>
+    <paste_file_message>Filen [color=blue][off]%1[/off][/color] används redan i destinationsmappen!\\Vill du döpa om eller skriva över den?</paste_file_message>
+    <paste_path_title>Var god bekräfta</paste_path_title>
+    <paste_path_message>Mappen[color=blue][off]%1[/off][/color] finns redan!\\Vill du döpa om eller skriva över den?</paste_path_message>
+    <paste_checkbox>Alla</paste_checkbox>
+    <cancel_title>Uppackning avbruten</cancel_title>
+    <cancel_message>Uppackning till arkiv avbröts av användaren!</cancel_message>
+    <tar_filename>%1-namn:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+    <download>Laddar ned...</download>
+    <menu_download>Ladda ned post(er)</menu_download>
+    <menu_open>Öppna post[5F]</menu_open>
+    <menu_open_txt>Öppna som text</menu_open_txt>
+    <menu_open_hex>Öppna som binär</menu_open_hex>
+    <menu_search>Sök poster...</menu_search>
+    <menu_disconnect>Stäng anslutningen</menu_disconnect>
+    <menu_back>Backa en nivå upp</menu_back>
+    <menu_root>Gå till rotmappen[B]</menu_root>
+    <menu_item>Gå till postens mapp</menu_item>
+    <menu_refresh>Uppdatera mappen</menu_refresh>
+    <menu_create>Skapa mapp</menu_create>
+    <menu_item_info>Postinformation[7]</menu_item_info>
+    <menu_delete>Radera post(er)[C]</menu_delete>
+    <menu_cut>Klipp ut post(er)</menu_cut>
+    <menu_copy>Kopiera post(er)[1]</menu_copy>
+    <menu_paste>Klistra in post(er)[3]</menu_paste>
+    <menu_select>Välj[*#]</menu_select>
+    <menu_unselect>Välj bort[*#]</menu_unselect>
+    <menu_select_all>Välj alla</menu_select_all>
+    <menu_select_none>Välj ingen</menu_select_none>
+    <menu_select_invert>Invertera val</menu_select_invert>
+    <fast_key>Tillbaka</fast_key>
+    <unsupported_title>Filtypen stöds ej</unsupported_title>
+    <unsupported_message>Denna filtyp stöds för närvarande av intern visning.</unsupported_message>
+    <open_error_title>Öppna fel</open_error_title>
+    <open_error_message>Kan inte öppna filen [color=blue][off]%1[/off][/color] för intern visning.\\Skäl:\</open_error_message>
+    <create_title>Ange mappnamn:</create_title>
+    <create_value>Ny mapp</create_value>
+    <create_message>Kan inte skapa mappen [color=blue][off]%1[/off][/color] i detta läge.\\Skäl:\</create_message>
+    <confirm_title>Var god bekräfta</confirm_title>
+    <delete_confirm>Vill du verkligen radera vald(a) post(er)?</delete_confirm>
+    <delete_message>Kan inte radera posten [color=blue][off]%1[/off][/color] frånn fjärrenheten.\\Skäl:\</delete_message>
+    <disconnect_confirm>vill du verkligen bryta anslutningen till fjärrenheten?</disconnect_confirm>
+    <disconnect_message>Kan inte bryta anslutningen till fjärrenheten.\\Skäl:\</disconnect_message>
+    <enter_message>Kan inte gå in i mappen [color=blue][off]%1[/off][/color].\\Skäl:\</enter_message>
+    <back_message>Kan inte backa i mappstrukturen.\\Skäl:\</back_message>
+    <root_message>Kan inte gå tillbaka till rotmappen.\\Skäl:\</root_message>
+    <read_message>Kan inte läsa innehållet i denna mapp.\\Skäl:\</read_message>
+    <paste_err_title>Stöd saknas</paste_err_title>
+    <paste_err_message>För närvarande kan du inte [color=blue]klippa eller kopiera[/color] och sedan [color=blue]klistra in[/color] en post i samma Bluetooth-enhet!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+    <menu_extract>Packa upp valda poster[1]</menu_extract>
+    <menu_close>Stäng arkivet</menu_close>
+    <menu_open>Öppna post[5F]</menu_open>
+    <menu_open_txt>Öppna som text</menu_open_txt>
+    <menu_open_hex>Öppna som binär</menu_open_hex>
+    <menu_item_info>Postinformation[7]</menu_item_info>
+    <menu_back>Backa en nivå upp</menu_back>
+    <menu_root>Gå till rotmappen[B]</menu_root>
+    <menu_select>Välj[*#]</menu_select>
+    <menu_unselect>Välj bort[*#]</menu_unselect>
+    <menu_select_all>Välj alla</menu_select_all>
+    <menu_select_none>Välj ingen</menu_select_none>
+    <menu_select_invert>Invertera val</menu_select_invert>
+    <fast_key>Tillbaka</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>Ok</ok_button>
+    <ko_button>Avbryt</ko_button>
+  </uib>
+
+  <usp>
+    <title>Sökparametrar</title>
+    <ok_button>Godkänn</ok_button>
+    <ko_button>Avbryt</ko_button>
+    <reset_form_btn>Grundvärden</reset_form_btn>
+    <clear_mode_btn>Rensa "Sök-läge"</clear_mode_btn>
+    <check_mode_btn>Kolla "Sök-läge"</check_mode_btn>
+    <clear_from_date_btn>Rensa "Från datum"</clear_from_date_btn>
+    <clear_to_date_btn>Rensa "Till datum"</clear_to_date_btn>
+    <text_lbl>Söktext:</text_lbl>
+    <mode_lbl>Sökläge:</mode_lbl>
+    <mode_txt type="array">
+      <value>Hitta mappar</value>
+      <value>Hitta bilder</value>
+      <value>Hitta ljud</value>
+      <value>Hitta videos</value>
+      <value>Hitta textfiler</value>
+      <value>Hitta programfiler</value>
+      <value>hitta arkiv</value>
+      <value>Hitta webbplatser</value>
+      <value>Hitta teman</value>
+      <value>Hitta okända filer</value>
+    </mode_txt>
+    <min_size_lbl>Min. storlek (KB):</min_size_lbl>
+    <max_size_lbl>Max. storlek (KB):</max_size_lbl>
+    <min_date_lbl>Från datum:</min_date_lbl>
+    <max_date_lbl>Till datum:</max_date_lbl>
+    <title_error>Parameterfel</title_error>
+    <size_error>"Min. storlek" måste vara mindre än eller lika med "Max. storlek"!</size_error>
+    <date_error>"Från datum" måste vara tidigare än eller samma som "Till datum"!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>Söker...</title>
+    <keys type="array">
+      <value>Hittade:</value>
+      <value>Fel:</value>
+      <value>Sökväg:</value>
+    </keys>
+    <stop_title>Stoppa sökning?</stop_title>
+    <stop_message>Vill du verkligen stoppa denna sökning?\[color=blue]Aktuella resultat kommer att visas![/color]</stop_message>
+    <cancel_title>Avbryt sökning?</cancel_title>
+    <cancel_message>Vill du verkligen avbryta denna sökning?</cancel_message>
+    <errors_title>Genomförd med fel</errors_title>
+    <errors_message>Sökning genomfördes med [b]%1[/b] fel. Här är listan över fel:</errors_message>
+    <errors_label>\[color=red][b]• Fel %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>Inga resultat</empty_title>
+    <empty_message>Sökning genomförd utan resultat.</empty_message>
+    <aborted_title>Sökning avbruten.</aborted_title>
+    <aborted_message>Sökningen avbruten av användaren.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>Packar upp...</title>
+    <captions type="array">
+      <value>Sökväg:</value>
+      <value>Fil:</value>
+    </captions>
+    <extract_error>Kan inte packa upp denna ZIP-arkivfil.\\Skäl:\</extract_error>
+    <format_title>Felaktigt ZIP-format</format_title>
+    <format_message>Stött på problem med formatet på den fil som hanteras nu.\\Reason:\</format_message>
+    <format_error>Användaren har stoppat uppackningen.\\Skäl:\</format_error>
+    <done_title>Klar!</done_title>
+    <done_normal>Uppackning klar!</done_normal>
+    <done_errors>Uppackning klar, men med fel.</done_errors>
+    <confirm_title>Avbryt uppackningen?</confirm_title>
+    <confirm_message>Vill du verkligen avbryta den här uppackningen?</confirm_message>
+    <abort_title>Uppackning avbruten</abort_title>
+    <abort_message>Uppackningen avbröts av användaren.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>Komprimerar...</title>
+    <captions type="array">
+      <value>Sökväg:</value>
+      <value>Fil:</value>
+    </captions>
+    <finalizing>(färdigställer arkivet)</finalizing>
+    <compress_error>Kan inte färdigställa denna ZIP-arkivfil.\\Reason:\</compress_error>
+    <done_title>Klar!</done_title>
+    <done_message>Komprimering klar!</done_message>
+    <abort_title>Komprimering avbruten</abort_title>
+    <abort_message>Komprimeringen avbröts av användaren.</abort_message>
+    <confirm_title>Avbryta komprimering?</confirm_title>
+    <confirm_message>Vill du verkligen avbryta den här komprimeringen?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>Ny %1-fil</title>
+    <filename>%1-namn:</filename>
+    <password>%1-lösenord:</password>
+    <password_title>Lösenordet är för kort</password_title>
+    <password_message>Ditt lösenord ska bestå av minst %1 tecken!</password_message>
+    <method_title>Packningsmetod:</method_title>
+    <method_items type="array">
+      <value>Stored (opackad)</value>
+      <value>Deflate (bästa val)</value>
+      <value>Deflate64 (mindre kompatibel)</value>
+    </method_items>
+  </uzf>
+</language>

@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="हिन्दी" lid="hi" cid="IN">
+  <common>
+    <no>न</no>
+    <yes>हा</yes>
+    <root>&lt;मुख्य&gt;</root>
+    <search_mode>&lt;खोज&gt;</search_mode>
+    <none>(कुछ नही)</none>
+    <empty>(खाली)</empty>
+    <denied>अनुमती नही</denied>
+    <allowed>अनुमती प्राप्त</allowed>
+    <copy_suffix> - कापी</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>स्थानीय</value>
+      <value>ब्लूटथ्</value>
+    </pages>
+    <menu_clean>पूरी पर्दा[0]</menu_clean>
+    <menu_lang>भाषा चुने</menu_lang>
+    <menu_pass>पासवर्ड लगाए</menu_pass>
+    <menu_about>सम्बन्ध मेँ...</menu_about>
+    <menu_help>मदद</menu_help>
+    <menu_exit>बंद करें</menu_exit>
+    <help_title>मदद करेँ।</help_title>
+    <help_message>[b]बटन[/b]\?स्थानीय और ब्लूटथ् फाइले बदलकर देखने के लिए [color=blue]बांए[/color] अथवा [color=blue]4[/color] और [color=blue]दाए[/color] अथवा [color=blue]6[/color] बटन दबाए।\? मेनू खोलने तथा बंद करने के लिए [color=blue]बाए मेनू[/color] बटन दबाए।\? पर्दे पर उपलब्ध आदेश देने के लिए [color=blue]दाए मेनू[/color] बटन दबाए।\? चुनने/न चुनने के लिए [color=blue]#[/color] या [color=blue]*[/color] बटन दबाए।\? चुने हुए वस्तु के प्रति॰ करने के लिए [color=blue]1[/color] दबाए।\? वस्तुए पेस्ट करने के लिए [color=blue]3[/color] दबाए।\? पूरी पर्दे में देखने/न देखने के लिए [color=blue]0[/color] दबाए।\\[b]मेनू[/b]\[color=#800080]मेनू चुनाव के साथ बटन का नाम लिखा होने से उसे दबाकर वह काम किया जा सकता है।[/color]\?[color=blue]ऊपर[/color] या [color=blue]2[/color] तथा [color=blue]नीचे[/color] या [color=blue]8[/color] दबाकर आदेशों तक जाए।\? चुने हुए आदेश देने के लिए [color=blue]मध्यम[/color] या [color=blue]5[/color] बटन दबाए।\? मेनू बंद करने के लिए [color=blue]बाए मेनू[/color] या [color=blue]पीछे[/color] बटन दबाए।\\[b]बातें[/b]\?[color=blue]बाए मेनू[/color] दबाए, बाए वाला बटन दबाने के लिए ([color=green]हरा[/color])।\?[color=blue]दाए मेनू[/color] दबाए, दाए वाला बटन दबाने के लिए  ([color=red]लाल[/color])।\? एक होने से [color=blue]मध्यम बटन[/color] या [color=blue]5[/color] दबाए।</help_message> 
+    <bt_mex>[color=#FF8080]यह उपकरण ब्लूटथ् की योग्यता नही रखता, अतः दूसरे उपकरणों से संबंध नही की जा सकती।[/color]</bt_mex> 
+    <bt_off>[color=#FF8080]कृपया ब्लूटथ् खोले\और अनुप्रयोग को दोबारा चालू करे![/color]</bt_off> 
+    <fc_mex>[color=#FF8080]उपकरण की सुविधा न होने के कारण फाइले नही देखी जा सकती।[/color]</fc_mex> 
+    <dialog_bt_off_title>ब्लूटथ् बंद</dialog_bt_off_title> 
+    <dialog_bt_off_message>ब्लूटथ् [b]बंद [/b]है! [u][color=blue]कृपया ब्लूटथ् खोले[/color][/u] और अनुप्रयोग को दोबारा चालू करे!</dialog_bt_off_message> 
+    <version_title>नया संस्करण!</version_title> 
+    <version_message>एक नया संस्करण उपलब्ध है, [b][color=blue]v%1[/color][/b], यहा से आप मुफ्त में प्राप्त कर सकते है: [url]http://blueftp.medieval.it[/url]</version_message> 
+    <donation_title>PayPal द्वारा मदद</donation_title>  
+    <donation_message>अगर आप को यह सफ्टयर पसंद आए, तो कुपया हमे कुछ[b][color=blue]आर्थिक सहायता करने की सोचे[/color][/b]!\सफ्टयर विकास के लिए बहुत मेहनत एवं समय की जरुरत होती है ... [url]http://blueftp.medieval.it/[/url] पे जाए और सफ्टयर के विकास मेँ सहायक बने</donation_message>
+    <security_title>सुरक्षा परेशानी</security_title>
+    <security_message>उपकरण के कार्यप्रणाली तक पहुँचा नही जा सका।देखे कि आपने सही इजाजत दिए है। (पढ़ना &amp; लिखना) \और जानकारी के लिए अपने उपकरण के मन्यूल से संपर्क करे...\\कारण:\</security_message>
+    <outofmemory_title>अपर्याप्त स्मृति!</outofmemory_title>
+    <outofmemory_message>[color=blue]%1[/color]फाइल खोलने के लिए पर्याप्त स्मृति नही\\कारण:\</outofmemory_message>
+    <set_password>पासवर्ड लगाए:</set_password>
+    <get_password>पासवर्ड:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>मेनु</open_menu>
+    <close_menu>बंद</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(खाली)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>ठीक है</value>
+      <value>जारी</value>
+      <value>हां</value>
+      <value>रक्षित करें</value>
+      <value>रोके</value>
+      <value>जाएँ</value>
+      <value>पुन: नाम दे</value>
+      <value>नही</value>
+      <value>निरस्त करें</value>
+      <value>मिटा कर लिखे</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>विज्ञापन (सिर्फ 1 बार )</title>
+    <wait>कृपया प्रतीक्षा करें...</wait>
+    <count>...या प्रताक्षा करें. %1 सकैंड...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>पढ़ने योग्य</value>
+      <value>लिखने योग्य</value>
+      <value>अदृश्य</value>
+    </items>
+    <read_message> वस्तु के [b]पढ़ने की[/b] योग्यता नही बदली जा सकती\\कारण:\</read_message>
+    <write_message>वस्तु के [b]लिखने की[/b] योग्यता नही बदली जा सकती\\कारण:\</write_message>
+    <hidden_message>वस्तु के [b]अदृश्य होने [/b] की योग्यता नही बदली जा सकती\\कारण:\</hidden_message>
+    <fc_read_message>फाइल संबंध (पढ़ना) स्थापित नही किया जा सका।\\कारण:\</fc_read_message>
+    <fc_write_message>फाइल संबंध (लिखना) स्थापित नही किया जा सका।\\कारण:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>रास्ता:</value>
+      <value>आकार:</value>
+      <value>बाइट:</value> 
+      <value>तारीख:</value> 
+      <value>समय:</value> 
+      <value>पढ़ना:</value> 
+      <value>लिखना:</value> 
+      <value>अदृश्य:</value> 
+    </item_info>
+    <volume_info type="array">
+      <value>नाम:</value> 
+      <value>शेष स्मृति:</value> 
+      <value>प्रयुक्त:</value> 
+      <value>आकार:</value> 
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>रास्ता:</value>
+      <value>नाम:</value>
+      <value>पता:</value>
+      <value>आकार:</value>
+      <value>बाइट:</value>
+      <value>तारीख:</value>
+      <value>समय:</value>
+      <value>पढ़ना:</value>
+      <value>लिखना:</value>
+      <value>मीटाना:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>रास्ता:</value>
+      <value>सिउएम:</value>
+      <value>तारीख:</value>
+      <value>समय:</value>
+      <value>पेक:</value>
+      <value>आकार:</value>
+      <value>अनुपात:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>जिप संख्या:</value>
+      <value>तरिका:</value>
+      <value>लेवल:</value>
+      <value>एनक्रिप्ट:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mode:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>लेवल:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>उपकरण जानकारी</title>
+    <minor_default>(अंजान)</minor_default>
+    <major_default>(असंगठित)</major_default>
+    <captions type="array">
+      <value>एम ए सि:</value>
+      <value>नाम:</value>
+      <value>गठन:</value>
+      <value></value>
+      <value>सेवा:</value>
+    </captions>
+    <major type="array">
+      <value>आम</value>
+      <value>कंम्प्यूटर</value>
+      <value>फोन</value>
+      <value>एल ऐ एन</value>
+      <value>ध्वनि</value>
+      <value>पेरीफैरल</value>
+      <value>छवि</value>
+    </major> 
+    <minor_1 type="array">
+      <value>(असंगठित)</value>
+      <value>डेस्कटप</value>
+      <value>सरवर</value>
+      <value>नोटबुक</value>
+      <value>हैँडहेल्ड</value>
+      <value>पाम</value>
+      <value>वेरेवल</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(असंगठित)</value>
+      <value>सेलुलार</value>
+      <value>कर्डलेस</value>
+      <value>स्मार्ट फोन</value>
+      <value>वाइर्ड मडेम</value>
+      <value>आई एस डी एन सुविधा</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>पूरी उपलब्ध</value>
+      <value>1% - 17% प्रयुक्त</value>
+      <value>17% - 33% प्रयुक्त</value>
+      <value>33% - 50% प्रयुक्त</value>
+      <value>50% - 67% प्रयुक्त</value>
+      <value>67% - 83% प्रयुक्त</value>
+      <value>83% - 99% प्रयुक्त</value>
+      <value>कोई सुविधा उपलब्ध नही</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(असंगठित)</value>
+      <value>हेडसेट</value>
+      <value>हैंड्सफ्री</value>
+      <value>(आरक्षित)</value>
+      <value>माईक्रोफोन</value>
+      <value>लाउड स्पीकर</value>
+      <value>हेडफोन</value>
+      <value>पोर्टेवल अडियो</value>
+      <value>वाहन अडियो</value>
+      <value>सेट टप बक्श</value>
+      <value>हाइ फाइ अडियो</value>
+      <value>वि सि आर</value>
+      <value>विडियो कमैरा</value>
+      <value>केमकर्डर</value>
+      <value>विडियो मनिटर</value>
+      <value>विडियो प्रदर्शन एवं स्पीकर</value>
+      <value>विडियो कनफरेन्सीँग</value>
+      <value>(आरक्षित)</value>
+      <value>खेल / खिलौना</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(सहयोग नही) / </value>
+      <value>कीबोर्ड / </value>
+      <value>पयेन्टीँग / </value>
+      <value> कीबोर्ड&amp; पयेन्टीँग / </value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(सहयोग नही)</value>
+      <value>जयस्टीक</value>
+      <value>गेमपैड</value>
+      <value>रिमोट कन्ट्रल</value>
+      <value>सेँसिँग डिवाइस</value>
+      <value>डिजिटाईजार टैबलेट</value>
+      <value>कार्ड रिडर</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>प्रदर्शन</value>
+      <value>कमैरा</value>
+      <value>स्कैनर</value>
+      <value>प्रीँटर</value>
+    </minor_6>
+    <services type="array">
+      <value>कम आविष्कार योग्य</value>
+      <value>(आरक्षित)</value>
+      <value>(आरक्षित)</value>
+      <value>पजिशनीँग</value>
+      <value>नेटवर्कीँग</value>
+      <value>रेन्डरीँग</value>
+      <value>कैपचरिँग</value>
+      <value>वस्तु विस्थापन</value>
+      <value>ध्वनि</value>
+      <value>दूराभाषी</value>
+      <value>जानकारी</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>रास्ता:</value>
+      <value>फाइल:</value>
+      <value>तथ्य:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>विस्थापन रोके?</confirm_title>
+    <confirm_message>क्या आप विस्थापन प्रक्रिया बंद करना चाहते है?</confirm_message> 
+    <success_title>विस्थापन सम्पन्न</success_title>
+    <success_message>विस्थापन प्रक्रिया सफल!</success_message>
+    <abort_title>विस्थापन असमाप्त</abort_title>
+    <abort_message>विस्थापन प्रक्रिया बंद किया गया</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>चुने हुए वस्तु भेजे नही जा सकते।\\कारण:\</send_error>
+    <file_open_error>ममुख्य फाइल पढ़ा नही जा सका।\\कारण:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>वस्तुए भेजे नही जा सके।\\कारण:\</upload_error>
+    <file_open_error>मुख्य फाइल पढ़ा नही जा सका।\\कारण:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>स्थानीय उपकरण पर उक्त जगह में फोल्डर बनाया नही जा सका।\\कारण:\</path_create_error>
+    <file_create_error>स्थानीय उपकरण पर उक्त जगह में फाइल बनाया नही जा सका।\\कारण:\</file_create_error>
+    <download_error>उक्त वस्तुए स्थानीय उपकरण पर विस्थापित नही किया जा सका।\\कारण:\</download_error>
+    <listing>(फोल्डर तालिका)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>सुविधा तलाश</value>
+      <value>संयोग स्थापन</value>
+      <value>तथ्य संग्रह</value>
+    </tasks>
+    <profile_ftp>[url]फाइल ट्रन्सफर प्रोफाइल[/url] (ओबेक्स एफ टी पी)</profile_ftp>
+    <profile_opp>[url]अबजेक्ट पूश प्रोफाइल[/url] (ओबेक्स ओ पी पी)</profile_opp>
+    <menu_back_ftp>उपकरण तालिका तक वापस</menu_back_ftp>
+    <menu_back_opp>स्थानीय फाइल तालिका तक वापस</menu_back_opp>
+    <fast_back>पीछे</fast_back>
+    <fast_cancel>निरस्त करे</fast_cancel>
+    <agent_message>स्थानीय ब्लूटथ् की आविष्कार प्रणाली में रुकावट\\कारण:\</agent_message>
+    <start_message>सुविधा तलाश शुरू नही की जा सकी\\कारण:\</start_message>
+    <abort_title>योगायोग बंद किया गया</abort_title>
+    <abort_message>उपकरण के साथ योग विच्छीन्न किया गया</abort_message>
+    <error_title>सम्बंध स्थापन में रुकावट</error_title>
+    <unreachable_message>उपकरण तक अभी पहुँचा नही जा सकता</unreachable_message>
+    <search_message>सुविधा तलाश के दौरान रुकावट</search_message>
+    <notfound_message>उपकरण मे ब्लूट्थ सुविधा न होने के कारण उस तक पहुँचा नही जा सकता</notfound_message>
+    <connect_message>उपकरण से सम्बंध स्थापित नही किया जा सका\\कारण:\</connect_message>
+    <loading_message>उपकरण के फाइल तथ्य नही मिले\\कारण:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>स्थानीय फाइल तालिका तक वापस</menu_back>
+    <menu_connect>जोड़े[5F]</menu_connect>
+    <menu_addbook>संरक्षित रखे</menu_addbook>
+    <menu_delbook>मिटाए[C]</menu_delbook>
+    <menu_search>उपकरण खोजे</menu_search>
+    <menu_info>उपकरण जानकारी[7]</menu_info>
+    <fast_search>खोजे</fast_search>
+    <fast_cancel>निरस्त करे</fast_cancel>
+    <nodevices_message>[color=#5555FF]कोई ब्लूट्थ उपकरण नही मिली!\कृपया [b]खोजे[/b][/color]</nodevices_message>
+    <abort_title>असमाप्त</abort_title>
+    <abort_message>तलाश प्रक्रिया बंद किया गया</abort_message>
+    <error_title>खोज की गलती</error_title>
+    <error_message>खोज प्रक्रिया के दौरान रुकावट उतपन्न हुआ\[color=blue][b]क्या ब्लूटथ् चालू है?[/b][/color]</error_message>
+    <confirm_title>जाँच ले</confirm_title>
+    <confirm_message>क्या आप उपकरण [color=blue]%1[/color] तालिका से हटाना चाहते है?</confirm_message>
+    <notfound_title>फल प्राप्त नही हुई</notfound_title>
+    <notfound_message>तलाश बिना किसी फल के समाप्त\फिर से [color=blue][b]खोजे[/b][/color]</notfound_message>
+    <noaddbook_title>उपकरण तालिका में जोड़ने में असमर्थ</noaddbook_title>
+    <noaddbook_message>उपकरण तालिका में पहले से है </noaddbook_message>
+    <opp_message>उपकरण चुने:</opp_message>
+    <infrared>इनफ्ररेड</infrared>
+  </gcld>
+
+  <gclfl>
+   <send>भेजे जा रहे है...</send>
+   <upload>दिया जा रहा है...</upload>
+   <menu_upload>वस्तु(ए) भेजे</menu_upload>
+   <menu_open>खोले[5F]</menu_open>
+   <menu_open_txt>लेख जैसे खोले</menu_open_txt>
+   <menu_open_hex>बाइनरी जैसे खोले</menu_open_hex>
+   <menu_search>फाइले खोजे...</menu_search>
+   <menu_send_bt>"ब्लूटथ्" द्वारा भेजे</menu_send_bt>
+   <menu_send_ir>इनफ्ररेड द्वारा भेजे</menu_send_ir>
+   <menu_compress_zip>वस्तु कंम्प्रैस करे (zip)</menu_compress_zip>
+   <menu_compress_tar>वस्तु कंम्प्रैस करे (tar)</menu_compress_tar>
+   <menu_compress_jar>वस्तु कंम्प्रैस करे (jar)</menu_compress_jar>
+   <menu_compress_nth>वस्तु कंम्प्रैस करे (nth)</menu_compress_nth>
+   <menu_compress_thm>वस्तु कंम्प्रैस करे (thm)</menu_compress_thm>
+   <menu_compress_gz>फाईल कंम्प्रैस करे (gz)</menu_compress_gz>
+   <menu_extract>चुने हुए वस्तु यहा निकाले[3]</menu_extract>
+   <menu_cancel>कंम्प्रैस बंद करे</menu_cancel>  
+   <menu_back>एक कदम पीछे</menu_back>
+   <menu_root>मुख्य तक जाए[B]</menu_root>
+   <menu_item>वस्तु के फोल्डर मेँ जाए</menu_item>
+   <menu_refresh>फोल्डर ताजा करे</menu_refresh>
+   <menu_create>फोल्डर बनाए</menu_create>
+   <menu_item_info>वस्तु की जानकारी[7]</menu_item_info>
+   <menu_attrib>वस्तु की आचरण[9]</menu_attrib>
+   <menu_volume_info>वलिऊम आकार</menu_volume_info>
+   <menu_rename>पुनः नाम दे</menu_rename>
+   <menu_delete>वस्तु(ए) मिटाए[C]</menu_delete>
+   <menu_cut>वस्तु(ए) काटे</menu_cut>
+   <menu_copy>वस्तु(ए) प्रति॰ करे[1]</menu_copy>
+   <menu_paste>वस्तु(ए) पेस्ट करे[3]</menu_paste>
+   <menu_select>चुने[*#]</menu_select>
+   <menu_unselect>न चुने[*#]</menu_unselect>
+   <menu_select_all>सभी चुने</menu_select_all>
+   <menu_select_none>कुछ न चुने</menu_select_none>
+   <menu_select_invert>चुनाव उलट दे</menu_select_invert>
+   <fast_key>पीछे</fast_key>
+   <root_added_title>रक्षक नियोग</root_added_title>
+   <root_added_message>स्थानीय कार्यप्रणाली में नया सामान योग किया गया\\Storage root&gt; </root_added_message>
+   <root_removed_title>रक्षक हटाया गया</root_removed_title>
+   <root_removed_message>स्थानीय कार्यप्रणाली से एक सामान हटाया गया\\\Storage root&gt; </root_removed_message>
+   <unsupported_title>फाइल प्रकार का सहयोग नही</unsupported_title>
+   <unsupported_message>इस तरह के फाइल अभी खोले नही जा सकते</unsupported_message>
+   <open_error_title>खोलने में रुकावट</open_error_title>
+   <open_error_message>[color=blue]%1[/color]फाइल खोले नही जा सकते\\कारण:\</open_error_message>
+   <create_title>फोल्डर के नाम लिखे:</create_title>
+   <create_value>नया फोल्डर</create_value> 
+   <create_message>[color=blue]%1[/color] फोल्डर बनाया नही जा सकता।\\कारण:\</create_message>
+   <rename_title>नया नाम:</rename_title>
+   <rename_message>[color=blue]%1[/color] नाम नही दिया जा सकता।\\कारण:\</rename_message>
+   <read_message>[color=blue]%1[/color] फोल्डर को पढ़ा नही जा सकता।\\कारण:\</read_message>
+   <info_message> [color=blue]%1[/color] कार्यप्रणाली से जानकारी नही मिली।\\कारण:\</info_message>
+   <fc_open_message>वस्तु से फाइल संबंध नही स्थापित किया जा सका।\\कारण:\</fc_open_message>
+   <delete_message>[color=blue]%1[/color] वस्तु को मिटाया नही जा सकता।\\कारण:\</delete_message>
+   <confirm_title>कृपया सुनिश्चित करे</confirm_title>
+   <confirm_message>क्या आप वस्तु(ए) मिटाना चाहते है?</confirm_message>
+   <paste_message>[color=blue]%1[/color] वस्तु को पेस्ट नही किया जा सकता\\कारण:\</paste_message>
+   <paste_file_title>कृपया सुनिश्चित करे</paste_file_title>
+   <paste_file_message>फाइल [color=blue]%1[/color] पहले से मौजूद है।\\नाम बदले या फाइल को ही बदल दे?</paste_file_message>
+   <paste_path_title>कृपया सुनिश्चित करे</paste_path_title>
+   <paste_path_message>फोल्डर [color=blue]%1[/color] पहले से मौजूद है।\\नाम बदले या फोल्डर को ही बदल दे?</paste_path_message>
+   <paste_checkbox>सब</paste_checkbox>
+   <cancel_title>कंम्प्रैस करना बंद किया गया</cancel_title>
+   <cancel_message>कंम्प्रैस करना बंद किया गया!</cancel_message>
+   <tar_filename>%1 नाम:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+   <download>लाया जा रहा...</download>
+   <menu_download>वस्तु(ए) लाए</menu_download>
+   <menu_open>खोले[5F]</menu_open>
+   <menu_open_txt>लेख जैसे खोले</menu_open_txt>
+   <menu_open_hex>बाइनरी जैसे खोले</menu_open_hex>
+   <menu_search>फाइले खोजे...</menu_search>
+   <menu_disconnect>संबंध तोड़े</menu_disconnect>
+   <menu_back>एक कदम पीछे</menu_back>
+   <menu_root>मुख्य तक जाए[B]</menu_root>
+   <menu_item>वस्तु के फोल्डर मेँ जाए</menu_item>
+   <menu_refresh>फोल्डर ताजा करे</menu_refresh>
+   <menu_create>फोल्डर बनाए</menu_create>
+   <menu_item_info>वस्तु की जानकारी[7]</menu_item_info>
+   <menu_delete>वस्तु(ए) मिटाए[C]</menu_delete>
+   <menu_cut>वस्तु(ए) काटे</menu_cut> 
+   <menu_copy>वस्तु(ए) प्रति॰ करे[1]</menu_copy> 
+   <menu_paste>वस्तु(ए) पेस्ट करे[3]</menu_paste> 
+   <menu_select>चुने[*#]</menu_select> 
+   <menu_unselect>न चुने[*#]</menu_unselect> 
+   <menu_select_all>सभी चुने</menu_select_all> 
+   <menu_select_none>कुछ न चुने</menu_select_none> 
+   <menu_select_invert>चुनाव उलट दे</menu_select_invert>
+   <fast_key>पीछे</fast_key>
+   <unsupported_title>नही खुला जा सकता</unsupported_title>
+   <unsupported_message>नही खुला जा सकता</unsupported_message>
+   <open_error_title>नही खुला जा सकता</open_error_title>
+   <open_error_message>[color=blue]%1[/color] नही खुला जा सकता\\कारण:\</open_error_message>
+   <create_title>नाम:</create_title>
+   <create_value>नया</create_value>
+   <create_message> [color=blue]%1[/color] नही बनाया जा सकता\\कारण:\</create_message>
+   <confirm_title>सुनिश्चित करे</confirm_title>
+   <delete_confirm>वस्तु(ए) मिटाए?</delete_confirm>
+   <delete_message>[color=blue]%1[/color] नही मिटाया जा सकता\\कारण:\</delete_message>
+   <disconnect_confirm>संबंध तोड़े?</disconnect_confirm>
+   <disconnect_message>नही छुड़ाया जा सकता\\कारण:\</disconnect_message>
+   <enter_message>[color=blue]%1[/color] में नही जाया जा सकता\\कारण:\</enter_message>
+   <back_message>वापस नही जाया जा सकता\\कारण:\</back_message>
+   <root_message>वापस नही जाया जा सकता\\कारण:\</root_message>
+   <read_message>पढ़ा नही जा सकता\\कारण:\</read_message>
+   <paste_err_title>नही हो सकता</paste_err_title>
+   <paste_err_message>यह सुविधा उपलब्ध नही है</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+   <menu_extract>चुने हुए वस्तु निकाले[1]</menu_extract>
+   <menu_close>अर्चिव बंद करे</menu_close>
+   <menu_open>खोले[5F]</menu_open>
+   <menu_open_txt>लेख जैसे खोले</menu_open_txt>
+   <menu_open_hex>बाइनरी जैसे खोले</menu_open_hex>
+   <menu_item_info>वस्तु की जानकारी[7]</menu_item_info>
+   <menu_back>एक कदम पीछे</menu_back>
+   <menu_root>मुख्य तक जाए[B]</menu_root>
+   <menu_select>चुने[*#]</menu_select> 
+   <menu_unselect>न चुने[*#]</menu_unselect> 
+   <menu_select_all>सभी चुने</menu_select_all> 
+   <menu_select_none>कुछ न चुने</menu_select_none> 
+   <menu_select_invert>चुनाव उलट दे</menu_select_invert>
+   <fast_key>पीछे</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>ठीक है</ok_button>
+    <ko_button>निरस्त करे</ko_button>
+  </uib>
+
+  <usp>
+    <title>खोज</title>
+    <ok_button>माने</ok_button>
+    <ko_button>निरस्त करे</ko_button>
+    <reset_form_btn>आम मूल्य</reset_form_btn>
+    <clear_mode_btn>साफ</clear_mode_btn>
+    <check_mode_btn>जाँचे</check_mode_btn>
+    <clear_from_date_btn>साफ</clear_from_date_btn>
+    <clear_to_date_btn>साफ</clear_to_date_btn>
+    <text_lbl>लेख खोजे:</text_lbl>
+    <mode_lbl>खोज प्रकार:</mode_lbl>
+    <mode_txt type="array">
+      <value>फ़ोल्डर्स</value>
+      <value>तस्वीरें</value>
+      <value>आवाज</value>
+      <value>विडियो</value>
+      <value>लेख</value>
+      <value>अनुप्रयोग</value>
+      <value>अर्चिव</value>
+      <value>वेब पेज</value>
+      <value>थिम</value>
+      <value>अंजान</value>
+    </mode_txt>
+    <min_size_lbl>आकार  (KB):</min_size_lbl>
+    <max_size_lbl>आकार (KB):</max_size_lbl>
+    <min_date_lbl>तिथि से:</min_date_lbl>
+    <max_date_lbl>तिथि तक:</max_date_lbl>
+    <title_error>गलती</title_error>
+    <size_error>आकार की गलती</size_error>
+    <date_error>तारीख की गलती</date_error>
+  </usp>
+
+  <gdbks>
+    <title>खोज...</title>
+    <keys type="array">
+      <value>मिला:</value>
+      <value>गलती:</value>
+      <value>रास्ता:</value>
+    </keys>
+    <stop_title>खोज रोके?</stop_title>
+    <stop_message>खोज रोके?\[color=blue]अभी के फल दिखाए जाएगे![/color]</stop_message>
+    <cancel_title>खोज निरस्त करे?</cancel_title>
+    <cancel_message>खोज निरस्त करे?</cancel_message>
+    <errors_title>खोज समाप्त</errors_title>
+    <errors_message>%1 गलतिया:-</errors_message>
+    <errors_label>\[color=red][b]? गलती %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>कोई फल नही</empty_title>
+    <empty_message>कोई फल प्राप्त नही हुआ</empty_message>
+    <aborted_title>खोज रोका गया</aborted_title>
+    <aborted_message>खोज रोका गया</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>निकाला जा रहा...</title>
+    <captions type="array">
+      <value>रास्ता:</value>
+      <value>फाइल:</value>
+    </captions>
+    <extract_error>इस अर्चिव से फाईल निकाला नही जा सकता.\\कारण:\</extract_error>
+    <format_title>फर्मट की गलती</format_title>
+    <format_message>अभी काम की गई फाइल की फर्मट से परेशानी\\कारण:\</format_message>
+    <format_error>फाइल निकालना बंद किया गया\\कारण:\</format_error>
+    <done_title>समाप्त</done_title>
+    <done_normal>सही तरह से समाप्त किया गया!</done_normal>
+    <done_errors>गलतियो के साथ समाप्त</done_errors>
+    <confirm_title>निकालना रोके?</confirm_title>
+    <confirm_message>निकालना रोके?</confirm_message>
+    <abort_title>रोका गया</abort_title>
+    <abort_message>निकालना रोका गया</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>कंम्प्रैस किया जा रहा...</title>
+    <captions type="array">
+      <value>रास्ता:</value>
+      <value>फाइल:</value>
+    </captions>
+    <finalizing>(अंतिम पर्व)</finalizing>
+    <compress_error>इस ज़िप अर्चिव को पूरा नही किया जा सका\\कारण:\</compress_error>
+    <done_title>समाप्त!</done_title>
+    <done_message>कंम्प्रैस किया गया!</done_message>
+    <abort_title>बंद किया गया</abort_title>
+    <abort_message>कंम्प्रैस करना बंद किया गया</abort_message> 
+    <confirm_title>बंद करे?</confirm_title>
+    <confirm_message>कंम्प्रैस करना बंद करे?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>नया %1 फाइल</title>
+    <filename>%1 नाम:</filename>
+    <password>%1 पासवर्ड:</password>
+    <password_title>पासवर्ड ज्यादा छोटा</password_title>
+    <password_message>पासवर्ड %1 अक्षरो का होना चाहिए!</password_message>
+    <method_title>कंम्प्रैस तरिका:</method_title>
+    <method_items type="array">
+      <value>Stored (बिना कंम्प्रैस)</value>
+      <value>Deflate (बेहतर)</value>
+      <value>Deflate64 (कम उपयोगी)</value>
+    </method_items>
+  </uzf>
+</language>

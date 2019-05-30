@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="Čeština" lid="cs" cid="CZ">
+  <common>
+    <no>Ne</no>
+    <yes>Ano</yes>
+    <root>&lt;disky&gt;</root>
+    <search_mode>&lt;hledání&gt;</search_mode>
+    <none>(žádné)</none>
+    <empty>(prázdné)</empty>
+    <denied>Zákázáno</denied>
+    <allowed>Povoleno</allowed>
+    <copy_suffix> - Kopie</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>Místní</value>
+      <value>Bluetooth</value>
+    </pages>
+    <menu_clean>Celá obrazovka[0]</menu_clean>
+    <menu_lang>Vybrat jazyk</menu_lang>
+    <menu_pass>Nastavit heslo</menu_pass>
+    <menu_about>O programu...</menu_about>
+    <menu_help>Nápověda</menu_help>
+    <menu_exit>Konec</menu_exit>
+    <help_title>Pomoc!</help_title>
+    <help_message>[b]KLÁVESY[/b]\• Stiskněte [color=blue]šipku vlevo[/color] nebo [color=blue]klávesu 4[/color] a [color=blue]šipku vpravo[/color] nebo [color=blue]klávesu 6[/color] pro přepnutí mezi Místními soubory a Bluetooth soubory.\• Stiskněte [color=blue]levou kontextovou klávesu[/color] pro otevření/zavření menu.\• Stiskněte [color=blue]pravou kontextovou klávesu[/color] pro vykonání příkazu na displeji.\• Stiskněte [color=blue]klávesu #[/color] pro označení/odznačení aktivní položky.\• Stiskněte [color=blue]klávesu 1[/color] pro zkopírování právě vybrané položky do schránky.\• Stiskněte [color=blue]klávesu 3[/color] pro vložení položek ze schránky do aktivní složky.\• Stiskněte [color=blue]klávesu 0[/color] pro vstup/ukončení režimu Celá obrazovka: tj. pohled bez horní a dolní lišty.\\[b]MENU[/b]\[color=#800080]Pokud položka v menu obsahuje ikonu, můžete stisknout klávesovou zkratku pro vykonání přidruženého příkazu.[/color]\• Stiskněte [color=blue]šipku nahoru[/color] nebo [color=blue]klávesu 2[/color] a [color=blue]šipku dolů[/color] nebo [color=blue]klávesu 8[/color] pro pohyb mezi příkazy v menu.\• Stiskněte [color=blue]prostřední klávesu[/color] nebo [color=blue]klávesu 5[/color] pro vykonání právě vybraného příkazu.\• Stiskněte [color=blue]levou kontextovou klávesu[/color] nebo [color=blue]klávesu ZPĚT[/color] pro zavření hlavního menu.\\[b]DIALOGY[/b]\• Stiskněte [color=blue]levou kontextovou klávesu[/color] pro stisknutí tlačítka vlevo ([color=green]zeleného[/color]).\• Stiskněte [color=blue]pravou kontextovou klávesu[/color] pro stisknutí tlačítka vpravo ([color=red]červeného[/color]).\• Stiskněte [color=blue]prostřední klávesu[/color] nebo [color=blue]klávesu 5[/color] pro stisknutí tlačítka (pokud je jen jedno).</help_message>
+    <bt_mex>[color=#FF8080]Toto zařízení nepodporuje Bluetooth API (JSR-82), proto se nelze spojit se vzdáleným zařízením.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]Prosím zapněte Bluetooth\a restartujte program![/color]</bt_off>
+    <fc_mex>[color=#FF8080]Toto zařízení nepodporuje FileConnection API (JSR-75), proto nelze přistoupit k souborovému systému vašeho zařízení.[/color]</fc_mex>
+    <dialog_bt_off_title>Vypnutí Bluetooth</dialog_bt_off_title>
+    <dialog_bt_off_message>Bluetooth je právě [b]VYPNUTO[/b]! Prosím, [u][color=blue]zapněte Bluetooth[/color][/u] a restartujte program.</dialog_bt_off_message>
+    <version_title>Nová verze!</version_title>
+    <version_message>Byla nalezena nová verze [b][color=blue]v%1[/color][/b] tohoto programu, můžete si ji zdarma stáhnout zde: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>PayPal příspěvky</donation_title>
+    <donation_message>Máte-li rádi tento software, můžete nám, prosím, věnovat [b][color=blue]příspěvek[/color][/b]!\Vývoj softwaru opravdu vyžaduje spoustu času a úsilí... jděte na [url]http://blueftp.medieval.it/[/url] a umožněte nám pokračovat ve vývoji softwaru zdarma malým příspěvkem!</donation_message>
+    <security_title>Bezpečnostní problémy</security_title>
+    <security_message>Nelze přistoupit k souborovému systému vašeho zařízení. Ujistěte se, že jste poskytli potřebná oprávnění (čtení &amp; zápis) této aplikaci.\Pro získání dalších informací si přečtěte návod k Vašemu zařízení, prosím...\\Příčina:\</security_message>
+    <outofmemory_title>Málo paměti!</outofmemory_title>
+    <outofmemory_message>Není dostatek paměti pro načtení souboru [color=blue][off]%1[/off][/color] vestavěným prohlížečem.\\Příčina:\</outofmemory_message>
+    <set_password>Ochrana heslem:</set_password>
+    <get_password>Vložte heslo:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>Menu</open_menu>
+    <close_menu>Zavřít</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(tato složka je prázdná)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>ok</value>
+      <value>pokračovat</value>
+      <value>ano</value>
+      <value>uložit</value>
+      <value>stop</value>
+      <value>navštívit</value>
+      <value>přejmenovat</value>
+      <value>ne</value>
+      <value>zrušit</value>
+      <value>přepsat</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>Reklama (pouze jednou)</title>
+    <wait>Čekejte, prosím...</wait>
+    <count>...nebo počkejte %1 vteřin...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>Čtení</value>
+      <value>Zápis</value>
+      <value>Skrytý</value>
+    </items>
+    <read_message>Nelze změnit atribut [b]čtení[/b] pro tuto položku.\\Příčina:\</read_message>
+    <write_message>Nelze změnit atribut [b]zápis[/b] pro tuto položku.\\Příčina:\</write_message>
+    <hidden_message>Nelze změnit atribut [b]skrytý[/b] pro tuto položku.\\Příčina:\</hidden_message>
+    <fc_read_message>Nelze otevřít souborové spojení (čtení) pro požadovanou položku.\\Příčina:\</fc_read_message>
+    <fc_write_message>Nelze otevřít souborové spojení (zápis) pro požadovanou položku.\\Příčina:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>Cesta:</value>
+      <value>Velikost:</value>
+      <value>Bajtů:</value>
+      <value>Datum:</value>
+      <value>Čas:</value>
+      <value>Čtení:</value>
+      <value>Zápis:</value>
+      <value>Skrytý:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>Jméno:</value>
+      <value>Volno:</value>
+      <value>Zaplněno:</value>
+      <value>Celkem:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>Cesta:</value>
+      <value>Jméno:</value>
+      <value>Alias:</value>
+      <value>Velikost:</value>
+      <value>Bajtů:</value>
+      <value>Datum:</value>
+      <value>Čas:</value>
+      <value>Čtení:</value>
+      <value>Zápis:</value>
+      <value>Odstranit:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>Cesta:</value>
+      <value>Koment.:</value>
+      <value>Datum:</value>
+      <value>Čas:</value>
+      <value>Zabal.:</value>
+      <value>Velikost:</value>
+      <value>Poměr:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>Ver. ZIP:</value>
+      <value>Metoda:</value>
+      <value>Úroveň:</value>
+      <value>Šifra:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mode:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>Úroveň:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>Info o zařízení</title>
+    <minor_default>(neznámé)</minor_default>
+    <major_default>(nezařazeno)</major_default>
+    <captions type="array">
+      <value>MAC:</value>
+      <value>Jméno:</value>
+      <value>Typ:</value>
+      <value></value>
+      <value>Služby:</value>
+    </captions>
+    <major type="array">
+      <value>Jiné</value>
+      <value>Počítač</value>
+      <value>Telefon</value>
+      <value>LAN</value>
+      <value>Audio</value>
+      <value>Periferní</value>
+      <value>Obrazové</value>
+    </major>
+    <minor_1 type="array">
+      <value>(nezařazeno)</value>
+      <value>Stolní</value>
+      <value>Server</value>
+      <value>Notebook</value>
+      <value>Kapesní</value>
+      <value>Palm</value>
+      <value>Přenosný</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(nezařazeno)</value>
+      <value>Celulární</value>
+      <value>Bezdrátový</value>
+      <value>Chytrý tel.</value>
+      <value>Modem (drát.)</value>
+      <value>ISDN přístup</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>Plně dostupné</value>
+      <value>1% - 17% využitelné</value>
+      <value>17% - 33% využitelné</value>
+      <value>33% - 50% využitelné</value>
+      <value>50% - 67% využitelné</value>
+      <value>67% - 83% využitelné</value>
+      <value>83% - 99% využitelné</value>
+      <value>Žádná dostupná služba</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(nezařazeno)</value>
+      <value>Headset</value>
+      <value>Hands-free</value>
+      <value>(vyhrazený)</value>
+      <value>Mikrofon</value>
+      <value>Reproduktor</value>
+      <value>Sluchátka</value>
+      <value>Přenosné audio</value>
+      <value>Auto audio</value>
+      <value>Set-top box</value>
+      <value>Hi-fi audio</value>
+      <value>VCR</value>
+      <value>Videokamera</value>
+      <value>Kamkordér</value>
+      <value>Monitor</value>
+      <value>Displej a reproduktor</value>
+      <value>Video konferece</value>
+      <value>(vyhrazeno)</value>
+      <value>Na hraní</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(nepodporováno) / </value>
+      <value>Klávesnice / </value>
+      <value>Myš / </value>
+      <value>Klávesnice &amp; Myš / </value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(nezařazeno)</value>
+      <value>Joystick</value>
+      <value>Gamepad</value>
+      <value>Dálkové ovládání</value>
+      <value>Čidlo</value>
+      <value>Digitizer tablet</value>
+      <value>Čtečka karet</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>Displej</value>
+      <value>Fotoaparát</value>
+      <value>Skener</value>
+      <value>Tiskárna</value>
+    </minor_6>
+    <services type="array">
+      <value>Dočasně viditelné</value>
+      <value>(vyhrazeno)</value>
+      <value>(vyhrazeno)</value>
+      <value>Polohování</value>
+      <value>Tvorba sítě</value>
+      <value>Zobrazování</value>
+      <value>Zachycování</value>
+      <value>Přenos souborů</value>
+      <value>Audio</value>
+      <value>Telefonování</value>
+      <value>Informace</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>Cesta:</value>
+      <value>Soubor:</value>
+      <value>Data:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>Přerušit přenos?</confirm_title>
+    <confirm_message>Opravdu chcete přerušit probíhajíci přenos?</confirm_message>
+    <success_title>Přenos dokončen</success_title>
+    <success_message>Přenos úspěšně dokončen!</success_message>
+    <abort_title>Přenos zrušen</abort_title>
+    <abort_message>Přenos zrušen uživatelem.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>Nelze odeslat vybrané položky do vzdáleného zařízení.\\Příčina:\</send_error>
+    <file_open_error>Nelze otevřít zdrojový soubor (oprávnění ke čtení) v místním souborovém systému.\\Příčina:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>Nelze nahrát vybrané položky do vzdáleného zařízení.\\Příčina:\</upload_error>
+    <file_open_error>Nelze otevřít zdrojový soubor (oprávnění ke čtení) v místním souborovém systému.\\Příčina:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>Nelze vytvořit cílovou složku (oprávnění ke čtení &amp; zápis) v místním souborovém systému.\\Příčina:\</path_create_error>
+    <file_create_error>Nelze vytvořit cílový soubor (oprávnění ke čtení &amp; zápis) v místním souborovém systému.\\Příčina:\</file_create_error>
+    <download_error>Nelze stáhnout požadované položky do místního souborového systému.\\Příčina:\</download_error>
+    <listing>(seznam složek)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>Hledání zařízení</value>
+      <value>Připojování k zařízení</value>
+      <value>Načítávání dat</value>
+    </tasks>
+    <profile_ftp>[url]File Transfer Profile[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]Object Push Profile[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>Zpět do seznamu zařízení</menu_back_ftp>
+    <menu_back_opp>Zpět do místních souborů</menu_back_opp>
+    <fast_back>Zpět</fast_back>
+    <fast_cancel>Zrušit</fast_cancel>
+    <agent_message>Nelze získat místního agenta viditelnosti Bluetooth API.\\Příčina:\</agent_message>
+    <start_message>Nelze spustit %1 službu hledání.\\Příčina:\</start_message>
+    <abort_title>Připojení zrušeno</abort_title>
+    <abort_message>Spojení s cílovým zařízením bylo zrušeno uživatelem.</abort_message>
+    <error_title>Chyba spojení</error_title>
+    <unreachable_message>Cílové zařízení je momentálně nedosažitelné.</unreachable_message>
+    <search_message>Vyskytla se chyba během %1 služba hledání.</search_message>
+    <notfound_message>Nemůžete se spojit s cílovým zařízením kvůli nedostatku %1 Bluetooth služby.</notfound_message>
+    <connect_message>Nelze se spojit s cílovým zařízením.\\Příčina:\</connect_message>
+    <loading_message>Nelze načíst souborová data cílového zařízení.\\Příčina:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>Zpět do místních souborů</menu_back>
+    <menu_connect>Připojit[5F]</menu_connect>
+    <menu_addbook>Přidat do seznamu</menu_addbook>
+    <menu_delbook>Odstranit zařízení[C]</menu_delbook>
+    <menu_search>Hledat zařízení</menu_search>
+    <menu_info>Info o zařízení[7]</menu_info>
+    <fast_search>Hledat</fast_search>
+    <fast_cancel>Zrušit</fast_cancel>
+    <nodevices_message>[color=#5555FF]Nenalezena Bluetooth zařízení!\Prosím stiskněte tlačítko [b]Hledat[/b].[/color]</nodevices_message>
+    <abort_title>Zrušeno</abort_title>
+    <abort_message>Hledání bylo zrušeno uživatelem.</abort_message>
+    <error_title>Chyba hledání</error_title>
+    <error_message>Během hledání došlo k chybě.\[color=blue][b]Je Bluetooth zapnuto?[/b][/color]</error_message>
+    <confirm_title>Prosím potvrďte</confirm_title>
+    <confirm_message>Opravdu chcete odstranit zařízení [color=blue]%1[/color] ze seznamu záložek?</confirm_message>
+    <notfound_title>Žádné výsledky</notfound_title>
+    <notfound_message>Hledání Bluetooth zařízení bylo dokončeno bez výsledků.\Stiskněte tlačítko [color=blue][b]Hledat[/b][/color] znovu!</notfound_message>
+    <noaddbook_title>Nelze přidat</noaddbook_title>
+    <noaddbook_message>Zařízení už je na seznamu.</noaddbook_message>
+    <opp_message>Vyberte cílové zařízení:</opp_message>
+    <infrared>Infračervený</infrared>
+  </gcld>
+
+  <gclfl>
+   <send>Posílání...</send>
+   <upload>Nahrávání...</upload>
+   <menu_upload>Nahrát položku(y)</menu_upload>
+   <menu_open>Otevřít položku[5F]</menu_open>
+   <menu_open_txt>Otevřít jako text</menu_open_txt>
+   <menu_open_hex>Otevřít binární</menu_open_hex>
+   <menu_search>Hledat položky...</menu_search>
+   <menu_send_bt>Odeslat přes Bluetooth</menu_send_bt>
+   <menu_send_ir>Odeslat přes Infračervený</menu_send_ir>
+   <menu_compress_zip>Zabalit položky (zip)</menu_compress_zip>
+   <menu_compress_tar>Zabalit položky (tar)</menu_compress_tar>
+   <menu_compress_jar>Zabalit položky (jar)</menu_compress_jar>
+   <menu_compress_nth>Zabalit položky (nth)</menu_compress_nth>
+   <menu_compress_thm>Zabalit položky (thm)</menu_compress_thm>
+   <menu_compress_gz>Zabalit soubor (gz)</menu_compress_gz>
+   <menu_extract>Rozbalit sem[3]</menu_extract>
+   <menu_cancel>Zrušit rozbalování</menu_cancel>
+   <menu_back>Zpět</menu_back>
+   <menu_root>Jít na disky[B]</menu_root>
+   <menu_item>Jít k souboru</menu_item>
+   <menu_refresh>Obnovit složku</menu_refresh>
+   <menu_create>Vytvořit složku</menu_create>
+   <menu_item_info>Informace[7]</menu_item_info>
+   <menu_attrib>Atributy[9]</menu_attrib>
+   <menu_volume_info>Kapacita</menu_volume_info>
+   <menu_rename>Přejmenovat</menu_rename>
+   <menu_delete>Odstranit[C]</menu_delete>
+   <menu_cut>Vyjmout</menu_cut>
+   <menu_copy>Kopírovat[1]</menu_copy>
+   <menu_paste>Vložit[3]</menu_paste>
+   <menu_select>Označit[*#]</menu_select>
+   <menu_unselect>Odznačit[*#]</menu_unselect>
+   <menu_select_all>Označit vše</menu_select_all>
+   <menu_select_none>Odznačit vše</menu_select_none>
+   <menu_select_invert>Otočit označení</menu_select_invert>
+   <fast_key>Zpět</fast_key>
+   <root_added_title>Přidán disk</root_added_title>
+   <root_added_message>Nové paměťové zařízení bylo přidáno do místního souborového systému.\\Disk&gt; </root_added_message>
+   <root_removed_title>Odstraněn disk</root_removed_title>
+   <root_removed_message>Paměťové zařízení bylo odstraněno z místního souborového systému.\\Storage root&gt; </root_removed_message>
+   <unsupported_title>Nepodporováno</unsupported_title>
+   <unsupported_message>Tento typ souboru momentálně není podporovaný vestavěným prohlížečem.</unsupported_message>
+   <open_error_title>Chyba při otvírání</open_error_title>
+   <open_error_message>Nelze otevřít soubor [color=blue][off]%1[/off][/color] vestavěným prohlížečem.\\Příčina:\</open_error_message>
+   <create_title>Zadejte název složky:</create_title>
+   <create_value>Nová složka</create_value>
+   <create_message>Nelze vytvořit složku [color=blue][off]%1[/off][/color] na současném místě.\\Příčina:\</create_message>
+   <rename_title>Nový název:</rename_title>
+   <rename_message>Přejmenovat položku s názvem [color=blue][off]%1[/off][/color] není možné.\\Příčina:\</rename_message>
+   <read_message>Nelze číst obsah ze složky [color=blue][off]%1[/off][/color].\\Příčina:\</read_message>
+   <info_message>Nelze získat informace z místního souborového systému.\\Příčina:\</info_message>
+   <fc_open_message>Nelze otevřít systém souborů pro danou položku.\\Příčina:\</fc_open_message>
+   <delete_message>Nelze odstranit soubor [color=blue][off]%1[/off][/color] z místního systému souborů.\\Příčina:\</delete_message>
+   <confirm_title>Prosím potvrďte</confirm_title>
+   <confirm_message>Opravdu chcete odstranit vybranou položku/y?</confirm_message>
+   <paste_message>Nelze vložit soubor [color=blue][off]%1[/off][/color] z místního systému souborů.\\Příčina:\</paste_message>
+   <paste_file_title>Prosím potvrďte</paste_file_title>
+   <paste_file_message>Soubor [color=blue][off]%1[/off][/color] již existuje v cílové složce!\\Chcete ho přejmenovat nabo přepsat?</paste_file_message>
+   <paste_path_title>Prosím potvrďte</paste_path_title>
+   <paste_path_message>Složka [color=blue][off]%1[/off][/color] již existuje!\\Chcete ji přejmenovat nebo přepsat?</paste_path_message>
+   <paste_checkbox>Vše</paste_checkbox>
+   <cancel_title>Rozbalování přerušeno</cancel_title>
+   <cancel_message>Archivní rozbalení přerušeno uživatelem!</cancel_message>
+   <tar_filename>%1 jméno:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+   <download>Stahování...</download>
+   <menu_download>Stáhnout položku/y</menu_download>
+   <menu_open>Otevřít položku[5F]</menu_open>
+   <menu_open_txt>Otevřít jako text</menu_open_txt>
+   <menu_open_hex>Otevřít binární</menu_open_hex>
+   <menu_search>Hledat položky...</menu_search>
+   <menu_disconnect>Odpojit</menu_disconnect>
+   <menu_back>Zpět</menu_back>
+   <menu_root>Jít na disky[B]</menu_root>
+   <menu_item>Jít k souboru</menu_item>
+   <menu_refresh>Obnovit složku</menu_refresh>
+   <menu_create>Vytvořit složku</menu_create>
+   <menu_item_info>Informace[7]</menu_item_info>
+   <menu_delete>Odstranit[C]</menu_delete>
+   <menu_cut>Vyjmout</menu_cut>
+   <menu_copy>Kopírovat[1]</menu_copy>
+   <menu_paste>Vložit[3]</menu_paste>
+   <menu_select>Označit[*#]</menu_select>
+   <menu_unselect>Odznačit[*#]</menu_unselect>
+   <menu_select_all>Označit vše</menu_select_all>
+   <menu_select_none>Odznačit vše</menu_select_none>
+   <menu_select_invert>Otočit označení</menu_select_invert>
+   <fast_key>Zpět</fast_key>
+   <unsupported_title>Nepodporováno</unsupported_title>
+   <unsupported_message>Tento typ souboru momentálně není podporovaný vestavěným prohlížečem.</unsupported_message>
+   <open_error_title>Chyba při otvírání</open_error_title>
+   <open_error_message>Nelze otevřít soubor [color=blue][off]%1[/off][/color] vestavěným prohlížečem.\\Příčina:\</open_error_message>
+   <create_title>Zadejte název složky:</create_title>
+   <create_value>Nová složka</create_value>
+   <create_message>Nelze vytvořit složku [color=blue][off]%1[/off][/color] na současném místě.\\Příčina:\</create_message>
+   <confirm_title>Prosím potvrďte</confirm_title>
+   <delete_confirm>Opravdu chcete odstranit vybranou položku/y?</delete_confirm>
+   <delete_message>Nelze odstranit soubor [color=blue][off]%1[/off][/color] ze vzdáleného zařízení.\\Příčina:\</delete_message>
+   <disconnect_confirm>Opravdu se chcete odpojit od vzdáleného zařízení?</disconnect_confirm>
+   <disconnect_message>Nelze se odpojit od vzdáleného zařízení.\\Příčina:\</disconnect_message>
+   <enter_message>Nelze otevřít složku [color=blue][off]%1[/off][/color].\\Příčina:\</enter_message>
+   <back_message>Nelze se vrátit.\\Příčina:\</back_message>
+   <root_message>Nelze jít na disky.\\Příčina:\</root_message>
+   <read_message>Nelze číst obsah ze současné složky.\\Příčina:\</read_message>
+   <paste_err_title>Nepodporováno</paste_err_title>
+   <paste_err_message>Nyní nemůžete [color=blue]vyjmout nebo kopírovat[/color] a poté [color=blue]vložit[/color] položky ve stejném Bluetooth zařízení!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+   <menu_extract>Rozbalit vybrané[1]</menu_extract>
+   <menu_close>Zavřít archiv</menu_close>
+   <menu_open>Otevřít položku[5F]</menu_open>
+   <menu_open_txt>Otevřít jako text</menu_open_txt>
+   <menu_open_hex>Otevřít binární</menu_open_hex>
+   <menu_item_info>Informace[7]</menu_item_info>
+   <menu_back>Zpět</menu_back>
+   <menu_root>Jít na disky[B]</menu_root>
+   <menu_select>Označit[*#]</menu_select>
+   <menu_unselect>Odznačit[*#]</menu_unselect>
+   <menu_select_all>Označit vše</menu_select_all>
+   <menu_select_none>Odznačit vše</menu_select_none>
+   <menu_select_invert>Otočit označení</menu_select_invert>
+   <fast_key>Zpět</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>Ok</ok_button>
+    <ko_button>Zrušit</ko_button>
+  </uib>
+
+  <usp>
+    <title>Parametry hledání</title>
+    <ok_button>Ok</ok_button>
+    <ko_button>Zrušit</ko_button>
+    <reset_form_btn>Původní hodnoty</reset_form_btn>
+    <clear_mode_btn>Vymazat "Hledání"</clear_mode_btn>
+    <check_mode_btn>Označit "Hledání"</check_mode_btn>
+    <clear_from_date_btn>Vymazat "Datum od"</clear_from_date_btn>
+    <clear_to_date_btn>Vymazat "Datum do"</clear_to_date_btn>
+    <text_lbl>Hledat text:</text_lbl>
+    <mode_lbl>Hledání:</mode_lbl>
+    <mode_txt type="array">
+      <value>Hledat složky</value>
+      <value>Hledat obrázky</value>
+      <value>Hledat audio</value>
+      <value>Hledat video</value>
+      <value>Hledat textové soubory</value>
+      <value>Hledat programy</value>
+      <value>Hledat archivy</value>
+      <value>Hledat webové stránky</value>
+      <value>Hledat schémata</value>
+      <value>Hledat neznámé soubory</value>
+    </mode_txt>
+    <min_size_lbl>Min. velikost (KB):</min_size_lbl>
+    <max_size_lbl>Max. velikost (KB):</max_size_lbl>
+    <min_date_lbl>Datum od:</min_date_lbl>
+    <max_date_lbl>Datum do:</max_date_lbl>
+    <title_error>Chyba parametrů</title_error>
+    <size_error>"Min. velikost" musí být menší nebo rovná "Max. velikosti"!</size_error>
+    <date_error>"Datum od" musí být menší nebo rovno "Datu do"!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>Hledání...</title>
+    <keys type="array">
+      <value>Nalezeno:</value>
+      <value>Chyba:</value>
+      <value>Cesta:</value>
+    </keys>
+    <stop_title>Zastavit hledání?</stop_title>
+    <stop_message>Opravdu chcete zastavit probíhající hledání?\[color=blue]Současné výsledky budou zobrazeny![/color]</stop_message>
+    <cancel_title>Zrušit hledání?</cancel_title>
+    <cancel_message>Opravdu chcete zrušit probíhajíci hledání?</cancel_message>
+    <errors_title>Dokončeno s chybami</errors_title>
+    <errors_message>Hledání dokončeno s [b]%1[/b] chybami. Zde je seznam chyb:</errors_message>
+    <errors_label>\[color=red][b]• Chyba %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>Žádné výsledky</empty_title>
+    <empty_message>Hledání dokončeno bez výsledků.</empty_message>
+    <aborted_title>Hledání přerušeno</aborted_title>
+    <aborted_message>Hledání přerušeno uživatelem.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>Rozbalování...</title>
+    <captions type="array">
+      <value>Cesta:</value>
+      <value>Soubor:</value>
+    </captions>
+    <extract_error>Nelze rozbalit tento ZIP archiv.\\Příčina:\</extract_error>
+    <format_title>Chyba ZIP formátu</format_title>
+    <format_message>Zjištěny problémy s formátem zpracovávaného souboru.\\Příčina:\</format_message>
+    <format_error>Uživatel zastavil rozbalování.\\Příčina:\</format_error>
+    <done_title>Hotovo!</done_title>
+    <done_normal>Rozbalování skončilo úspěšně!</done_normal>
+    <done_errors>Rozbalování skončilo s chybami.</done_errors>
+    <confirm_title>Přerušit rozbalování?</confirm_title>
+    <confirm_message>Opravdu chcete přerušit probíhající rozbalování?</confirm_message>
+    <abort_title>Rozbalování přerušeno</abort_title>
+    <abort_message>Rozbalování přerušeno uživatelem.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>Zabalování...</title>
+    <captions type="array">
+      <value>Cesta:</value>
+      <value>Soubor:</value>
+    </captions>
+    <finalizing>(dokončování archivu)</finalizing>
+    <compress_error>Nelze dokončit ZIP archiv.\\Příčina:\</compress_error>
+    <done_title>Hotovo!</done_title>
+    <done_message>Zabalování úspěąně dokončeno!</done_message>
+    <abort_title>Zabalování přerušeno</abort_title>
+    <abort_message>Zabalování přerušeno uživatelem.</abort_message>
+    <confirm_title>Přerušit zabalování?</confirm_title>
+    <confirm_message>Opravdu chcete přerušit probíhející zabalování?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>Nový %1 soubor</title>
+    <filename>%1 jméno:</filename>
+    <password>%1 heslo:</password>
+    <password_title>Krátké heslo</password_title>
+    <password_message>Vaše heslo by mělo mít aspoň %1 znaků!</password_message>
+    <method_title>Metoda zabalení:</method_title>
+    <method_items type="array">
+      <value>Stored (nezmenšeno)</value>
+      <value>Deflate (nejlepší volba)</value>
+      <value>Deflate64 (málo kompatibilní)</value>
+    </method_items>
+  </uzf>
+</language>

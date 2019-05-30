@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="Magyar" lid="hu" cid="HU">
+  <common>
+    <no>Nem</no>
+    <yes>Igen</yes>
+    <root>&lt;főkönyvtár&gt;</root>
+    <search_mode>&lt;keresés&gt;</search_mode>
+    <none>(üres)</none>
+    <empty>(üres)</empty>
+    <denied>Nem engedélyezett</denied>
+    <allowed>Engedélyezett</allowed>
+    <copy_suffix> - Másolat</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>Helyi</value>
+      <value>Bluetooth</value>
+    </pages>
+    <menu_clean>Teljes képernyő[0]</menu_clean>
+    <menu_lang>Nyelvválasztás</menu_lang>
+    <menu_pass>Titkos kód beállítás</menu_pass>
+    <menu_about>Névjegy...</menu_about>
+    <menu_help>Segítség</menu_help>
+    <menu_exit>Kilépés</menu_exit>
+    <help_title>Segítség!</help_title>
+    <help_message>[b]GOMBOK[/b]\• Ahhoz, hogy tudj váltani a helyi vagy a bluetooth fájlok között, nyomd meg a [color=blue]balra nyíl[/color] vagy [color=blue]4-es gombot[/color] és a [color=blue]jobbra nyíl[/color] vagy [color=blue]6-os gombot[/color].\• Ahhoz, hogy megnyisd vagy bezárd a főmenüt nyomd meg a [color=blue]bal menü gombot[/color].\• Ahhoz, hogy végrehajtsd a képernyőn lévő gyors parancsot nyomd meg a [color=blue]jobb menü gombot[/color].\• Ahhoz, hogy kijelöld a jelenlegi tételt nyomd meg a [color=blue]# gombot[/color] vagy hogy töröld a kijelölést, nyomd meg a [color=blue]* gombot[/color].\• Ahhoz, hogy másold a kiválaszott elemeket a vágólapra, nyomd meg az [color=blue]1-es[/color] gombot.\• Ahhoz, hogy beilleszd az elemeket a vágólapról a jelenlegi könyvtárba nyomd meg a [color=blue]3-as[/color] gombot.\• A teljes képernyőbe való lépéshez vagy abbol való kilépéshez nyomd meg a [color=blue]0-ás[/color] gombot: teljes képernyős nézet a felső és az alsó sávok nélkül.\\[b]MENÜ[/b]\[color=#800080]Ha egy menü elem tartalmaz egy ikont, akkor a hozzá tartozó gyors gombot eltudod érni a billentyűzetről is.[/color]\• Ahoz hogy válts a parancsok között nyomd meg a [color=blue]felfelé nyilat[/color] vagy a [color=blue]2-es gombot[/color] és [color=blue]lefelé nyilat[/color] vagy a [color=blue]8-as gombot[/color].\• Ahhoz, hogy végrehajtasd a kijelölt parancsot nyomd meg a [color=blue]TŰZ gombot[/color] vagy az [color=blue]5-ös gombot[/color].\• Ahhoz, hogy bezárd a főmenüt nyomd meg a [color=blue]bal menü gombot[/color] vagy a [color=blue]Vissza gombot[/color].\\[b]DIALÓGUSOK[/b]\• Ahhoz, hogy megnyomd a dialógus bal menü gombot nyomd meg a [color=blue]bal menü gombot[/color] ([color=green]zöld[/color]).\• Ahhoz, hogy megnyomd a dialógus jobb menü gombját nyomd meg a [color=blue]jobb menü gombot[/color] ([color=red]piros[/color]).\• Amikor csak egy lehetőség van akkor nyomd meg a [color=blue]TŰZ gombot[/color] vagy az [color=blue]5-ös gombot[/color].</help_message>
+    <bt_mex>[color=#FF8080]Ez az eszköz nem támogatja a Bluetooth API-t (JSR-82), így nem tudsz csatlakozni egy vezetéknélküli eszközhöz sem.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]Kérlek kapcsold be a bluetooth-ot\és indítsd újra a programot![/color]</bt_off>
+    <fc_mex>[color=#FF8080]Ez az eszköz nem támogatja a FileConnection API-t (JSR-75), így nem férhetsz hozzá az eszköz fájlrendszeréhez.[/color]</fc_mex>
+    <dialog_bt_off_title>Bluetooth Kikapcsolva</dialog_bt_off_title>
+    <dialog_bt_off_message>A bluetooth jelenleg [b]ki van kapcsolva[/b]! Kérlek, [u][color=blue]kapcsold be a Bluetooth-ot[/color][/u] és indítsd újra a programot.</dialog_bt_off_message>
+    <version_title>Új verzió!</version_title>
+    <version_message>Újabb verzió található az interneten, [b][color=blue]v%1[/color][/b], ingyenesen innen töltheted le: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>PayPal adomány</donation_title>
+    <donation_message>Ha kedveled ezt a szoftvert, kérlek, fontold meg hogy küldesz [b][color=blue]adományt[/color][/b]!\A szoftver fejlesztéshez tényleg sok idő és erőfeszítés kell ... látogass el a [url]http://blueftp.medieval.it/[/url] oldalra és hagy folytassuk a szoftver ingyenes fejlesztését, egy kis adománnyal!</donation_message>
+    <security_title>Biztonsági gondok</security_title>
+    <security_message>Nem lehet hozzáférni az eszköz fájlrendszeréhez. Bizonyosodj meg róla hogy a megfelelő engedély (olvasás és írás) legyen megadva ehhez a programhoz.\Kérlek, olvasd el az eszköz kézikönyvét hogy további információkhoz juss...\\Ok:\</security_message>
+    <outofmemory_title>Nincs elég memória!</outofmemory_title>
+    <outofmemory_message>Nincs elég memória, hogy megnyisd a(z) [color=blue][off]%1[/off][/color] fájlt a beépített fájlkezelővel.\\Ok:\</outofmemory_message>
+    <set_password>Védelem titkos kóddal:</set_password>
+    <get_password>A kezdéshez írd be a titkos kódot:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>Menü</open_menu>
+    <close_menu>Bezárás</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(ez a mappa üres)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>ok</value>
+      <value>folytat</value>
+      <value>igen</value>
+      <value>mentés</value>
+      <value>megállít</value>
+      <value>oldal meglátogatása</value>
+      <value>átnevezés</value>
+      <value>nem</value>
+      <value>mégse</value>
+      <value>felülírás</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>Reklám (csak egyszer)</title>
+    <wait>Kérlek várj...</wait>
+    <count>...vagy várj %1 másodpercet...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>Olvasható</value>
+      <value>Írható</value>
+      <value>Rejtett</value>
+    </items>
+    <read_message>Nem lehet módosítani az [b]olvasás[/b] attribútumot a megadott tételhez.\\Ok:\</read_message>
+    <write_message>Nem lehet módosítani az [b]írás[/b] attribútumot a megadott tételhez.\\Ok:\</write_message>
+    <hidden_message>Nem lehet módosítani a [b]rejtett[/b] attribútumot a megadott tételhez.\\Ok:\</hidden_message>
+    <fc_read_message>Nem lehet megnyitni a fájl kapcsolatot (olvasás) a kért tételhez.\\Ok:\</fc_read_message>
+    <fc_write_message>Nem lehet megnyitni a fájl kapcsolatot (írás) a kért tételhez.\\Ok:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>Útvonal:</value>
+      <value>Méret:</value>
+      <value>Bájt:</value>
+      <value>Dátum:</value>
+      <value>Idő:</value>
+      <value>Olvasás:</value>
+      <value>Írás:</value>
+      <value>Rejtett:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>Név:</value>
+      <value>Szabad:</value>
+      <value>Használt:</value>
+      <value>Teljes:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>Útvonal:</value>
+      <value>Név:</value>
+      <value>Alias:</value>
+      <value>Méret:</value>
+      <value>Bájt:</value>
+      <value>Dátum:</value>
+      <value>Idő:</value>
+      <value>Olvasás:</value>
+      <value>Írás:</value>
+      <value>Törlés:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>Útvonal:</value>
+      <value>Megj.:</value>
+      <value>Dátum:</value>
+      <value>Idő:</value>
+      <value>Csomag:</value>
+      <value>Méret:</value>
+      <value>Ratio:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>ZIP ver:</value>
+      <value>Módszer:</value>
+      <value>Szint:</value>
+      <value>Kikódolás:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mód:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>Szint:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>Eszköz részletek</title>
+    <minor_default>(ismeretlen)</minor_default>
+    <major_default>(Nem osztályozott)</major_default>
+    <captions type="array">
+      <value>MAC:</value>
+      <value>Név:</value>
+      <value>Típus:</value>
+      <value></value>
+      <value>Szolg.:</value>
+    </captions>
+    <major type="array">
+      <value>Egyéb</value>
+      <value>Számítógép</value>
+      <value>Telefon</value>
+      <value>LAN</value>
+      <value>Audio</value>
+      <value>Periféria</value>
+      <value>Képfeldolgozó</value>
+    </major>
+    <minor_1 type="array">
+      <value>(Nem osztályozott)</value>
+      <value>Asztali</value>
+      <value>Szerver</value>
+      <value>Notebook</value>
+      <value>Handheld</value>
+      <value>Palm</value>
+      <value>Hordható</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(Nem osztályozott)</value>
+      <value>Cellular</value>
+      <value>Vezetéknélküli</value>
+      <value>Okostelefon</value>
+      <value>Kábeles modem</value>
+      <value>ISDN hozzáférés</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>Teljesen elérhető</value>
+      <value>1% - 17% felhasznált</value>
+      <value>17% - 33% felhasznált</value>
+      <value>33% - 50% felhasznált</value>
+      <value>50% - 67% felhasznált</value>
+      <value>67% - 83% felhasznált</value>
+      <value>83% - 99% felhasznált</value>
+      <value>Nincs elérhető szolgáltatás</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(Nem osztályozott)</value>
+      <value>Headset</value>
+      <value>Hands-free</value>
+      <value>(foglalt)</value>
+      <value>Mikrofon</value>
+      <value>Kihangosító</value>
+      <value>Fejhallgató</value>
+      <value>Hordozható audio</value>
+      <value>Autó audio</value>
+      <value>Set-top box</value>
+      <value>Hi-fi audio</value>
+      <value>VCR</value>
+      <value>Videó kamera</value>
+      <value>Kamera</value>
+      <value>Videó monitor</value>
+      <value>Videó kijelző és kihangosító</value>
+      <value>Videó konferencia</value>
+      <value>(foglalt)</value>
+      <value>Játék</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(Nem támogatott) / </value>
+      <value>Billentyűzet / </value>
+      <value>Mutató / </value>
+      <value>Billentyűzet és Mutató / </value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(Nem kategorizált)</value>
+      <value>Joystick</value>
+      <value>Gamepad</value>
+      <value>Távirányító</value>
+      <value>Érzékelő eszköz</value>
+      <value>Digitalizáló tábla</value>
+      <value>Kártyaolvasó</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>Kijelző</value>
+      <value>Kamera</value>
+      <value>Lapolvasó</value>
+      <value>Nyomtató</value>
+    </minor_6>
+    <services type="array">
+      <value>Limitált felfedezhetőség</value>
+      <value>(foglalt)</value>
+      <value>(foglalt)</value>
+      <value>Helymeghatározás</value>
+      <value>Hálózat</value>
+      <value>Rendering</value>
+      <value>Felvétel</value>
+      <value>Objektum átvitel</value>
+      <value>Audio</value>
+      <value>Telefon</value>
+      <value>Információ</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>Útvonal:</value>
+      <value>Fájl:</value>
+      <value>Adat:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>Megszakítás?</confirm_title>
+    <confirm_message>Tényleg meg akarod szakítani a jelenlegi átvitelt?</confirm_message>
+    <success_title>Átvitel befejeződött</success_title>
+    <success_message>Az átvitel sikeresen befejeződött!</success_message>
+    <abort_title>Átvitel megszakítva</abort_title>
+    <abort_message>A felhasználó megszakította az átvitelt.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>A kért tételt nem lehet elküldeni a távoli eszközre.\\Ok:\</send_error>
+    <file_open_error>Nem lehet megnyitni a forrás fájlt (olvasás engedély) a helyi fájlrendszeren.\\Ok:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>A kért tételt nem lehet feltölteni a távoli eszközre.\\Ok:\</upload_error>
+    <file_open_error>Nem lehet megnyitni a forrás fájlt (olvasás engedély) a helyi fájlrendszeren.\\Ok:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>Nem lehet létrehozni a cél mappát (olvasás és írás engedély) a helyi fájlrendszeren.\\Ok:\</path_create_error>
+    <file_create_error>Nem lehet létrehozni a cél fájlt (olvasás és írás engedély) a helyi fájlrendszeren.\\Ok:\</file_create_error>
+    <download_error>Nem lehet letölteni a kért tételt a helyi fájlrendszerre.\\Ok:\</download_error>
+    <listing>(Mappa listázás)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>Szolgáltatások keresése</value>
+      <value>Csatlakozva az eszközhöz</value>
+      <value>Fájl adatok betöltése</value>
+    </tasks>
+    <profile_ftp>[url]File Transfer Profile[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]Object Push Profile[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>Vissza az eszköz listához</menu_back_ftp>
+    <menu_back_opp>Vissza a helyi fájllistához</menu_back_opp>
+    <fast_back>Vissza</fast_back>
+    <fast_cancel>Mégse</fast_cancel>
+    <agent_message>Nem lehet elérni a helyi Bluetooth API felderítő közegét.\\Ok:\</agent_message>
+    <start_message>Nem lehet elindítani a %1 szolgáltatás keresőjét.\\Ok:\</start_message>
+    <abort_title>Csatlakozás megszakítva</abort_title>
+    <abort_message>A felhasználó megszakított a csatlakozást a kijelölt eszközzel.</abort_message>
+    <error_title>Csatlakozási hiba</error_title>
+    <unreachable_message>A kijelölt eszköz jelenleg nem érhető el.</unreachable_message>
+    <search_message>Hiba történt %1 szolgáltatás keresése közben.</search_message>
+    <notfound_message>Nem tudsz csatlakozni a kijelölt eszközhöz mert hiányzik a %1 Bluetooth szolgáltatás.</notfound_message>
+    <connect_message>Nem lehet csatlakozni a kijelölt eszközhöz.\\Ok:\</connect_message>
+    <loading_message>Nem lehet betölteni a fájl adatot a kijelölt eszközön.\\Ok:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>Vissza a helyi fájllistához</menu_back>
+    <menu_connect>Csatlakozás[5F]</menu_connect>
+    <menu_addbook>Könyvjelzőhöz ad</menu_addbook>
+    <menu_delbook>Könyvjelző eltávolítása[C]</menu_delbook>
+    <menu_search>Eszközök keresése</menu_search>
+    <menu_info>Eszköz részletek[7]</menu_info>
+    <fast_search>Keresés</fast_search>
+    <fast_cancel>Mégse</fast_cancel>
+    <nodevices_message>[color=#5555FF]Nem található Bluetooth eszköz!\Kérlek nyomd meg a [b]Keresés[/b] gombot.[/color]</nodevices_message>
+    <abort_title>Megszakítva</abort_title>
+    <abort_message>A felhasználó megszakította a keresést.</abort_message>
+    <error_title>Keresési hiba</error_title>
+    <error_message>Hiba történt keresés közben.\[color=blue][b]Be van kapcsolva a bluetooth?[/b][/color]</error_message>
+    <confirm_title>Kérlek igazold</confirm_title>
+    <confirm_message>Tényleg el akarod távolítani a(z) [color=blue]%1[/color] eszközt a könyvjelzőből?</confirm_message>
+    <notfound_title>Nincs eredmény</notfound_title>
+    <notfound_message>Bluetooth eszközök után való keresés nem hozott eredményt.\Nyomd meg újra a [color=blue][b]Keresés[/b][/color] gombot!</notfound_message>
+    <noaddbook_title>Nem lehet hozzá adni</noaddbook_title>
+    <noaddbook_message>Az eszköz már jelen van a könyvjelzőben.</noaddbook_message>
+    <opp_message>Céleszköz kiválasztása:</opp_message>
+    <infrared>Infravörös</infrared>
+  </gcld>
+
+  <gclfl>
+    <send>Küldés...</send>
+    <upload>Feltöltés...</upload>
+    <menu_upload>Tétel(ek) feltöltése</menu_upload>
+    <menu_open>Tétel megnyitása[5F]</menu_open>
+    <menu_open_txt>Megnyitás szövegként</menu_open_txt>
+    <menu_open_hex>Megnyitás binárisként</menu_open_hex>
+    <menu_search>Tételek keresése...</menu_search>
+    <menu_send_bt>Küldés Bluetooth-al</menu_send_bt>
+    <menu_send_ir>Küldés Infravörössel</menu_send_ir>
+    <menu_compress_zip>Tömörítés (zip)</menu_compress_zip>
+    <menu_compress_tar>Tömörítés (tar)</menu_compress_tar>
+    <menu_compress_jar>Tömörítés (jar)</menu_compress_jar>
+    <menu_compress_nth>Tömörítés (nth)</menu_compress_nth>
+    <menu_compress_thm>Tömörítés (thm)</menu_compress_thm>
+    <menu_compress_gz>Fájltömörítés (gz)</menu_compress_gz>
+    <menu_extract>Kiterjesztés itt[3]</menu_extract>
+    <menu_cancel>Kiterjesztés törlés</menu_cancel>
+    <menu_back>Vissza egy szintet</menu_back>
+    <menu_root>Vissza a főkönyvtárba[B]</menu_root>
+    <menu_item>Ugrás a tétel mappára</menu_item>
+    <menu_refresh>Mappa frissítése</menu_refresh>
+    <menu_create>Mappa létrehozása</menu_create>
+    <menu_item_info>Tétel információk[7]</menu_item_info>
+    <menu_attrib>Tétel attribútumok[9]</menu_attrib>
+    <menu_volume_info>Meghajtó méret</menu_volume_info>
+    <menu_rename>Tétel átnevezése</menu_rename>
+    <menu_delete>Tétel(ek) törlése[C]</menu_delete>
+    <menu_cut>Tétel(ek) kivágása</menu_cut>
+    <menu_copy>Tétel(ek) másolása[1]</menu_copy>
+    <menu_paste>Tétel(ek) beillesztése[3]</menu_paste>
+    <menu_select>Kijelöl[*#]</menu_select>
+    <menu_unselect>Nem jelöl[*#]</menu_unselect>
+    <menu_select_all>Összest kijelöl</menu_select_all>
+    <menu_select_none>Egyiket sem jelöl</menu_select_none>
+    <menu_select_invert>Fordított kijelölés</menu_select_invert>
+    <fast_key>Vissza</fast_key>
+    <root_added_title>Tároló hozzáadva</root_added_title>
+    <root_added_message>Egy új táreszköz lett hozzáadva a helyi fájlrendszerhez.\\Tárhely root&gt;</root_added_message>
+    <root_removed_title>Tároló eltávolítva</root_removed_title>
+    <root_removed_message>A teroló eszköz el lett távolítva a helyi fájlrendszerből.\\Tárhely root&gt;</root_removed_message>
+    <unsupported_title>Nem támogatott fájl típus</unsupported_title>
+    <unsupported_message>Ezt a fájl típus jelenleg nem támogatja a beépített fájlkezelő!.</unsupported_message>
+    <open_error_title>Megnyitási hiba</open_error_title>
+    <open_error_message>Nem lehet megnyitni a(z) [color=blue][off]%1[/off][/color] fájlt a beépített fájlkezelővel.\\Ok:\</open_error_message>
+    <create_title>Új mappa neve:</create_title>
+    <create_value>Új mappa</create_value>
+    <create_message>Nem lehet létrehozni a(z) [color=blue][off]%1[/off][/color] mappát a jelenlegi helyen.\\Ok:\</create_message>
+    <rename_title>Új tétel neve:</rename_title>
+    <rename_message>Nem lehet átnevezni a jelenlegi tételt a következő névvel: [color=blue][off]%1[/off][/color].\\Ok:\</rename_message>
+    <read_message>Nem lehet olvasni a(z) [color=blue][off]%1[/off][/color] mappa tartalmát.\\Ok:\</read_message>
+    <info_message>Nem lehet lekérdezni a fájlrendszer információkat [color=blue][off]%1[/off][/color].\\Ok:\</info_message>
+    <fc_open_message>Nem lehet megnyitni a fájl csatlakozást a kért tételhez.\\Ok:\</fc_open_message>
+    <delete_message>Nem lehet törölni a(z) [color=blue][off]%1[/off][/color] tételt a helyi fájlrendszerből.\\Ok:\</delete_message>
+    <confirm_title>Kérlek igazold</confirm_title>
+    <confirm_message>Tényleg törölni akarod a kiválasztott tétel(eke)t?</confirm_message>
+    <paste_message>Nem lehet beilleszteni a(z) [color=blue][off]%1[/off][/color] tételt a helyi fájlrendszerbe.\\Ok:\</paste_message>
+    <paste_file_title>Kérlek igazold</paste_file_title>
+    <paste_file_message>A(z) [color=blue][off]%1[/off][/color] fájl már létezik a megadott mappában!\\Felül akarod írni?</paste_file_message>
+    <paste_path_title>Kérlek igazold</paste_path_title>
+    <paste_path_message>A(z) [color=blue][off]%1[/off][/color] mappa már létezik!\\Át akarod nevezni vagy felülírni?</paste_path_message>
+    <paste_checkbox>Mind</paste_checkbox>
+    <cancel_title>Kiterjesztés megszakítva</cancel_title>
+    <cancel_message>Megszakított kiterjesztés archiválása felhasználó által!</cancel_message>
+    <tar_filename>%1 név:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+    <download>Letöltés...</download>
+    <menu_download>Tétel(ek) letöltése</menu_download>
+    <menu_open>Tétel megnyitása[5F]</menu_open>
+    <menu_open_txt>Megnyitás szövegként</menu_open_txt>
+    <menu_open_hex>Megnyitás binárisként</menu_open_hex>
+    <menu_search>Tételek keresése...</menu_search>
+    <menu_disconnect>Kapcsolat megszakítása</menu_disconnect>
+    <menu_back>Vissza egy szintet</menu_back>
+    <menu_root>Vissza a főkönyvtárba[B]</menu_root>
+    <menu_item>Ugrás a tétel mappára</menu_item>
+    <menu_refresh>Mappa frissítése</menu_refresh>
+    <menu_create>Mappa létrehozása</menu_create>
+    <menu_item_info>Tétel információk[7]</menu_item_info>
+    <menu_delete>Tétel(ek) törlése[C]</menu_delete>
+    <menu_cut>Tétel(ek) kivágása</menu_cut>
+    <menu_copy>Tétel(ek) másolása[1]</menu_copy>
+    <menu_paste>Tétel(ek) beillesztése[3]</menu_paste>
+    <menu_select>Kijelöl[*#]</menu_select>
+    <menu_unselect>Nem jelöl[*#]</menu_unselect>
+    <menu_select_all>Összest kijelöl</menu_select_all>
+    <menu_select_none>Egyiket sem jelöl</menu_select_none>
+    <menu_select_invert>Fordított kijelölés</menu_select_invert>
+    <fast_key>Vissza</fast_key>
+    <unsupported_title>Nem támogatott fájl típus</unsupported_title>
+    <unsupported_message>Ezt a fájl típus jelenleg nem támogatja a beépített fájlkezelő!.</unsupported_message>
+    <open_error_title>Megnyitási hiba</open_error_title>
+    <open_error_message>Nem lehet megnyitni a(z) [color=blue][off]%1[/off][/color] fájlt a beépített fájlkezelővel.\\Ok:\</open_error_message>
+    <create_title>Új mappa neve:</create_title>
+    <create_value>Új mappa</create_value>
+    <create_message>Nem lehet létrehozni a(z) [color=blue][off]%1[/off][/color] mappát a jelenlegi helyen.\\Ok:\</create_message>
+    <confirm_title>Kérlek igazold</confirm_title>
+    <delete_confirm>Tényleg törölni akarod a kijelölt tétel(eke)t?</delete_confirm>
+    <delete_message>Nem lehet törölni a(z) [color=blue][off]%1[/off][/color] tételt a távoli eszközről.\\Ok:\</delete_message>
+    <disconnect_confirm>Tényleg le akarsz csatlakozni a távol eszközről?</disconnect_confirm>
+    <disconnect_message>Nem lehet le csatlakozni a távoli eszközről.\\Ok:\</disconnect_message>
+    <enter_message>Nem lehet belépni a(z) [color=blue][off]%1[/off][/color] mappába.\\Ok:\</enter_message>
+    <back_message>Nem lehet vissza menni egy szintet.\\Ok:\</back_message>
+    <root_message>Nem lehet visszamenni a főkönyvtárba.\\Ok:\</root_message>
+    <read_message>Nem lehet olvasni a jelenlegi könyvtár tartalmát.\\Ok:\</read_message>
+    <paste_err_title>Nem támogatott</paste_err_title>
+    <paste_err_message>Jelenleg nem lehet [color=blue]kivágni vagy másolni[/color] majd [color=blue]beilleszteni[/color] egy tételt ugyanazon a bluetooth eszközön!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+    <menu_extract>Választott tétel kiterjesztés[1]</menu_extract>
+    <menu_close>Archívum zárása</menu_close>
+    <menu_open>Tétel megnyitása[5F]</menu_open>
+    <menu_open_txt>Megnyitás szövegként</menu_open_txt>
+    <menu_open_hex>Megnyitás binárisként</menu_open_hex>
+    <menu_item_info>Tétel információk[7]</menu_item_info>
+    <menu_back>Vissza egy szintet</menu_back>
+    <menu_root>Vissza a főkönyvtárba[B]</menu_root>
+    <menu_select>Kijelöl[*#]</menu_select>
+    <menu_unselect>Nem jelöl[*#]</menu_unselect>
+    <menu_select_all>Összest kijelöl</menu_select_all>
+    <menu_select_none>Egyiket sem jelöl</menu_select_none>
+    <menu_select_invert>Fordított kijelölés</menu_select_invert>
+    <fast_key>Vissza</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>Ok</ok_button>
+    <ko_button>Mégse</ko_button>
+  </uib>
+
+  <usp>
+    <title>Keresési paraméterek</title>
+    <ok_button>Elfogad</ok_button>
+    <ko_button>Mégse</ko_button>
+    <reset_form_btn>Alapértelmezett értékek</reset_form_btn>
+    <clear_mode_btn>&quot;Keresési módok&quot; törlése</clear_mode_btn>
+    <check_mode_btn>&quot;Keresési módok&quot; bejelölése</check_mode_btn>
+    <clear_from_date_btn>&quot;Kezdeti dátum&quot; törlése</clear_from_date_btn>
+    <clear_to_date_btn>&quot;Vége dátum&quot; törlése</clear_to_date_btn>
+    <text_lbl>Keresési szöveg:</text_lbl>
+    <mode_lbl>Keresési mód:</mode_lbl>
+    <mode_txt type="array">
+      <value>Mappák keresése</value>
+      <value>Képek keresése</value>
+      <value>Hangfájlok keresése</value>
+      <value>Videók keresése</value>
+      <value>Szöveges állományok keresése</value>
+      <value>Futtatható állományok keresése</value>
+      <value>Archív állományok keresése</value>
+      <value>Weboldalak keresése</value>
+      <value>Témák keresése</value>
+      <value>Ismeretlen fájlok keresése</value>
+    </mode_txt>
+    <min_size_lbl>Minimum méret (KB):</min_size_lbl>
+    <max_size_lbl>Maximum méret (KB):</max_size_lbl>
+    <min_date_lbl>Kezdeti dátum:</min_date_lbl>
+    <max_date_lbl>Vége dátum:</max_date_lbl>
+    <title_error>Paraméter hiba</title_error>
+    <size_error>&quot;Minimum méretnek&quot; kisebbnek vagy egyenlőnek kell lennie a &quot;Maximum mérettel&quot;!</size_error>
+    <date_error>&quot;Kezdeti dátumnak&quot; kisebbnek vagy egyenlőnek kell lennie a &quot;Vége dátummal&quot;!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>Keresés...</title>
+    <keys type="array">
+      <value>Talált:</value>
+      <value>Hiba:</value>
+      <value>Útvonal:</value>
+    </keys>
+    <stop_title>Keresés megállítása?</stop_title>
+    <stop_message>Valóban meg akarod állítani a jelenlegi keresési műveletet?\[color=blue]Az eddigi találatok meg fognak jelenni![/color]</stop_message>
+    <cancel_title>Keresés visszavonása?</cancel_title>
+    <cancel_message>Valóban vissza akarod vonni a jelenlegi keresési műveletet?</cancel_message>
+    <errors_title>Hibákkal befejezve</errors_title>
+    <errors_message>A keresési művelet [b]%1[/b] hibával fejeződött be. Itt a hibalista:</errors_message>
+    <errors_label>\[color=red][b]• Hiba %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>Nincs eredmény</empty_title>
+    <empty_message>A keresés eredménytelenül fejeződött be.</empty_message>
+    <aborted_title>Keresés megszakítva</aborted_title>
+    <aborted_message>A felhasználó megszakította a keresési műveletet.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>Kiterjesztés...</title>
+    <captions type="array">
+      <value>Útvonal:</value>
+      <value>Fájl:</value>
+    </captions>
+    <extract_error>Nem lehet kiterjeszteni ezt a ZIP fájlt.\\Ok:\</extract_error>
+    <format_title>ZIP formátum hiba</format_title>
+    <format_message>Aktuálisan feldolgozott fájl formátum megszakítási hiba fellépése.\\Ok:\</format_message>
+    <format_error>A felhasználó megszakította a kiterjesztési folyamatot.\\Ok:\</format_error>
+    <done_title>Kész!</done_title>
+    <done_normal>Kiterjesztés sikeresen befejeződött!</done_normal>
+    <done_errors>Kiterjesztés hibákkal befejeződött.</done_errors>
+    <confirm_title>Megszakítod a kiterjesztést?</confirm_title>
+    <confirm_message>Valóban meg szeretnéd szakítani a kiterjesztési folyamatot?</confirm_message>
+    <abort_title>Kiterjesztés megszakítva</abort_title>
+    <abort_message>Felhasználó által megszakított kiterjesztés.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>Tömörítés...</title>
+    <captions type="array">
+      <value>Útvonal:</value>
+      <value>Fájl:</value>
+    </captions>
+    <finalizing>(archiválás befejezése)</finalizing>
+    <compress_error>Nem elvégezhető a ZIP fájl archiválása.\\Ok:\</compress_error>
+    <done_title>Kész!</done_title>
+    <done_message>Tömörítés sikeresen befejeződött!</done_message>
+    <abort_title>Tömörítés megszakítva</abort_title>
+    <abort_message>Felhasználó által megszakított tömörítés.</abort_message>
+    <confirm_title>Megszakítod a tömörítést?</confirm_title>
+    <confirm_message>Valóban meg szeretnéd szakítani a tömörítési folyamatot?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>Új %1 fájl</title>
+    <filename>%1 név:</filename>
+    <password>%1 kód:</password>
+    <password_title>Túl rövid kód</password_title>
+    <password_message>A kódnak legalább %1 karakter hosszúnak kell lennie!</password_message>
+    <method_title>Tömörítés módja:</method_title>
+    <method_items type="array">
+      <value>Elraktározva (nem tömörített)</value>
+      <value>Deflate (legjobb választás)</value>
+      <value>Deflate64 (kevésbé kompatibilis)</value>
+    </method_items>
+  </uzf>
+</language>

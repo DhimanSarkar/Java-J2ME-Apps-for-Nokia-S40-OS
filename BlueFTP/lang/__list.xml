@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<languages>
+  <language file="en.xml" flag="en.png" />
+  <language file="de.xml" flag="de.png" />
+  <language file="fr.xml" flag="fr.png" />
+  <language file="es.xml" flag="es.png" />
+  <language file="it.xml" flag="it.png" />
+  <language file="sv.xml" flag="sv.png" />
+  <language file="ru.xml" flag="ru.png" />
+  <language file="pt.xml" flag="pt.png" />
+  <language file="nl.xml" flag="nl.png" />
+  <language file="cs.xml" flag="cs.png" />
+  <language file="az.xml" flag="az.png" />
+  <language file="no.xml" flag="no.png" />
+  <language file="zh.xml" flag="zh.png" />
+  <language file="hu.xml" flag="hu.png" />
+  <language file="sk.xml" flag="sk.png" />
+  <language file="hi.xml" flag="hi.png" />
+  <language file="pl.xml" flag="pl.png" />
+  <language file="ro.xml" flag="ro.png" />
+  <language file="ar.xml" flag="ar.png" />
+  <language file="uk.xml" flag="uk.png" />
+</languages>

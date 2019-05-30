@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="Română" lid="ro" cid="RO">
+  <common>
+    <no>Nu</no>
+    <yes>Da</yes>
+    <root>&lt;origine&gt;</root>
+    <search_mode>&lt;căutare&gt;</search_mode>
+    <none>(nimic)</none>
+    <empty>(gol)</empty>
+    <denied>Respins</denied>
+    <allowed>Permis</allowed>
+    <copy_suffix> - Copiază</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>Local</value>
+      <value>Bluetooth</value>
+    </pages>
+    <menu_clean>Ecran complet[0]</menu_clean>
+    <menu_lang>Alege limba</menu_lang>
+    <menu_pass>Setează parola</menu_pass>
+    <menu_about>Despre...</menu_about>
+    <menu_help>Ajutor</menu_help>
+    <menu_exit>Ieşire</menu_exit>
+    <help_title>Ajută-mă!</help_title>
+    <help_message>[b]Taste[/b]\• Apasă [color=blue]săgeată stânga[/color] sau [color=blue]tasta 4[/color] şi [color=blue]săgeată dreapta[/color] sau [color=blue]tasta 6[/color] pentru a naviga între fişierele telefonului şi fişierele Bluetooth.\• Apasă [color=blue]tasta #[/color] sau [color=blue]tasta *[/color] pentru a selecta/deselecta fişierul actual.\• Apasă [color=blue]tasta 1[/color] pentru a copia fişierul actual.\• Apasă [color=blue]tasta 3[/color] pentru a lipii in dosarul actual.\• Apasă [color=blue]tasta 0[/color] pentru a intra în/ieşi din modul ecran complet:o vizionare fără bara superioară sau cea inferioară.\\[b]Meniu[/b]\[color=#800080]Când un element din meniu prezintă o pictogramă, poţi apăsa butonul scurtătură pentru a executa acea acţiune.[/color]\• Apasă [color=blue]săgeată sus[/color] sau [color=blue]tasta 2[/color] şi [color=blue]săgeată jos[/color] sau [color=blue]tasta 8[/color] pentru a naviga între comenzi.\• Apasă [color=blue]tasta centru[/color] sau [color=blue]tasta 5[/color] pentru a executa comanda actuală.\• Apasă [color=blue]tasta stânga[/color] sau [color=blue]tasta înapoi[/color] pentru a închide meniul principal.\\[b]Căsuţe dialog[/b]\• Apasă [color=blue]tasta stânga[/color] pentru a apăsa butonul din stânga ([color=green]verde[/color]).\• Apasă [color=blue]tasta dreaptă[/color] pentru a apăsa butonul din dreapta ([color=red]roşu[/color]).\• Apasă [color=blue]tasta centru[/color] sau [color=blue]tasta 5[/color] pentru a apăsa butonul (când este unul singur).</help_message>
+    <bt_mex>[color=#FF8080]Acest dispozitiv nu suportă Bluetooth API (JSR-82), nu vă puteţi conecta la acest dispozitiv.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]Activaţi dispozitivul Bluetooth şi reporniţi aplicaţia![/color]</bt_off>
+    <fc_mex>[color=#FF8080]Acest dispozitiv nu suportă FileConnection API (JSR-75), nu puteţi accesa fişierele dispozitivului.[/color]</fc_mex>
+    <dialog_bt_off_title>Bluetooth oprit</dialog_bt_off_title>
+    <dialog_bt_off_message>Funcţia Bluetooth este [b]Oprită[/b]! Activaţi funcţia [u][color=blue]Bluetooth[/color][/u] şi reporniţi aplicaţia.</dialog_bt_off_message>
+    <version_title>Versiune nouă!</version_title>
+    <version_message>O nouă versiune a acestei aplicaţii, [b][color=blue]v%1[/color][/b] a fost găsită online, o puteţi descărca aici: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>Donaţii PayPal</donation_title>
+    <donation_message>Dacă vă place această aplicaţie vă rugăm să[b][color=blue]donaţi[/color][/b]!\Dezvoltarea programelor software cere timp şi efort... navigaţi către [url]http://blueftp.medieval.it/[/url] şi ajutaţi-ne să continuăm dezvoltarea programelor software gratuite!</donation_message>
+    <security_title>Probleme de securitate</security_title>
+    <security_message>Nu se pot accesa fişierele acestui dispozitiv. Asiguraţi-vă că aţi permis accesul (citire &amp; scriere) pentru această aplicaţie.\Vă rugăm citiţi manualul telefonului pentru mai multe instrucţiuni...\\Motiv:\</security_message>
+    <outofmemory_title>Memorie insuficientă!</outofmemory_title>
+    <outofmemory_message>Memorie insuficientă pentru a încărca fişierul [color=blue][off]%1[/off][/color] cu vizualizarea internă.\\Motiv:\</outofmemory_message>
+    <set_password>Protecţie cu parolă:</set_password>
+    <get_password>Introdu parola pentru a începe:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>Meniu</open_menu>
+    <close_menu>Închide</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(acest dosar este gol)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>ok</value>
+      <value>continuă</value>
+      <value>da</value>
+      <value>salvează</value>
+      <value>stop</value>
+      <value>vizitează</value>
+      <value>redenumeşte</value>
+      <value>nu</value>
+      <value>anulare</value>
+      <value>suprascriere</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title> Publicitate </title>
+    <wait>Vă rugăm aşteptaţi...</wait>
+    <count>...aşteptaţi %1 secunde...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>Permisiuni citire</value>
+      <value>Permisiuni scriere</value>
+      <value>Ascundere fişier</value>
+    </items>
+    <read_message>Nu se poate modifica permisiunea de [b]citire[/b] a fişierului.\\Motiv:\</read_message>
+    <write_message>Nu se poate modifica permisiunea de [b]scriere[/b] a fişierului.\\Motiv:\</write_message>
+    <hidden_message>Nu se poate modifica starea de [b]ascundere[/b] a fişierului.\\Motiv:\</hidden_message>
+    <fc_read_message>Nu se poate deschide o conexiune către acest fişier.\\Motiv:\</fc_read_message>
+    <fc_write_message>Nu se poate deschide o conexiune către acest fişier.\\Motiv:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>Cale:</value>
+      <value>Mărime:</value>
+      <value>Byts:</value>
+      <value>Dată:</value>
+      <value>Oră:</value>
+      <value>Citire:</value>
+      <value>Scriere:</value>
+      <value>Ascuns:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>Nume:</value>
+      <value>Liber:</value>
+      <value>Ocupat:</value>
+      <value>Total:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>Cale:</value>
+      <value>Nume:</value>
+      <value>Alias:</value>
+      <value>Mărime:</value>
+      <value>Byts:</value>
+      <value>Dată:</value>
+      <value>Oră:</value>
+      <value>Citire:</value>
+      <value>Scriere:</value>
+      <value>Ştergere:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>Cale:</value>
+      <value>Comm.:</value>
+      <value>Dată:</value>
+      <value>Oră:</value>
+      <value>Pachet:</value>
+      <value>Mărime:</value>
+      <value>Raţie:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>Vers. ZIP:</value>
+      <value>Metodă:</value>
+      <value>Nivel:</value>
+      <value>Criptare:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mod:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>Nivel:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>Detalii dispozitiv</title>
+    <minor_default>(necunoscut)</minor_default>
+    <major_default>(neclasificat)</major_default>
+    <captions type="array">
+      <value>MAC:</value>
+      <value>Nume:</value>
+      <value>Tip:</value>
+      <value></value>
+      <value>Servicii:</value>
+    </captions>
+    <major type="array">
+      <value>Diverse</value>
+      <value>Computer</value>
+      <value>Telefon</value>
+      <value>LAN</value>
+      <value>Audio</value>
+      <value>Periferal</value>
+      <value>Imagine</value>
+    </major>
+    <minor_1 type="array">
+      <value>(neclasificat)</value>
+      <value>Desktop</value>
+      <value>Server</value>
+      <value>Notebook</value>
+      <value>Handheld</value>
+      <value>Palm</value>
+      <value>Wearable</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(neclasificat)</value>
+      <value>Celular</value>
+      <value>Cordless</value>
+      <value>Smart phone</value>
+      <value>Wired modem</value>
+      <value>Acces ISDN</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>Total disponibil</value>
+      <value>1% - 17% utilizat</value>
+      <value>17% - 33% utilizat</value>
+      <value>33% - 50% utilizat</value>
+      <value>50% - 67% utilizat</value>
+      <value>67% - 83% utilizat</value>
+      <value>83% - 99% utilizat</value>
+      <value>Nici un serviciu disponibil</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(neclasificat)</value>
+      <value>Headset</value>
+      <value>Hands-free</value>
+      <value>(rezervat)</value>
+      <value>Microfon</value>
+      <value>Difuzoare</value>
+      <value>Căşti</value>
+      <value>Audio portabile</value>
+      <value>Audio maşină</value>
+      <value>Set-top box</value>
+      <value>Hi-fi audio</value>
+      <value>VCR</value>
+      <value>Cameră video</value>
+      <value>Videocameră</value>
+      <value>Monitor</value>
+      <value>Display şi difuzoare</value>
+      <value>Video conferinţe</value>
+      <value>(rezervat)</value>
+      <value>Gaming</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(nesuportat) / </value>
+      <value>Tastatură / </value>
+      <value>Indicare / </value>
+      <value>Tastatură &amp; Indicare / </value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(necategorizat)</value>
+      <value>Joystick</value>
+      <value>Gamepad</value>
+      <value>Telecomandă</value>
+      <value>Sensing device</value>
+      <value>Digitizer tablet</value>
+      <value>Cititor de carduri</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>Display</value>
+      <value>Cameră</value>
+      <value>Scanner</value>
+      <value>Imprimantă</value>
+    </minor_6>
+    <services type="array">
+      <value>Descoperire limitată</value>
+      <value>(rezervat)</value>
+      <value>(rezervat)</value>
+      <value>Poziţionare</value>
+      <value>Networking</value>
+      <value>Rendering</value>
+      <value>Capturare</value>
+      <value>Transfer obiecte</value>
+      <value>Audio</value>
+      <value>Telefonie</value>
+      <value>Informaţii</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>Cale:</value>
+      <value>Fişier:</value>
+      <value>Transfer:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>Anulare transfer?</confirm_title>
+    <confirm_message>Eşti sigur că vrei să anulezi operaţiunea de transfer?</confirm_message>
+    <success_title>Transfer complet</success_title>
+    <success_message>Operaţiunea de transfer s-a finalizat cu succes!</success_message>
+    <abort_title>Transfer anulat</abort_title>
+    <abort_message>Transferul a fost anulat de către utilizator.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>Nu se pot trimite fişierele alese către dispozitiv.\\Motiv:\</send_error>
+    <file_open_error>Nu se poate deschide fişierul sursă din sistemul de fişiere locale (verifică permisiunile de citire).\\Motiv:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>Nu se pot încărca fişierele alese în dispozitiv.\\Motiv:\</upload_error>
+    <file_open_error>Nu se poate deschide fişierul sursă din sistemul de fişiere locale (verifică permisiunile de citire).\\Motiv:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>Nu se poate crea dosarul in sistemul de fişiere locale (verifică permisiunile de citire &amp; scriere).\\Motiv:\</path_create_error>
+    <file_create_error>Nu se poate crea fişierul in sistemul de fişiere locale (verifică permisiunile de citire &amp; scriere).\\Motiv:\</file_create_error>
+    <download_error>Nu se pot descărca fişierele alese in sistemul de fişiere locale.\\Motiv:\</download_error>
+    <listing>(listarea dosarelor)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>Căutare dispozitiv</value>
+      <value>Conectare la dispozitiv</value>
+      <value>Încărcare date fişiere</value>
+    </tasks>
+    <profile_ftp>[url]Profil Transfer Fişiere[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]Profil Object Push[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>Înapoi la lista de dispozitive</menu_back_ftp>
+    <menu_back_opp>Înapoi la lista de fişiere locale</menu_back_opp>
+    <fast_back>Înapoi</fast_back>
+    <fast_cancel>Anulare</fast_cancel>
+    <agent_message>Nu se poate comunica cu agentul de descoperire locală al Bluetooth API.\\Motiv:\</agent_message>
+    <start_message>Nu se poate porni %1 al serviciul de căutare.\\Motiv:\</start_message>
+    <abort_title>Conexiune întreruptă</abort_title>
+    <abort_message>Conexiunea cu dispozitivul a fost întreruptă de către utilizator.</abort_message>
+    <error_title>Eroare de conexiune</error_title>
+    <unreachable_message>Dispozitivul este momentan indisponibil.</unreachable_message>
+    <search_message>A existat o eroare in timpul %1 al serviciului de căutare.</search_message>
+    <notfound_message>Nu vă puteţi conecta la dispozitivul ţintă deoarece nu are %1 al serviciului Bluetooth.</notfound_message>
+    <connect_message>Nu vă puteţi conecta la dispozitiv.\\Motiv:\</connect_message>
+    <loading_message>Nu se pot încărca fişierele dispozitivului.\\Motiv:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>Înapoi la lista fişierelor locale</menu_back>
+    <menu_connect>Conectare[F]</menu_connect>
+    <menu_addbook>Adaugă marcaj</menu_addbook>
+    <menu_delbook>Şterge marcaj[C]</menu_delbook>
+    <menu_search>Caută dispozitive</menu_search>
+    <menu_info>Detalii aparat[7]</menu_info>
+    <fast_search>Caută</fast_search>
+    <fast_cancel>Anulare</fast_cancel>
+    <nodevices_message>[color=#5555FF]Nu s-a găsit nici un dispozitiv Bluetooth!\Apasă [b]Căutare[/b].[/color]</nodevices_message>
+    <abort_title>Anulat</abort_title>
+    <abort_message>Operaţiunea de căutare a fost anulată de către utilizator.</abort_message>
+    <error_title>Eroare de căutare</error_title>
+    <error_message>A apărut o eroare în timpul operaţiunii de căutare.\[color=blue][b]Este pornit dispozitivul Bluetooth?[/b][/color]</error_message>
+    <confirm_title>Confirmă</confirm_title>
+    <confirm_message>Eşti sigur că vrei să ştergi dispozitivul [color=blue]%1[/color] din lista de marcaje?</confirm_message>
+    <notfound_title>Nici un rezultat</notfound_title>
+    <notfound_message>Căutarea dispozitivelor Bluetooth s-a terminat fără nici un rezultat.\Apasă [color=blue][b]Căutare[/b][/color] din nou!</notfound_message>
+    <noaddbook_title>Nu se poate adăuga</noaddbook_title>
+    <noaddbook_message>Dispozitivul este deja prezent in lista de marcaje.</noaddbook_message>
+    <opp_message>Alege dispozitivul:</opp_message>
+    <infrared>Infraroşu</infrared>
+  </gcld>
+
+  <gclfl>
+   <send>Trimitere...</send>
+   <upload>Încărcare...</upload>
+   <menu_upload>Încarcă fişier(e)</menu_upload>
+   <menu_open>Deschide[5F]</menu_open>
+   <menu_open_txt>Deschide ca text</menu_open_txt>
+   <menu_open_hex>Deschide ca fişier binar</menu_open_hex>
+   <menu_search>Caută fişiere...</menu_search>
+   <menu_send_bt>Trimite prin Bluetooth</menu_send_bt>
+   <menu_send_ir>Trimite prin Infraroşu</menu_send_ir>
+   <menu_compress_zip>Arhivează (ca .zip)</menu_compress_zip>
+   <menu_compress_tar>Arhivează (ca .tar)</menu_compress_tar>
+   <menu_compress_jar>Arhivează (ca .jar)</menu_compress_jar>
+   <menu_compress_nth>Arhivează (ca .nth)</menu_compress_nth>
+   <menu_compress_thm>Arhivează (ca .thm)</menu_compress_thm>
+   <menu_compress_gz>Arhivează (ca .gz)</menu_compress_gz>
+   <menu_extract>Extrage fişierele aici[3]</menu_extract>
+   <menu_cancel>Anulare extragere</menu_cancel>  
+   <menu_back>Înapoi un nivel</menu_back>
+   <menu_root>Înapoi la origine[B]</menu_root>
+   <menu_item>Du-te in dosarul fişierului</menu_item>
+   <menu_refresh>Actualizează dosarul</menu_refresh>
+   <menu_create>Creează dosar</menu_create>
+   <menu_item_info>Informaţii fişier[7]</menu_item_info>
+   <menu_attrib>Proprietăţi fişier[9]</menu_attrib>
+   <menu_volume_info>Mărime volum</menu_volume_info>
+   <menu_rename>Redenumeşte fişier</menu_rename>
+   <menu_delete>Şterge fişier(e)[C]</menu_delete>
+   <menu_cut>Mută fişier(e)</menu_cut>
+   <menu_copy>Copiază fişier(e)[1]</menu_copy>
+   <menu_paste>Lipeşte fişier(e)[3]</menu_paste>
+   <menu_select>Selectaţi[*#]</menu_select>
+   <menu_unselect>Deselectaţi[*#]</menu_unselect>
+   <menu_select_all>Selectaţi tot</menu_select_all>
+   <menu_select_none>Deselectaţi tot</menu_select_none>
+   <menu_select_invert>Selecţie inversă</menu_select_invert>
+   <fast_key>Înapoi</fast_key>
+   <root_added_title>Dispozitiv stocare adăugat</root_added_title>
+   <root_added_message>Un dispozitiv de stocare a fost adăugat la sistemul de fişiere.\\Origine stocare&gt; </root_added_message>
+   <root_removed_title>Dispozitiv stocare scos</root_removed_title>
+   <root_removed_message>Un dispozitiv de stocare a fost înlăturat din sistemul de fişiere.\\Origine stocare&gt; </root_removed_message>
+   <unsupported_title>Tip fişier nesuportat</unsupported_title>
+   <unsupported_message>Acest tip de fişier nu este suportat momentan de vizualizarea internă.</unsupported_message>
+   <open_error_title>Eroare la deschidere</open_error_title>
+   <open_error_message>Nu se poate deschide fişierul [color=blue][off]%1[/off][/color] cu vizualizarea internă.\\Motiv:\</open_error_message>
+   <create_title>Introdu numele dosarului:</create_title>
+   <create_value>Dosar nou</create_value>
+   <create_message>Nu se poate crea fişierul [color=blue][off]%1[/off][/color] aici.\\Motiv:\</create_message>
+   <rename_title>Numele fişierului nou:</rename_title>
+   <rename_message>Nu se poate redenumi fişierul curent [color=blue][off]%1[/off][/color] cu acest nume.\\Motiv:\</rename_message>
+   <read_message>Nu se poate citi conţinutul dosarului [color=blue][off]%1[/off][/color].\\Motiv:\</read_message>
+   <info_message>Nu se pot obţine informaţii din sistemul de fişiere [color=blue][off]%1[/off][/color].\\Motiv:\</info_message>
+   <fc_open_message>Nu se poate deschide o conexiune către acest fişier.\\Motiv:\</fc_open_message>
+   <delete_message>Nu se poate şterge fişierul [color=blue][off]%1[/off][/color] din fişierele locale.\\Motiv:\</delete_message>
+   <confirm_title>Confirmă</confirm_title>
+   <confirm_message>Eşti sigur că vrei să ştergi fişierul/fişierele?</confirm_message>
+   <paste_message>Nu se poate lipii fişierul [color=blue][off]%1[/off][/color] in sistemul de fişiere locale.\\Motiv:\</paste_message>
+   <paste_file_title>Confirmă</paste_file_title>
+   <paste_file_message>Fişierul [color=blue][off]%1[/off][/color] există deja in dosarul ţintă!\\Doreşti să-l redenumeşti sau să-l suprascrii?</paste_file_message>
+   <paste_path_title>Confirmă</paste_path_title>
+   <paste_path_message>Dosarul [color=blue][off]%1[/off][/color] există deja!\\Doreşti să-l redenumeşti sau să-l suprascrii?</paste_path_message>
+   <paste_checkbox>Pentru toate fişierele</paste_checkbox>
+   <cancel_title>Extragere anulată</cancel_title>
+   <cancel_message>Extragerea din arhivă a fost anulată de către utilizator!</cancel_message>
+   <tar_filename>Numele fişierului %1:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+   <download>Se descarcă...</download>
+   <menu_download>Descarcă fişier(e)</menu_download>
+   <menu_open>Deschide fişier[5F]</menu_open>
+   <menu_open_txt>Deschide ca text</menu_open_txt>
+   <menu_open_hex>Deschide ca fişier binar</menu_open_hex>
+   <menu_search>Caută fişiere...</menu_search>
+   <menu_disconnect>Deconectare</menu_disconnect>
+   <menu_back>Înapoi un nivel</menu_back>
+   <menu_root>Înapoi la origine[B]</menu_root>
+   <menu_item>Du-te in dosarul fişierului</menu_item>
+   <menu_refresh>Actualizează dosarul</menu_refresh>
+   <menu_create>Creează dosar</menu_create>
+   <menu_item_info>Informaţii fişier[7]</menu_item_info>
+   <menu_delete>Şterge fişier(e)[C]</menu_delete>
+   <menu_cut>Mută fişier(e)</menu_cut>
+   <menu_copy>Copiază fişier(e)[1]</menu_copy>
+   <menu_paste>Lipeşte fişier(e)[3]</menu_paste>
+   <menu_select>Selectaţi[*#]</menu_select>
+   <menu_unselect>Deselectaţi[*#]</menu_unselect>
+   <menu_select_all>Selectaţi tot</menu_select_all>
+   <menu_select_none>Deselectaţi tot</menu_select_none>
+   <menu_select_invert>Selecţie inversă</menu_select_invert>
+   <fast_key>Înapoi</fast_key>
+   <unsupported_title>Tip fişier nesuportat</unsupported_title>
+   <unsupported_message>Acest tip de fişier nu este suportat momentan de vizualizarea internă.</unsupported_message>
+   <open_error_title>Eroare la deschidere</open_error_title>
+   <open_error_message>Nu se poate deschide fişierul [color=blue][off]%1[/off][/color] cu vizualizarea internă.\\Motiv:\</open_error_message>
+   <create_title>Introdu numele dosarului:</create_title>
+   <create_value>Dosar nou</create_value>
+   <create_message>Nu se poate crea fişierul [color=blue][off]%1[/off][/color] aici.\\Motiv:\</create_message>
+   <confirm_title>Confirmă</confirm_title>
+   <delete_confirm>Eşti sigur că vrei să ştergi fişierul/fişierele alese?</delete_confirm>
+   <delete_message>Nu se poate şterge fişierul [color=blue][off]%1[/off][/color] din dispozitivul la distanţă.\\Motiv:\</delete_message>
+   <disconnect_confirm>Eşti sigur că vrei să te deconectezi de la dispozitiv?</disconnect_confirm>
+   <disconnect_message>Nu vă puteţi deconecta de la dispozitiv.\\Motiv:\</disconnect_message>
+   <enter_message>Nu se poate intra în fişierul [color=blue][off]%1[/off][/color].\\Motiv:\</enter_message>
+   <back_message>Nu se poate întoarce un nivel.\\Motiv:\</back_message>
+   <root_message>Nu se poate întoarce la origine.\\Motiv:\</root_message>
+   <read_message>Nu se poate citi conţinutul dosarului.\\Motiv:\</read_message>
+   <paste_err_title>Nesuportat</paste_err_title>
+   <paste_err_message>Momentan nu puteţi [color=blue]muta sau copia[/color] un fişier pe acelaşi dispozitiv Bluetooth!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+   <menu_extract>Extrage fişierele alese[1]</menu_extract>
+   <menu_close>Închide arhiva</menu_close>
+   <menu_open>Deschide fişier[5F]</menu_open>
+   <menu_open_txt>Deschide ca text</menu_open_txt>
+   <menu_open_hex>Deschide ca fişier binar</menu_open_hex>
+   <menu_item_info>Informaţii fişier[7]</menu_item_info>
+   <menu_back>Înapoi un nivel</menu_back>
+   <menu_root>Înapoi la origine[B]</menu_root>
+   <menu_select>Selectaţi[*#]</menu_select>
+   <menu_unselect>Deselectaţi[*#]</menu_unselect>
+   <menu_select_all>Selectaţi tot</menu_select_all>
+   <menu_select_none>Deselectaţi tot</menu_select_none>
+   <menu_select_invert>Selecţie inversă</menu_select_invert>
+   <fast_key>Înapoi</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>Ok</ok_button>
+    <ko_button>Anulare</ko_button>
+  </uib>
+
+  <usp>
+    <title>Parametrii căutare</title>
+    <ok_button>Caută</ok_button>
+    <ko_button>Anulare</ko_button>
+    <reset_form_btn>Valori implicite</reset_form_btn>
+    <clear_mode_btn>Debifează "Mod căutare"</clear_mode_btn>
+    <check_mode_btn>Bifează "Mod căutare"</check_mode_btn>
+    <clear_from_date_btn>Şterge "Din data"</clear_from_date_btn>
+    <clear_to_date_btn>Şterge "Până la data"</clear_to_date_btn>
+    <text_lbl>Caută text:</text_lbl>
+    <mode_lbl>Mod căutare:</mode_lbl>
+    <mode_txt type="array">
+      <value>Caută dosare</value>
+      <value>Caută imagini</value>
+      <value>Caută sunete</value>
+      <value>Caută video</value>
+      <value>Caută text</value>
+      <value>Caută executabile</value>
+      <value>Caută arhive</value>
+      <value>Caută pagini internet</value>
+      <value>Caută teme</value>
+      <value>Caută fişiere necunoscute</value>
+    </mode_txt>
+    <min_size_lbl>Mărime minimă (KB):</min_size_lbl>
+    <max_size_lbl>Mărime maximă (KB):</max_size_lbl>
+    <min_date_lbl>Din data:</min_date_lbl>
+    <max_date_lbl>Până la data:</max_date_lbl>
+    <title_error>Parametrii erori</title_error>
+    <size_error>"Mărimea minimă" trebuie să fie mai mică sau egală cu "Mărimea maximă"!</size_error>
+    <date_error>"Din data" trebuie să fie anterioară sau la zi cu "Până la data"!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>Se caută...</title>
+    <keys type="array">
+      <value>Rezultate:</value>
+      <value>Eroare:</value>
+      <value>Cale:</value>
+    </keys>
+    <stop_title>Oprire căutare?</stop_title>
+    <stop_message>Eşti sigur că vrei să opreşti operaţiunea de căutare?\[color=blue]Rezultatele curente vor fi afişate![/color]</stop_message>
+    <cancel_title>Anulare căutare?</cancel_title>
+    <cancel_message>Eşti sigur că vrei să anulezi operaţiunea de căutare?</cancel_message>
+    <errors_title>Încheiată cu erori</errors_title>
+    <errors_message>Operaţiunea de căutare a fost încheiată cu [b]%1[/b] erori. Listă erori:</errors_message>
+    <errors_label>\[color=red][b]• Eroare %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>Nici un rezultat</empty_title>
+    <empty_message>Operaţiunea de căutare a fost încheiată fără nici un rezultat.</empty_message>
+    <aborted_title>Căutare anulată</aborted_title>
+    <aborted_message>Operaţiunea de căutare a fost anulată de către utilizator.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>Se extrage...</title>
+    <captions type="array">
+      <value>Cale:</value>
+      <value>Fişier:</value>
+    </captions>
+    <extract_error>Nu se poate extrage acest fişier ZIP.\\Motiv:\</extract_error>
+    <format_title>Eroare de format ZIP</format_title>
+    <format_message>S-au întâlnit probleme cu formatul fişierului procesat.\\Motiv:\</format_message>
+    <format_error>Utilizatorul a oprit procesul de extragere.\\Motiv:\</format_error>
+    <done_title>Terminat!</done_title>
+    <done_normal>Extragere reuşită!</done_normal>
+    <done_errors>Extragere încheiată cu erori.</done_errors>
+    <confirm_title>Anulare extragere?</confirm_title>
+    <confirm_message>Eşti sigur că vrei să opreşti operaţiunea de extragere?</confirm_message>
+    <abort_title>Extragere anulată</abort_title>
+    <abort_message>Operaţiunea de extragere a fost anulată de către utilizator.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>Se arhivează...</title>
+    <captions type="array">
+      <value>Cale:</value>
+      <value>Fişier:</value>
+    </captions>
+    <finalizing>(Finalizare arhivare)</finalizing>
+    <compress_error>Nu se poate termina arhivarea acestui fişier ZIP.\\Motiv:\</compress_error>
+    <done_title>Terminat!</done_title>
+    <done_message>Arhivare reuşită!</done_message>
+    <abort_title>Arhivare anulată</abort_title>
+    <abort_message>Operaţiunea de arhivare a fost anulată de către utilizator.</abort_message>
+    <confirm_title>Anulare arhivare?</confirm_title>
+    <confirm_message>Eşti sigur că vrei să anulezi operaţiunea de arhivare?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>Fişier %1 nou</title>
+    <filename>Nume %1:</filename>
+    <password>Parolă %1:</password>
+    <password_title>Parolă prea scurtă</password_title>
+    <password_message>Parola trebuie să fie lungă de %1 litere!</password_message>
+    <method_title>Metodă de arhivare:</method_title>
+    <method_items type="array">
+      <value>Stored (nearhivat)</value>
+      <value>Deflate (cea mai bună alegere)</value>
+      <value>Deflate64 (mai puţin compatibil)</value>
+    </method_items>
+  </uzf>
+</language>
