@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="Norsk" lid="no" cid="NO">
+  <common>
+    <no>Nei</no>
+    <yes>Ja</yes>
+    <root>&lt;rot&gt;</root>
+    <search_mode>&lt;søk&gt;</search_mode>
+    <none>(ingen)</none>
+    <empty>(tom)</empty>
+    <denied>Nektet</denied>
+    <allowed>Tillatt</allowed>
+    <copy_suffix> - Kopier</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>Lokal</value>
+      <value>Bluetooth</value>
+    </pages>
+    <menu_clean>Fullskjermsmodus[0]</menu_clean>
+    <menu_lang>Velg språk</menu_lang>
+    <menu_pass>Velg passord</menu_pass>
+    <menu_about>Om...</menu_about>
+    <menu_help>Hjelp</menu_help>
+    <menu_exit>Gå ut</menu_exit>
+    <help_title>Hjelp meg!</help_title>
+    <help_message>[b]KNAPPER[/b]\• Trykk [color=blue]pil venstre[/color] eller [color=blue]4-tast[/color] og [color=blue]pil høyre[/color] eller [color=blue]6-tast[/color] for å gå mellom lokale filer og Bluetooth-filer.\• Trykk [color=blue]venstre meny[/color] for å åpne/lukke hovedmenyen.\• Trykk [color=blue]høyre meny[/color] for å utføre hurtigkommandoer på skjermen.\• Trykk [color=blue]#-tast[/color] eller [color=blue]*-tast[/color] for å velge/annulere valg av nåværende element.\• Trykk [color=blue]1-tast[/color] for å kopiere valgte elementer til utklippstavlen.\• Trykk [color=blue]3-tast[/color] for å lime inn elementer fra utklippstavlen til nåværende mappe.\• Trykk [color=blue]0-tast[/color] for å gå inn i/ut fra fullskjermsmodus: en visning uten øvre og nedre menylinjer.\\[b]MENY[/b]\[color=#800080]Når en menypost inneholder et ikon, kan du trykke den snarveitasten for å utføre forbundet kommando.[/color]\• Trykk [color=blue]pil opp[/color] eller [color=blue]2-tast[/color] og [color=blue]pil ned[/color] eller [color=blue]8-tast[/color] for å gå mellom kommandoer.\• Trykk [color=blue]FIRE-tast[/color] eller [color=blue]5-tast[/color] for å utføre nåværende valgte kommando.\• Trykk [color=blue]venstre meny[/color] eller [color=blue]TILBAKE-tast[/color] for å lukke hovedmenyen.\\[b]DIALOG[/b]\• Trykk [color=blue]venstre meny[/color] for å trykke på venstre knapp ([color=green]green[/color]).\• Trykk [color=blue]høyre meny[/color] for å trykke på høyre knapp ([color=red]red[/color]).\• Trykk [color=blue]FIRE-tast[/color] eller [color=blue]5-tast[/color] for å trykke på knapp (når enkel).</help_message>
+    <bt_mex>[color=#FF8080]Denne enheten støtter ikke Bluetooth API (JSR-82), så du kan ikke koble til en annen fjernenhet.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]Vennligst skru på Bluetooth\og start programmet på nytt![/color]</bt_off>
+    <fc_mex>[color=#FF8080]Denne enheten støtter ikke FileConnection API (JSR-75), så du kan ikke få tilgang til filsystemet på din enhet.[/color]</fc_mex>
+    <dialog_bt_off_title>Bluetooth AV</dialog_bt_off_title>
+    <dialog_bt_off_message>Bluetooth er for øyeblikket [b]AV[/b]! Vennligst [u][color=blue]skru på Bluetooth[/color][/u] og start programmet på nytt.</dialog_bt_off_message>
+    <version_title>Ny versjon!</version_title>
+    <version_message>En ny versjon av dette programmet, [b][color=blue]v%1[/color][/b], ble funnet online, du kan laste det ned gratis her: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>PayPal-donasjon</donation_title>
+    <donation_message>Vennligst vurder å [b][color=blue]donere[/color][/b] hvis du liker denne programvaren!\Programvareutvikling behøver virkelig mye tid og anstrengelse... surf til [url]http://blueftp.medieval.it/[/url] og gjør det mulig for oss å fortsette gratis programvareutvikling, med en liten donasjon!</donation_message>
+    <security_title>Sikkerhetproblemer</security_title>
+    <security_message>Får ikke tilgang til filsystemet til denne enheten. Forsikre deg om at du gir riktig brukertillatelse (les &amp; skriv) til dette programmet.\Vennligst les bruksanvisningen til din enhet for mer informasjon...\\Årsak:\</security_message>
+    <outofmemory_title>Ikke mer minne!</outofmemory_title>
+    <outofmemory_message>Ikke nok minne til å laste fil [color=blue][off]%1[/off][/color] for det interne visningsprogrammet.\\Grunn:\</outofmemory_message>
+    <set_password>Beskyttelse med passord:</set_password>
+    <get_password>Skriv inn passord for å starte:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>Meny</open_menu>
+    <close_menu>Lukk</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(denne mappen er tom)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>ok</value>
+      <value>fortsette</value>
+      <value>ja</value>
+      <value>lagre</value>
+      <value>stopp</value>
+      <value>besøk</value>
+      <value>gi nytt navn</value>
+      <value>nei</value>
+      <value>annuler</value>
+      <value>overskriv</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>Annonsering (bare 1 gang)</title>
+    <wait>Vennligst vent...</wait>
+    <count>...eller vent %1 sekunder...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>Les flagg</value>
+      <value>Skriv flagg</value>
+      <value>Skjult flagg</value>
+    </items>
+    <read_message>Kan ikke modifisere [b]les[/b] flagg til gitte element.\\Grunn:\</read_message>
+    <write_message>Kan ikke modifisere [b]skriv[/b] flagg til gitte element.\\Grunn:\</write_message>
+    <hidden_message>Kan ikke modifisere [b]skjult[/b] flagg til gitte element.\\Grunn:\</hidden_message>
+    <fc_read_message>Kan ikke åpne en filforbindelse (les) til ønsket element.\\Grunn:\</fc_read_message>
+    <fc_write_message>Kan ikke åpne en filforbindelse (skriv) til ønsket element.\\Grunn:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>Bane:</value>
+      <value>Str.:</value>
+      <value>Byte:</value>
+      <value>Dato:</value>
+      <value>Tid:</value>
+      <value>Les:</value>
+      <value>Skriv:</value>
+      <value>Skjult:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>Navn:</value>
+      <value>Ledig:</value>
+      <value>Brukt:</value>
+      <value>Totalt:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>Bane:</value>
+      <value>Navn:</value>
+      <value>Alias:</value>
+      <value>Str.:</value>
+      <value>Byte:</value>
+      <value>Dato:</value>
+      <value>Tid:</value>
+      <value>Les:</value>
+      <value>Skriv:</value>
+      <value>Slett:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>Bane:</value>
+      <value>Komm.:</value>
+      <value>Dato:</value>
+      <value>Tid:</value>
+      <value>Pakke:</value>
+      <value>Str.:</value>
+      <value>Forhold:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>ZIPver.:</value>
+      <value>Metode:</value>
+      <value>Nivå:</value>
+      <value>Krypter:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mode:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>Nivå:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>Enhetsdetaljer</title>
+    <minor_default>(ukjent)</minor_default>
+    <major_default>(ikke klassifisert)</major_default>
+    <captions type="array">
+      <value>MAC:</value>
+      <value>Navn:</value>
+      <value>Type:</value>
+      <value></value>
+      <value>Serv.:</value>
+    </captions>
+    <major type="array">
+      <value>Diverse</value>
+      <value>Datamaskin</value>
+      <value>Tlf</value>
+      <value>LAN</value>
+      <value>Audio</value>
+      <value>Periferenh</value>
+      <value>Avbilding</value>
+    </major>
+    <minor_1 type="array">
+      <value>(ikke klassifisert)</value>
+      <value>Desktop</value>
+      <value>Server</value>
+      <value>Notebook</value>
+      <value>Håndholdt</value>
+      <value>Palm</value>
+      <value>Kan has på</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(ikke klassifisert)</value>
+      <value>Mobiltelefon</value>
+      <value>Trådløs</value>
+      <value>Smarttelefon</value>
+      <value>Kablet modem</value>
+      <value>ISDN-tilgang</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>Helt tilgjengelig</value>
+      <value>1% - 17% brukt</value>
+      <value>17% - 33% brukt</value>
+      <value>33% - 50% brukt</value>
+      <value>50% - 67% brukt</value>
+      <value>67% - 83% brukt</value>
+      <value>83% - 99% brukt</value>
+      <value>Ingen tjeneste tilgjengelig</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(ikke klassifisert)</value>
+      <value>Hodesett</value>
+      <value>Handsfree</value>
+      <value>(reservert)</value>
+      <value>Mikrofon</value>
+      <value>Høyttaler</value>
+      <value>Hodetelefoner</value>
+      <value>Bærbar audio</value>
+      <value>Bilradio</value>
+      <value>TV-boks</value>
+      <value>Hi-fi audio</value>
+      <value>Videospiller</value>
+      <value>Videokamera</value>
+      <value>Videokamera</value>
+      <value>Videomonitor</value>
+      <value>Video-display og høyttaler</value>
+      <value>Videokonferansiering</value>
+      <value>(reservert)</value>
+      <value>Spilling / leketøy</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(ikke støttet) / </value>
+      <value>Tastatur / </value>
+      <value>Peking / </value>
+      <value>Tastatur &amp; Peking / </value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(ukategorisert)</value>
+      <value>Joystick</value>
+      <value>Gamepad</value>
+      <value>Fjernkontroll</value>
+      <value>Sensorenhet</value>
+      <value>Digitaliseringsbord</value>
+      <value>Kortleser</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>Display</value>
+      <value>Kamera</value>
+      <value>Scanner</value>
+      <value>Printer</value>
+    </minor_6>
+    <services type="array">
+      <value>Begrenset oppdagelse</value>
+      <value>(reservert)</value>
+      <value>(reservert)</value>
+      <value>Posisjonering</value>
+      <value>Nettverksbygging</value>
+      <value>Rendering</value>
+      <value>Oppfanging</value>
+      <value>Objektoverføring</value>
+      <value>Audio</value>
+      <value>Telefoni</value>
+      <value>Informasjon</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>Bane:</value>
+      <value>Fil:</value>
+      <value>Data:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>Avbryt overføring?</confirm_title>
+    <confirm_message>Vil du virkelig avbryte den nåværende overføringshandlingen?</confirm_message>
+    <success_title>Overføring fullført</success_title>
+    <success_message>Overføringshandling fullført og vellykket!</success_message>
+    <abort_title>Overføring avbrutt</abort_title>
+    <abort_message>Overføringshandlingen ble avbrutt av bruker.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>Kan ikke sende ønsket element til fjernenhet.\\Grunn:\</send_error>
+    <file_open_error>Kan ikke åpne kildefilen (lesetillatelse) på lokalt filsystem.\\Grunn:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>Kan ikke laste opp ønskede elementer til fjernenhet.\\Grunn:\</upload_error>
+    <file_open_error>Kan ikke åpne kildefilen (lesetillatelse) på lokalt filsystem.\\Grunn:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>Kan ikke opprette målmappe (lese- &amp; skrivetillatelser) på lokalt filsystem.\\Grunn:\</path_create_error>
+    <file_create_error>Kan ikke opprette målfil (lese- &amp; skrivetillatelser) på lokalt filsystem.\\Grunn:\</file_create_error>
+    <download_error>Kan ikke laste ned ønskede elementer til lokalt filsystem.\\Grunn:\</download_error>
+    <listing>(mappeliste)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>Søketjeneste</value>
+      <value>Koble til enhet</value>
+      <value>Laster fildata</value>
+    </tasks>
+    <profile_ftp>[url]File Transfer Profile[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]Object Push Profile[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>Tilbake til enhetsliste</menu_back_ftp>
+    <menu_back_opp>Tilbake til lokal filliste</menu_back_opp>
+    <fast_back>Tilbake</fast_back>
+    <fast_cancel>Avbryt</fast_cancel>
+    <agent_message>Kan ikke hente den lokale oppdagelsesagenten Bluetooth API.\\Grunn:\</agent_message>
+    <start_message>Kan ikke starte %1 tjenestesøk.\\Grunn:\</start_message>
+    <abort_title>Tilkobling avbrutt</abort_title>
+    <abort_message>Tilkobling til målenhet ble avbrutt av bruker.</abort_message>
+    <error_title>Tilkoblingsfeil</error_title>
+    <unreachable_message>Målenhet kan for øyeblikket ikke nås.</unreachable_message>
+    <search_message>Det var en feil under %1 tjenestesøk.</search_message>
+    <notfound_message>Du kan ikke koble til målenheten fordi den mangler %1 Bluetooth-tjenesten.</notfound_message>
+    <connect_message>Kan ikke koble til målenhet.\\Grunn:\</connect_message>
+    <loading_message>Kan ikke laste fildataen til målenheten.\\Grunn:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>Tilbake til lokal filliste</menu_back>
+    <menu_connect>Koble til[5F]</menu_connect>
+    <menu_addbook>Legg til bokmerke</menu_addbook>
+    <menu_delbook>Fjern bokmerke[C]</menu_delbook>
+    <menu_search>Søkeenheter</menu_search>
+    <menu_info>Enhetsdetaljer[7]</menu_info>
+    <fast_search>Søk</fast_search>
+    <fast_cancel>Avbryt</fast_cancel>
+    <nodevices_message>[color=#5555FF]Ingen Bluetooth-enheter funnet!\Vennligst trykk [b]Søk[/b]-knappen.[/color]</nodevices_message>
+    <abort_title>Avbrutt</abort_title>
+    <abort_message>Søkehandlingen ble avbrutt av bruker.</abort_message>
+    <error_title>Søkefeil</error_title>
+    <error_message>Det var en feil under søkehandlingen.\[color=blue][b]Er Bluetooth skrudd på?[/b][/color]</error_message>
+    <confirm_title>Vennligst bekreft</confirm_title>
+    <confirm_message>Vil du virkelig fjerne enheten [color=blue]%1[/color] fra listen over bokmerker?</confirm_message>
+    <notfound_title>Ingen resultater</notfound_title>
+    <notfound_message>Søket etter Bluetooth-enheter ble fullført uten resultat.\Trykk [color=blue][b]Søk[/b][/color]-knappen igjen!</notfound_message>
+    <noaddbook_title>Kunne ikke legge til</noaddbook_title>
+    <noaddbook_message>Enheten er allerede tilstede i bokmerkelisten.</noaddbook_message>
+    <opp_message>Velg målenhet:</opp_message>
+    <infrared>Infrarød</infrared>
+  </gcld>
+
+  <gclfl>
+   <send>Sender...</send>
+   <upload>Laster opp...</upload>
+   <menu_upload>Last opp element(er)</menu_upload>
+   <menu_open>Åpne element[5F]</menu_open>
+   <menu_open_txt>Åpne som tekt</menu_open_txt>
+   <menu_open_hex>Åpne som binær</menu_open_hex>
+   <menu_search>Søk elementer...</menu_search>
+   <menu_send_bt>Send med Bluetooth</menu_send_bt>
+   <menu_send_ir>Send med Infrarød</menu_send_ir>
+   <menu_compress_zip>Komprimer elementer (zip)</menu_compress_zip>
+   <menu_compress_tar>Komprimer elementer (tar)</menu_compress_tar>
+   <menu_compress_jar>Komprimer elementer (jar)</menu_compress_jar>
+   <menu_compress_nth>Komprimer elementer (nth)</menu_compress_nth>
+   <menu_compress_thm>Komprimer elementer (thm)</menu_compress_thm>
+   <menu_compress_gz>Komprimer fil (gz)</menu_compress_gz>
+   <menu_extract>Pakk ut elementer her[3]</menu_extract>
+   <menu_cancel>Avbryt utpakning</menu_cancel>
+   <menu_back>Tilbake ett nivå opp</menu_back>
+   <menu_root>Gå til rot[B]</menu_root>
+   <menu_item>Gå til elementets mappe</menu_item>
+   <menu_refresh>Oppfrisk mappe</menu_refresh>
+   <menu_create>Opprett mappe</menu_create>
+   <menu_item_info>Informasjon om element[7]</menu_item_info>
+   <menu_attrib>Attributter til element[9]</menu_attrib>
+   <menu_volume_info>Volumstørrelse</menu_volume_info>
+   <menu_rename>Gi nytt navn til element</menu_rename>
+   <menu_delete>Slett element(er)[C]</menu_delete>
+   <menu_cut>Klipp ut element(er)</menu_cut>
+   <menu_copy>Kopier element(er)[1]</menu_copy>
+   <menu_paste>Lim inn element(er)[3]</menu_paste>
+   <menu_select>Velg[*#]</menu_select>
+   <menu_unselect>Ta bort valg av[*#]</menu_unselect>
+   <menu_select_all>Velg alt</menu_select_all>
+   <menu_select_none>Ikke velg noen</menu_select_none>
+   <menu_select_invert>Inverter utvalg</menu_select_invert>
+   <fast_key>Tilbake</fast_key>
+   <root_added_title>Lagring lagt til</root_added_title>
+   <root_added_message>En ny lagringsenhet ble lagt til lokalt filsystem.\\Lagringsrot&gt; </root_added_message>
+   <root_removed_title>Lagring fjernet</root_removed_title>
+   <root_removed_message>En lagringsenhet ble fjernet fra lokalt filsystem.\\Lagringsrot&gt; </root_removed_message>
+   <unsupported_title>Filtype støttes ikke</unsupported_title>
+   <unsupported_message>Denne filtypen er for øyeblikket ikke støttet av det interne visningsprogrammet.</unsupported_message>
+   <open_error_title>Åpne feil</open_error_title>
+   <open_error_message>Kan ikke åpne filen [color=blue][off]%1[/off][/color] for det interne visningsprogrammet.\\Grunn:\</open_error_message>
+   <create_title>Skriv inn mappenavn:</create_title>
+   <create_value>Ny mappe</create_value>
+   <create_message>Kan ikke opprette mappe [color=blue][off]%1[/off][/color] i nåværende posisjon.\\Grunn:\</create_message>
+   <rename_title>Nytt elementnavn:</rename_title>
+   <rename_message>Kan ikke gi nytt navn til nåværende element med navn [color=blue][off]%1[/off][/color].\\Grunn:\</rename_message>
+   <read_message>Kan ikke lese innholdet til mappen [color=blue][off]%1[/off][/color].\\Grunn:\</read_message>
+   <info_message>Kan ikke få informasjon fra filsystem [color=blue][off]%1[/off][/color].\\Grunn:\</info_message>
+   <fc_open_message>Kan ikke åpne filforbindelse til ønsket element.\\Grunn:\</fc_open_message>
+   <delete_message>Kan ikke slette element [color=blue][off]%1[/off][/color] fra lokalt filsystem.\\Grunn:\</delete_message>
+   <confirm_title>Vennligst bekreft</confirm_title>
+   <confirm_message>Vil du virkelig slette valgt(e) element(er)?</confirm_message>
+   <paste_message>Kan ikke lime inn element [color=blue][off]%1[/off][/color] til lokalt filsystem.\\Grunn:\</paste_message>
+   <paste_file_title>Vennligst bekreft</paste_file_title>
+   <paste_file_message>Filen [color=blue][off]%1[/off][/color] eksisterer allerede i målmappen!\\Ønsker du å gi nytt navn eller overskrive?</paste_file_message>
+   <paste_path_title>Vennligst bekreft</paste_path_title>
+   <paste_path_message>Mappen [color=blue][off]%1[/off][/color] eksisterer allerede!\\Ønsker du å gi nytt navn eller overskrive?</paste_path_message>
+   <paste_checkbox>Alle</paste_checkbox>
+   <cancel_title>Utpakking avbrutt</cancel_title>
+   <cancel_message>Utpakking av arkiv avbrutt av bruker!</cancel_message>
+   <tar_filename>%1-navn:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+   <download>Laster ned...</download>
+   <menu_download>Last ned element(er)</menu_download>
+   <menu_open>Åpne element[5F]</menu_open>
+   <menu_open_txt>Åpne som tekt</menu_open_txt>
+   <menu_open_hex>Åpne som binær</menu_open_hex>
+   <menu_search>Søk elementer...</menu_search>
+   <menu_disconnect>Frakoble</menu_disconnect>
+   <menu_back>Tilbake ett nivå opp</menu_back>
+   <menu_root>Gå til rot[B]</menu_root>
+   <menu_item>Gå til elementets mappe</menu_item>
+   <menu_refresh>Oppfrisk mappe</menu_refresh>
+   <menu_create>Opprett mappe</menu_create>
+   <menu_item_info>Informasjon om element[7]</menu_item_info>
+   <menu_delete>Slett element(er)[C]</menu_delete>
+   <menu_cut>Klipp ut element(er)</menu_cut>
+   <menu_copy>Kopier element(er)[1]</menu_copy>
+   <menu_paste>Lim inn element(er)[3]</menu_paste>
+   <menu_select>Velg[*#]</menu_select>
+   <menu_unselect>Ta bort valg av[*#]</menu_unselect>
+   <menu_select_all>Velg alt</menu_select_all>
+   <menu_select_none>Ikke velg noen</menu_select_none>
+   <menu_select_invert>Inverter utvalg</menu_select_invert>
+   <fast_key>Tilbake</fast_key>
+   <unsupported_title>Filtype støttes ikke</unsupported_title>
+   <unsupported_message>Denne filtypen er for øyeblikket ikke støttet av det interne visningsprogrammet.</unsupported_message>
+   <open_error_title>Åpne feil</open_error_title>
+   <open_error_message>Kan ikke åpne filen [color=blue][off]%1[/off][/color] for det interne visningsprogrammet.\\Grunn:\</open_error_message>
+   <create_title>Skriv inn mappenavn:</create_title>
+   <create_value>Ny mappe</create_value>
+   <create_message>Kan ikke opprette mappe [color=blue][off]%1[/off][/color] i nåværende posisjon.\\Grunn:\</create_message>
+   <confirm_title>Vennligst bekreft</confirm_title>
+   <delete_confirm>Vil du virkelig slette valgt(e) element(er)?</delete_confirm>
+   <delete_message>Kan ikke slette element [color=blue][off]%1[/off][/color] fra fjernenhet.\\Grunn:\</delete_message>
+   <disconnect_confirm>Vil du virkelig koble fra fjernenheten?</disconnect_confirm>
+   <disconnect_message>Kan ikke koble fra fjernenheten.\\Grunn:\</disconnect_message>
+   <enter_message>Kan ikke gå inn på mappen [color=blue][off]%1[/off][/color].\\Grunn:\</enter_message>
+   <back_message>Kan ikke gå tilbake en mappe opp.\\Grunn:\</back_message>
+   <root_message>Kan ikke gå tilbake til rotmappe.\\Grunn:\</root_message>
+   <read_message>Kan ikke lese innholdet til nåværende mappe.\\Grunn:\</read_message>
+   <paste_err_title>Ikke støttet</paste_err_title>
+   <paste_err_message>Du kan for øyeblikket ikke [color=blue]klippe eller kopiere[/color] og deretter [color=blue]lime inn[/color] et element på den samme Bluetooth-enheten!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+   <menu_extract>Pakk ut valgte elementer[1]</menu_extract>
+   <menu_close>Lukk arkiv</menu_close>
+   <menu_open>Åpne element[5F]</menu_open>
+   <menu_open_txt>Åpne som tekt</menu_open_txt>
+   <menu_open_hex>Åpne som binær</menu_open_hex>
+   <menu_item_info>Informasjon om element[7]</menu_item_info>
+   <menu_back>Tilbake ett nivå opp</menu_back>
+   <menu_root>Gå til rot[B]</menu_root>
+   <menu_select>Velg[*#]</menu_select>
+   <menu_unselect>Ta bort valg av[*#]</menu_unselect>
+   <menu_select_all>Velg alt</menu_select_all>
+   <menu_select_none>Ikke velg noen</menu_select_none>
+   <menu_select_invert>Inverter utvalg</menu_select_invert>
+   <fast_key>Tilbake</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>Ok</ok_button>
+    <ko_button>Avbryt</ko_button>
+  </uib>
+
+  <usp>
+    <title>Søkeparametre</title>
+    <ok_button>Aksepter</ok_button>
+    <ko_button>Avbryt</ko_button>
+    <reset_form_btn>Standardverdier</reset_form_btn>
+    <clear_mode_btn>Tøm "Søkemodus"</clear_mode_btn>
+    <check_mode_btn>Sjekk "Søkemodus"</check_mode_btn>
+    <clear_from_date_btn>Tøm "Fra-dato"</clear_from_date_btn>
+    <clear_to_date_btn>Tøm "Til-dato"</clear_to_date_btn>
+    <text_lbl>Søketekst:</text_lbl>
+    <mode_lbl>Søkemodus:</mode_lbl>
+    <mode_txt type="array">
+      <value>Finn mapper</value>
+      <value>Finn bilder</value>
+      <value>Finn lyd</value>
+      <value>Finn videoer</value>
+      <value>Finn tekstfiler</value>
+      <value>Finn kjørbare</value>
+      <value>Finn arkiver</value>
+      <value>Finn nettsider</value>
+      <value>Finn temaer</value>
+      <value>Finn ukjente filer</value>
+    </mode_txt>
+    <min_size_lbl>Minimumsstr (KB):</min_size_lbl>
+    <max_size_lbl>Maksimumsstr (KB):</max_size_lbl>
+    <min_date_lbl>Fradato:</min_date_lbl>
+    <max_date_lbl>Tildato:</max_date_lbl>
+    <title_error>Parameterfeil</title_error>
+    <size_error>"Minimumsstr" må være lavere eller lik "Maksimumstr"!</size_error>
+    <date_error>"Fradato" må være lavere eller lik "Tildato"!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>Søker...</title>
+    <keys type="array">
+      <value>Fant:</value>
+      <value>Feil:</value>
+      <value>Bane:</value>
+    </keys>
+    <stop_title>Stoppe søk?</stop_title>
+    <stop_message>Vil du virkelig stanse nåværende søkeoperasjon?\[color=blue]Nåværende resultater vil vises![/color]</stop_message>
+    <cancel_title>Avbryte søk?</cancel_title>
+    <cancel_message>Vil du virkelig avbryte den nåværende søkeoperasjonen?</cancel_message>
+    <errors_title>Fullført, med feil</errors_title>
+    <errors_message>Søkehandlingen ble fullført med [b]%1[/b] errors. Her er feil-listen:</errors_message>
+    <errors_label>\[color=red][b]• Feil %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>Ingen resultater</empty_title>
+    <empty_message>Søkeoperasjon fullført uten resultater.</empty_message>
+    <aborted_title>Søk avbrutt</aborted_title>
+    <aborted_message>Søkehandlingen ble avbrutt av bruker.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>Pakker ut...</title>
+    <captions type="array">
+      <value>Bane:</value>
+      <value>Fil:</value>
+    </captions>
+    <extract_error>Kan ikke pakke ut denne ZIP-filen.\\Grunn:\</extract_error>
+    <format_title>ZIP formatfeil</format_title>
+    <format_message>Oppsto problemer med formateringen av filen som prosesseres nå.\\Grunn:\</format_message>
+    <format_error>Brukeren har stoppet utpakkingsprosessen.\\Grunn:\</format_error>
+    <done_title>Ferdig!</done_title>
+    <done_normal>Utpakking fullført!</done_normal>
+    <done_errors>Utpakking fullført med feil.</done_errors>
+    <confirm_title>Avbryt utpakking?</confirm_title>
+    <confirm_message>Vil du virkelig avbryte nåværende utpakkingsprosess?</confirm_message>
+    <abort_title>Utpakking avbrutt</abort_title>
+    <abort_message>Utpakking ble avbrutt av bruker.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>Pakker...</title>
+    <captions type="array">
+      <value>Bane:</value>
+      <value>Fil:</value>
+    </captions>
+    <finalizing>(avslutter arkiv)</finalizing>
+    <compress_error>Kan ikek fullføre denne ZIP-filen.\\Grunn:\</compress_error>
+    <done_title>Ferdig!</done_title>
+    <done_message>Komprimering fullført!</done_message>
+    <abort_title>Komprimering avbrutt</abort_title>
+    <abort_message>Komprimeringen ble avbrutt av bruker.</abort_message>
+    <confirm_title>Avbryt komprimering?</confirm_title>
+    <confirm_message>Vil du virkelig avbryte nåværende komprimeringsprosess?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>Ny %1-fil</title>
+    <filename>%1-navn:</filename>
+    <password>%1-passord:</password>
+    <password_title>Passord for kort</password_title>
+    <password_message>Passordet må inneholde minst %1 tegn!</password_message>
+    <method_title>Komprimeringsmetode:</method_title>
+    <method_items type="array">
+      <value>Stored (ukomprimert)</value>
+      <value>Deflate (beste valg)</value>
+      <value>Deflate64 (mindre kompatibelt)</value>
+    </method_items>
+  </uzf>
+</language>

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.1
+Created-By: 1.6.0_21-b07 (Nokia)
+MIDlet-1: BlueFTP,/icon.png,MIDLET_Main
+MIDlet-Permissions-Opt: javax.microedition.io.Connector.bluetooth.client
+ , javax.microedition.io.Connector.file.read, javax.microedition.io.Conn
+ ector.file.write
+MIDlet-Vendor: Nokia
+MIDlet-Name: BlueFTP
+MIDlet-Version: 1.70
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+
+

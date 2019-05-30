@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="Nederlands" lid="nl" cid="NL">
+  <common>
+    <no>Nee</no>
+    <yes>Ja</yes>
+    <root>&lt;bron&gt;</root>
+    <search_mode>&lt;zoeken&gt;</search_mode>
+    <none>(geen)</none>
+    <empty>(leeg)</empty>
+    <denied>Niet toegestaan</denied>
+    <allowed>Toegestaan</allowed>
+    <copy_suffix> - Kopie</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>Lokaal</value>
+      <value>Bluetooth</value>
+    </pages>
+    <menu_clean>Volledig scherm[0]</menu_clean>
+    <menu_lang>Kies taal</menu_lang>
+    <menu_pass>Wachtwoord instellen</menu_pass>
+    <menu_about>Over...</menu_about>
+    <menu_help>Help</menu_help>
+    <menu_exit>Uitgang</menu_exit>
+    <help_title>Help!</help_title>
+    <help_message>[b]KEYS[/b]\• Druk [color=blue]pijl links[/color] of [color=blue]toets 4[/color] en [color=blue]pijl rechts[/color] of [color=blue]toets 6[/color] om tussen lokale en Bluetooth bestanden te schakelen.\• Druk [color=blue]linkermenu[/color] om hoofdmenu te openen/sluiten.\• Druk [color=blue]rechtermenu[/color] om 'on-screen fast command' uit te voeren.\• Druk [color=blue]toets #[/color] of [color=blue]toets *[/color] om huidige item te selecteren/deselecteren.\• Druk [color=blue]toets 1[/color] om geselecteerde items naar klembord te kopieren.\• Druk [color=blue]toets 3[/color] om items van klembord in huidige map te plakken.\• Druk [color=blue]toets 0[/color] om volledig scherm te openen/sluiten: scherm zonder boven- en onderbalken.\\[b]MENU[/b]\[color=#800080]Wanneer een menu-item een afbeelding bevat, kunt u deze snelkoppeling indrukken om bijbehorend commando uit te voeren.[/color]\• Druk [color=blue]pijl omhoog[/color] of [color=blue]toets 2[/color] en [color=blue]pijl omlaag[/color] of [color=blue]toets 8[/color] om tussen commando's te schakelen.\• Druk [color=blue]SCHIET[/color] of [color=blue]toets 5[/color] om huidig geselecteerd commando uit te voeren.\• Druk [color=blue]linkermenu[/color] of [color=blue]TERUG[/color] om hoofdmenu af te sluiten.\\[b]DIALOGS[/b]\• Druk [color=blue]linkermenu[/color] om linkerknop in te drukken ([color=green]groen[/color]).\• Druk [color=blue]rechtermenu[/color] om rechterknop in te drukken ([color=red]red[/color]).\• Druk [color=blue]SCHIET[/color] of [color=blue]toets 5[/color] om knop in te drukken (indien alleenstaand).</help_message>
+    <bt_mex>[color=#FF8080]Deze applicatie ondersteund geen Bluetooth API (JSR-82), zodat u niet kunt verbinden met losse applicaties.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]Zet Bluetooth aan en herstart programma![/color]</bt_off>
+    <fc_mex>[color=#FF8080]Deze applicatie ondersteund geen FileConnection API (JSR-75), waardoor u geen toegang heeft tot het bestandssysteem van uw applicatie.[/color]</fc_mex>
+    <dialog_bt_off_title>Bluetooth UIT</dialog_bt_off_title>
+    <dialog_bt_off_message>Bluetooth staat momenteel [b]UIT[/b]! [u][color=blue]Zet Bluetooth aan[/color][/u] en herstart programma.</dialog_bt_off_message>
+    <version_title>Nieuwe versie!</version_title>
+    <version_message>Een nieuwe versie van dit programma [b][color=blue]v%1[/color][/b] is gevonden online, download gratis via: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>PayPal donatie</donation_title>
+    <donation_message>Als deze software u bevalt, neemt u dan alstublieft een [b][color=blue]donatie[/color][/b] in overweging!\Software-ontwikkeling vergt veel tijd en inzet ... surf naar [url]http://blueftp.medieval.it/[/url] en draag met een kleine donatie bij aan gratis software-ontwikkeling!</donation_message>
+    <security_title>Beveiligingsproblemen</security_title>
+    <security_message>Geen toegang mogelijk tot bestandssysteem van deze applicatie. Zorg dat u de juiste permissies (lees &amp; schrijf) van deze applicatie invoert.\Lees uw handleiding voor verdere informatie...\\Reden:\</security_message>
+    <outofmemory_title>Geen geheugen beschikbaar!</outofmemory_title>
+    <outofmemory_message>Niet genoeg geheugen om bestand [color=blue][off]%1[/off][/color] te laden met interne lezer.\\Reden:\</outofmemory_message>
+    <set_password>Beveiliging met wachtwoord:</set_password>
+    <get_password>Instellen wachtwoord om te starten:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>Menu</open_menu>
+    <close_menu>Afsluiten</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(deze map is leeg)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>ok</value>
+      <value>vervolgen</value>
+      <value>ja</value>
+      <value>opslaan</value>
+      <value>stop</value>
+      <value>bezoeken</value>
+      <value>hernoemen</value>
+      <value>nee</value>
+      <value>annuleren</value>
+      <value>overschrijven</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>Adverteren (1 keer mogelijk)</title>
+    <wait>Even wachten...</wait>
+    <count>...of wacht %1 seconden...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>Lees kenmerken</value>
+      <value>Schrijf kenmerken</value>
+      <value>Verborgen kenmerken</value>
+    </items>
+    <read_message>Kan kenmerken van dit item niet aanpassen [b]lees[/b].\\Reden:\</read_message>
+    <write_message>Kan kenmerken van dit item niet aanpassen [b]schrijf[/b].\\Reden:\</write_message>
+    <hidden_message>Kan kenmerken van dit item niet aanpassen [b]verborgen[/b].\\Reden:\</hidden_message>
+    <fc_read_message>Kan verbinding met bestand (lees) niet openen voor dit item.\\Reden:\</fc_read_message>
+    <fc_write_message>Kan verbinding met bestand (schrijf) niet openen voor dit item.\\Reden:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>Schijf:</value>
+      <value>Grootte:</value>
+      <value>Byte:</value>
+      <value>Datum:</value>
+      <value>Tijd:</value>
+      <value>Lees:</value>
+      <value>Schrijf:</value>
+      <value>Verb.:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>Naam:</value>
+      <value>Beschikbaar:</value>
+      <value>Gebruikt:</value>
+      <value>Totaal:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>Schijf:</value>
+      <value>Naam:</value>
+      <value>Alias:</value>
+      <value>Grootte:</value>
+      <value>Byte:</value>
+      <value>Datum:</value>
+      <value>Tijd:</value>
+      <value>Lees:</value>
+      <value>Schrijf:</value>
+      <value>Wissen:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>Schijf:</value>
+      <value>Comm.:</value>
+      <value>Datum:</value>
+      <value>Tijd:</value>
+      <value>Inpakken:</value>
+      <value>Grootte:</value>
+      <value>Ratio:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>ZIP ver:</value>
+      <value>Methode:</value>
+      <value>Niveau:</value>
+      <value>Encryptie:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mode:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>Niveau:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>Gegevens applicatie</title>
+    <minor_default>(onbekend)</minor_default>
+    <major_default>(niet geordend)</major_default>
+    <captions type="array">
+      <value>MAC:</value>
+      <value>Naam:</value>
+      <value>Type:</value>
+      <value></value>
+      <value>Serv.:</value>
+    </captions>
+    <major type="array">
+      <value>Niet geordend</value>
+      <value>Computer</value>
+      <value>Telefoon</value>
+      <value>LAN</value>
+      <value>Audio</value>
+      <value>Randapparatuur</value>
+      <value>Afbeelden</value>
+    </major>
+    <minor_1 type="array">
+      <value>(niet geordend)</value>
+      <value>Bureaublad</value>
+      <value>Server</value>
+      <value>Notities</value>
+      <value>Handheld</value>
+      <value>Palm</value>
+      <value>Draagbaar</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(niet geordend)</value>
+      <value>Mobiel</value>
+      <value>Draadloos</value>
+      <value>Smart phone</value>
+      <value>Bedraden modem</value>
+      <value>ISDN toegang</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>Volledig beschikbaar</value>
+      <value>1% - 17% gebruikt</value>
+      <value>17% - 33% gebruikt</value>
+      <value>33% - 50% gebruikt</value>
+      <value>50% - 67% gebruikt</value>
+      <value>67% - 83% gebruikt</value>
+      <value>83% - 99% gebruikt</value>
+      <value>Geen dienst beschikbaar</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(niet geordend)</value>
+      <value>Hoofdtelefoon</value>
+      <value>Handsfree</value>
+      <value>(gereserveerd)</value>
+      <value>Microfoon</value>
+      <value>Luidspreker</value>
+      <value>Hoofdtelefoon</value>
+      <value>Draagbare audio</value>
+      <value>Auto audio</value>
+      <value>Set-top box</value>
+      <value>Hi-fi audio</value>
+      <value>VCR</value>
+      <value>Videocamera</value>
+      <value>Camcorder</value>
+      <value>Videobeeld</value>
+      <value>Videobeeld en luidspreker</value>
+      <value>Videoconferentie</value>
+      <value>(gereserveerd)</value>
+      <value>Spellen</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(niet ondersteund) / </value>
+      <value>toetsenbord / </value>
+      <value>Aanwijzen / </value>
+      <value>Toetsenbord &amp; Aanwijzen / </value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(niet geordend)</value>
+      <value>Joystick</value>
+      <value>Spelbesturing</value>
+      <value>Afstandsbediening</value>
+      <value>Sensing device</value>
+      <value>Digitizer tablet</value>
+      <value>Card reader</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>Beeld</value>
+      <value>Camera</value>
+      <value>Scanner</value>
+      <value>Printer</value>
+    </minor_6>
+    <services type="array">
+      <value>Beperkte vondst</value>
+      <value>(gereserveerd)</value>
+      <value>(gereserveerd)</value>
+      <value>Positioneren</value>
+      <value>Netwerken</value>
+      <value>Vertalen</value>
+      <value>Vastleggen</value>
+      <value>Voorwerp versturen</value>
+      <value>Audio</value>
+      <value>Telephony</value>
+      <value>Informatie</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>Schijf:</value>
+      <value>Bestand:</value>
+      <value>Data:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>Overschrijven stopzetten?</confirm_title>
+    <confirm_message>Wilt u huidige overschrijving echt stopzetten?</confirm_message>
+    <success_title>Overschrijven voltooid</success_title>
+    <success_message>Overschrijven succesvol afgerond!</success_message>
+    <abort_title>Overschrijven stopgezet</abort_title>
+    <abort_message>Overschrijven stopgezet door gebruiker.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>Kan gekozen item niet uploaden naar losse applicatie.\\Reden:\</send_error>
+    <file_open_error>Kan bronbestand niet openen (lees permissie) op lokaal bestandssysteem.\\Reden:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>Kan gekozen item niet uploaden naar losse applicatie.\\Reden:\</upload_error>
+    <file_open_error>Kan bronbestand niet openen (lees permissie) op lokaal bestandssysteem.\\Reden:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>Kan doelmap niet aanmaken (lees &amp; schrijf permissies) op lokaal bestandssysteem.\\Reden:\</path_create_error>
+    <file_create_error>Kan doelbestand niet aanmaken (lees &amp; schrijf permissies) op lokaal bestandssysteem.\\Reden:\</file_create_error>
+    <download_error>Kan gekozen items niet downloaden naar lokaal bestandssysteem.\\Reden:\</download_error>
+    <listing>(map ordenen)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>Zoekapplicatie</value>
+      <value>Verbinden met applicatie</value>
+      <value>Bestandsdata laden</value>
+    </tasks>
+    <profile_ftp>[url]File Transfer Profile[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]Object Push Profile[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>Terug naar applicatielijst</menu_back_ftp>
+    <menu_back_opp>Terug naar bestandslijst</menu_back_opp>
+    <fast_back>Terug</fast_back>
+    <fast_cancel>Annuleren</fast_cancel>
+    <agent_message>Kan lokale ‘discovery agent’ van Bluetooth API niet vinden.\\Reden:\</agent_message>
+    <start_message>Kan niet starten met %1 service search.\\Reden:\</start_message>
+    <abort_title>Verbinding verbroken</abort_title>
+    <abort_message>met doelapplicatie verbroken door gebruiker.</abort_message>
+    <error_title>Verbindingsfout</error_title>
+    <unreachable_message>Doelapplicatie is momenteel onbereikbaar.</unreachable_message>
+    <search_message>Er is een fout opgetreden tijdens %1 service search.</search_message>
+    <notfound_message>U kunt niet verbinden met doelapplicatie door ontbreken van %1 Bluetooth service.</notfound_message>
+    <connect_message>Kan niet verbinden met doelapplicatie.\\Reden:\</connect_message>
+    <loading_message>Kan bestandsdata van doelapplicatie niet laden.\\Reden:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>Terug naar bestandslijst</menu_back>
+    <menu_connect>Verbinden[5F]</menu_connect>
+    <menu_addbook>Favoriet toevoegen</menu_addbook>
+    <menu_delbook>Favoriet verwijderen[C]</menu_delbook>
+    <menu_search>Zoek applicaties</menu_search>
+    <menu_info>Applicatiegegevens[7]</menu_info>
+    <fast_search>Zoeken</fast_search>
+    <fast_cancel>Annuleren</fast_cancel>
+    <nodevices_message>[color=#5555FF]Geen Bluetooth applicaties gevonden!\Druk [b]Zoeken[/b].[/color]</nodevices_message>
+    <abort_title>Stopgezet</abort_title>
+    <abort_message>Zoekopdracht stopgezet door gebruiker.</abort_message>
+    <error_title>Zoekfout</error_title>
+    <error_message>Er is een fout opgetreden tijdens de zoekopdracht.\[color=blue][b]Staat Bluetooth aan?[/b][/color]</error_message>
+    <confirm_title>Bevestig</confirm_title>
+    <confirm_message>Wilt u echt [color=blue]%1[/color] applicatie verwijderen uit favorieten?</confirm_message>
+    <notfound_title>Geen resultaten</notfound_title>
+    <notfound_message>Zoekopdracht naar Bluetooth applicaties voltooid zonder resultaten.\Druk [color=blue][b]Zoeken[/b][/color] opnieuw!</notfound_message>
+    <noaddbook_title>Kan niet toevoegen</noaddbook_title>
+    <noaddbook_message>Applicatie is al toegevoegd aan favorieten.</noaddbook_message>
+    <opp_message>Selecteer doelapplicatie:</opp_message>
+    <infrared>Infrarood</infrared>
+  </gcld>
+
+  <gclfl>
+   <send>Verzenden...</send>
+   <upload>Uploaden...</upload>
+   <menu_upload>Item(s) uploaden</menu_upload>
+   <menu_open>Item openen[5F]</menu_open>
+   <menu_open_txt>Openen als tekst</menu_open_txt>
+   <menu_open_hex>Openen als beiden</menu_open_hex>
+   <menu_search>Zoek items...</menu_search>
+   <menu_send_bt>Verzend. met Bluetooth</menu_send_bt>
+   <menu_send_ir>Verzend. met Infrarood</menu_send_ir>
+   <menu_compress_zip>Comprimeer items (zip)</menu_compress_zip>
+   <menu_compress_tar>Comprimeer items (tar)</menu_compress_tar>
+   <menu_compress_jar>Comprimeer items (jar)</menu_compress_jar>
+   <menu_compress_nth>Comprimeer items (nth)</menu_compress_nth>
+   <menu_compress_thm>Comprimeer items (thm)</menu_compress_thm>
+   <menu_compress_gz>Comprimeer bestand (gz)</menu_compress_gz>
+   <menu_extract>Extract items hier[3]</menu_extract>
+   <menu_cancel>Annuleer extractie</menu_cancel>  
+   <menu_back>Een niveau terug</menu_back>
+   <menu_root>Ga naar bron[B]</menu_root>
+   <menu_item>Ga naar item-map</menu_item>
+   <menu_refresh>Map verversen</menu_refresh>
+   <menu_create>Map aanmaken</menu_create>
+   <menu_item_info>Informatie item[7]</menu_item_info>
+   <menu_attrib>Kenmerken item[9]</menu_attrib>
+   <menu_volume_info>Volumeniveau</menu_volume_info>
+   <menu_rename>Hernoem item</menu_rename>
+   <menu_delete>Verwijder item(s)[C]</menu_delete>
+   <menu_cut>Knip item(s)</menu_cut>
+   <menu_copy>Kopieer item(s)[1]</menu_copy>
+   <menu_paste>Plak item(s)[3]</menu_paste>
+   <menu_select>Selecteer[*#]</menu_select>
+   <menu_unselect>Deselecteer[*#]</menu_unselect>
+   <menu_select_all>Selecteer allemaal</menu_select_all>
+   <menu_select_none>Selecteer geen</menu_select_none>
+   <menu_select_invert>Selectie omkeren</menu_select_invert>
+   <fast_key>Terug</fast_key>
+   <root_added_title>Opslag toegevoegd</root_added_title>
+   <root_added_message>Een nieuwe opslagapplicatie is toegevoegd aan lokaal bestandssyteem.\\Opslagbron&gt; </root_added_message>
+   <root_removed_title>Opslag verwijderd</root_removed_title>
+   <root_removed_message>Een opslagapplicatie is verwijderd uit lokaal bestandssysteem.\\Opslagbron&gt; </root_removed_message>
+   <unsupported_title>Bestandstype niet ondersteund</unsupported_title>
+   <unsupported_message>Dit bestand wordt momenteel niet ondersteund door de interne lezer.</unsupported_message>
+   <open_error_title>Openen mislukt</open_error_title>
+   <open_error_message>Kan bestand [color=blue][off]%1[/off][/color] niet openen voor de interne lezer.\\Reden:\</open_error_message>
+   <create_title>Benoem map:</create_title>
+   <create_value>Nieuwe map</create_value>
+   <create_message>Kan [color=blue][off]%1[/off][/color] map niet aanmaken in huidige positie.\\Reden:\</create_message>
+   <rename_title>Nieuwe itemnaam:</rename_title>
+   <rename_message>Kan huidige itemnaam niet aanpassen naar [color=blue][off]%1[/off][/color] naam.\\Reden:\</rename_message>
+   <read_message>Kan de inhoud van [color=blue][off]%1[/off][/color] map niet lezen.\\Reden:\</read_message>
+   <info_message>Kan geen informatie verkrijgen vanuit bestandssysteem [color=blue][off]%1[/off][/color].\\Reden:\</info_message>
+   <fc_open_message>Kan geen bestandsverbinding openen voor gekozen item.\\Reden:\\</fc_open_message>
+   <delete_message>Kan [color=blue][off]%1[/off][/color] item niet verwijderen vanuit lokaal bestandssysteem.\\Reden:\</delete_message>
+   <confirm_title>Bevestig</confirm_title>
+   <confirm_message>Wilt u geselecteerde item(s) echt verwijderen?</confirm_message>
+   <paste_message>Kan [color=blue][off]%1[/off][/color] item niet in lokaal bestandssysteem plakken.\\Reden:\</paste_message>
+   <paste_file_title>Bevestig</paste_file_title>
+   <paste_file_message>Bestand [color=blue][off]%1[/off][/color] bestaat al in doelmap!\\Wilt u hernoemen of overschrijven?</paste_file_message>
+   <paste_path_title>Bevestig</paste_path_title>
+   <paste_path_message>Map [color=blue][off]%1[/off][/color] bestaat al!\\Wilt u hernoemen of overschrijven?</paste_path_message>
+   <paste_checkbox>Alle</paste_checkbox>
+   <cancel_title>Extractie afgebroken</cancel_title>
+   <cancel_message>Archiveer door gebruiker afgebroken extractie!</cancel_message>
+   <tar_filename>%1 naam:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+   <download>Downloaden...</download>
+   <menu_download>Item(s) downloaden</menu_download>
+   <menu_open>Item openen[5F]</menu_open>
+   <menu_open_txt>Openen als tekst</menu_open_txt>
+   <menu_open_hex>Openen als beiden</menu_open_hex>
+   <menu_search>Zoek items...</menu_search>
+   <menu_disconnect>Afkoppelen</menu_disconnect>
+   <menu_back>Een niveau terug</menu_back>
+   <menu_root>Ga naar bron[B]</menu_root>
+   <menu_item>Ga naar item-map</menu_item>
+   <menu_refresh>Map verversen</menu_refresh>
+   <menu_create>Map aanmaken</menu_create>
+   <menu_item_info>Informatie item[7]</menu_item_info>
+   <menu_delete>Verwijder item(s)[C]</menu_delete>
+   <menu_cut>Knip item(s)</menu_cut>
+   <menu_copy>Kopieer item(s)[1]</menu_copy>
+   <menu_paste>Plak item(s)[3]</menu_paste>
+   <menu_select>Selecteer[*#]</menu_select>
+   <menu_unselect>Deselecteer[*#]</menu_unselect>
+   <menu_select_all>Selecteer allemaal</menu_select_all>
+   <menu_select_none>Selecteer geen</menu_select_none>
+   <menu_select_invert>Selectie omkeren</menu_select_invert>
+   <fast_key>Terug</fast_key>
+   <unsupported_title>Bestandstype niet ondersteund</unsupported_title>
+   <unsupported_message>Dit bestand wordt momenteel niet ondersteund door de interne lezer.</unsupported_message>
+   <open_error_title>Openen mislukt</open_error_title>
+   <open_error_message>Kan bestand [color=blue][off]%1[/off][/color] niet openen voor de interne lezer.\\Reden:\</open_error_message>
+   <create_title>Benoem map:</create_title>
+   <create_value>Nieuwe map</create_value>
+   <create_message>Kan [color=blue][off]%1[/off][/color] map niet aanmaken in huidige positie.\\Reden:\</create_message>
+   <confirm_title>Bevestig</confirm_title>
+   <delete_confirm>Wilt u geselecteerde item(s) echt verwijderen?</delete_confirm>
+   <delete_message>Kan [color=blue][off]%1[/off][/color] item niet verwijderen vanuit losse applicatie.\\Reden:\</delete_message>
+   <disconnect_confirm>Wilt u de losse applicatie afkoppelen?</disconnect_confirm>
+   <disconnect_message>Kan losse applicatie niet afkoppelen.\\Reden:\</disconnect_message>
+   <enter_message>Kan [color=blue][off]%1[/off][/color] map niet openen.\\Reden:\</enter_message>
+   <back_message>Kan geen mapniveau terug.\\Reden:\</back_message>
+   <root_message>Kan niet terug naar bronmap.\\Reden:\</root_message>
+   <read_message>Kan inhoud van huidige map niet lezen.\\Reden:\</read_message>
+   <paste_err_title>Niet ondersteund</paste_err_title>
+   <paste_err_message>Momenteel kunt u een item niet [color=blue]knippen / kopiëren [/color] en vervolgens [color=blue]plakken[/color] binnen dezelfde Bluetooth applicatie!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+   <menu_extract>Extract geselecteerde items[1]</menu_extract>
+   <menu_close>Archief afsluiten</menu_close>
+   <menu_open>Item openen[5F]</menu_open>
+   <menu_open_txt>Openen als tekst</menu_open_txt>
+   <menu_open_hex>Openen als beiden</menu_open_hex>
+   <menu_item_info>Informatie item[7]</menu_item_info>
+   <menu_back>Een niveau terug</menu_back>
+   <menu_root>Ga naar bron[B]</menu_root>
+   <menu_select>Selecteer[*#]</menu_select>
+   <menu_unselect>Deselecteer[*#]</menu_unselect>
+   <menu_select_all>Selecteer allemaal</menu_select_all>
+   <menu_select_none>Selecteer geen</menu_select_none>
+   <menu_select_invert>Selectie omkeren</menu_select_invert>
+   <fast_key>Terug</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>Ok</ok_button>
+    <ko_button>Annuleren</ko_button>
+  </uib>
+
+  <usp>
+    <title>Zoekparameters</title>
+    <ok_button>Accepteren</ok_button>
+    <ko_button>Annuleren</ko_button>
+    <reset_form_btn>Waarden van gebreken</reset_form_btn>
+    <clear_mode_btn>"Zoekmodus" vrijmaken</clear_mode_btn>
+    <check_mode_btn>Check "Zoekmodus" controleren</check_mode_btn>
+    <clear_from_date_btn>Vrijmaken begindatum</clear_from_date_btn>
+    <clear_to_date_btn>Vrijmaken einddatum</clear_to_date_btn>
+    <text_lbl>Tekst zoeken:</text_lbl>
+    <mode_lbl>Modus zoeken:</mode_lbl>
+    <mode_txt type="array">
+      <value>Mappen vinden</value>
+      <value>Afbeeldingen vinden</value>
+      <value>Audio vinden</value>
+      <value>Video's vinden</value>
+      <value>Tekstbestanden vinden</value>
+      <value>Uitvoeringen vinden</value>
+      <value>Archieven vinden</value>
+      <value>Websites vinden</value>
+      <value>Thema's vinden</value>
+      <value>Onbekende bestanden vinden</value>
+    </mode_txt>
+    <min_size_lbl>Minimale grootte (KB):</min_size_lbl>
+    <max_size_lbl>Maximale grootte (KB):</max_size_lbl>
+    <min_date_lbl>Van datum:</min_date_lbl>
+    <max_date_lbl>Naar datum:</max_date_lbl>
+    <title_error>Fout parameters</title_error>
+    <size_error>"Minimale grootte moet lager of gelijk zijn als de maximale grootte"!</size_error>
+    <date_error>"Van datum" moet lager of gelijk zijn dan "naar datum"!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>Zoeken...</title>
+    <keys type="array">
+      <value>Gevonden:</value>
+      <value>Fout:</value>
+      <value>Schijf:</value>
+    </keys>
+    <stop_title>Stop zoekopdracht?</stop_title>
+    <stop_message>Wilt u de huidige zoekopdracht stoppen?\[color=blue]Huidige resultaten worden weergegeven![/color]</stop_message>
+    <cancel_title>Annuleer zoekopdracht?</cancel_title>
+    <cancel_message>Wilt u de huidige zoekopdracht annuleren?</cancel_message>
+    <errors_title>Voltooid met fouten</errors_title>
+    <errors_message>Zoekopdracht is voltooid met [b]%1[/b] fouten. Hier is de foutenlijst:</errors_message>
+    <errors_label>\[color=red][b]• Fout %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>Geen resultaten</empty_title>
+    <empty_message>Zoekopdracht voltooid zonder resultaten.</empty_message>
+    <aborted_title>Zoekopdracht afgebroken</aborted_title>
+    <aborted_message>Zoekopdracht afgebroken door gebruiker.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>Extractie...</title>
+    <captions type="array">
+      <value>Schijf:</value>
+      <value>Bestand:</value>
+    </captions>
+    <extract_error>Extractie van ZIP-bestand in archief niet mogelijk.\\Reason:\</extract_error>
+    <format_title>Fout ZIP-formaat</format_title>
+    <format_message>Problemen ondervonden door formaat van huidig, verwerkt bestand.\\Reason:\</format_message>
+    <format_error>Gebruiker heeft extractie stopgezet.\\Reason:\</format_error>
+    <done_title>Gereed!</done_title>
+    <done_normal>Extractie succesvol afgerond!</done_normal>
+    <done_errors>Extraction afgerond met fouten.</done_errors>
+    <confirm_title>Extractie afgebroken?</confirm_title>
+    <confirm_message>Wilt u huidige extractie afbreken?</confirm_message>
+    <abort_title>Extractie afgebroken</abort_title>
+    <abort_message>Extractie afgebroken door gebruiker.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>Comprimeren...</title>
+    <captions type="array">
+      <value>Schijf:</value>
+      <value>Bestand:</value>
+    </captions>
+    <finalizing>(archief voltooien)</finalizing>
+    <compress_error>Kan ZIP-bestand in archief niet voltooien.\\Reason:\</compress_error>
+    <done_title>Gereed!</done_title>
+    <done_message>Compressie succesvol afgerond!</done_message>
+    <abort_title>Compressie afgebroken</abort_title>
+    <abort_message>Compressie afgebroken door gebruiker.</abort_message>
+    <confirm_title>Compressie afbreken?</confirm_title>
+    <confirm_message>Wilt u huidige compressie afbreken?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>Nieuw %1-bestand</title>
+    <filename>%1 naam:</filename>
+    <password>%1 wachtwoord:</password>
+    <password_title>Wachtwoord te klein</password_title>
+    <password_message>Uw wachtwoord dient minimaal %1 karakters te bevatten!</password_message>
+    <method_title>Compressie methode:</method_title>
+    <method_items type="array">
+      <value>Stored (niet gecomprimeerd)</value>
+      <value>Deflate (beste keuze)</value>
+      <value>Deflate64 (beperkter verenigbaar)</value>
+    </method_items>
+  </uzf>
+</language>

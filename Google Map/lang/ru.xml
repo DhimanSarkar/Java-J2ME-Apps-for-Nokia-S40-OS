@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="Русский" lid="ru" cid="RU">
+  <common>
+    <no>Нет</no>
+    <yes>Да</yes>
+    <root>&lt;корень&gt;</root>
+    <search_mode>&lt;поиск&gt;</search_mode>
+    <none>(ничего)</none>
+    <empty>(пусто)</empty>
+    <denied>Запрещено</denied>
+    <allowed>Разрешено</allowed>
+    <copy_suffix> - Копия</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>Локальный</value>
+      <value>Bluetooth</value>
+    </pages>
+    <menu_clean>Во весь экран[0]</menu_clean>
+    <menu_lang>Выбор языка</menu_lang>
+    <menu_pass>Установить пароль</menu_pass>
+    <menu_about>О программе...</menu_about>
+    <menu_help>Помощь</menu_help>
+    <menu_exit>Выход</menu_exit>
+    <help_title>Помощь</help_title>
+    <help_message>[b]КЛАВИШИ[/b]\• Нажмите [color=blue]стрелку влево[/color] или [color=blue]клавишу 4[/color] и [color=blue]стрелку вправо[/color] или [color=blue]клавишу 6[/color] чтобы переключаться между локальными и Bluetooth файлами.\• Нажмите [color=blue]левое меню[/color] чтобы открыть/закрыть главное меню.\• Нажмите [color=blue]правое меню[/color] чтобы выполнить быструю комманду.\• Нажмите [color=blue]клавишу #[/color] или [color=blue]клавишу *[/color] чтобы отметить/снять отметку с текущего объекта.\• Нажмите [color=blue]клавишу 1[/color] чтобы скопировать текущие отмеченные объекты в буфер обмена.\• Нажмите [color=blue]клавишу 3[/color] чтобы вставить объекты из буфера обмена в текущую папку.\• Нажмите [color=blue]клавишу 0[/color] чтобы войти/выйти из полноэкранного режима: вида без верхней и нижней рамки.\\[b]МЕНЮ[/b]\[color=#800080]Когда меню содержит буквы, заключённые в квадратные скобки, вы можете нажать соответствующую клавишу, чтобы выполнить назначенную комманду[/color]\• Нажмите [color=blue]стрелку вверх[/color] или [color=blue]клавишу 2[/color] и [color=blue]стрелку вниз[/color] или [color=blue]клавишу 8[/color] чтобы перемещаться между коммандами.\• Нажмите [color=blue]ЦЕНТРАЛЬНУЮ клавишу[/color] или [color=blue]клавишу 5[/color] чтобы выполнить выбранную комманду.\• Нажмите [color=blue]левое меню[/color] или [color=blue]клавишу НАЗАД[/color] чтобы закрыть главное меню.\\[b]ДИАЛОГОВЫЕ ОКНА[/b]\• Нажмите [color=blue]левое меню[/color] чтобы выбрать левую кнопку ([color=green]зелёный[/color]).\• Нажмите [color=blue]правое меню[/color] чтобы выбрать кнопку вправо ([color=red]красный[/color]).\• Нажмите [color=blue]ЦЕНТРАЛЬНУЮ клавишу[/color] или [color=blue]клавишу 5[/color] чтобы нажать кнопку (при единственном выборе).</help_message>
+    <bt_mex>[color=#FF8080]Это устройство не поддерживает Bluetooth API (JSR-82), поэтому вы не можете соединяться с удалёнными устройствами.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]Пожалуйста включите Bluetooth и перезапустите программу![/color]</bt_off>
+    <fc_mex>[color=#FF8080]Это устройство не поддерживает FileConnection API (JSR-75), поэтому вы не можете получить доступа к файловой системе вашего устройства.[/color]</fc_mex>
+    <dialog_bt_off_title>Bluetooth OFF</dialog_bt_off_title>
+    <dialog_bt_off_message>Bluetooth в данный момент [b]ОТКЛЮЧЕН[/b]! Пожалуйста, [u][color=blue]включите Bluetooth[/color][/u] и перезапустите программу.</dialog_bt_off_message>
+    <version_title>Новая версия!</version_title>
+    <version_message>На нашем сервере была найдена новая версия программы, [b][color=blue]v%1[/color][/b], вы можете бесплатно скачать её здесь: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>PayPal пожертвование</donation_title>
+    <donation_message>Если вам нравится это программное обеспечение, пожалуйста, сделайте [b][color=blue]пожертвование[/color][/b]!\На разработку программного обеспечения действительно необходимо множество времени и усилий ... ознакомьтесь с [url]http://blueftp.medieval.it/[/url] и помогите нам продолжить разработку бесплатных приложений, внеся небольшое пожертвование!</donation_message>
+    <security_title>Проблемы безопасности</security_title>
+    <security_message>Невозможно получить доступ к файловой системе этого устройства. Убедитесь, что вы имеете необходимые права (чтение и запись) для этого приложения.\Пожалуйста, прочтите руководство для вашего устройства, чтобы получить дальнейшие инструкции...\\Причина:\</security_message>
+    <outofmemory_title>Недостаток памяти!</outofmemory_title>
+    <outofmemory_message>Не хватает памяти, чтобы загрузить файл [color=blue][off]%1[/off][/color] во внешний просмотровщик.\\Причина:\</outofmemory_message>
+    <set_password>Защита паролем:</set_password>
+    <get_password>Введите пароль чтобы продолжить:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>Меню</open_menu>
+    <close_menu>Закрыть</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(эта папка пуста)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>ок</value>
+      <value>продолжить</value>
+      <value>да</value>
+      <value>сохранить</value>
+      <value>стоп</value>
+      <value>посетить</value>
+      <value>переименовать</value>
+      <value>нет</value>
+      <value>отмена</value>
+      <value>перезаписать</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>Реклама (только один раз)</title>
+    <wait>Пожалуйста подождите...</wait>
+    <count>...или подождите %1 секунд...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>Флаг чтения</value>
+      <value>Флаг записи</value>
+      <value>Скрытый флаг</value>
+    </items>
+    <read_message>Невозможно изменить флаг [b]чтения[/b] данного объекта.\\Причина:\</read_message>
+    <write_message>Невозможно изменить флаг [b]записи[/b] данного объекта.\\Причина:\</write_message>
+    <hidden_message>Невозможно изменить флаг [b]скрытия[/b] данного объекта.\\Причина:\</hidden_message>
+    <fc_read_message>Невозможно открыть файл соединения (чтение) для запрошенного объекта.\\Причина:\</fc_read_message>
+    <fc_write_message>Невозможно открыть файл соединения (запись) для запрошенного объекта.\\Причина:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>Путь:</value>
+      <value>Размер:</value>
+      <value>Байт:</value>
+      <value>Дата:</value>
+      <value>Время:</value>
+      <value>Чтение:</value>
+      <value>Запись:</value>
+      <value>Скрытый:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>Имя:</value>
+      <value>Свободно:</value>
+      <value>Занято:</value>
+      <value>Всего:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>Путь:</value>
+      <value>Имя:</value>
+      <value>Алиас:</value>
+      <value>Размер:</value>
+      <value>Байт:</value>
+      <value>Дата:</value>
+      <value>Время:</value>
+      <value>Чтение:</value>
+      <value>Запись:</value>
+      <value>Удалить:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>Путь:</value>
+      <value>Комментарий:</value>
+      <value>Дата:</value>
+      <value>Время:</value>
+      <value>Упакован:</value>
+      <value>Размер:</value>
+      <value>Соотношение:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>Версия ZIP:</value>
+      <value>Способ:</value>
+      <value>Уровень:</value>
+      <value>Шифрование:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mode:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>Уровень:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>Подробности устройства</title>
+    <minor_default>(неизвестно)</minor_default>
+    <major_default>(другой тип)</major_default>
+    <captions type="array">
+      <value>MAC:</value>
+      <value>Имя:</value>
+      <value>Тип:</value>
+      <value></value>
+      <value>Серв.:</value>
+    </captions>
+    <major type="array">
+      <value>Разное</value>
+      <value>Компьютер</value>
+      <value>Телефон</value>
+      <value>LAN</value>
+      <value>Аудио</value>
+      <value>Периферия</value>
+      <value>Отображение</value>
+    </major>
+    <minor_1 type="array">
+      <value>(другой тип)</value>
+      <value>Рабочий компьютер</value>
+      <value>Сервер</value>
+      <value>Ноутбук</value>
+      <value>Карманный компьютер</value>
+      <value>Palm</value>
+      <value>Одеваемый компьютер</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(другой тип)</value>
+      <value>Сотовый</value>
+      <value>Переносной</value>
+      <value>Смартфон</value>
+      <value>Беспроводной модем</value>
+      <value>ISDN доступ</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>Полностью доступно</value>
+      <value>1% - 17% использованно</value>
+      <value>17% - 33% использованно</value>
+      <value>33% - 50% использованно</value>
+      <value>50% - 67% использованно</value>
+      <value>67% - 83% использованно</value>
+      <value>83% - 99% использованно</value>
+      <value>Нет доступного сервиса</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(другой тип)</value>
+      <value>Наушники</value>
+      <value>Hands-free</value>
+      <value>(зарезервированно)</value>
+      <value>Микрофон</value>
+      <value>Громкоговоритель</value>
+      <value>Наушники</value>
+      <value>Портативное аудио</value>
+      <value>Автомобильное аудио</value>
+      <value>настольное аудио</value>
+      <value>Hi-fi аудио</value>
+      <value>VCR</value>
+      <value>Видео камера</value>
+      <value>Видеокамера</value>
+      <value>Видео монитор</value>
+      <value>Видео экран и громкоговоритель</value>
+      <value>Видео конференц-связь</value>
+      <value>(зарезервированно)</value>
+      <value>Игровое устройство</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(не поддерживается) / </value>
+      <value>Клавиатура / </value>
+      <value>Манипулятор / </value>
+      <value>Клавиатура и Манипулятор / </value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(другой тип)</value>
+      <value>Джойстик</value>
+      <value>Gamepad</value>
+      <value>Удалённое управление</value>
+      <value>Указывающее устройство</value>
+      <value>Графический планшет</value>
+      <value>Кардридер</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>Дисплей</value>
+      <value>Камера</value>
+      <value>Сканнер</value>
+      <value>Принтер</value>
+    </minor_6>
+    <services type="array">
+      <value>Ограниченный обзор</value>
+      <value>(зарезервированно)</value>
+      <value>(зарезервированно)</value>
+      <value>Расположение</value>
+      <value>Организация сети</value>
+      <value>Предоставление</value>
+      <value>Завоевание</value>
+      <value>Передача объекта</value>
+      <value>Аудио</value>
+      <value>Телефония</value>
+      <value>Информация</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>Путь:</value>
+      <value>Файл:</value>
+      <value>Данные:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>Прервать передачу?</confirm_title>
+    <confirm_message>Вы действительно хотите прекратить текущую передачу?</confirm_message>
+    <success_title>Передача завершена</success_title>
+    <success_message>Операция по передаче данных завершена успешна!</success_message>
+    <abort_title>Передача прерванна</abort_title>
+    <abort_message>Операция передачи было прерванно пользователем.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>Невозможно загрузить запрошенные объекты в удалённое устройство.\\Причина:\</send_error>
+    <file_open_error>Невозможно открыть источник файла (право на чтение) в локальной файловой системе.\\Причина:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>Невозможно загрузить запрошенные объекты в удалённое устройство.\\Причина:\</upload_error>
+    <file_open_error>Невозможно открыть источник файла (право на чтение) в локальной файловой системе.\\Причина:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>Невозможно создать указанную папку (право на чтение и запись) в локальную файловую систему.\\Причина:\</path_create_error>
+    <file_create_error>Невозможно создать указанный файл (право на чтение и запись) в локальной файловой системе.\\Причина:\</file_create_error>
+    <download_error>Невозможно загрузить требуемые объекты в локальную файловую систему.\\Причина:\</download_error>
+    <listing>(отображение папки)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>Поиск сервиса</value>
+      <value>Соединение с устройством</value>
+      <value>Загрузка данных файла</value>
+    </tasks>
+    <profile_ftp>[url]Профиль передачи файлов[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]Профиль передачи объектов[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>Назад к списку устройств</menu_back_ftp>
+    <menu_back_opp>Назад к списку файлов</menu_back_opp>
+    <fast_back>Назад</fast_back>
+    <fast_cancel>Отмена</fast_cancel>
+    <agent_message>Невозможно получить локальный обзор агента Bluetooth API.\\Причина:\</agent_message>
+    <start_message>Не возможно запустить поисковый сервис %1.\\Причина:\</start_message>
+    <abort_title>Соединение прерванно</abort_title>
+    <abort_message>Соединение с целевым устройством была прерванна пользователем.</abort_message>
+    <error_title>Ошибка соединения</error_title>
+    <unreachable_message>Целевое устройство является недоступным.</unreachable_message>
+    <search_message>Произошла ошибка в поисковом сервисе %1.</search_message>
+    <notfound_message>Вы не можете соединиться с целевым устройством, потому что это вызовет сбой сервиса Bluetooth в %1.</notfound_message>
+    <connect_message>Невозможно соединиться с целевым устройством.\\Причина:\</connect_message>
+    <loading_message>Невозможно загрузить файловые данные целевого устройства.\\Причина:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>Назад к списку файлов</menu_back>
+    <menu_connect>Подключиться[5F]</menu_connect>
+    <menu_addbook>Добавить закладку</menu_addbook>
+    <menu_delbook>Удалить закладку[C]</menu_delbook>
+    <menu_search>Искать устройства</menu_search>
+    <menu_info>Подробности устройства[7]</menu_info>
+    <fast_search>Поиск</fast_search>
+    <fast_cancel>Отмена</fast_cancel>
+    <nodevices_message>[color=#5555FF]Не найденны Bluetooth устройства!\Пожалуйста нажмите кнопку [b]Поиск[/b].[/color]</nodevices_message>
+    <abort_title>Отменено</abort_title>
+    <abort_message>Операция поиска была отменена пользователем.</abort_message>
+    <error_title>Ошибка поиска</error_title>
+    <error_message>Произошла ошибка во время выполнения операции поиска.\[color=blue][b]Включён ли Bluetooth?[/b][/color]</error_message>
+    <confirm_title>Пожалуйста, подтвердите</confirm_title>
+    <confirm_message>Вы действительно хотите удалить устойство [color=blue]%1[/color] из списка закладок?</confirm_message>
+    <notfound_title>Результатов нет</notfound_title>
+    <notfound_message>Поиск Bluetooth устройств был завершён без результатов.\Попробуйте [color=blue][b]Поиск[/b][/color] ещё раз!</notfound_message>
+    <noaddbook_title>Невозможно добавить</noaddbook_title>
+    <noaddbook_message>Устройство уже присутствует в списке закладок.</noaddbook_message>
+    <opp_message>Выбор целевого устройства:</opp_message>
+    <infrared>Инфракрасный</infrared>
+  </gcld>
+
+  <gclfl>
+   <send>Отправка...</send>
+   <upload>Загрузка...</upload>
+   <menu_upload>Закачать объект(ы)</menu_upload>
+   <menu_open>Открыть объект[5F]</menu_open>
+   <menu_open_txt>Открыть в текстовом режиме</menu_open_txt>
+   <menu_open_hex>Открыть в двоичном режиме</menu_open_hex>
+   <menu_search>Поиск объекты...</menu_search>
+   <menu_send_bt>Отправить по Bluetooth</menu_send_bt>
+   <menu_send_ir>Отправить по Инфракрасный</menu_send_ir>
+   <menu_compress_zip>Сжать объекты (zip)</menu_compress_zip>
+   <menu_compress_tar>Сжать объекты (tar)</menu_compress_tar>
+   <menu_compress_jar>Сжать объекты (jar)</menu_compress_jar>
+   <menu_compress_nth>Сжать объекты (nth)</menu_compress_nth>
+   <menu_compress_thm>Сжать объекты (thm)</menu_compress_thm>
+   <menu_compress_gz>Сжать файл (gz)</menu_compress_gz>
+   <menu_extract>Извлечь объекты здесь[3]</menu_extract>
+   <menu_cancel>Отменить извлечение</menu_cancel>  
+   <menu_back>Подняться выше</menu_back>
+   <menu_root>Перейти в корень[B]</menu_root>
+   <menu_item>Перейти в папку объекта</menu_item>
+   <menu_refresh>Обновить папку</menu_refresh>
+   <menu_create>Создать папку</menu_create>
+   <menu_item_info>Информация об объекте[7]</menu_item_info>
+   <menu_attrib>Атрибуты объекта[9]</menu_attrib>
+   <menu_volume_info>Размер раздела</menu_volume_info>
+   <menu_rename>Переименовать объект</menu_rename>
+   <menu_delete>Удалить объект(ы)[C]</menu_delete>
+   <menu_cut>Вырезать объект(ы)</menu_cut>
+   <menu_copy>Копировать объект(ы)[1]</menu_copy>
+   <menu_paste>Вставить объект(ы)[3]</menu_paste>
+   <menu_select>Выделить[*#]</menu_select>
+   <menu_unselect>Снять выделение[*#]</menu_unselect>
+   <menu_select_all>Выбрать всё</menu_select_all>
+   <menu_select_none>Снять выделение</menu_select_none>
+   <menu_select_invert>Инвертировать выделение</menu_select_invert>
+   <fast_key>Назад</fast_key>
+   <root_added_title>Хранилище добавленно</root_added_title>
+   <root_added_message>Новое устройство хранения было добавленно в локальную файловую систему.\\Корень хранилища&gt; </root_added_message>
+   <root_removed_title>Хранилище удалено</root_removed_title>
+   <root_removed_message>Устройство хранения было удалено из локальной файловой системы.\\Корень хранилища&gt; </root_removed_message>
+   <unsupported_title>Неподдерживаемый тип файла</unsupported_title>
+   <unsupported_message>Этот тип файл сейчас не поддерживается внешним просмотровщиком.</unsupported_message>
+   <open_error_title>Ошибка открытия</open_error_title>
+   <open_error_message>Невозможно открыть файл [color=blue][off]%1[/off][/color] во внешнем просмотровщике.\\Причина:\</open_error_message>
+   <create_title>Введите имя папки:</create_title>
+   <create_value>Новая папка</create_value>
+   <create_message>Невозможно создать папку [color=blue][off]%1[/off][/color] в текущей позиции.\\Причина:\</create_message>
+   <rename_title>Новое имя объекта:</rename_title>
+   <rename_message>Невозможно переименовать текущий объект в [color=blue][off]%1[/off][/color].\\Причина:\</rename_message>
+   <read_message>Невозможно прочитать контент в папке [color=blue][off]%1[/off][/color].\\Причина:\</read_message>
+   <info_message>Невозможно получить информацию из файловой системы [color=blue][off]%1[/off][/color].\\Причина:\</info_message>
+   <fc_open_message>Невозможно открыть файловое соединение для текущего объекта.\\Причина:\</fc_open_message>
+   <delete_message>Невозможно удалить объект [color=blue][off]%1[/off][/color] из локальной файловой системы.\\Причина:\</delete_message>
+   <confirm_title>Пожалуйста подтвердите</confirm_title>
+   <confirm_message>Вы действительно хотите удалить выбранные объекты?</confirm_message>
+   <paste_message>Невозможно вставить объект [color=blue][off]%1[/off][/color] в локальную файловую систему.\\Причина:\</paste_message>
+   <paste_file_title>Пожалуйста подтвердите</paste_file_title>
+   <paste_file_message>Файл [color=blue][off]%1[/off][/color] уже существует в целевой папке!\\Желаете ли вы переименовать или перезаписать?</paste_file_message>
+   <paste_path_title>Пожалуйста подтвердите</paste_path_title>
+   <paste_path_message>Папка [color=blue][off]%1[/off][/color] уже существует!\\Желаете переименовать или перезаписать?</paste_path_message>
+   <paste_checkbox>Всё</paste_checkbox>
+   <cancel_title>Извлечение прервано</cancel_title>
+   <cancel_message>Процесс извлечения архива был прерван пользователем!</cancel_message>
+   <tar_filename>%1 имя:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+   <download>Загрузка...</download>
+   <menu_download>Скачать объект(ы)</menu_download>
+   <menu_open>Открыть объект[5F]</menu_open>
+   <menu_open_txt>Открыть в текстовом режиме</menu_open_txt>
+   <menu_open_hex>Открыть в двоичном режиме</menu_open_hex>
+   <menu_search>Поиск объекты...</menu_search>
+   <menu_disconnect>Отключиться</menu_disconnect>
+   <menu_back>Подняться выше</menu_back>
+   <menu_root>Перейти в корень[B]</menu_root>
+   <menu_item>Перейти в папку объекта</menu_item>
+   <menu_refresh>Обновить папку</menu_refresh>
+   <menu_create>Создать папку</menu_create>
+   <menu_item_info>Информация об объекте[7]</menu_item_info>
+   <menu_delete>Удалить объект(ы)[C]</menu_delete>
+   <menu_cut>Вырезать объект(ы)</menu_cut>
+   <menu_copy>Копировать объект(ы)[1]</menu_copy>
+   <menu_paste>Вставить объект(ы)[3]</menu_paste>
+   <menu_select>Выделить[*#]</menu_select>
+   <menu_unselect>Снять выделение[*#]</menu_unselect>
+   <menu_select_all>Выбрать всё</menu_select_all>
+   <menu_select_none>Снять выделение</menu_select_none>
+   <menu_select_invert>Инвертировать выделение</menu_select_invert>
+   <fast_key>Назад</fast_key>
+   <unsupported_title>Неподдерживаемый тип файла</unsupported_title>
+   <unsupported_message>Этот тип файл сейчас не поддерживается внешним просмотровщиком.</unsupported_message>
+   <open_error_title>Ошибка открытия</open_error_title>
+   <open_error_message>Невозможно открыть файл [color=blue][off]%1[/off][/color] во внешнем просмотровщике.\\Причина:\</open_error_message>
+   <create_title>Введите имя папки:</create_title>
+   <create_value>Новая папка</create_value>
+   <create_message>Невозможно создать папку [color=blue][off]%1[/off][/color] в текущей позиции.\\Причина:\</create_message>
+   <confirm_title>Пожалуйста подтвердите</confirm_title>
+   <delete_confirm>Вы действительно хотите удалить выбранные объекты?</delete_confirm>
+   <delete_message>Невозможно удалить [color=blue][off]%1[/off][/color] объект с удаленного устройства.\\Причина:\</delete_message>
+   <disconnect_confirm>Вы действительно хотите отключиться от удалённого устройства?</disconnect_confirm>
+   <disconnect_message>Невозможно отключиться от удалённого устройства.\\Причина:\</disconnect_message>
+   <enter_message>Невозможно войти в папку [color=blue][off]%1[/off][/color].\\Причина:\</enter_message>
+   <back_message>Невозможно подняться на уровень выше.\\Причина:\</back_message>
+   <root_message>Невозможно вернуться в корневую папку.\\Причина:\</root_message>
+   <read_message>Невозможно прочитать контент из текущей папки.\\Причина:\</read_message>
+   <paste_err_title>Не поддерживается</paste_err_title>
+   <paste_err_message>В текущий момент вы не можете [color=blue]вырезать или копировать[/color], а также [color=blue]вставлять[/color] объекты в это Bluetooth устройство!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+   <menu_extract>Извлечь выделенные[1]</menu_extract>
+   <menu_close>Закрыть архив</menu_close>
+   <menu_open>Открыть объект[5F]</menu_open>
+   <menu_open_txt>Открыть в текстовом режиме</menu_open_txt>
+   <menu_open_hex>Открыть в двоичном режиме</menu_open_hex>
+   <menu_item_info>Информация об объекте[7]</menu_item_info>
+   <menu_back>Подняться выше</menu_back>
+   <menu_root>Перейти в корень[B]</menu_root>
+   <menu_select>Выделить[*#]</menu_select>
+   <menu_unselect>Снять выделение[*#]</menu_unselect>
+   <menu_select_all>Выбрать всё</menu_select_all>
+   <menu_select_none>Снять выделение</menu_select_none>
+   <menu_select_invert>Инвертировать выделение</menu_select_invert>
+   <fast_key>Назад</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>Ok</ok_button>
+    <ko_button>Отмена</ko_button>
+  </uib>
+
+  <usp>
+    <title>Поиск параметров</title>
+    <ok_button>Ok</ok_button>
+    <ko_button>Отмена</ko_button>
+    <reset_form_btn>По умолчанию</reset_form_btn>
+    <clear_mode_btn>Убрать "Тип объекта"</clear_mode_btn>
+    <check_mode_btn>Поставить "Тип объекта"</check_mode_btn>
+    <clear_from_date_btn>Убрать "От даты"</clear_from_date_btn>
+    <clear_to_date_btn>Убрать "До даты"</clear_to_date_btn>
+    <text_lbl>Поиск имени:</text_lbl>
+    <mode_lbl>Тип объекта:</mode_lbl>
+    <mode_txt type="array">
+      <value>Папки</value>
+      <value>Изображения</value>
+      <value>Аудио</value>
+      <value>Видео</value>
+      <value>Тексты</value>
+      <value>Программы</value>
+      <value>Архивы</value>
+      <value>Веб-страницы</value>
+      <value>Темы</value>
+      <value>Другие файлы</value>
+    </mode_txt>
+    <min_size_lbl>Минимум (KB):</min_size_lbl>
+    <max_size_lbl>Максимум (KB):</max_size_lbl>
+    <min_date_lbl>От даты:</min_date_lbl>
+    <max_date_lbl>До даты:</max_date_lbl>
+    <title_error>Ошибка при вводе</title_error>
+    <size_error>Значение "Минимум (KB)" должно быть ниже или равно значению "Максимум (KB)"!</size_error>
+    <date_error>Значение "От даты" должно быть ниже или равно значению "До даты"!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>Поиск...</title>
+    <keys type="array">
+      <value>Найдено:</value>
+      <value>Ошибок:</value>
+      <value>Путь:</value>
+    </keys>
+    <stop_title>Остановить поиск?</stop_title>
+    <stop_message>Вы правда хотите остановить операцию текущего поиска?\[color=blue]Будут показанны только текущие результаты![/color]</stop_message>
+    <cancel_title>Отменить поиск?</cancel_title>
+    <cancel_message>Вы правда хотите отменить операцию текущего поиска?</cancel_message>
+    <errors_title>Завершено с ошибками</errors_title>
+    <errors_message>Поиск операции был завершен с [b]%1[/b] ошибками. Здесь список ошибок:</errors_message>
+    <errors_label>\[color=red][b]• Ошибка %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>Без результатов</empty_title>
+    <empty_message>Операция поиска была завершена без результатов.</empty_message>
+    <aborted_title>Поиск прерван</aborted_title>
+    <aborted_message>Операция поиска была отменена пользователем.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>Извлечение...</title>
+    <captions type="array">
+      <value>Путь:</value>
+      <value>Файл:</value>
+    </captions>
+    <extract_error>Невозможно извлечь этот файл ZIP архива.\\Причина:\</extract_error>
+    <format_title>Ошибка ZIP формата</format_title>
+    <format_message>Обнаружены проблемы формата во время обработки текущего файла.\\Причина:\</format_message>
+    <format_error>Пользователь остановил процесс извлечения.\\Причина:\</format_error>
+    <done_title>Готово!</done_title>
+    <done_normal>Извлечение заверешено успешно!</done_normal>
+    <done_errors>Извлечение завершено с ошибками.</done_errors>
+    <confirm_title>Прервать извлечение?</confirm_title>
+    <confirm_message>Вы действительно желаете прервать текущий процесс извлечения?</confirm_message>
+    <abort_title>Извлечение прерванно</abort_title>
+    <abort_message>Процесс извлечения был прерван пользователем.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>Сжатие...</title>
+    <captions type="array">
+      <value>Путь:</value>
+      <value>Файл:</value>
+    </captions>
+    <finalizing>(завершение архива)</finalizing>
+    <compress_error>Невозможно завершить этот файл ZIP архива.\\Причина:\</compress_error>
+    <done_title>Готово!</done_title>
+    <done_message>Сжатие заверешено успешно!</done_message>
+    <abort_title>Сжатие прерванно</abort_title>
+    <abort_message>Процесс сжатия был прерван пользователем.</abort_message>
+    <confirm_title>Прервать сжатие?</confirm_title>
+    <confirm_message>Вы действительно желаете прервать текущий процесс сжатия?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>Новый %1 файл</title>
+    <filename>%1 имя:</filename>
+    <password>%1 пароль:</password>
+    <password_title>Пароль слишком короткий</password_title>
+    <password_message>Ваш пароль должен состоять как минимум из %1 символов!</password_message>
+    <method_title>Метод сжатия:</method_title>
+    <method_items type="array">
+      <value>Stored (не сжат)</value>
+      <value>Deflate (лучший вариант)</value>
+      <value>Deflate64 (менее совместимый)</value>
+    </method_items>
+  </uzf>
+</language>

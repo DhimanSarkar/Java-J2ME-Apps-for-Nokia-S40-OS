@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="Deutsch" lid="de" cid="DE">
+  <common>
+    <no>Nein</no>
+    <yes>Ja</yes>
+    <root>&lt;Stammverzeichnis&gt;</root>
+    <search_mode>&lt;suchen&gt;</search_mode>
+    <none>(nichts)</none>
+    <empty>(leer)</empty>
+    <denied>Verweigert</denied>
+    <allowed>Erlaubt</allowed>
+    <copy_suffix> - Kopie</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>Lokal</value>
+      <value>Bluetooth</value>
+    </pages>
+    <menu_clean>Vollbild[0]</menu_clean>
+    <menu_lang>Sprache auswählen</menu_lang>
+    <menu_pass>Passwort einstellen</menu_pass>
+    <menu_about>Über...</menu_about>
+    <menu_help>Hilfe</menu_help>
+    <menu_exit>Beenden</menu_exit>
+    <help_title>Hilf mir!</help_title>
+    <help_message>[b]TASTEN[/b]\• Drücken Sie [color=blue]nach links[/color] oder [color=blue]Taste 4[/color] und [color=blue]nach rechts[/color] oder [color=blue]Taste 6[/color] um zwischen lokalen Dateien und Bluetooth-Dateien zu wechseln.\• Drücken Sie die [color=blue]linke Auswahltaste[/color] um das Hauptmenü zu öffnen/schließen.\• Drücken Sie die [color=blue]rechte Auswahltaste[/color] um den angezeigten Schnellbefehl auszuführen.\• Drücken Sie [color=blue]Taste #[/color] oder [color=blue]Taste *[/color] um die aktuelle Datei auszuwählen/abzuwählen.\• Drücken Sie [color=blue]Taste 1[/color] um markierte Elemente in die Zwischenablage zu kopieren.\• Drücken Sie [color=blue]Taste 3[/color] um Elemente aus der Zwischenablage in den derzeitigen Ordner einzufügen.\• Drücken Sie [color=blue]Taste 0[/color] um den Vollbildmodus zu starten/beenden: eine Vollbildansicht ohne Kopf- und Fußleisten.\\[b]MENÜ[/b]\[color=#800080]Steht hinter einem Menüpunkt ein Symbol, kann man diese Schnellaste drücken um den jeweiligen Befehl auch ohne geöffnetes Hauptmenü auszuführen.[/color]\• Drücken Sie [color=blue]nach oben[/color] oder [color=blue]Taste 2[/color] und [color=blue]nach unten[/color] oder [color=blue]Taste 8[/color] um zwischen den Befehlen zu springen.\• Drücken Sie die [color=blue]mittlere Auswahltaste[/color] oder [color=blue]Taste 5[/color] um den ausgewählten Befehl auszuführen.\• Drücken Sie die [color=blue]linke Auswahltaste[/color] oder [color=blue]Zurück[/color] um das Hauptmenü zu schließen.\\[b]DIALOGFENSTER[/b]\• Drücken Sie [color=blue]nach links[/color] oder [color=blue]Taste 4[/color] und [color=blue]nach rechts[/color] oder [color=blue]Taste 6[/color] um zwischen Schaltflächen zu springen.\• Drücken Sie die [color=blue]mittlere Auswahltaste[/color] oder [color=blue]Taste 5[/color] um die ausgewahlte Schaltfläche anzuklicken.</help_message>
+    <bt_mex>[color=#FF8080]Dieses Gerät unterstützt das Bluetooth API (JSR-82) nicht, Sie können keine Verbindung zu einem anderen Bluetooth-Gerät aufnehmen.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]Bitte Bluetooth einschalten\und das Programm neustarten![/color]</bt_off>
+    <fc_mex>[color=#FF8080]Dieses Gerät unterstützt das FileConnection API (JSR-75) nicht, Sie können nicht auf das Dateisystem ihres Gerätes zugreifen.[/color]</fc_mex>
+    <dialog_bt_off_title>Bluetooth AUS</dialog_bt_off_title>
+    <dialog_bt_off_message>Bluetooth ist derzeit [b]AUSGESCHALTET[/b]! Bitte [u][color=blue]Bluetooth einschalten[/color][/u] und das Programm neustarten.</dialog_bt_off_message>
+    <version_title>Neue Version!</version_title>
+    <version_message>Eine neue Version dieses Programms, [b][color=blue]v%1[/color][/b], wurde online gefunden, Sie können sie umsonst hier herunterladen: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>PayPal Spende</donation_title>
+    <donation_message>Wenn Sie diese Software mögen, ziehen Sie es bitte in Betracht, uns eine [b][color=blue]Spende[/color][/b] zukommen zu lassen!\Softwareentwicklung braucht wirklich eine Menge Zeit und Mühe ... besuchen Sie [url]http://blueftp.medieval.it/[/url] und ermöglichen Sie uns weiterhin das Entwickeln freier Software durch eine kleine Spende!</donation_message>
+    <security_title>Sicherheitsprobleme</security_title>
+    <security_message>Kann auf Dateisystem dieses Gerätes nicht zugreifen. Vergewissern Sie sich, ob diese Anwendung die richtigen Berechtigungen besitzt (lesen &amp; schreiben).\Für weitere Informationen lesen Sie bitte die Gebrauchsanweisung ihres Gerätes...\\Grund:\</security_message>
+    <outofmemory_title>Nicht genügend Speicher!</outofmemory_title>
+    <outofmemory_message>Nicht genügend Speicher verfügbar, um Datei [color=blue][off]%1[/off][/color] mit dem internen Betrachter zu öffnen.\\Grund:\</outofmemory_message>
+    <set_password>Schutz mit Passwort:</set_password>
+    <get_password>Passwort zum Starten eingeben:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>Menü</open_menu>
+    <close_menu>Schließen</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(Dieser Ordner ist leer)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>ok</value>
+      <value>fortsetzen</value>
+      <value>ja</value>
+      <value>speichern</value>
+      <value>anhalten</value>
+      <value>besuchen</value>
+      <value>umbenennen</value>
+      <value>nein</value>
+      <value>abbrechen</value>
+      <value>überschreiben</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>Werbung (nur 1 mal)</title>
+    <wait>Bitte warten...</wait>
+    <count>...oder %1 Sekunden warten...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>Lesen</value>
+      <value>Schreiben</value>
+      <value>Versteckt</value>
+    </items>
+    <read_message>Kann Attribut [b]Lesezugriff[/b] des gegebenen Elements nicht ändern.\\Grund:\</read_message>
+    <write_message>Kann Attribut [b]Schreibzugriff[/b] des gegebenen Elements nicht ändern.\\Grund:\</write_message>
+    <hidden_message>Kann Attribut [b]Versteckt[/b] des gegebenen Elemets nicht ändern.\\Grund:\</hidden_message>
+    <fc_read_message>Kann keine Dateiverbindung (lesen) für das angeforderte Element herstellen.\\Grund:\</fc_read_message>
+    <fc_write_message>Kann keine Dateiverbindung (schreiben) für das angeforderte Element herstellen.\\Grund:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>Pfad:</value>
+      <value>Größe:</value>
+      <value>Byte:</value>
+      <value>Datum:</value>
+      <value>Zeit:</value>
+      <value>Lesen:</value>
+      <value>Schreiben:</value>
+      <value>Versteckt:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>Name:</value>
+      <value>Frei:</value>
+      <value>Belegt:</value>
+      <value>Gesamt:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>Pfad:</value>
+      <value>Name:</value>
+      <value>Alias:</value>
+      <value>Größe:</value>
+      <value>Byte:</value>
+      <value>Datum:</value>
+      <value>Zeit:</value>
+      <value>Lesen:</value>
+      <value>Schreiben:</value>
+      <value>Löschen:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>Pfad:</value>
+      <value>Komm.:</value>
+      <value>Datum:</value>
+      <value>Zeit:</value>
+      <value>Gepackt:</value>
+      <value>Größe:</value>
+      <value>Rate:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>ZIP ver:</value>
+      <value>Methode:</value>
+      <value>Level:</value>
+      <value>Verschl.:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mode:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>Level:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>Geräteinformationen</title>
+    <minor_default>(Unbekannt)</minor_default>
+    <major_default>(Nicht klassifiziert)</major_default>
+    <captions type="array">
+      <value>Adresse:</value>
+      <value>Name:</value>
+      <value>Typ:</value>
+      <value></value>
+      <value>Dienste:</value>
+    </captions>
+    <major type="array">
+      <value>Sonstiges</value>
+      <value>Computer</value>
+      <value>Telefon</value>
+      <value>Netzwerkgerät</value>
+      <value>Audiogerät</value>
+      <value>Peripheriegerät</value>
+      <value>Bildgerät</value>
+    </major>
+    <minor_1 type="array">
+      <value>(Nicht klassifiziert)</value>
+      <value>Desktop-PC</value>
+      <value>Server</value>
+      <value>Notebook</value>
+      <value>Handheld</value>
+      <value>Palm</value>
+      <value>Tragbar</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(Nicht klassifiziert)</value>
+      <value>Handy</value>
+      <value>Kabellos</value>
+      <value>Smartphone</value>
+      <value>Kabelmodem</value>
+      <value>ISDN-Zugriff</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>Voll verfügbar</value>
+      <value>1% - 17% ausgelastet</value>
+      <value>17% - 33% ausgelastet</value>
+      <value>33% - 50% ausgelastet</value>
+      <value>50% - 67% ausgelastet</value>
+      <value>67% - 83% ausgelastet</value>
+      <value>83% - 99% ausgelastet</value>
+      <value>Kein Dienst verfügbar</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(Nicht klassifiziert)</value>
+      <value>Headset</value>
+      <value>Freisprecheinrichtung</value>
+      <value>(belegt)</value>
+      <value>Mikrofon</value>
+      <value>Lautsprecher</value>
+      <value>Kopfhörer</value>
+      <value>Tragbares Audiogerät</value>
+      <value>Car-HiFi</value>
+      <value>Set-Top-Box</value>
+      <value>HiFi-Gerät</value>
+      <value>VCR</value>
+      <value>Videokamera</value>
+      <value>Camcorder</value>
+      <value>Videomonitor</value>
+      <value>Videomonitor mit Lautsprecher</value>
+      <value>Videokonferenzeinrichtung</value>
+      <value>(belegt)</value>
+      <value>Spielgerät</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(nicht unterstützt) / </value>
+      <value>Tastatur / </value>
+      <value>Zeigegerät / </value>
+      <value>Tastatur &amp; Zeigegerät / </value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(nicht kategoriSiert)</value>
+      <value>Joystick</value>
+      <value>Gamepad</value>
+      <value>Fernbedienung</value>
+      <value>Fühler/Taster</value>
+      <value>Grafiktablett</value>
+      <value>Kartenleser</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>Bildschirm</value>
+      <value>Kamera</value>
+      <value>Scanner</value>
+      <value>Drucker</value>
+    </minor_6>
+    <services type="array">
+      <value>Beschränkte Ermittlung</value>
+      <value>(belegt)</value>
+      <value>(belegt)</value>
+      <value>Ortung</value>
+      <value>Netzwerkbetrieb</value>
+      <value>Wiedergabe</value>
+      <value>Aufnahme</value>
+      <value>Objektübertragung</value>
+      <value>Audio</value>
+      <value>Telefonie</value>
+      <value>Informationen</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>Pfad:</value>
+      <value>Datei:</value>
+      <value>Daten:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>Übertragung abbr.?</confirm_title>
+    <confirm_message>Wollen Sie die aktuelle Übertragung wirklich abbrechen?</confirm_message>
+    <success_title>Übertragung beendet</success_title>
+    <success_message>Übertragung erfolgreich abgeschlossen!</success_message>
+    <abort_title>Übertragung abgebr.</abort_title>
+    <abort_message>Übertragung durch Benutzer abgebrochen.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>Kann angefordertes Element nicht zum verbundenen Gerät senden.\\Grund:\</send_error>
+    <file_open_error>Kann Quelldatei auf lokalem Dateisystem nicht öffnen (Lesezugriff).\\Grund:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>Kann angefordertes Element nicht zum verbundenen Gerät hochladen.\\Grund:\</upload_error>
+    <file_open_error>Kann Quelldatei auf lokalem Dateisystem nicht öffnen (Lesezugriff).\\Grund:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>Kann Zielordner auf lokalem Dateisystem nicht erstellen (Lese- &amp; Schreibzugriff).\\Grund:\</path_create_error>
+    <file_create_error>Kann Zieldatei auf lokelem Dateisystem nicht erstellen (Lese- &amp; Schreibzugriff).\\Grund:\</file_create_error>
+    <download_error>Kann angefordertes Element nicht auf lokales Dateisystem herunterladen.\\Grund:\</download_error>
+    <listing>(Ordnerliste)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>Suche Dienst</value>
+      <value>Verbinde mit Gerät</value>
+      <value>Lade Dateidaten</value>
+    </tasks>
+    <profile_ftp>[url]File Transfer Profile[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]Object Push Profile[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>Zurück zur Geräteliste</menu_back_ftp>
+    <menu_back_opp>Zurück zur Dateiliste</menu_back_opp>
+    <fast_back>Zurück</fast_back>
+    <fast_cancel>Abbrechen</fast_cancel>
+    <agent_message>Kann lokalen Suchagenten des Bluetooth API nicht erreichen.\\Grund:\</agent_message>
+    <start_message>Kann Suche des %1 -Dienstes nicht starten.\\Grund:\</start_message>
+    <abort_title>Verbindung abgebr.</abort_title>
+    <abort_message>Verbindung mit Zielgerät durch Benutzer abgebrochen.</abort_message>
+    <error_title>Verbindungsfehler</error_title>
+    <unreachable_message>Zielgerät ist derzeit nicht erreichbar.</unreachable_message>
+    <search_message>Fehler während der Suche des %1 -Dienstes aufgetreten.</search_message>
+    <notfound_message>Sie können keine Verbindung zum Zielgerät herstellen, da es kein %1 -Bluetooth-Dienst unterstützt.</notfound_message>
+    <connect_message>Kann nicht mit Zielgerät verbinden.\\Grund:\</connect_message>
+    <loading_message>Kann Dateidaten des Zielgeräts nicht laden.\\Grund:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>Zurück zur Dateiliste</menu_back>
+    <menu_connect>Verbinden[5F]</menu_connect>
+    <menu_addbook>Lesezeichen hinzufügen</menu_addbook>
+    <menu_delbook>Lesezeichen entfernen[C]</menu_delbook>
+    <menu_search>Geräte suchen</menu_search>
+    <menu_info>Geräteinformationen[7]</menu_info>
+    <fast_search>Suchen</fast_search>
+    <fast_cancel>Abbrechen</fast_cancel>
+    <nodevices_message>[color=#5555FF]Keine Bluetooth-Geräte gefunden!\Bitte [b]Suchen[/b] drücken.[/color]</nodevices_message>
+    <abort_title>Abgebrochen</abort_title>
+    <abort_message>Suche durch Benutzer abgebrochen.</abort_message>
+    <error_title>Fehler bei Suche</error_title>
+    <error_message>Es ist ein Fehler während der Suche aufgetreten.\[color=blue][b]Ist Bluetooth eingeschaltet?[/b][/color]</error_message>
+    <confirm_title>Bitte bestätigen</confirm_title>
+    <confirm_message>Wollen Sie [color=blue]%1[/color] wirklich aus den Lesezeichen entfernen?</confirm_message>
+    <notfound_title>Keine Ergebnisse</notfound_title>
+    <notfound_message>Suche nach Bluetooth-Geräten ohne Ergebnis abgeschlossen.\Press [color=blue][b]Search[/b][/color] key again!</notfound_message>
+    <noaddbook_title>Hinzufügen unmöglich</noaddbook_title>
+    <noaddbook_message>Gerät bereits in den Lesezeichen vorhanden.</noaddbook_message>
+    <opp_message>Zielgerät auswählen:</opp_message>
+    <infrared>Infrarot</infrared>
+  </gcld>
+
+  <gclfl>
+   <send>Sendet...</send>
+   <upload>Lädt hoch...</upload>
+   <menu_upload>Element(e) hochladen</menu_upload>
+   <menu_open>Element öffnen[5F]</menu_open>
+   <menu_open_txt>Als Text öffnen</menu_open_txt>
+   <menu_open_hex>Als Binärcode öffnen</menu_open_hex>
+   <menu_search>Durchsuche Elemente...</menu_search>
+   <menu_send_bt>Senden mit Bluetooth</menu_send_bt>
+   <menu_send_ir>Senden mit Infrarot</menu_send_ir>
+   <menu_compress_zip>Elemente packen (zip)</menu_compress_zip>
+   <menu_compress_tar>Elemente packen (tar)</menu_compress_tar>
+   <menu_compress_jar>Elemente packen (jar)</menu_compress_jar>
+   <menu_compress_nth>Elemente packen (nth)</menu_compress_nth>
+   <menu_compress_thm>Elemente packen (thm)</menu_compress_thm>
+   <menu_compress_gz>Datei packen (gz)</menu_compress_gz>
+   <menu_extract>Elemente hier entpacken[3]</menu_extract>
+   <menu_cancel>Entpacken abbrechen</menu_cancel>  
+   <menu_back>Eine Ebene aufwärts</menu_back>
+   <menu_root>Gehe zum Stammverz.[B]</menu_root>
+   <menu_item>Gehe zum Zielordner</menu_item>
+   <menu_refresh>Ordner aktualisieren</menu_refresh>
+   <menu_create>Ordner erstellen</menu_create>
+   <menu_item_info>Infos zum Element[7]</menu_item_info>
+   <menu_attrib>Attribute des Elements[9]</menu_attrib>
+   <menu_volume_info>Größe des Datenträgers</menu_volume_info>
+   <menu_rename>Element umbenennen</menu_rename>
+   <menu_delete>Element(e) löschen[C]</menu_delete>
+   <menu_cut>Element(e) ausschneiden</menu_cut>
+   <menu_copy>Element(e) kopieren[1]</menu_copy>
+   <menu_paste>Element(e) einfügen[3]</menu_paste>
+   <menu_select>Markieren[*#]</menu_select>
+   <menu_unselect>Abwählen[*#]</menu_unselect>
+   <menu_select_all>Alles markieren</menu_select_all>
+   <menu_select_none>Markierung aufheben</menu_select_none>
+   <menu_select_invert>Markierung umkehren</menu_select_invert>
+   <fast_key>Zurück</fast_key>
+   <root_added_title>Speicher hinzugefügt</root_added_title>
+   <root_added_message>Ein neues Speichermedium wurde dem lokalen Dateisystem hinzugefügt.\\Storage root&gt; </root_added_message>
+   <root_removed_title>Speicher entfernt</root_removed_title>
+   <root_removed_message>Ein Speichermedium wurde dem lokalen Dateisystem entfernt.\\Storage root&gt; </root_removed_message>
+   <unsupported_title>Dateityp nicht unterstützt</unsupported_title>
+   <unsupported_message>Dieser Dateityp wird durch den internen Betrachter zurzeit nicht unterstützt.</unsupported_message>
+   <open_error_title>Fehler beim íffnen</open_error_title>
+   <open_error_message>Kann Datei [color=blue][off]%1[/off][/color] für den internen Betrachter nicht öffnen.\\Grund:\</open_error_message>
+   <create_title>Ordnername:</create_title>
+   <create_value>Neuer Ordner</create_value>
+   <create_message>Kann Ordner [color=blue][off]%1[/off][/color] an aktueller Position nicht erstellen.\\Grund:\</create_message>
+   <rename_title>Neuer Name:</rename_title>
+   <rename_message>Kann aktuelles Element nicht in [color=blue][off]%1[/off][/color] umbenennen.\\Grund:\</rename_message>
+   <read_message>Kann Inhalt des Ordners [color=blue][off]%1[/off][/color] nicht lesen.\\Grund:\</read_message>
+   <info_message>Kann keine Informationen zum Dateisystem abrufen [color=blue][off]%1[/off][/color].\\Grund:\</info_message>
+   <fc_open_message>Kann keine Dateiverbindung für das angeforderte Element herstellen.\\Grund:\</fc_open_message>
+   <delete_message>Kann Element [color=blue][off]%1[/off][/color] nicht vom lokalen Dateisystem löschen.\\Grund:\</delete_message>
+   <confirm_title>Bitte bestätigen</confirm_title>
+   <confirm_message>Möchten Sie die gewählten Elemente wirklich löschen?</confirm_message>
+   <paste_message>Kann Element [color=blue][off]%1[/off][/color] nicht in lokales Dateisystem einfügen.\\Grund:\</paste_message>
+   <paste_file_title>Bitte bestätigen</paste_file_title>
+   <paste_file_message>Datei [color=blue][off]%1[/off][/color] bereits im Zielordner vorhanden!\\Wollen Sie sie umbenennen oder überschreiben?</paste_file_message>
+   <paste_path_title>Bitte bestätigen</paste_path_title>
+   <paste_path_message>Ordner [color=blue][off]%1[/off][/color] bereits vorhanden!\\Wollen Sie ihn umbenennen oder überschreiben?</paste_path_message>
+   <paste_checkbox>Alle</paste_checkbox>
+   <cancel_title>Entpacken abgebrochen</cancel_title>
+   <cancel_message>Entpack-Vorgang durch Benutzer abgebrochen!</cancel_message>
+   <tar_filename>%1-Name:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+    <download>Lädt herunter...</download>
+    <menu_download>Element(e) herunterladen</menu_download>
+    <menu_open>Element öffnen[5F]</menu_open>
+    <menu_open_txt>Als Text öffnen</menu_open_txt>
+    <menu_open_hex>Als Binärcode öffnen</menu_open_hex>
+    <menu_search>Durchsuche Elemente...</menu_search>
+    <menu_disconnect>Verbindung trennen</menu_disconnect>
+    <menu_back>Eine Ebene aufwärts</menu_back>
+    <menu_root>Gehe zum Stammverz.[B]</menu_root>
+    <menu_item>Gehe zum Zielordner</menu_item>
+    <menu_refresh>Ordner aktualisieren</menu_refresh>
+    <menu_create>Ordner erstellen</menu_create>
+    <menu_item_info>Infos zum Element[7]</menu_item_info>
+    <menu_delete>Element(e) löschen[C]</menu_delete>
+    <menu_cut>Element(e) ausschneiden</menu_cut>
+    <menu_copy>Element(e) kopieren[1]</menu_copy>
+    <menu_paste>Element(e) einfügen[3]</menu_paste>
+    <menu_select>Markieren[*#]</menu_select>
+    <menu_unselect>Abwählen[*#]</menu_unselect>
+    <menu_select_all>Alles markieren</menu_select_all>
+    <menu_select_none>Markierung aufheben</menu_select_none>
+    <menu_select_invert>Markierung umkehren</menu_select_invert>
+    <fast_key>Zurück</fast_key>
+    <unsupported_title>Dateityp nicht unterstützt</unsupported_title>
+    <unsupported_message>Dieser Dateityp wird durch den internen Betrachter zurzeit nicht unterstützt.</unsupported_message>
+    <open_error_title>Fehler beim íffnen</open_error_title>
+    <open_error_message>Kann Datei [color=blue][off]%1[/off][/color] für den internen Betrachter nicht öffnen.\\Grund:\</open_error_message>
+    <create_title>Ordnername:</create_title>
+    <create_value>Neuer Ordner</create_value>
+    <create_message>Kann Ordner [color=blue][off]%1[/off][/color] an aktueller Position nicht erstellen.\\Grund:\</create_message>
+    <confirm_title>Bitte bestätigen</confirm_title>
+    <delete_confirm>Möchten Sie die gewählten Elemente wirklich löschen?</delete_confirm>
+    <delete_message>Kann Element [color=blue][off]%1[/off][/color] nicht vom verbundenen Gerät löschen.\\Grund:\</delete_message>
+    <disconnect_confirm>Möchten Sie die Verbindung zum Gerät wirklich trennen?</disconnect_confirm>
+    <disconnect_message>Kann Verbindung zum Gerät nicht trennen.\\Grund:\</disconnect_message>
+    <enter_message>Kann Ordner [color=blue][off]%1[/off][/color] nicht öffnen.\\Grund:\</enter_message>
+    <back_message>Kann keine Ebene aufwärts gehen.\\Grund:\</back_message>
+    <root_message>Kann nicht zum Stammverzeichnis gehen.\\Grund:\</root_message>
+    <read_message>Kann Inhalt des aktuellen Ordners nicht lesen.\\Grund:\</read_message>
+    <paste_err_title>Nicht unterstützt</paste_err_title>
+    <paste_err_message>Derzeit ist es nicht möglich ein Element auf ein und dem selben Bluetooth-Gerät [color=blue]auszuschneiden oder zu kopieren[/color] und dann [color=blue]einzufügen[/color]!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+   <menu_extract>Markierte Elem. entpacken[1]</menu_extract>
+   <menu_close>Archiv schließen</menu_close>
+   <menu_open>Element öffnen[5F]</menu_open>
+   <menu_open_txt>Als Text öffnen</menu_open_txt>
+   <menu_open_hex>Als Binärcode öffnen</menu_open_hex>
+   <menu_item_info>Infos zum Element[7]</menu_item_info>
+   <menu_back>Eine Ebene aufwärts</menu_back>
+   <menu_root>Gehe zum Stammverz.[B]</menu_root>
+   <menu_select>Markieren[*#]</menu_select>
+   <menu_unselect>Abwählen[*#]</menu_unselect>
+   <menu_select_all>Alles markieren</menu_select_all>
+   <menu_select_none>Markierung aufheben</menu_select_none>
+   <menu_select_invert>Markierung umkehren</menu_select_invert>
+   <fast_key>Zurück</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>OK</ok_button>
+    <ko_button>Abbrechen</ko_button>
+  </uib>
+
+  <usp>
+    <title>Suchkriterien</title>
+    <ok_button>Akzeptieren</ok_button>
+    <ko_button>Abbrechen</ko_button>
+    <reset_form_btn>Standardwerte</reset_form_btn>
+    <clear_mode_btn>"Suchmodus" leeren</clear_mode_btn>
+    <check_mode_btn>"Suchmodus" komplett</check_mode_btn>
+    <clear_from_date_btn>"Von Datum" leeren</clear_from_date_btn>
+    <clear_to_date_btn>"Bis Datum" leeren</clear_to_date_btn>
+    <text_lbl>Suche nach Text:</text_lbl>
+    <mode_lbl>Suchmodus:</mode_lbl>
+    <mode_txt type="array">
+      <value>Finde Ordner</value>
+      <value>Finde Bilder</value>
+      <value>Finde Audio</value>
+      <value>Finde Videos</value>
+      <value>Finde Textdateien</value>
+      <value>Finde Programmdateien</value>
+      <value>Finde Archivdateien</value>
+      <value>Finde Webseiten</value>
+      <value>Finde Designs</value>
+      <value>Finde unbekannte Dateien</value>
+    </mode_txt>
+    <min_size_lbl>Minimale Größe: (KB):</min_size_lbl>
+    <max_size_lbl>Maximale Größe (KB):</max_size_lbl>
+    <min_date_lbl>Von Datum:</min_date_lbl>
+    <max_date_lbl>Bis Datum:</max_date_lbl>
+    <title_error>Kriterienfehler</title_error>
+    <size_error>"Minimale Größe" muss niedriger als oder gleich wie "Maximale Größe" sein!</size_error>
+    <date_error>"Von Datum" muss niedriger als oder gleich wie "Bis Datum" sein!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>Suche...</title>
+    <keys type="array">
+      <value>Gefunden:</value>
+      <value>Fehler:</value>
+      <value>Pfad:</value>
+    </keys>
+    <stop_title>Suche anhalten?</stop_title>
+    <stop_message>Wollen Sie den aktuellen Suchvorgang wirklich anhalten?\[color=blue]Aktuelle Ergebnisse werden angezeigt![/color]</stop_message>
+    <cancel_title>Suche abbrechen?</cancel_title>
+    <cancel_message>Wollen Sie den aktuellen Suchvorgang wirklich abbrechen?</cancel_message>
+    <errors_title>Beendet mit Fehlern</errors_title>
+    <errors_message>Suchvorgang wurde mit [b]%1[/b] Fehler abgeschlossen. Hier ist die Fehlerliste:</errors_message>
+    <errors_label>\[color=red][b]• Fehler %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>Keine Ergebnisse</empty_title>
+    <empty_message>Suchvorgang ohne Ergebnisse abgeschlossen.</empty_message>
+    <aborted_title>Suche abgebrochen</aborted_title>
+    <aborted_message>Suchvorgang wurde durch den Benutzer abgebrochen.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>Entpackt...</title>
+    <captions type="array">
+      <value>Pfad:</value>
+      <value>Datei:</value>
+    </captions>
+    <extract_error>Kann dieses Zip-Archiv nicht entpaken.\\Grund:\</extract_error>
+    <format_title>ZIP-Format-Fehler</format_title>
+    <format_message>Probleme mit dem Format der derzeit bearbeiteten Datei gefunden.\\Grund:\</format_message>
+    <format_error>Benutzer hat das Entpacken abgebrochen.\\Grund:\</format_error>
+    <done_title>Fertig!</done_title>
+    <done_normal>Entpacken erfolgreich abgeschlossen!</done_normal>
+    <done_errors>Entpacken mit Fehlern abgeschlossen.</done_errors>
+    <confirm_title>Entpacken abbrechen?</confirm_title>
+    <confirm_message>Möchten Sie wirklich den aktuellen Entpack-Prozess abbrechen?</confirm_message>
+    <abort_title>Entpacken abgebrochen</abort_title>
+    <abort_message>Entpacken wurde durch Benutzer abgebrochen.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>Komprimiere...</title>
+    <captions type="array">
+      <value>Pfad:</value>
+      <value>Datei:</value>
+    </captions>
+    <finalizing>(stelle Archiv fertig)</finalizing>
+    <compress_error>Kann diese ZIP-Datei nicht fertigstellen.\\Grund:\</compress_error>
+    <done_title>Fertig!</done_title>
+    <done_message>Komprimierung erfolgreich abgeschlossen!</done_message>
+    <abort_title>Komprimierung abgebrochen</abort_title>
+    <abort_message>Komprimierung wurde durch Benutzer abgebrochen.</abort_message>
+    <confirm_title>Komprimierung abbrechen?</confirm_title>
+    <confirm_message>Möchten Sie wirklich den aktuellen Komprimierungs-Prozess abbrechen?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>Neue %1-Datei</title>
+    <filename>%1-Name:</filename>
+    <password>%1-Passwort:</password>
+    <password_title>Passwort zu kurz</password_title>
+    <password_message>Ihr Passwort sollte mindestens %1 Zeichen lang sein!</password_message>
+    <method_title>Komprimierungsmethode:</method_title>
+    <method_items type="array">
+      <value>Stored (unkomprimiert)</value>
+      <value>Deflate (Empfehlung)</value>
+      <value>Deflate64 (weniger kompatibel)</value>
+    </method_items>
+  </uzf>
+</language>

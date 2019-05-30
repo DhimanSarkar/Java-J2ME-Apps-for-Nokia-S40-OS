@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="Украї́нська" lid="uk" cid="UA,MD">
+  <common>
+    <no>Ні</no>
+    <yes>Так</yes>
+    <root>&lt;початок&gt;</root>
+    <search_mode>&lt;пошук&gt;</search_mode>
+    <none>(немає)</none>
+    <empty>(пусто)</empty>
+    <denied>Недозволено</denied>
+    <allowed>Дозволено</allowed>
+    <copy_suffix>- Копія</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>Телефон</value>
+      <value>Bluetooth</value>
+    </pages>
+    <menu_clean>На весь екран[0]</menu_clean>
+    <menu_lang>Змінити мову</menu_lang>
+    <menu_pass>Пароль</menu_pass>
+    <menu_about>Про програму...</menu_about>
+    <menu_help>Допомога</menu_help>
+    <menu_exit>Вийти</menu_exit>
+    <help_title>Допомога</help_title>
+    <help_message>[b]ШВИДКИЙ ДОСТУП[/b]\• Натисніть [color=blue]вліво[/color] або [color=blue]4[/color] і [color=blue]вправо[/color] або [color=blue]6[/color] щоб змінити розташування з Телефон на Bluetooth.\• Натисніть [color=blue]ліве меню[/color] або [color=blue]7[/color] щоб відкрити Меню.\• Натисніть [color=blue]праве меню[/color] або [color=blue]9[/color] щоб скасувати.\• Натисніть [color=blue] #[/color] або [color=blue]*[/color] щоб позначити/скасув.познач..\• Натисніть [color=blue]1[/color] щоб скопіювати об’єкт(и).\• Натисніть [color=blue]3[/color] щоб вставити об’єкт(и).\• Натисніть [color=blue]0[/color] щоб увімк/вимк повноекранний перегляд.\\[b]МЕНЮ[/b]\[color=#800080]Позначки пунктів меню можна використовувати як швидкий доступ до команд.[/color]\• Натисніть [color=blue]вгору[/color] або [color=blue]2[/color] і [color=blue]вниз[/color] або [color=blue]8[/color] для зміни команд.\• Натисніть [color=blue]ОК[/color] або [color=blue]5[/color] щоб вибрати поточну команду.\• Натисніть [color=blue]ліве меню[/color], [color=blue]7[/color] або [color=blue]Назад[/color] щоб закрити меню.\\[b]ДІАЛОГ[/b]\• Натисніть [color=blue]ліве меню[/color] або [color=blue]7[/color] щоб вибрати ліве меню ([color=green]green[/color]).\• Натисніть [color=blue]праве меню[/color] або [color=blue]9[/color] щоб вибрати праве меню ([color=red]red[/color]).\• Натисніть [color=blue]ОК[/color] або [color=blue]5[/color] щоб натиснути джойстик (якщо 1 раз).</help_message>
+    <bt_mex>[color=#FF8080]Ваш телефон не підтримує Bluetooth API (JSR-82).[/color]</bt_mex>
+    <bt_off>[color=#FF8080]Увімкніть Bluetooth і перезавантажте програму![/color]</bt_off>
+    <fc_mex>[color=#FF8080]Ваш телефон не підтримує FileConnection API (JSR-75).[/color]</fc_mex>
+    <dialog_bt_off_title>Bluetooth ВИМК.</dialog_bt_off_title>
+    <dialog_bt_off_message>Bluetooth [b]вимкнено[/b]! Будь-ласка, [u][color=blue]увімкніть Bluetooth[/color][/u].</dialog_bt_off_message>
+    <version_title>Оновлення!</version_title>
+    <version_message>Нова версія, [b][color=blue]v%1[/color][/b], доступна для завантаження тут: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>PayPal внесок</donation_title>
+    <donation_message>Сподобалась програма? Підтримайте нас! Зробіть добровільний [b][color=blue]внесок[/color][/b]!\Розробка ПЗ потребує справді багато часу та зусиль ... перейдіть до [url]http://blueftp.medieval.it/[/url] і підтримайте подальший розвиток BlueFTP!</donation_message>
+    <security_title>Помилка безпеки</security_title>
+    <security_message>Неможливо відкрити файлову систему. Змініть доступ програми.\Це вказано в інструкції до телефону...\\Деталі:\</security_message>
+    <outofmemory_title>Out of memory!</outofmemory_title>
+    <outofmemory_message>Недостатньо пам’яті для відкриття файлу [color=blue][off]%1[/off][/color].\\Деталі:\</outofmemory_message>
+    <set_password>Захист паролем:</set_password>
+    <get_password>Введіть пароль:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>Меню</open_menu>
+    <close_menu>Закрити</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(тека порожня)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>гаразд</value>
+      <value>продовж.</value>
+      <value>так</value>
+      <value>зберегти</value>
+      <value>стоп</value>
+      <value>відвід.</value>
+      <value>перейменувати</value>
+      <value>ні</value>
+      <value>скасув.</value>
+      <value>замінити</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>Реклама (лише 1 раз)</title>
+    <wait>Зачекайте...</wait>
+    <count>...або почекайте %1 секунд...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>Читання</value>
+      <value>Редагування</value>
+      <value>Схований</value>
+    </items>
+    <read_message>Неможливо змінити [b]читання[/b] цього об’єкта.\\Деталі:\</read_message>
+    <write_message>Неможливо змінити [b]редагув.[/b] цього об’єкта.\\Деталі:\</write_message>
+    <hidden_message>Неможливо змінити [b]видимість[/b] цього об’єкта.\\Деталі:\</hidden_message>
+    <fc_read_message>Неможливо змінити об’єкт (читання).\\Деталі:\</fc_read_message>
+    <fc_write_message>Неможливо змінити об’єкт (редагув.).\\Деталі:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>Шлях:</value>
+      <value>Розмір:</value>
+      <value>В байтах:</value>
+      <value>Дата:</value>
+      <value>Час:</value>
+      <value>Читання:</value>
+      <value>Редагув.:</value>
+      <value>Схований:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>Ім’я:</value>
+      <value>Вільно:</value>
+      <value>Зайнято:</value>
+      <value>Загалом:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>Шлях:</value>
+      <value>Ім’я:</value>
+      <value>Alias:</value>
+      <value>Розмір:</value>
+      <value>В байтах:</value>
+      <value>Дата:</value>
+      <value>Час:</value>
+      <value>Читання:</value>
+      <value>Редагув.:</value>
+      <value>Видалити:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>Шлях:</value>
+      <value>Комент.:</value>
+      <value>Дата:</value>
+      <value>Час:</value>
+      <value>Стисн.:</value>
+      <value>Розмір:</value>
+      <value>Коефіц:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>Версія ZIP:</value>
+      <value>Метод:</value>
+      <value>Ступінь:</value>
+      <value>Захист:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Режим:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>Рівень:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>Деталі телеф.</title>
+    <minor_default>(невідомо)</minor_default>
+    <major_default>(невизначено)</major_default>
+    <captions type="array">
+      <value>MAC:</value>
+      <value>Ім’я:</value>
+      <value>Тип:</value>
+      <value></value>
+      <value>Серв.:</value>
+    </captions>
+    <major type="array">
+      <value>Різне</value>
+      <value>Комп’ютер</value>
+      <value>Телефон</value>
+      <value>LAN</value>
+      <value>Аудіо</value>
+      <value>Пристрій</value>
+      <value>Відображення</value>
+    </major>
+    <minor_1 type="array">
+      <value>(невизначено)</value>
+      <value>Роб. стіл</value>
+      <value>Сервер</value>
+      <value>Ноутбук</value>
+      <value>КПК</value>
+      <value>Palm</value>
+      <value>Придатний</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(невизначено)</value>
+      <value>Мобільний</value>
+      <value>Бездротовий</value>
+      <value>Смартфон</value>
+      <value>Модем</value>
+      <value>ISDN дост.</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>Повністю доступ.</value>
+      <value>1% - 17% утиліз.</value>
+      <value>17% - 33% утиліз.</value>
+      <value>33% - 50% утиліз.</value>
+      <value>50% - 67% утиліз.</value>
+      <value>67% - 83% утиліз.</value>
+      <value>83% - 99% утиліз.</value>
+      <value>Недоступно</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(невизначено)</value>
+      <value>Навушники</value>
+      <value>Гарнітура</value>
+      <value>(зарезерв.)</value>
+      <value>Мікрофон</value>
+      <value>Динаміки</value>
+      <value></value>
+      <value>Портативне аудіо</value>
+      <value>Автом. аудіо</value>
+      <value>Підставка</value>
+      <value>Hi-fi аудіо</value>
+      <value>VCR</value>
+      <value>Відеокамера</value>
+      <value>Камера</value>
+      <value>Відеомонітор</value>
+      <value>Відеомонітор і динаміки</value>
+      <value>Відеоконференція</value>
+      <value>(зарезерв.)</value>
+      <value>Іграшка</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(не підтримується) /</value>
+      <value>Клавіатура /</value>
+      <value>Мишка /</value>
+      <value>Клавіатура &amp; Мишка /</value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(без категорії)</value>
+      <value>Джойстик</value>
+      <value>Геймпад</value>
+      <value>Дист. контроль</value>
+      <value>Сенсор. пристрій</value>
+      <value>Цифров. перетвор.</value>
+      <value>Кардрідер</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>Дисплей</value>
+      <value>Камера</value>
+      <value>Сканер</value>
+      <value>Принтер</value>
+    </minor_6>
+    <services type="array">
+      <value>Обмеж. Відкр.</value>
+      <value>(зарезерв.)</value>
+      <value>(зарезерв.)</value>
+      <value>Позиціонув.</value>
+      <value>Мережевий</value>
+      <value>Рендерінг</value>
+      <value>Знімання</value>
+      <value>Передавання об’єкта</value>
+      <value>Аудіо</value>
+      <value>Телефонія</value>
+      <value>Інформація</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>Шлях:</value>
+      <value>Файл:</value>
+      <value>Дані:</value>
+    </captions>
+    <separator>/</separator>
+    <confirm_title>Завершити передавання?</confirm_title>
+    <confirm_message>Завершити операцію з передавання об’єкта?</confirm_message>
+    <success_title>Передавання завершено</success_title>
+    <success_message>Передавання успішно завершено!</success_message>
+    <abort_title>Передавання скасовано</abort_title>
+    <abort_message>Передавання скасовано користувачем.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>Неможливо надіслати файли.\\Деталі:\</send_error>
+    <file_open_error>Неможливо відкрити файл (дозвіл читання).\\Деталі:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>Неможливо надіслати файли.\\Деталі:\</upload_error>
+    <file_open_error>Неможливо відкрити файл (дозвіл читання).\\Деталі:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>Неможливо створити теку. Перевірте доступ до програми.\\Деталі:\</path_create_error>
+    <file_create_error>Неможливо створити файл. Перевірте доступ до програми.\\Деталі:\</file_create_error>
+    <download_error>Неможливо завантажити файл!\\Деталі:\</download_error>
+    <listing>(список тек)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>Шукаю пристрої</value>
+      <value>З’єднуюся з пристроєм</value>
+      <value>Завантажую дані</value>
+    </tasks>
+    <profile_ftp>[url]Режим File Transfer[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]Режим Object Push[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>До списку пристроїв</menu_back_ftp>
+    <menu_back_opp>До списку файлів</menu_back_opp>
+    <fast_back>Назад</fast_back>
+    <fast_cancel>Скасув.</fast_cancel>
+    <agent_message>Неможливо отримати інформ. про Bluetooth API.\\Деталі:\</agent_message>
+    <start_message>Неможливо почати %1 пошук.\\Reason:\</start_message>
+    <abort_title>З’єднання скасовано</abort_title>
+    <abort_message>З’єднання скасовано користувачем.</abort_message>
+    <error_title>Помилка з’єднання</error_title>
+    <unreachable_message>Пристрій недоступний.</unreachable_message>
+    <search_message>Сталася помилка під час %1 пошуку.</search_message>
+    <notfound_message>Неможливо з’єднатися з пристроєм, адже він не підтримує %1 Bluetooth.</notfound_message>
+    <connect_message>Неможливо з’єднатися з пристроєм.\\Деталі:\</connect_message>
+    <loading_message>Неможливо завантажити дані з пристрою.\\Деталі:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>До списку файлів</menu_back>
+    <menu_connect>З’єднатися[5F]</menu_connect>
+    <menu_addbook>Додати закладку</menu_addbook>
+    <menu_delbook>Видал. закладку[C]</menu_delbook>
+    <menu_search>Шукати пристрої</menu_search>
+    <menu_info>Деталі пристрою[7]</menu_info>
+    <fast_search>Пошук</fast_search>
+    <fast_cancel>Скасув.</fast_cancel>
+    <nodevices_message>[color=#5555FF]Пристроїв не знайдено!\Натисніть [b]Пошук[/b] знову.[/color]</nodevices_message>
+    <abort_title>Скасовано</abort_title>
+    <abort_message>Пошук скасовано користувачем.</abort_message>
+    <error_title>Помилка пошуку</error_title>
+    <error_message>Під час пошуку сталася помилка.\[color=blue][b]Bluetooth увімкнено?[/b][/color]</error_message>
+    <confirm_title>Підтвердження</confirm_title>
+    <confirm_message>Остаточно видалити [color=blue]%1[/color] пристрій з списку закладок?</confirm_message>
+    <notfound_title>Немає результатів</notfound_title>
+    <notfound_message>Не знайдено жодного сумісного Bluetooth-пристрою.\Натисніть [color=blue][b]Пошук[/b][/color] знову!</notfound_message>
+    <noaddbook_title>Неможливо додати</noaddbook_title>
+    <noaddbook_message>Такий пристрій вже існує.</noaddbook_message>
+    <opp_message>Виберіть пристрій:</opp_message>
+    <infrared>Інфрачервоний</infrared>
+  </gcld>
+
+  <gclfl>
+    <send>Надсилаю...</send>
+    <upload>Вивантажую...</upload>
+    <menu_upload>Вивантажити об’єкт(и)</menu_upload>
+    <menu_open>Відкрити[5F]</menu_open>
+    <menu_open_txt>Відкрити як текст</menu_open_txt>
+    <menu_open_hex>Відкрити бінарно</menu_open_hex>
+    <menu_search>Пошук...</menu_search>
+    <menu_send_bt>Через Bluetooth</menu_send_bt>
+    <menu_send_ir>Через інфрачервоний</menu_send_ir>
+    <menu_compress_zip>Стиснути (zip)</menu_compress_zip>
+    <menu_compress_tar>Стиснути (tar)</menu_compress_tar>
+    <menu_compress_jar>Стиснути (jar)</menu_compress_jar>
+    <menu_compress_nth>Стиснути (nth)</menu_compress_nth>
+    <menu_compress_thm>Стиснути (thm)</menu_compress_thm>
+    <menu_compress_gz>Стиснути (gz)</menu_compress_gz>
+    <menu_extract>Видобути сюди[3]</menu_extract>
+    <menu_cancel>Скасувати</menu_cancel>
+    <menu_back>Назад</menu_back>
+    <menu_root>До початку[B]</menu_root>
+    <menu_item>До теки об’єкта</menu_item>
+    <menu_refresh>Оновити</menu_refresh>
+    <menu_create>Створити теку</menu_create>
+    <menu_item_info>Деталі[7]</menu_item_info>
+    <menu_attrib>Доступ[9]</menu_attrib>
+    <menu_volume_info>Об’єм пам’яті</menu_volume_info>
+    <menu_rename>Перейменувати</menu_rename>
+    <menu_delete>Видалити[C]</menu_delete>
+    <menu_cut>Перемістити</menu_cut>
+    <menu_copy>Копіювати[1]</menu_copy>
+    <menu_paste>Вставити[3]</menu_paste>
+    <menu_select>Позначити[*#]</menu_select>
+    <menu_unselect>Скасув. познач.[*#]</menu_unselect>
+    <menu_select_all>Позначити всі</menu_select_all>
+    <menu_select_none>Прибрати з усіх</menu_select_none>
+    <menu_select_invert>Інверт. позначені</menu_select_invert>
+    <fast_key>Назад</fast_key>
+    <root_added_title>Картка пам’яті</root_added_title>
+    <root_added_message>Вставлено Картку пам’яті.\\Позначка&gt;</root_added_message>
+    <root_removed_title>Картка пам’яті</root_removed_title>
+    <root_removed_message>Картку пам’яті витягнено.\\Позначка&gt;</root_removed_message>
+    <unsupported_title>Невідомий формат</unsupported_title>
+    <unsupported_message>Формат файлу не підтримується.</unsupported_message>
+    <open_error_title>Помилка відкриття</open_error_title>
+    <open_error_message>Неможливо відкрити файл [color=blue][off]%1[/off][/color] у внутрішньому переглядачі.\\Деталі:\</open_error_message>
+    <create_title>Ім’я теки:</create_title>
+    <create_value>Додати теку</create_value>
+    <create_message>Неможливо додати [color=blue][off]%1[/off][/color] теку сюди.\\Деталі:\</create_message>
+    <rename_title>Ім’я файлу:</rename_title>
+    <rename_message>Неможливо створити теку [color=blue][off]%1[/off][/color].\\Деталі:\</rename_message>
+    <read_message>Немає доступу до теки [color=blue][off]%1[/off][/color].\\Деталі:\</read_message>
+    <info_message>Не вдалося отримати інформацію з файл. системи [color=blue][off]%1[/off][/color].\\Деталі:\</info_message>
+    <fc_open_message>Немає доступу до об’єкта.\\Деталі:\</fc_open_message>
+    <delete_message>Неможливо видалити об’єкт(и) [color=blue][off]%1[/off][/color].\\Деталі:\</delete_message>
+    <confirm_title>Підтвердження</confirm_title>
+    <confirm_message>Видалити цей об’єкт остаточно?</confirm_message>
+    <paste_message>Неможливо вставити об’єкт(и) [color=blue][off]%1[/off][/color].\\Деталі:\</paste_message>
+    <paste_file_title>Підтвердження</paste_file_title>
+    <paste_file_message>Файл [color=blue][off]%1[/off][/color] вже існує!\\Замінити?</paste_file_message>
+    <paste_path_title>Підтвердження</paste_path_title>
+    <paste_path_message>Тека [color=blue][off]%1[/off][/color] вже існує!\\Замінити?</paste_path_message>
+    <paste_checkbox>Всі</paste_checkbox>
+    <cancel_title>Видобування скасовано</cancel_title>
+    <cancel_message>Видобування скасовано користувачем!</cancel_message>
+    <tar_filename>Ім’я %1:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+    <download>Завантажую...</download>
+    <menu_download>Завантажити</menu_download>
+    <menu_open>Відкрити[5F]</menu_open>
+    <menu_open_txt>Відкр. як текст</menu_open_txt>
+    <menu_open_hex>Відкр. бінарно</menu_open_hex>
+    <menu_search>Пошук...</menu_search>
+    <menu_disconnect>Від’єднати</menu_disconnect>
+    <menu_back>Назад</menu_back>
+    <menu_root>До початку[B]</menu_root>
+    <menu_item>До теки об’єкта</menu_item>
+    <menu_refresh>Оновити</menu_refresh>
+    <menu_create>Додати теку</menu_create>
+    <menu_item_info>Деталі[7]</menu_item_info>
+    <menu_delete>Видалити[C]</menu_delete>
+    <menu_cut>Перемістити</menu_cut>
+    <menu_copy>Копіювати[1]</menu_copy>
+    <menu_paste>Вставити[3]</menu_paste>
+    <menu_select>Позначити[*#]</menu_select>
+    <menu_unselect>Скасув. познач.[*#]</menu_unselect>
+    <menu_select_all>Позначити всі</menu_select_all>
+    <menu_select_none>Прибрати з усіх</menu_select_none>
+    <menu_select_invert>Інверт. позначені</menu_select_invert>
+    <fast_key>Назад</fast_key>
+    <unsupported_title>Невідомий формат</unsupported_title>
+    <unsupported_message>Формат файлу не підтримується.</unsupported_message>
+    <open_error_title>Помилка відкриття</open_error_title>
+    <open_error_message>Неможливо відкрити файл [color=blue][off]%1[/off][/color] у внутрішньому переглядачі.\\Деталі:\</open_error_message>
+    <create_title>Ім’я теки:</create_title>
+    <create_value>Додати теку</create_value>
+    <create_message>Неможливо додати [color=blue][off]%1[/off][/color] теку сюди.\\Деталі:\</create_message>
+    <confirm_title>Підтвердження</confirm_title>
+    <delete_confirm>Видалити цей об’єкт остаточно?</delete_confirm>
+    <delete_message>Неможливо видалити об’єкт(и) [color=blue][off]%1[/off][/color].\\Деталі:\</delete_message>
+    <disconnect_confirm>Від’єднатися від пристрою?</disconnect_confirm>
+    <disconnect_message>Неможливо від’єднатися.\\Деталі:\</disconnect_message>
+    <enter_message>Немає доступу до теки: [color=blue][off]%1[/off][/color].\\Деталі:\</enter_message>
+    <back_message>Немає доступу.\\Деталі:\</back_message>
+    <root_message>Немає доступу.\\Reason:\</root_message>
+    <read_message>Немає доступу до теки.\\Деталі:\</read_message>
+    <paste_err_title>Не підтримується</paste_err_title>
+    <paste_err_message>Неможливо [color=blue]копіюв./перем.[/color] і [color=blue]вставляти[/color] об’єкти на цей же Bluetooth-пристрій!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+    <menu_extract>Видобути[1]</menu_extract>
+    <menu_close>Закрити</menu_close>
+    <menu_open>Відкрити[5F]</menu_open>
+    <menu_open_txt>Відкр. як текст</menu_open_txt>
+    <menu_open_hex>Відкр. бінарно</menu_open_hex>
+    <menu_item_info>Деталі[7]</menu_item_info>
+    <menu_back>Назад</menu_back>
+    <menu_root>До початку[B]</menu_root>
+    <menu_select>Позначити[*#]</menu_select>
+    <menu_unselect>Скасув. познач.[*#]</menu_unselect>
+    <menu_select_all>Позначити всі</menu_select_all>
+    <menu_select_none>Прибрати з усіх</menu_select_none>
+    <menu_select_invert>Інверт. позначені</menu_select_invert>
+    <fast_key>Назад</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>Гаразд</ok_button>
+    <ko_button>Скасув.</ko_button>
+  </uib>
+
+  <usp>
+    <title>Пошук параметр.</title>
+    <ok_button>Гаразд</ok_button>
+    <ko_button>Скасув.</ko_button>
+    <reset_form_btn>Стандартно</reset_form_btn>
+    <clear_mode_btn>Скасувати познач.</clear_mode_btn>
+    <check_mode_btn>Позначити всі</check_mode_btn>
+    <clear_from_date_btn>Очистити "Від дати"</clear_from_date_btn>
+    <clear_to_date_btn>Очистити "До дати"</clear_to_date_btn>
+    <text_lbl>Шукати текст:</text_lbl>
+    <mode_lbl>Де шукати:</mode_lbl>
+    <mode_txt type="array">
+			<value>Папки</value>
+      <value>Зображення</value>
+      <value>Аудіо</value>
+      <value>Відео</value>
+      <value>Текстові файли</value>
+      <value>Файли *.exe</value>
+      <value>Архіви</value>
+      <value>Веб-сторінки</value>
+      <value>Теми</value>
+      <value>Усі файли</value>
+    </mode_txt>
+    <min_size_lbl>Мін. розмір (KB):</min_size_lbl>
+    <max_size_lbl>Макс. розмір (KB):</max_size_lbl>
+    <min_date_lbl>Від дати:</min_date_lbl>
+    <max_date_lbl>До дати:</max_date_lbl>
+    <title_error>Помилка параметрів</title_error>
+    <size_error>Поле "Мін. розмір" має бути меншим або рівним "Макс. розміру"!</size_error>
+    <date_error>Поле "Від дати" має бути меншим або рівним "До дати"!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>Триває пошук...</title>
+    <keys type="array">
+      <value>Знайдено:</value>
+      <value>Помилка:</value>
+      <value>Шлях:</value>
+    </keys>
+    <stop_title>Вийти з Пошуку?</stop_title>
+    <stop_message>Ви справді бажаєте зупинити пошук?\[color=blue]Знайдені об’єкти будуть показані![/color]</stop_message>
+    <cancel_title>Вийти з Пошуку?</cancel_title>
+    <cancel_message>Ви справді бажаєте зупинити пошук?</cancel_message>
+    <errors_title>Завершено з помилками</errors_title>
+    <errors_message>Пошук завершено з помилками [b]%1[/b]. Список помилок:</errors_message>
+    <errors_label>\[color=red][b]• Помилка %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>Немає результатів</empty_title>
+    <empty_message>Пошук завершено. Немає результатів!</empty_message>
+    <aborted_title>Пошук скасовано</aborted_title>
+    <aborted_message>Пошук скасовано користувачем.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>Видобування...</title>
+    <captions type="array">
+      <value>Шлях:</value>
+      <value>Файл:</value>
+    </captions>
+    <extract_error>Неможливо видобути.\\Деталі:\</extract_error>
+    <format_title>Архів пошкоджено!</format_title>
+    <format_message>Виявлено проблеми при обробленні файлу.\\Деталі:\</format_message>
+    <format_error>Видобування скасовано користувачем.\\Деталі:\</format_error>
+    <done_title>Готово!</done_title>
+    <done_normal>Видобування успішно завершено!</done_normal>
+    <done_errors>Виявлено помилки під час видобування.</done_errors>
+    <confirm_title>Скасування?</confirm_title>
+    <confirm_message>Ви дійсно бажаєте скасувати видобування?</confirm_message>
+    <abort_title>Скасовано</abort_title>
+    <abort_message>Видобування скасовано користувачем.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>Архівування...</title>
+    <captions type="array">
+      <value>Шлях:</value>
+      <value>Файл:</value>
+    </captions>
+    <finalizing>(завершую архів)</finalizing>
+    <compress_error>Неможливо завершити архівування.\\Деталі:\</compress_error>
+    <done_title>Готово!</done_title>
+    <done_message>Архівування успішно завершено!</done_message>
+    <abort_title>Архівування скасовано</abort_title>
+    <abort_message>Архівування скасовано користувачем.</abort_message>
+    <confirm_title>Скасувати?</confirm_title>
+    <confirm_message>Ви дійсно бажаєте скасувати архівування?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>Створити %1</title>
+    <filename>Ім’я %1:</filename>
+    <password>Пароль %1:</password>
+    <password_title>Пароль закороткий</password_title>
+    <password_message>Пароль має містити хоча б %1 символів!</password_message>
+    <method_title>Метод стискання:</method_title>
+    <method_items type="array">
+      <value>Stored (без стиску)</value>
+      <value>Deflate (найкращий)</value>
+      <value>Deflate64 (менш сумісний)</value>
+    </method_items>
+  </uzf>
+</language>

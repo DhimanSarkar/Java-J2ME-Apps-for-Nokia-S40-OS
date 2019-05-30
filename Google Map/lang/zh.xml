@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language name="中文" lid="zh" cid="CN,TW">
+  <common>
+    <no>否</no>
+    <yes>是</yes>
+    <root>&lt;根文件夹&gt;</root>
+    <search_mode>&lt;搜索&gt;</search_mode>
+    <none>(无)</none>
+    <empty>(空)</empty>
+    <denied>不允许</denied>
+    <allowed>允许</allowed>
+    <copy_suffix> - 复制</copy_suffix>
+  </common>
+
+  <gff>
+    <pages type="array">
+      <value>本地</value>
+      <value>蓝牙</value>
+    </pages>
+    <menu_clean>简洁模式[0]</menu_clean>
+    <menu_lang>选择语言</menu_lang>
+    <menu_pass>设置密码</menu_pass>
+    <menu_about>关于...</menu_about>
+    <menu_help>帮助</menu_help>
+    <menu_exit>退出</menu_exit>
+    <help_title>帮助我!</help_title>
+    <help_message>[size=medium][b]--{ KEYS }--[/b][/size]\• 按下[color=blue]左方向键[/color]或者[color=blue]4[/color]和[color=blue]右方向键[/color]或[color=blue]6[/color]在本地文件系统或蓝牙文件系统中切换.\• 按下[color=blue]左菜单键[/color]打开/关闭主菜单.\• 按下[color=blue]右菜单键[/color]快速返回上一级.\• 按下[color=blue]#[/color]或者[color=blue]*[/color]以标记/取消标记当前项目.\• 按下[color=blue]1[/color]以复制当前选定的项目到剪贴板.\• 按下 [color=blue]3[/color]以粘贴剪贴板上的项目到当前文件夹.\• 按下[color=blue]0[/color] 进入/退出简洁模式:没有顶部和底部状态条的全屏显示模式.\\[size=medium][b]--{菜单}--[/b][/size]\[color=#800080]当菜单项包含一个在方括号内的关键名称时,你可以不打开主菜单而使用快捷键完成操作.[/color]\• 按下[color=blue]上方向键[/color]或者[color=blue]2[/color]和[color=blue]下方向键[/color]或者[color=blue]8[/color]在项目间移动.\• 按下[color=blue]确认键[/color]或者[color=blue]5[/color]执行当前选定的命令.\• 按下[color=blue]左菜单键[/color]或者[color=blue]返回键[/color]关闭主菜单.\\[size=medium][b]--{对话}--[/b][/size]\[i]一些对话可能会使用额外的键位,在这时请跟随屏幕上的提示信息操作.[/i]\• 按下[color=blue]左菜单键[/color]或者[color=blue]右菜单键[/color]在项目间移动.\• 按下[color=blue]确认键[/color]或者[color=blue]5[/color]执行目前选定的操作.</help_message>
+    <bt_mex>[color=#FF8080]这个设备不支持蓝牙 API (JSR-82),因此,您无法连接到任何遥控装置.[/color]</bt_mex>
+    <bt_off>[color=#FF8080]请打开蓝牙并重启程序![/color]</bt_off>
+    <fc_mex>[color=#FF8080]这个设备不支持文件连接API (JSR-75),因此,您不能进入您的设备的文件系统.[/color]</fc_mex>
+    <dialog_bt_off_title>蓝牙处于关闭状态</dialog_bt_off_title>
+    <dialog_bt_off_message>当前蓝牙处于[b]关闭状态[/b]!请[u][color=blue]打开蓝牙[/color][/u]并重启程序.</dialog_bt_off_message>
+  	<version_title>新版本!</version_title>
+    <version_message>新版本已经上线, [b][color=blue]v%1[/color][/b], 请到官方网站免费下载: [url]http://blueftp.medieval.it[/url]</version_message>
+    <donation_title>PayPal捐款</donation_title>
+    <donation_message>假如你喜欢这个软件, 请考虑给我们[b][color=blue]捐款[/color][/b]!\软件开发真的很需要资金,为了能让大家能用上更好的软件 ... 请登陆 [url]http://blueftp.medieval.it/[/url]捐款以使我们能够继续奉献免费软件,这一切只需要你的一点捐款!</donation_message>
+    <security_title>安全问题</security_title>
+    <security_message>不能访问这个手机的文件系统.请确认你给于这个程序相应的读写权限.\请阅读您的手机说明书以获取更多信息...\\原因:\</security_message>
+    <outofmemory_title>记忆溢出!</outofmemory_title>
+    <outofmemory_message>内置浏览器没有足够记忆打开[color=blue][off]%1[/off][/color]文件.\\原因:\</outofmemory_message>
+    <set_password>程序受密码保护中:</set_password>
+    <get_password>输入密码以开始程序:</get_password>
+  </gff>
+
+  <gf>
+    <open_menu>菜单</open_menu>
+    <close_menu>关闭</close_menu>
+  </gf>
+
+  <gclf>
+    <empty_message>(这个文件夹是空的)</empty_message>
+  </gclf>
+
+  <gdb>
+    <buttons type="array">
+      <value>确认</value>
+      <value>继续</value>
+      <value>是</value>
+      <value>保存</value>
+      <value>停止</value>
+      <value>访问</value>
+      <value>重命名</value>
+      <value>否</value>
+      <value>取消</value>
+      <value>覆盖</value>
+    </buttons>
+  </gdb>
+
+  <gdbg>
+    <title>广告(仅一次)</title>
+    <wait>请稍等...</wait>
+    <count>...或等待 %1 秒...</count>
+  </gdbg>
+
+  <gdbcfa>
+    <items type="array">
+      <value>读取权限</value>
+      <value>写入权限</value>
+      <value>隐藏</value>
+    </items>
+    <read_message>不能修改特定项目的[b]读取权限[/b]选项设置.\\原因:\</read_message>
+    <write_message>不能修改特定项目的[b]写入权限[/b]选项设置.\\原因:\</write_message>
+    <hidden_message>不能修改特定项目的[b]隐藏[/b]选项设置.\\原因:\</hidden_message>
+    <fc_read_message>无法打开所请求项目的文件连接(用于读取).\\原因:\</fc_read_message>
+    <fc_write_message>无法打开所请求项目的文件连接(用于写入).\\原因:\</fc_write_message>
+  </gdbcfa>
+
+  <gdbkfl>
+    <item_info type="array">
+      <value>路径:</value>
+      <value>大小:</value>
+      <value>字节:</value>
+      <value>日期:</value>
+      <value>时间:</value>
+      <value>读取:</value>
+      <value>写入:</value>
+      <value>隐藏:</value>
+    </item_info>
+    <volume_info type="array">
+      <value>名称:</value>
+      <value>空闲:</value>
+      <value>已使用:</value>
+      <value>总大小:</value>
+    </volume_info>
+  </gdbkfl>
+
+  <gdbkfr>
+    <captions type="array">
+      <value>路径:</value>
+      <value>名称:</value>
+      <value>化名:</value>
+      <value>大小:</value>
+      <value>字节:</value>
+      <value>日期:</value>
+      <value>时间:</value>
+      <value>读取:</value>
+      <value>写入:</value>
+      <value>删除:</value>
+    </captions>
+  </gdbkfr>
+
+  <gdbkfa>
+    <base_captions type="array">
+      <value>路径:</value>
+      <value>注解:</value>
+      <value>日期:</value>
+      <value>时间:</value>
+      <value>Pack:</value>
+      <value>大小:</value>
+      <value>比率:</value>
+      <value>Crc32:</value>
+    </base_captions>
+    <zip_captions type="array">
+      <value>ZIP版本:</value>
+      <value>模式:</value>
+      <value>等级:</value>
+      <value>加密:</value>
+    </zip_captions>
+    <tar_captions type="array">
+      <value>Mode:</value>
+      <value>UID:</value>
+      <value>GID:</value>
+    </tar_captions>
+    <gz_captions type="array">
+      <value>ASCII:</value>
+      <value>等级:</value>
+      <value>OS:</value>
+    </gz_captions>
+  </gdbkfa>
+
+  <gdbkd>
+    <title>设备详细信息</title>
+    <minor_default>(未知)</minor_default>
+    <major_default>(未排列)</major_default>
+    <captions type="array">
+      <value>MAC:</value>
+      <value>名称:</value>
+      <value>类型:</value>
+      <value></value>
+      <value>服务器:</value>
+    </captions>
+    <major type="array">
+      <value>杂项</value>
+      <value>电脑</value>
+      <value>电话</value>
+      <value>局域网设备</value>
+      <value>音频设备</value>
+      <value>外部设备</value>
+      <value>成像设备</value>
+    </major>
+    <minor_1 type="array">
+      <value>(未排列)</value>
+      <value>桌面</value>
+      <value>服务器</value>
+      <value>笔记本</value>
+      <value>手持设备</value>
+      <value>Palm</value>
+      <value>可穿戴设备</value>
+    </minor_1>
+    <minor_2 type="array">
+      <value>(未排列)</value>
+      <value>蜂窝电话</value>
+      <value>无线电</value>
+      <value>智能电话</value>
+      <value>有线调制解调器</value>
+      <value>ISDN接入点</value>
+    </minor_2>
+    <minor_3 type="array">
+      <value>完全可用</value>
+      <value>1% - 17% 未列出</value>
+      <value>17% - 33% 未列出</value>
+      <value>33% - 50% 未列出</value>
+      <value>50% - 67% 未列出</value>
+      <value>67% - 83% 未列出</value>
+      <value>83% - 99% 未列出</value>
+      <value>无服务可用</value>
+    </minor_3>
+    <minor_4 type="array">
+      <value>(未排列)</value>
+      <value>耳机</value>
+      <value>免持听筒</value>
+      <value>(保留)</value>
+      <value>麦克风</value>
+      <value>扬声器</value>
+      <value>耳机</value>
+      <value>便携式音频设备</value>
+      <value>车载音频设备</value>
+      <value>机顶盒</value>
+      <value>Hi-fi音频设备</value>
+      <value>VCR</value>
+      <value>视频摄像头</value>
+      <value>摄像机</value>
+      <value>视频监控</value>
+      <value>视频播放机和扬声器</value>
+      <value>视频会议</value>
+      <value>(保留)</value>
+      <value>游戏/玩具</value>
+    </minor_4>
+    <minor_a5 type="array">
+      <value>(不支持) / </value>
+      <value>键盘 /</value>
+      <value>指向 /</value>
+      <value>键盘和指向 /</value>
+    </minor_a5>
+    <minor_b5 type="array">
+      <value>(无分类)</value>
+      <value>摇杆</value>
+      <value>游戏手柄</value>
+      <value>远程控制</value>
+      <value>传感装置</value>
+      <value>数字化仪片</value>
+      <value>读卡器</value>
+    </minor_b5>
+    <minor_6 type="array">
+      <value>播放器</value>
+      <value>摄像头</value>
+      <value>扫描仪</value>
+      <value>打印机</value>
+    </minor_6>
+    <services type="array">
+      <value>有限发现</value>
+      <value>(保留)</value>
+      <value>(保留)</value>
+      <value>定位</value>
+      <value>网络</value>
+      <value>翻译</value>
+      <value>捕捉</value>
+      <value>对象转换</value>
+      <value>音频</value>
+      <value>电话</value>
+      <value>信息</value>
+    </services>
+  </gdbkd>
+
+  <gdbkpt>
+    <captions type="array">
+      <value>路径:</value>
+      <value>文件:</value>
+      <value>数据:</value>
+    </captions>
+    <separator> / </separator>
+    <confirm_title>取消传送?</confirm_title>
+    <confirm_message>你真的要取消当前的传送操作吗?</confirm_message>
+    <success_title>传送完成</success_title>
+    <success_message>传送成功结束!</success_message>
+    <abort_title>传送已取消</abort_title>
+    <abort_message>用户已取消传送.</abort_message>
+  </gdbkpt>
+
+  <gdbkpts>
+    <send_error>无法把所请求的项目发送到遥控装置.\\原因:\</send_error>
+    <file_open_error>不能在本地文件系统上读取源文件(读取权限问题).\\原因:\</file_open_error>
+  </gdbkpts>
+
+  <gdbkptu>
+    <upload_error>无法把所请求的项目上传到遥控装置.\\原因:\</upload_error>
+    <file_open_error>不能在本地文件系统上读取源文件(读取权限问题).\\原因:\</file_open_error>
+  </gdbkptu>
+
+  <gdbkptd>
+    <path_create_error>无法在本地文件系统(读取和写入权限)创建目标文件夹.\\原因:\</path_create_error>
+    <file_create_error>无法在本地文件系统(读取和写入权限)创建目标文件.\\原因:\</file_create_error>
+    <download_error>无法下载所请求的项目到本地文件系统.\\原因:\</download_error>
+    <listing>(文件夹清单)</listing>
+  </gdbkptd>
+
+  <gctc>
+    <tasks type="array">
+      <value>搜索设备中</value>
+      <value>连接到设备</value>
+      <value>读取文件数据</value>
+    </tasks>
+    <profile_ftp>[url]文件传输协议[/url] (OBEX FTP)</profile_ftp>
+    <profile_opp>[url]项目推送协议[/url] (OBEX OPP)</profile_opp>
+    <menu_back_ftp>返回到设备清单</menu_back_ftp>
+    <menu_back_opp>返回到本地文件清单</menu_back_opp>
+    <fast_back>返回</fast_back>
+    <fast_cancel>取消</fast_cancel>
+    <agent_message>无法取得本地的蓝牙API连接代理.\\原因:\</agent_message>
+    <start_message>无法启动 %1 服务的搜索.\\原因:\</start_message>
+    <abort_title>连接被断开</abort_title>
+    <abort_message>用户取消了与目标设备的连接.</abort_message>
+    <error_title>连接错误</error_title>
+    <unreachable_message>目标设备目前无法访问.</unreachable_message>
+    <search_message>当 %1 服务搜索时出现错误.</search_message>
+    <notfound_message>您无法与目标设备连接,因为缺乏 %1 蓝牙服务.</notfound_message>
+    <connect_message>无法连接目标设备.\\原因:\</connect_message>
+    <loading_message>无法从目标设备中读取文件数据.\\原因:\</loading_message>
+  </gctc>
+
+  <gcld>
+    <menu_back>返回到本地文件清单</menu_back>
+    <menu_connect>连接[5F]</menu_connect>
+    <menu_addbook>增加书签</menu_addbook>
+    <menu_delbook>移除书签[C]</menu_delbook>
+    <menu_search>搜索设备</menu_search>
+    <menu_info>设备详细信息[7]</menu_info>
+    <fast_search>搜索</fast_search>
+    <fast_cancel>取消</fast_cancel>
+    <nodevices_message>[color=#5555FF]未找到蓝牙设备!\请按下[b]搜索[/b]键搜索.[/color]</nodevices_message>
+    <abort_title>已取消</abort_title>
+    <abort_message>用户已取消搜索.</abort_message>
+    <error_title>搜索错误</error_title>
+    <error_message>当搜索时发生错误.\[color=blue][b]蓝牙是否打开了?[/b][/color]</error_message>
+    <confirm_title>请确认</confirm_title>
+    <confirm_message>你真的要从书签清单中移除[color=blue]%1[/color]设备?</confirm_message>
+    <notfound_title>没有搜索到东西</notfound_title>
+    <notfound_message>搜索结束但是没有结果.\按下 [color=blue][b]搜索[/b][/color] 再来一次!</notfound_message>
+    <noaddbook_title>不能增加</noaddbook_title>
+    <noaddbook_message>设备已被列入书签清单中.</noaddbook_message>
+    <opp_message>选择目标设备:</opp_message>
+    <infrared>红夭连接</infrared>
+  </gcld>
+
+  <gclfl>
+    <send>正在发送...</send>
+    <upload>上传...</upload>
+    <menu_upload>传送项目</menu_upload>
+    <menu_open>打开项目[5F]</menu_open>
+    <menu_open_txt>以文本方式打开</menu_open_txt>
+    <menu_open_hex>以二进制方式打开</menu_open_hex>                 
+    <menu_search>搜索项目...</menu_search>
+    <menu_send_bt>使用蓝牙发送</menu_send_bt>
+    <menu_send_ir>使用红外发送</menu_send_ir>
+    <menu_compress_zip>压缩文件 (zip)</menu_compress_zip>
+    <menu_compress_tar>压缩文件 (tar)</menu_compress_tar>
+    <menu_compress_jar>压缩文件 (jar)</menu_compress_jar>
+    <menu_compress_nth>压缩文件 (nth)</menu_compress_nth>
+    <menu_compress_thm>压缩文件 (thm)</menu_compress_thm>
+    <menu_compress_gz>压缩文件 (gz)</menu_compress_gz>
+    <menu_extract>将文件提取到这里[3]</menu_extract>
+    <menu_cancel>取消提取操作</menu_cancel>  
+    <menu_back>返回上一级</menu_back>
+    <menu_root>去根文件夹[B]</menu_root>
+    <menu_item>去到项目件夹</menu_item>
+    <menu_refresh>刷新文件夹</menu_refresh>
+    <menu_create>建立文件夹</menu_create>
+    <menu_item_info>项目信息[7]</menu_item_info>
+    <menu_attrib>项目属性[9]</menu_attrib>
+    <menu_volume_info>存储空间信息</menu_volume_info>
+    <menu_rename>重命名项目</menu_rename>
+    <menu_delete>删除项目[C]</menu_delete>
+    <menu_cut>剪切项目</menu_cut>
+    <menu_copy>复制项目[1]</menu_copy>
+    <menu_paste>粘贴项目[3]</menu_paste>
+    <menu_select>标记[*#]</menu_select>
+    <menu_unselect>取消标记[*#]</menu_unselect>
+    <menu_select_all>标记所有</menu_select_all>
+    <menu_select_none>取消所有标记</menu_select_none>
+    <menu_select_invert>反向标记</menu_select_invert>
+    <fast_key>返回</fast_key>
+    <root_added_title>存储器已增加</root_added_title>
+    <root_added_message>一个新存储设备已经增加到了本地文件系统.\\存储根文件夹&gt; </root_added_message>
+    <root_removed_title>存储器已移除</root_removed_title>
+    <root_removed_message>一个存储设备已经从本地文件系统移除.\\存储根文件夹&gt; </root_removed_message>
+    <unsupported_title>不支持的文件类型</unsupported_title>
+    <unsupported_message>内置的文件浏览器目前不支持这个文件类型.</unsupported_message>
+    <open_error_title>打开错误</open_error_title>
+    <open_error_message>不能从内置浏览器[color=blue][off]%1[/off][/color]打开文件.\\原因:\</open_error_message>
+    <create_title>输入文件夹名称:</create_title>
+    <create_value>新建文件夹</create_value>
+    <create_message>不能在当前位置[color=blue][off]%1[/off][/color]建立文件夹.\\原因:\</create_message>
+    <rename_title>新项目名称:</rename_title>
+    <rename_message>无法重命名当前项目为[color=blue][off]%1[/off][/color]的名称.\\原因:\</rename_message>
+    <read_message>无法读取文件夹[color=blue][off]%1[/off][/color]里的内容.\\原因:\</read_message>
+    <info_message>无法从文件系统获取信息 [color=blue][off]%1[/off][/color].\\原因:\</info_message>
+    <fc_open_message>无法打开所请求项目的文件连接.\\原因:\</fc_open_message>
+    <delete_message>无法删除本地文件系统的[color=blue][off]%1[/off][/color]项目.\\原因:\</delete_message>
+    <confirm_title>请确认</confirm_title>
+    <confirm_message>你真的要删除所选项目吗?</confirm_message>
+    <paste_message>无法粘贴[color=blue][off]%1[/off][/color]到本地文件系统中.\\原因:\</paste_message>
+    <paste_file_title>请确认</paste_file_title>
+    <paste_file_message>文件[color=blue][off]%1[/off][/color]已经存在!\\你要将其重命名还是覆盖?</paste_file_message>
+    <paste_path_title>请确认</paste_path_title>
+    <paste_path_message>文件夹[color=blue][off]%1[/off][/color]已经存在!\\你要将其重命名还是覆盖?</paste_path_message>
+    <paste_checkbox>全部</paste_checkbox>
+    <cancel_title>提取操作已终止</cancel_title>
+    <cancel_message>用户终止了文件提取操作!</cancel_message>
+    <tar_filename>%1档案名称:</tar_filename>
+  </gclfl>
+
+  <gclfr>
+    <download>下载...</download>
+    <menu_download>传送项目</menu_download>
+    <menu_open>打开项目[5F]</menu_open>
+    <menu_open_txt>以文本方式打开</menu_open_txt>
+    <menu_open_hex>以二进制方式打开</menu_open_hex>
+    <menu_search>搜索项目...</menu_search>
+    <menu_disconnect>断开连接</menu_disconnect>
+    <menu_back>返回上一级</menu_back>
+    <menu_root>去根文件夹[B]</menu_root>
+    <menu_item>去到项目件夹</menu_item>
+    <menu_refresh>刷新文件夹</menu_refresh>
+    <menu_create>建立文件夹</menu_create>
+    <menu_item_info>项目信息[7]</menu_item_info>
+    <menu_delete>删除项目[C]</menu_delete>
+    <menu_cut>剪切项目</menu_cut>
+    <menu_copy>复制项目[1]</menu_copy>
+    <menu_paste>粘贴项目[3]</menu_paste>
+    <menu_select>标记[*#]</menu_select>
+    <menu_unselect>取消标记[*#]</menu_unselect>
+    <menu_select_all>标记所有</menu_select_all>
+    <menu_select_none>取消所有标记</menu_select_none>
+    <menu_select_invert>反向标记</menu_select_invert>
+    <fast_key>返回</fast_key>
+    <unsupported_title>不支持的文件类型</unsupported_title>
+    <unsupported_message>内置的文件浏览器目前不支持这个文件类型.</unsupported_message>
+    <open_error_title>打开错误</open_error_title>
+    <open_error_message>不能从内置浏览器[color=blue][off]%1[/off][/color]打开文件.\\原因:\</open_error_message>
+    <create_title>输入文件夹名称:</create_title>
+    <create_value>新建文件夹</create_value>
+    <create_message>不能在当前位置[color=blue][off]%1[/off][/color]建立文件夹.\\原因:\</create_message>
+    <confirm_title>请确认</confirm_title>
+    <delete_confirm>你真的要删除所选项目吗?</delete_confirm>
+    <delete_message>无法删除[color=blue][off]%1[/off][/color]来自遥控装置的项目.\\原因:\</delete_message>
+    <disconnect_confirm>你真的要从遥控装置断开连接吗?</disconnect_confirm>
+    <disconnect_message>无法从遥控装置断开连接.\\原因:\</disconnect_message>
+    <enter_message>无法进入[color=blue][off]%1[/off][/color] 文件夹.\\原因:\</enter_message>
+    <back_message>无法返回上一级文件夹.\\原因:\</back_message>
+    <root_message>无法返回到根文件夹.\\原因:\</root_message>
+    <read_message>无法读取当前文件夹的内容.\\原因:\</read_message>
+    <paste_err_title>不支持该操作</paste_err_title>
+    <paste_err_message>当前你无法在同一个蓝牙设备中[color=blue]剪切或复制[/color]然后 [color=blue]粘贴[/color]项目!</paste_err_message>
+  </gclfr>
+
+  <gclfa>
+    <menu_extract>将所选项目提取到这里[1]</menu_extract>
+    <menu_close>关闭档案</menu_close>
+    <menu_open>打开项目[5F]</menu_open>
+    <menu_open_txt>以文本方式打开</menu_open_txt>
+    <menu_open_hex>以二进制方式打开</menu_open_hex>
+    <menu_item_info>项目信息[7]</menu_item_info>
+    <menu_back>返回上一级</menu_back>
+    <menu_root>去根文件夹[B]</menu_root>
+    <menu_select>标记[*#]</menu_select>
+    <menu_unselect>取消标记[*#]</menu_unselect>
+    <menu_select_all>标记所有</menu_select_all>
+    <menu_select_none>取消所有标记</menu_select_none>
+    <menu_select_invert>反向标记</menu_select_invert>
+    <fast_key>返回</fast_key>
+  </gclfa>
+
+  <uib>
+    <ok_button>确认</ok_button>
+    <ko_button>取消</ko_button>
+  </uib>
+
+  <usp>
+    <title>搜索参数</title>
+    <ok_button>接受</ok_button>
+    <ko_button>取消</ko_button>
+    <reset_form_btn>默认值</reset_form_btn>
+    <clear_mode_btn>清除"搜索模式"</clear_mode_btn>
+    <check_mode_btn>检查"搜索模式"</check_mode_btn>
+    <clear_from_date_btn>清除"从指定日期"</clear_from_date_btn>
+    <clear_to_date_btn>清除"到指定日期"</clear_to_date_btn>
+    <text_lbl>搜索文字:</text_lbl>
+    <mode_lbl>搜索模式:</mode_lbl>
+    <mode_txt type="array">
+      <value>查找文件夹</value>
+      <value>查找图像</value>
+      <value>查找音频</value>
+      <value>查找视频</value>
+      <value>查找文本文件</value>
+      <value>查找可执行文件</value>
+      <value>查找档案</value>
+      <value>查找网页文件</value>
+      <value>查找主题</value>
+      <value>查找未知文件</value>
+    </mode_txt>
+    <min_size_lbl>最小尺寸(KB):</min_size_lbl>
+    <max_size_lbl>最大尺寸(KB):</max_size_lbl>
+    <min_date_lbl>从指定日期:</min_date_lbl>
+    <max_date_lbl>到指定日期:</max_date_lbl>
+    <title_error>参数错误</title_error>
+    <size_error>"最小尺寸"必须小于或等于"最大尺寸"!</size_error>
+    <date_error>"从指定日期"必须早于或等于"到指定日期"!</date_error>
+  </usp>
+
+  <gdbks>
+    <title>正在搜索...</title>
+    <keys type="array">
+      <value>查找:</value>
+      <value>错误:</value>
+      <value>路径:</value>
+    </keys>
+    <stop_title>停止搜索?</stop_title>
+    <stop_message>你真的要停止当前搜索操作吗?\[color=blue]当前结果将会列出![/color]</stop_message>
+    <cancel_title>取消搜索?</cancel_title>
+    <cancel_message>你真的要取消当前搜索操作吗?</cancel_message>
+    <errors_title>完成但有错误</errors_title>
+    <errors_message>搜索完成但是有 [b]%1[/b] 的错误. 这是错误列表:</errors_message>
+    <errors_label>\[color=red][b]• 错误 %1[/b][/color]\</errors_label>
+    <errors_separator>\------</errors_separator>
+    <empty_title>没有结果</empty_title>
+    <empty_message>搜索完成但是没有结果.</empty_message>
+    <aborted_title>搜索终止</aborted_title>
+    <aborted_message>用户已取消搜索操作.</aborted_message>
+  </gdbks>
+
+  <gdbkpe>
+    <title>正在提取...</title>
+    <captions type="array">
+      <value>路径:</value>
+      <value>文件:</value>
+    </captions>
+    <extract_error>无法在这个ZIP档案中提取文件.\\原因:\</extract_error>
+    <format_title>ZIP档案格式错误</format_title>
+    <format_message>处理当前文件时发生格式问题\\原因:\</format_message>
+    <format_error>用户已经停止提取操作.\\原因:\</format_error>
+    <done_title>完成!</done_title>
+    <done_normal>提取成功!</done_normal>
+    <done_errors>提取成功但是发生错误.</done_errors>
+    <confirm_title>终止提取操作?</confirm_title>
+    <confirm_message>你真的要终止当前提取操作吗?</confirm_message>
+    <abort_title>提取操作已终止</abort_title>
+    <abort_message>用户终止了提取操作.</abort_message>
+  </gdbkpe>
+
+  <gdbkpc>
+    <title>正在压缩...</title>
+    <captions type="array">
+      <value>路径:</value>
+      <value>文件:</value>
+    </captions>
+    <finalizing>(最后存档)</finalizing>
+    <compress_error>无法完成这个文件的压缩操作.\\原因:\</compress_error>
+    <done_title>完成!</done_title>
+    <done_message>压缩操作完成!</done_message>
+    <abort_title>压缩操作已终止</abort_title>
+    <abort_message>用户终止了压缩操作.</abort_message>
+    <confirm_title>终止压缩?</confirm_title>
+    <confirm_message>你真的要终止文件压缩吗?</confirm_message>
+  </gdbkpc>
+
+  <uzf>
+    <title>新建%1档案</title>
+    <filename>%1档案名称:</filename>
+    <password>%1档案密码:</password>
+    <password_title>密码过短</password_title>
+    <password_message>你的密码必须长于%1位!</password_message>
+    <method_title>压缩方法:</method_title>
+    <method_items type="array">
+      <value>Stored (不压缩)</value>
+      <value>Deflate (最佳选择)</value>
+      <value>Deflate64 (较差兼容性)</value>
+    </method_items>
+  </uzf>
+</language>
