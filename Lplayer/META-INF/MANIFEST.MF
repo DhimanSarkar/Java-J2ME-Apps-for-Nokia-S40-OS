@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Nokia-MIDlet-no-exit: true
+MIDlet-Vendor: Nokia
+MIDlet-Version: 1.0.0
+MIDlet-1: LPlayer,/SIcon.PNG,laobubu.MPlayer.LPlayer
+MicroEdition-Configuration: CLDC-1.0
+MIDlet-Name: LPlayer
+MicroEdition-Profile: MIDP-2.0
+
