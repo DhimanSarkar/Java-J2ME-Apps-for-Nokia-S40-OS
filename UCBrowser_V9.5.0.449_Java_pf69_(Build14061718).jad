@@ -1,0 +1,17 @@
+MIDlet-Name: UC Browser
+MIDlet-Version: 9.5.0
+MIDlet-Vendor: UC Mobile
+MIDlet-Jar-URL: http://wap.ucweb.com/files/UCBrowser/en-us/354/UCBrowser_V9.5.0.449_Java_pf69_(Build14061718).jar?vh=e97dc8b827b36c2b18525b30f4feaae2&SESSID=a48b83a48898c98cac20498e95b55695
+MIDlet-Jar-Size: 445466
+MIDlet-Icon: /l.png
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.0
+MIDlet-1: UC Browser,/l.png,cn.uc.application.app.WebClient
+MIDlet-Info-URL: http://wap.ucweb.com
+MIDlet-Permissions: javax.microedition.io.Connector.http
+MIDlet-Permissions-Opt: javax.microedition.io.Connector.https,javax.microedition.io.Connector.file.read,javax.microedition.io.Connector.file.write,javax.microedition.io.Connector.socket,javax.microedition.io.sms,javax.microedition.io.Connector.sms,javax.wireless.messaging.sms.send,javax.wireless.messaging.sms.receive,javax.microedition.media.control.VideoControl.getSnapshot,javax.microedition.pim.ContactList.read,javax.microedition.content.ContentHandler
+Background: True
+Nokia-MIDlet-No-Exit: true
+m_ch: default@wap.ucweb.com:a48b83a48898c98cac20498e95b55695
+MIDlet-Install-Notify: http://pdds.ucweb.com/install/log?dto.downloadId=a48b83a48898c98cac20498e95b55695&dto.pfid=69&dto.bid=354&dto.language=en-us&dto.ver=9.5.0.449&dto.model=0
+ua: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11
